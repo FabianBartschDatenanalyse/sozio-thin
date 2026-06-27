@@ -6,7 +6,24 @@ LLM API key. The MCP client (Codex or Claude Code) performs reasoning and SQL
 generation; the server only searches profiles, exposes context, materializes
 PXWeb data, validates SQL, executes DuckDB, and formats reproduction details.
 
+## Windows installer
+
+The easiest installation is the Windows wizard from the
+[latest GitHub release](https://github.com/FabianBartschDatenanalyse/sozio-thin/releases/latest):
+
+1. Download `Sozio-Thin-Setup-...-Windows-x64.exe`.
+2. Run the installer without administrator rights.
+3. Select Codex, Claude Code, and/or Claude Desktop integration.
+4. Restart the selected client and check for the `sozio-thin` MCP server.
+
+The installer includes Python, all runtime dependencies, and the 100-resource
+catalog. Git, uv, Python, Docker, and API keys are not required. The current
+installer is not code-signed, so Windows may show an "Unknown publisher"
+warning. Verify the SHA-256 checksum published in the release notes.
+
 ## Requirements
+
+The following requirements apply only to installation from source:
 
 - Python 3.12 or newer
 - [uv](https://docs.astral.sh/uv/)
@@ -116,3 +133,9 @@ uv run ruff check .
 
 Online source probes are marked `online` and are not part of the default unit
 test run.
+
+Build the Windows installer with:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\build_windows_installer.ps1
+```

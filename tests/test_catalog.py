@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 
+from sozio_thin import catalog as catalog_module
 from sozio_thin.catalog import Catalog
 
 
@@ -44,3 +46,10 @@ def test_runtime_does_not_import_main_project() -> None:
     root = Path(__file__).resolve().parents[1]
     runtime = "\n".join(path.read_text(encoding="utf-8") for path in (root / "src").rglob("*.py"))
     assert "sozio_research" not in runtime
+
+
+def test_frozen_product_root_uses_executable_directory(monkeypatch, tmp_path: Path) -> None:
+    executable = tmp_path / "sozio-thin.exe"
+    monkeypatch.setattr(sys, "frozen", True, raising=False)
+    monkeypatch.setattr(sys, "executable", str(executable))
+    assert catalog_module.product_root() == tmp_path

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sozio Thin - Schnellstart</title>
+  <style>
+    body { font-family: Segoe UI, sans-serif; max-width: 880px; margin: 40px auto; padding: 0 24px; color: #202124; }
+    h1 { font-size: 32px; margin-bottom: 8px; }
+    h2 { margin-top: 32px; border-bottom: 1px solid #ddd; padding-bottom: 8px; }
+    code, pre { font-family: Consolas, monospace; background: #f4f5f6; }
+    code { padding: 2px 5px; }
+    pre { padding: 14px; overflow-x: auto; border-left: 4px solid #26734d; }
+    .status { background: #edf7f1; border: 1px solid #a9d7ba; padding: 14px; }
+  </style>
+</head>
+<body>
+  <h1>Sozio Thin</h1>
+  <p class="status">Der MCP-Server und 100 kuratierte Schweizer Open-Data-Profile sind lokal installiert.</p>
+
+  <h2>Nach der Installation</h2>
+  <p>Codex, Claude Code oder Claude Desktop vollständig beenden und neu starten. Im Client nach einem MCP-Server
+    namens <code>sozio-thin</code> suchen. Das Installationsresultat steht in
+    <code>integration-status.txt</code> im Installationsordner.</p>
+
+  <h2>Testfrage</h2>
+  <pre>Welche Tools stellt sozio-thin bereit?
+Suche danach Ressourcen zur Bevölkerung nach Alter, Geschlecht und Kanton
+und zeige mir das Context Bundle.</pre>
+
+  <h2>Manuelle Codex-Konfiguration</h2>
+  <p>Falls Codex beim Installieren nicht ausgewählt wurde, in
+    <code>%USERPROFILE%\.codex\config.toml</code> ergänzen:</p>
+  <pre>[mcp_servers.sozio-thin]
+command = "C:\\Users\\DEINNAME\\AppData\\Local\\Programs\\Sozio Thin\\sozio-thin.exe"
+args = ["mcp-server"]
+startup_timeout_sec = 30
+tool_timeout_sec = 300</pre>
+
+  <h2>Manuelle Claude-Code-Konfiguration</h2>
+  <pre>claude mcp add --scope user --transport stdio sozio-thin -- "$env:LOCALAPPDATA\Programs\Sozio Thin\sozio-thin.exe" mcp-server</pre>
+  <p>Danach mit <code>claude mcp list</code> oder innerhalb von Claude Code mit <code>/mcp</code> prüfen.</p>
+
+  <h2>Diagnose</h2>
+  <pre>&amp; "$env:LOCALAPPDATA\Programs\Sozio Thin\sozio-thin.exe" doctor</pre>
+  <p>Für die Ressourcensuche werden weder Docker noch Vespa, Gemini oder ein API-Key benötigt. Öffentliche
+    Quelldaten werden erst bei einer Analyse von den jeweiligen Herausgebern geladen.</p>
+</body>
+</html>

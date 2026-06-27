@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -10,6 +11,8 @@ def product_root() -> Path:
     configured = os.environ.get("SOZIO_THIN_ROOT")
     if configured:
         return Path(configured).expanduser().resolve()
+    if getattr(sys, "frozen", False):
+        return Path(sys.executable).resolve().parent
     return Path(__file__).resolve().parents[2]
 
 
