@@ -51,6 +51,24 @@ try {
         throw "PyInstaller failed with exit code $LASTEXITCODE"
     }
 
+    $catalogRoot = Join-Path $dist "sozio-thin\catalog"
+    $bundledProfiles = [ordered]@{}
+    Get-ChildItem -LiteralPath (Join-Path $catalogRoot "profiles") -Filter "*.json" -File |
+        Sort-Object Name |
+        ForEach-Object {
+            $profile = [IO.File]::ReadAllText($_.FullName) | ConvertFrom-Json
+            $bundledProfiles[[string]$profile.resource_id] = $profile
+        }
+    $profilePayload = [ordered]@{
+        schema_version = 1
+        profiles = $bundledProfiles
+    } | ConvertTo-Json -Depth 100 -Compress
+    [IO.File]::WriteAllText(
+        (Join-Path $catalogRoot "profiles.json"),
+        $profilePayload,
+        [Text.UTF8Encoding]::new($false)
+    )
+
     & (Join-Path $dist "sozio-thin\sozio-thin.exe") doctor
     if ($LASTEXITCODE -ne 0) {
         throw "Standalone executable failed its doctor check."

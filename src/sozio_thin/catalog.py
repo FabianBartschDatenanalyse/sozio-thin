@@ -41,6 +41,7 @@ class Catalog:
             if isinstance(row, dict) and row.get("resource_id")
         }
         self._profile_cache: dict[str, dict[str, Any]] = {}
+        self._profile_bundle: dict[str, dict[str, Any]] | None = None
 
     @staticmethod
     def _read_json(path: Path) -> dict[str, Any]:
@@ -74,11 +75,36 @@ class Catalog:
         path = (self.path / relative_path).resolve()
         if self.path not in path.parents:
             raise RuntimeError(f"Profile path escapes catalog directory: {relative_path}")
-        profile = self._read_json(path)
+        if path.exists():
+            profile = self._read_json(path)
+        else:
+            profile = self._bundled_profiles().get(resource_id)
+            if profile is None:
+                raise RuntimeError(
+                    f"Missing catalog profile for {resource_id}: neither {path} nor profiles.json contains it"
+                )
         if str(profile.get("resource_id")) != resource_id:
             raise RuntimeError(f"Profile resource_id mismatch: {path}")
         self._profile_cache[resource_id] = profile
         return profile
+
+    def _bundled_profiles(self) -> dict[str, dict[str, Any]]:
+        if self._profile_bundle is not None:
+            return self._profile_bundle
+        path = self.path / "profiles.json"
+        if not path.exists():
+            self._profile_bundle = {}
+            return self._profile_bundle
+        payload = self._read_json(path)
+        profiles = payload.get("profiles")
+        if not isinstance(profiles, dict):
+            raise RuntimeError(f"Invalid bundled profiles: {path}")
+        self._profile_bundle = {
+            str(resource_id): profile
+            for resource_id, profile in profiles.items()
+            if isinstance(profile, dict)
+        }
+        return self._profile_bundle
 
     def verify(self, *, expected_count: int = 100) -> dict[str, Any]:
         issues: list[str] = []

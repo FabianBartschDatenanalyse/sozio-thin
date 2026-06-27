@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sozio-thin"
-version = "0.1.1"
+version = "0.1.2"
 description = "Local MCP tools for reproducible analysis of 100 curated Swiss open-data resources."
 readme = "README.md"
 requires-python = ">=3.12"

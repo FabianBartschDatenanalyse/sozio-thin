@@ -2,7 +2,7 @@
   "manifest_version": "0.3",
   "name": "sozio-thin",
   "display_name": "Sozio Thin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Reproducible analysis tools for 100 curated Swiss open-data resources.",
   "long_description": "Search, inspect, materialize, join, and analyze 100 curated Swiss open-data resources. Sozio Thin runs locally and lets Claude perform the reasoning and SQL generation. It does not contain an LLM and requires no API key, Python installation, Docker, Gemini, or Vespa.",
   "author": {

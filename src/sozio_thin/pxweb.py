@@ -93,17 +93,37 @@ def materialize_pxweb(
             attempts=retry_attempts,
         )
     csv_path = output_dir / f"{cache_key}.csv"
-    csv_path.write_bytes(response.content)
+    csv_path.write_text(_response_text(response), encoding="utf-8", newline="")
+    try:
+        _convert_csv_to_parquet(csv_path, parquet_path)
+    finally:
+        csv_path.unlink(missing_ok=True)
+    return _inspect_parquet(parquet_path, cell_count=cell_count, cached=False, scoped=bool(active_scope))
+
+
+def _convert_csv_to_parquet(csv_path: Path, parquet_path: Path) -> None:
     connection = duckdb.connect(":memory:")
     try:
+        csv_literal = _path_literal(csv_path)
+        parquet_literal = _path_literal(parquet_path)
         connection.execute(
-            "COPY (SELECT * FROM read_csv_auto(?, ignore_errors=true)) TO ? (FORMAT PARQUET)",
-            [str(csv_path), str(parquet_path)],
+            f"COPY (SELECT * FROM read_csv_auto({csv_literal}, ignore_errors=true)) "
+            f"TO {parquet_literal} (FORMAT PARQUET)"
         )
     finally:
         connection.close()
-        csv_path.unlink(missing_ok=True)
-    return _inspect_parquet(parquet_path, cell_count=cell_count, cached=False, scoped=bool(active_scope))
+
+
+def _path_literal(path: Path) -> str:
+    return "'" + path.resolve().as_posix().replace("'", "''") + "'"
+
+
+def _response_text(response: httpx.Response) -> str:
+    encoding = response.encoding or "utf-8"
+    try:
+        return response.content.decode(encoding)
+    except (LookupError, UnicodeDecodeError):
+        return response.content.decode("utf-8-sig")
 
 
 def _inspect_parquet(path: Path, *, cell_count: int, cached: bool, scoped: bool) -> MaterializedCube:

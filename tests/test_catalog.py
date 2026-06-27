@@ -53,3 +53,32 @@ def test_frozen_product_root_uses_executable_directory(monkeypatch, tmp_path: Pa
     monkeypatch.setattr(sys, "frozen", True, raising=False)
     monkeypatch.setattr(sys, "executable", str(executable))
     assert catalog_module.product_root() == tmp_path
+
+
+def test_catalog_falls_back_to_bundled_profiles(tmp_path: Path) -> None:
+    resource_id = "ckan:test-resource"
+    profile = {
+        "resource_id": resource_id,
+        "title": "Bundled CKAN profile",
+        "primary_topic": "test",
+        "source": {"source_url": "https://example.test/data.csv"},
+    }
+    (tmp_path / "resources.json").write_text(
+        json.dumps(
+            {
+                "resources": [
+                    {
+                        "resource_id": resource_id,
+                        "profile_path": "profiles/ckan_test-resource.json",
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    (tmp_path / "profiles.json").write_text(
+        json.dumps({"schema_version": 1, "profiles": {resource_id: profile}}),
+        encoding="utf-8",
+    )
+
+    assert Catalog(tmp_path).profile(resource_id) == profile

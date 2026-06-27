@@ -1,5 +1,5 @@
 #define MyAppName "Sozio Thin"
-#define MyAppVersion "0.1.1"
+#define MyAppVersion "0.1.2"
 #define MyAppPublisher "Fabian Bartsch"
 #define MyAppURL "https://github.com/FabianBartschDatenanalyse/sozio-thin"
 #ifndef BuildRoot

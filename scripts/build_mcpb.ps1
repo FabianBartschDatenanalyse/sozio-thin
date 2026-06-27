@@ -11,7 +11,7 @@ $bundleRoot = Join-Path $tempRoot "bundle"
 $serverRoot = Join-Path $bundleRoot "server"
 $release = Join-Path $root "release"
 $manifestSource = Join-Path $root "mcpb\manifest.json"
-$output = Join-Path $release "Sozio-Thin-0.1.1-Windows-x64.mcpb"
+$output = Join-Path $release "Sozio-Thin-0.1.2-Windows-x64.mcpb"
 
 if (-not (Test-Path -LiteralPath (Join-Path $resolvedBinaryRoot "sozio-thin.exe"))) {
     throw "Standalone executable not found below BinaryRoot: $resolvedBinaryRoot"
