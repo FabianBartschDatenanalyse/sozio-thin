@@ -1,0 +1,165 @@
+{
+  "join_pair_count": 20,
+  "pairs": [
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-0102010000_103",
+      "right_resource_id": "bfs_pxweb:px-x-0102020000_104",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-0102020000_201",
+      "right_resource_id": "bfs_pxweb:px-x-0102020300_102",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-0103010200_101",
+      "right_resource_id": "bfs_pxweb:px-x-0103010200_111",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-0103010200_151",
+      "right_resource_id": "bfs_pxweb:px-x-0103020200_103",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-0103020300_103",
+      "right_resource_id": "bfs_pxweb:px-x-0103030100_101",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-0204000000_111",
+      "right_resource_id": "bfs_pxweb:px-x-0602010000_102",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-0602010000_108",
+      "right_resource_id": "bfs_pxweb:px-x-0606010000_104",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-0702000000_104",
+      "right_resource_id": "bfs_pxweb:px-x-0702000000_106",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-0702000000_107",
+      "right_resource_id": "bfs_pxweb:px-x-0702000000_108",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-0904010000_202",
+      "right_resource_id": "bfs_pxweb:px-x-0904010000_203",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-0904030000_106",
+      "right_resource_id": "bfs_pxweb:px-x-0904030000_107",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-1003020000_103",
+      "right_resource_id": "bfs_pxweb:px-x-1003020000_203",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-1103020200_121",
+      "right_resource_id": "bfs_pxweb:px-x-1106010100_104",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-1106010100_105",
+      "right_resource_id": "bfs_pxweb:px-x-1303030000_121",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-1303030000_131",
+      "right_resource_id": "bfs_pxweb:px-x-1304030000_121",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-1304030000_141",
+      "right_resource_id": "bfs_pxweb:px-x-1304030000_151",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-1304030000_201",
+      "right_resource_id": "bfs_pxweb:px-x-1305000000_101",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-1305000000_102",
+      "right_resource_id": "bfs_pxweb:px-x-1305010000_022",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-1305010000_113",
+      "right_resource_id": "bfs_pxweb:px-x-1305010000_123",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    },
+    {
+      "join_keys": [
+        "year"
+      ],
+      "left_resource_id": "bfs_pxweb:px-x-1305020000_104",
+      "right_resource_id": "bfs_pxweb:px-x-1305020000_105",
+      "warning": "Confirm grain and value coding with inspect_source before joining."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {"question": "Compare population by canton and year.", "requires_join": false},
+  {"question": "Compare wages and unemployment by canton and year.", "requires_join": true},
+  {"question": "Relate population age structure to health indicators.", "requires_join": true},
+  {"question": "Summarize students by education level and sex.", "requires_join": false},
+  {"question": "Compare social-assistance and pension indicators.", "requires_join": true},
+  {"question": "Summarize CO2 emissions over time.", "requires_join": false},
+  {"question": "Compare road accidents across cantons.", "requires_join": false},
+  {"question": "Summarize buildings by construction period.", "requires_join": false},
+  {"question": "Compare National Council election party results.", "requires_join": false},
+  {"question": "Compare public expenditure over time.", "requires_join": false}
+]

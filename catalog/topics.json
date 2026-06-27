@@ -1,0 +1,216 @@
+{
+  "topics": [
+    {
+      "id": "population-demography",
+      "label": "Population & Demography",
+      "quota": 12,
+      "resource_ids": [
+        "bfs_pxweb:px-x-0102010000_103",
+        "bfs_pxweb:px-x-0102020000_104",
+        "bfs_pxweb:px-x-0102020300_102",
+        "bfs_pxweb:px-x-0103010200_101",
+        "bfs_pxweb:px-x-0103010200_111",
+        "bfs_pxweb:px-x-0103010200_151",
+        "bfs_pxweb:px-x-0103020200_103",
+        "bfs_pxweb:px-x-0103020300_103",
+        "bfs_pxweb:px-x-1304030000_151",
+        "bfs_pxweb:px-x-1304030000_201",
+        "bfs_pxweb:px-x-1305020000_105",
+        "bfs_pxweb:px-x-1506020000_112"
+      ]
+    },
+    {
+      "id": "labor-economy",
+      "label": "Labor & Economy",
+      "quota": 10,
+      "resource_ids": [
+        "bfs_pxweb:px-x-0103030100_101",
+        "bfs_pxweb:px-x-0602010000_102",
+        "bfs_pxweb:px-x-0602010000_108",
+        "bfs_pxweb:px-x-0606010000_104",
+        "bfs_pxweb:px-x-2105000000_203",
+        "ckan:arbeitsproduktivitat-nach-tatsachlichen-arbeitsstunden-zu-preisen-des-vorjahres6:87f0abd6-4644-484c-bc9d-76deac162871",
+        "ckan:bei-der-swissmedic-registrierte-schweizer-und-liechtensteiner-wirtschaftsakteure-medizinprodukt:a9eac020-a65a-4348-a4dd-5e25836617a8",
+        "ckan:schweizerischer-lohnindex-index-und-veranderung-auf-der-basis-2020-100-noga08:5c1f111b-1237-4ec0-aa21-88bd3113fb61",
+        "ckan:statistik-der-schweizer-staedte-2021:5b1f209e-ba9a-4baa-a3bf-bb5c726b00d8",
+        "ckan:zerlegung-der-wachstumsrate-des-bip-pro-kopf:abccbd05-98e2-4702-813a-5a5b45cefe28"
+      ]
+    },
+    {
+      "id": "health",
+      "label": "Health",
+      "quota": 8,
+      "resource_ids": [
+        "bfs_pxweb:px-x-1404010100_303",
+        "bfs_pxweb:px-x-1404040000_101",
+        "bfs_pxweb:px-x-1404040000_103",
+        "bfs_pxweb:px-x-2105000000_204",
+        "bfs_pxweb:px-x-2105000000_223",
+        "ckan:klientinnen-und-klienten-der-spitex-hilfe-und-pflege-zu-hause-kanton-st-gallen-seit-2015:06d12ccd-3a62-4e01-8da3-7ace497683a6",
+        "ckan:pflegekinder-im-kanton-thurgau1:815bea5e-1e82-42be-9d2e-95d8bdb2a899",
+        "ckan:zeitaufwand-der-spitex-organisationen-und-privaten-spitex-pflegefachpersonen-kanton-st-gal-2015:8677da45-c533-48c6-be0e-795b60ab40f9"
+      ]
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "quota": 8,
+      "resource_ids": [
+        "bfs_pxweb:px-x-1502020000_101",
+        "bfs_pxweb:px-x-1502030000_111",
+        "bfs_pxweb:px-x-1502040100_109",
+        "bfs_pxweb:px-x-1502040400_140",
+        "bfs_pxweb:px-x-1503030000_204",
+        "bfs_pxweb:px-x-1503040100_103",
+        "bfs_pxweb:px-x-1503040300_123",
+        "bfs_pxweb:px-x-1503040400_103"
+      ]
+    },
+    {
+      "id": "social-security-welfare",
+      "label": "Social Security & Welfare",
+      "quota": 8,
+      "resource_ids": [
+        "bfs_pxweb:px-x-1304030000_121",
+        "bfs_pxweb:px-x-1304030000_141",
+        "bfs_pxweb:px-x-1305000000_101",
+        "bfs_pxweb:px-x-1305000000_102",
+        "bfs_pxweb:px-x-1305010000_022",
+        "bfs_pxweb:px-x-1305010000_113",
+        "bfs_pxweb:px-x-1305010000_123",
+        "bfs_pxweb:px-x-1305020000_104"
+      ]
+    },
+    {
+      "id": "environment-energy-climate",
+      "label": "Environment, Energy & Climate",
+      "quota": 8,
+      "resource_ids": [
+        "bfs_pxweb:px-x-0204000000_111",
+        "ckan:durchschnittliche-co2-emissionen-nach-treibstoffart:5943acdf-19ea-4158-b975-d11a725061a4",
+        "ckan:energiedashboard-ch-stromproduktion-swissgrid:0879ba1b-40ea-4e26-bba0-9cbb339f577e",
+        "ckan:energiedashboard-ch-tagliche-flusse-in-die-und-aus-der-schweiz-strom:0e1aa262-869f-4736-a568-ccf85cb13f9a",
+        "ckan:energieforschungsstatistik-efstat:fe86ad62-1455-4658-8f81-c13e626dbd27",
+        "ckan:kennzahlen-alternativ-angetriebene-lnf-durchschnittliche-co2-emissionen:aae8800f-2951-4589-a558-ab59270d3f06",
+        "ckan:verteilnetzkosten-strom:e3935617-bc78-4dc6-aaad-5e72fe4c2af7",
+        "ckan:zuge-pro-streckenabschnitt1:a2bfba14-de85-4fd9-88c4-ded95378fc58"
+      ]
+    },
+    {
+      "id": "mobility-transport",
+      "label": "Mobility & Transport",
+      "quota": 8,
+      "resource_ids": [
+        "bfs_pxweb:px-x-1103020200_121",
+        "bfs_pxweb:px-x-1106010100_104",
+        "bfs_pxweb:px-x-1106010100_105",
+        "ckan:anzahl-sbb-bahnhofbenutzer:3dcbfcef-6da4-4012-b536-33ce9c821908",
+        "ckan:ausrustung-reisezug-rollmaterial:a2dcd0ee-ab64-4cd1-bb3e-465a5486a974",
+        "ckan:interkantonale-pendlerbewegungen:c3fb86db-95ac-4a2c-9640-f491be871853",
+        "ckan:mobilitat-und-verkehr6:bf2de1d7-68ac-4330-b2b4-5bf541c01f2d",
+        "ckan:polizeilich-registrierte-verkehrsunfalle-im-kanton-zurich-seit-2011:fa0a76c6-2ce2-4407-ae81-0749c9472c30"
+      ]
+    },
+    {
+      "id": "housing-construction",
+      "label": "Housing & Construction",
+      "quota": 6,
+      "resource_ids": [
+        "bfs_pxweb:px-x-0904010000_202",
+        "bfs_pxweb:px-x-0904010000_203",
+        "bfs_pxweb:px-x-0904030000_106",
+        "bfs_pxweb:px-x-0904030000_107",
+        "ckan:gebaude-nach-gebaudekategorie-kantonen-und-bauperiode5:fb6f5cf3-faea-4f5a-ac53-11987e8fab55",
+        "ckan:haltestelle-wartehallen:77d25943-3204-49fa-aaca-ceda546d8cd3"
+      ]
+    },
+    {
+      "id": "politics-elections",
+      "label": "Politics & Elections",
+      "quota": 6,
+      "resource_ids": [
+        "bfs_pxweb:px-x-1702020000_104",
+        "ckan:eidg-wahlen-2023:89ddc561-9544-4021-8b7d-13271c5f939d",
+        "ckan:nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de:e8e12e1a-bee0-41b4-9445-561e7a085bc1",
+        "ckan:nationalratswahlen-2023-wahlberechtigte-wahlende-wahlbeteiligung-und-veranderung-der-wahlbeteil:fc20e530-3557-41db-8695-8ad8b407fc23",
+        "ckan:nationalratswahlen-zeitreihen-zu-listen-kandidierenden-parteistarken-mandaten-gewahlten-frauen-:248576ad-1b14-4dba-b6c9-4ae0f934ea13",
+        "ckan:nationalratswahlen-zeitreihen-zur-wahlbeteiligung-und-zum-frauenanteil-in-schweiz-und-kantone:87ab0a38-51b4-4f32-9058-e89a089f8f7a"
+      ]
+    },
+    {
+      "id": "public-administration-finance",
+      "label": "Public Administration & Finance",
+      "quota": 6,
+      "resource_ids": [
+        "bfs_pxweb:px-x-1303030000_121",
+        "bfs_pxweb:px-x-1303030000_131",
+        "ckan:konsolidierte-ausgaben-nach-funktionaler-gliederung-kanton-thurgau-staatsrechnung:69da249e-17b1-476e-9206-2c4e0a34c72d",
+        "ckan:offentliche-finanzen1:4efb0dbf-abd1-4c89-b2e9-7597cb43cdc7",
+        "ckan:statistik-der-schweizer-staedte-2021:34e05d50-41e8-4a64-aa46-17208387e1e3",
+        "ckan:steuerpflichtige-personen-nach-bruttovermogens-und-schuldenklasse-seit-2020:4968be01-2507-4776-95ac-908161da1b57"
+      ]
+    },
+    {
+      "id": "justice-police-safety",
+      "label": "Justice, Police & Safety",
+      "quota": 5,
+      "resource_ids": [
+        "bfs_pxweb:px-x-1903020100_101",
+        "bfs_pxweb:px-x-1903020100_102",
+        "bfs_pxweb:px-x-2105000000_207",
+        "ckan:beschuldigte-gemass-strafgesetzbuch-nach-straftat:9ebb6bd7-fe55-4b71-b0fb-41256defcbb5",
+        "ckan:straftaten-nach-auslander-und-integrationsgesetz-aig:073a3e24-dd25-4dcf-9cfb-642d567e3dac"
+      ]
+    },
+    {
+      "id": "agriculture-food",
+      "label": "Agriculture & Food",
+      "quota": 4,
+      "resource_ids": [
+        "bfs_pxweb:px-x-0702000000_104",
+        "bfs_pxweb:px-x-0702000000_106",
+        "bfs_pxweb:px-x-0702000000_107",
+        "bfs_pxweb:px-x-0702000000_108"
+      ]
+    },
+    {
+      "id": "culture-sport-tourism",
+      "label": "Culture, Sport & Tourism",
+      "quota": 4,
+      "resource_ids": [
+        "bfs_pxweb:px-x-1003020000_103",
+        "bfs_pxweb:px-x-1003020000_203",
+        "bfs_pxweb:px-x-1602010000_102",
+        "ckan:statistik-der-schweizer-staedte-2021:58140042-8d26-41e7-bcd1-dfa258e8e2eb"
+      ]
+    },
+    {
+      "id": "geography-planning",
+      "label": "Geography & Planning",
+      "quota": 3,
+      "resource_ids": [
+        "bfs_pxweb:px-x-0102020000_201",
+        "bfs_pxweb:px-x-1506010000_106",
+        "ckan:nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton:1e7b4e51-dfe1-458f-b9ea-791a0a246b0c"
+      ]
+    },
+    {
+      "id": "infrastructure-utilities",
+      "label": "Infrastructure & Utilities",
+      "quota": 2,
+      "resource_ids": [
+        "bfs_pxweb:px-x-1404010100_101",
+        "ckan:brandschutzwand:ef25f25b-2d54-4c82-ac46-66440f8a34a6"
+      ]
+    },
+    {
+      "id": "science-research",
+      "label": "Science & Research",
+      "quota": 2,
+      "resource_ids": [
+        "bfs_pxweb:px-x-1515020000_104",
+        "ckan:entwicklung-der-nominallohne-der-konsumentenpreise-und-der-reallohne1:f817ba47-cc58-47c9-8823-626af10be5ec"
+      ]
+    }
+  ]
+}

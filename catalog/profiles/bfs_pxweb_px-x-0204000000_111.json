@@ -1,0 +1,338 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Masseinheit",
+    "Umweltbereich",
+    "Wirtschaftsbranche",
+    "Jahr"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "economic_activity",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0204000000_111/px-x-0204000000_111.px"
+  },
+  "measures": [],
+  "primary_topic": "environment-energy-climate",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Masseinheit",
+      "label": "Masseinheit",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Bruttowertschöpfung",
+          "Bruttoproduktionswert",
+          "Beschäftigte"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "BWS",
+          "BPW",
+          "VZÄ"
+        ]
+      }
+    },
+    {
+      "code": "Umweltbereich",
+      "label": "Umweltbereich",
+      "value_labels": {
+        "count": 12,
+        "strategy": "full",
+        "values": [
+          "CEPA 1 - Luftreinhaltung und Klimaschutz",
+          "CEPA 2 - Abwasserwirtschaft",
+          "CEPA 3 - Abfallwirtschaft",
+          "CEPA 4 - Schutz und Sanierung von Boden, Grund- und Oberflächenwasser",
+          "CEPA 5 - Lärm- und Erschütterungsschutz",
+          "CEPA 6 - Arten- und Landschaftsschutz",
+          "CEPA 7+8+9 - Strahlenschutz, Forschung und Entwicklung, sonstiges",
+          "CReMA 10 - Wassermanagement",
+          "CReMA 11 - Management von Waldressourcen",
+          "CReMA 15+16 - Forschung und Entwicklung, sonstiges",
+          "CReMA 13 - Energieressourcenmanagement",
+          "CReMA 14 - Management mineralischer Rohstoffe"
+        ]
+      },
+      "values": {
+        "count": 12,
+        "strategy": "full",
+        "values": [
+          "CEPA 1",
+          "CEPA 2",
+          "CEPA 3",
+          "CEPA 4",
+          "CEPA 5",
+          "CEPA 6",
+          "CEPA 7+8+9",
+          "CReMA 10",
+          "CReMA 11",
+          "CReMA 15+16",
+          "CReMA 13",
+          "CReMA 14"
+        ]
+      }
+    },
+    {
+      "code": "Wirtschaftsbranche",
+      "label": "Wirtschaftsbranche",
+      "value_labels": {
+        "count": 19,
+        "strategy": "full",
+        "values": [
+          "A - Land- und Forstwirtschaft, Fischerei",
+          "B - Bergbau und Gewinnung von Steinen und Erden",
+          "C - Verarbeitendes Gewerbe/Herstellung von Waren",
+          "D - Energieversorgung",
+          "E - Wasserversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen",
+          "F - Baugewerbe/Bau",
+          "G - Handel; Instandhaltung und Reparatur von Motorfahrzeugen",
+          "H - Verkehr und Lagerei",
+          "I - Gastgewerbe/Beherbergung und Gastronomie",
+          "J - Information und Kommunikation",
+          "K - Erbringung von Finanz- und Versicherungsdienstleistungen",
+          "L - Grundstücks- und Wohnungswesen",
+          "M - Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen",
+          "N - Erbringung von sonstigen wirtschaftlichen Dienstleistungen",
+          "O - Öffentliche Verwaltung, Verteidigung; Sozialversicherung",
+          "P - Erziehung und Unterricht",
+          "Q - Gesundheits- und Sozialwesen",
+          "R - Kunst, Unterhaltung und Erholung",
+          "S - Erbringung von sonstigen Dienstleistungen"
+        ]
+      },
+      "values": {
+        "count": 19,
+        "strategy": "full",
+        "values": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 23,
+        "strategy": "full",
+        "values": [
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022"
+        ]
+      },
+      "values": {
+        "count": 23,
+        "strategy": "full",
+        "values": [
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0204000000_111",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0204000000_111/px-x-0204000000_111.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Konto des Sektors der Umweltgüter und -dienstleistungen nach Masseinheit, Umweltbereich, Wirtschaftsbranche und Jahr",
+  "topic_score": 6,
+  "topics": [
+    "labor-economy",
+    "environment-energy-climate"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Jahr": {
+      "count": 23,
+      "strategy": "full",
+      "values": [
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ]
+    },
+    "Masseinheit": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Bruttowertschöpfung",
+        "Bruttoproduktionswert",
+        "Beschäftigte"
+      ]
+    },
+    "Umweltbereich": {
+      "count": 12,
+      "strategy": "full",
+      "values": [
+        "CEPA 1 - Luftreinhaltung und Klimaschutz",
+        "CEPA 2 - Abwasserwirtschaft",
+        "CEPA 3 - Abfallwirtschaft",
+        "CEPA 4 - Schutz und Sanierung von Boden, Grund- und Oberflächenwasser",
+        "CEPA 5 - Lärm- und Erschütterungsschutz",
+        "CEPA 6 - Arten- und Landschaftsschutz",
+        "CEPA 7+8+9 - Strahlenschutz, Forschung und Entwicklung, sonstiges",
+        "CReMA 10 - Wassermanagement",
+        "CReMA 11 - Management von Waldressourcen",
+        "CReMA 15+16 - Forschung und Entwicklung, sonstiges",
+        "CReMA 13 - Energieressourcenmanagement",
+        "CReMA 14 - Management mineralischer Rohstoffe"
+      ]
+    },
+    "Wirtschaftsbranche": {
+      "count": 19,
+      "strategy": "full",
+      "values": [
+        "A - Land- und Forstwirtschaft, Fischerei",
+        "B - Bergbau und Gewinnung von Steinen und Erden",
+        "C - Verarbeitendes Gewerbe/Herstellung von Waren",
+        "D - Energieversorgung",
+        "E - Wasserversorgung, Abwasser- und Abfallentsorgung und Beseitigung von Umweltverschmutzungen",
+        "F - Baugewerbe/Bau",
+        "G - Handel; Instandhaltung und Reparatur von Motorfahrzeugen",
+        "H - Verkehr und Lagerei",
+        "I - Gastgewerbe/Beherbergung und Gastronomie",
+        "J - Information und Kommunikation",
+        "K - Erbringung von Finanz- und Versicherungsdienstleistungen",
+        "L - Grundstücks- und Wohnungswesen",
+        "M - Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen",
+        "N - Erbringung von sonstigen wirtschaftlichen Dienstleistungen",
+        "O - Öffentliche Verwaltung, Verteidigung; Sozialversicherung",
+        "P - Erziehung und Unterricht",
+        "Q - Gesundheits- und Sozialwesen",
+        "R - Kunst, Unterhaltung und Erholung",
+        "S - Erbringung von sonstigen Dienstleistungen"
+      ]
+    }
+  },
+  "years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ]
+}

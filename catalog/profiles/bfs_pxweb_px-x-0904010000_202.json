@@ -1,0 +1,459 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Grossregion (<<) / Kanton (-)",
+    "Art und Kategorie der Auftraggeber",
+    "Art der Bauwerke",
+    "Kategorie der Bauwerke",
+    "Art der Arbeiten",
+    "Beobachtungseinheit",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "geo_region",
+    "canton_code",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0904010000_202/px-x-0904010000_202.px"
+  },
+  "measures": [
+    "Laufendes Jahr - Absolute Werte",
+    "Laufendes Jahr - Veränderungsraten",
+    "Folgejahr (Arbeitsvorrat) - Absolute Werte",
+    "Folgejahr (Arbeitsvorrat) - Veränderungsraten"
+  ],
+  "primary_topic": "housing-construction",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Grossregion (<<) / Kanton (-)",
+      "label": "Grossregion (<<) / Kanton (-)",
+      "value_labels": {
+        "count": 35,
+        "first": [
+          "Schweiz",
+          "<< Genferseeregion",
+          "- Waadt",
+          "- Wallis",
+          "- Genf"
+        ],
+        "sample": [
+          "Schweiz",
+          "- Wallis",
+          "- Bern",
+          "- Neuenburg",
+          "- Basel-Stadt",
+          "<< Zürich",
+          "- Glarus",
+          "- Appenzell I.Rh.",
+          "- Thurgau",
+          "- Uri"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 35,
+        "first": [
+          "CH",
+          "R1",
+          "VD",
+          "VS",
+          "GE"
+        ],
+        "sample": [
+          "CH",
+          "VS",
+          "BE",
+          "NE",
+          "BS",
+          "R4",
+          "GL",
+          "AI",
+          "TG",
+          "UR"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Art und Kategorie der Auftraggeber",
+      "label": "Art und Kategorie der Auftraggeber",
+      "value_labels": {
+        "count": 11,
+        "strategy": "full",
+        "values": [
+          "Art und Kategorie der Auftraggeber - Total",
+          "Oeffentliche Auftraggeber",
+          "- Bund",
+          "- Kanton",
+          "- Gemeinden",
+          "Private Auftraggeber",
+          "- Institutionelle Anleger",
+          "- Private Gas- und Elektrizitätswerke, Bahnen",
+          "- Bau- oder Immobiliengesellschaften",
+          "- Uebrige Anleger",
+          "- Privatpersonen"
+        ]
+      },
+      "values": {
+        "count": 11,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "11",
+          "12",
+          "13",
+          "2",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
+      }
+    },
+    {
+      "code": "Art der Bauwerke",
+      "label": "Art der Bauwerke",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Art der Bauwerk - Total",
+          "Tiefbau",
+          "Hochbau"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "0",
+          "6010",
+          "6011"
+        ]
+      }
+    },
+    {
+      "code": "Kategorie der Bauwerke",
+      "label": "Kategorie der Bauwerke",
+      "value_labels": {
+        "count": 12,
+        "strategy": "full",
+        "values": [
+          "Art und Kategorie der Bauwerke - Total",
+          "Infrastruktur Versorgung",
+          "Infrastruktur Entsorgung",
+          "Infrastruktur Strassenverkehr",
+          "Infrastruktur übriger Verkehr und Kommunikation",
+          "Bildung, Forschung",
+          "Gesundheit",
+          "Freizeit und Kultur",
+          "Uebrige Infrastruktur",
+          "Wohnen",
+          "Land- und Forstwirtschaft",
+          "Industrie, Gewerbe und Dienstleistungen"
+        ]
+      },
+      "values": {
+        "count": 12,
+        "strategy": "full",
+        "values": [
+          "0",
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900",
+          "1000",
+          "1100"
+        ]
+      }
+    },
+    {
+      "code": "Art der Arbeiten",
+      "label": "Art der Arbeiten",
+      "value_labels": {
+        "count": 5,
+        "strategy": "full",
+        "values": [
+          "Bauausgaben - Total",
+          "Bauinvestitionen",
+          "- Neubau",
+          "- Umbau",
+          "Unterhalt"
+        ]
+      },
+      "values": {
+        "count": 5,
+        "strategy": "full",
+        "values": [
+          "0",
+          "4",
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "code": "Beobachtungseinheit",
+      "label": "Beobachtungseinheit",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Laufendes Jahr - Absolute Werte",
+          "Laufendes Jahr - Veränderungsraten",
+          "Folgejahr (Arbeitsvorrat) - Absolute Werte",
+          "Folgejahr (Arbeitsvorrat) - Veränderungsraten"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "kost_j",
+          "var_kost_j",
+          "arbv_k",
+          "var_arbv_k"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 30,
+        "first": [
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998"
+        ],
+        "sample": [
+          "1994",
+          "1997",
+          "2000",
+          "2003",
+          "2006",
+          "2009",
+          "2012",
+          "2015",
+          "2018",
+          "2021"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 30,
+        "first": [
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998"
+        ],
+        "sample": [
+          "1994",
+          "1997",
+          "2000",
+          "2003",
+          "2006",
+          "2009",
+          "2012",
+          "2015",
+          "2018",
+          "2021"
+        ],
+        "strategy": "summary"
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0904010000_202",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0904010000_202/px-x-0904010000_202.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Bauausgaben und Arbeitsvorrat nach Grossregion (<<) / Kanton (-), Art und Kategorie der Auftraggeber, Art der Bauwerke, Kategorie der Bauwerke, Art der Arbeiten, Beobachtungseinheit und Jahr",
+  "topic_score": 9,
+  "topics": [
+    "labor-economy",
+    "housing-construction",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Art der Arbeiten": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "Bauausgaben - Total",
+        "Bauinvestitionen",
+        "- Neubau",
+        "- Umbau",
+        "Unterhalt"
+      ]
+    },
+    "Art der Bauwerke": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Art der Bauwerk - Total",
+        "Tiefbau",
+        "Hochbau"
+      ]
+    },
+    "Art und Kategorie der Auftraggeber": {
+      "count": 11,
+      "strategy": "full",
+      "values": [
+        "Art und Kategorie der Auftraggeber - Total",
+        "Oeffentliche Auftraggeber",
+        "- Bund",
+        "- Kanton",
+        "- Gemeinden",
+        "Private Auftraggeber",
+        "- Institutionelle Anleger",
+        "- Private Gas- und Elektrizitätswerke, Bahnen",
+        "- Bau- oder Immobiliengesellschaften",
+        "- Uebrige Anleger",
+        "- Privatpersonen"
+      ]
+    },
+    "Beobachtungseinheit": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Laufendes Jahr - Absolute Werte",
+        "Laufendes Jahr - Veränderungsraten",
+        "Folgejahr (Arbeitsvorrat) - Absolute Werte",
+        "Folgejahr (Arbeitsvorrat) - Veränderungsraten"
+      ]
+    },
+    "Grossregion (<<) / Kanton (-)": {
+      "count": 35,
+      "first": [
+        "Schweiz",
+        "<< Genferseeregion",
+        "- Waadt",
+        "- Wallis",
+        "- Genf"
+      ],
+      "sample": [
+        "Schweiz",
+        "- Wallis",
+        "- Bern",
+        "- Neuenburg",
+        "- Basel-Stadt",
+        "<< Zürich",
+        "- Glarus",
+        "- Appenzell I.Rh.",
+        "- Thurgau",
+        "- Uri"
+      ],
+      "strategy": "summary"
+    },
+    "Jahr": {
+      "count": 30,
+      "first": [
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998"
+      ],
+      "sample": [
+        "1994",
+        "1997",
+        "2000",
+        "2003",
+        "2006",
+        "2009",
+        "2012",
+        "2015",
+        "2018",
+        "2021"
+      ],
+      "strategy": "summary"
+    },
+    "Kategorie der Bauwerke": {
+      "count": 12,
+      "strategy": "full",
+      "values": [
+        "Art und Kategorie der Bauwerke - Total",
+        "Infrastruktur Versorgung",
+        "Infrastruktur Entsorgung",
+        "Infrastruktur Strassenverkehr",
+        "Infrastruktur übriger Verkehr und Kommunikation",
+        "Bildung, Forschung",
+        "Gesundheit",
+        "Freizeit und Kultur",
+        "Uebrige Infrastruktur",
+        "Wohnen",
+        "Land- und Forstwirtschaft",
+        "Industrie, Gewerbe und Dienstleistungen"
+      ]
+    }
+  },
+  "years": [
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ]
+}

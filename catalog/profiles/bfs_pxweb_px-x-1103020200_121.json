@@ -1,0 +1,311 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Gemeinde",
+    "Fahrzeuggruppe",
+    "Treibstoff",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Municipality"
+  ],
+  "join_keys": [
+    "bfs_municipality_id",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1103020200_121/px-x-1103020200_121.px"
+  },
+  "measures": [],
+  "primary_topic": "mobility-transport",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Gemeinde",
+      "label": "Gemeinde",
+      "value_labels": {
+        "count": 2132,
+        "first": [
+          "1 Aeugst am Albis",
+          "2 Affoltern am Albis",
+          "3 Bonstetten",
+          "4 Hausen am Albis",
+          "5 Hedingen"
+        ],
+        "sample": [
+          "1 Aeugst am Albis",
+          "389 Meienried",
+          "879 Riggisberg",
+          "1509 Stans",
+          "2548 Hubersdorf",
+          "3295 Quarten",
+          "4121 Villigen",
+          "5063 Bedretto",
+          "5610 Saint-Saphorin (Lavaux)",
+          "6090 Mont-Noble"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 2132,
+        "first": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "sample": [
+          "1",
+          "389",
+          "879",
+          "1509",
+          "2548",
+          "3295",
+          "4121",
+          "5063",
+          "5610",
+          "6090"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Fahrzeuggruppe",
+      "label": "Fahrzeuggruppe",
+      "value_labels": {
+        "count": 7,
+        "strategy": "full",
+        "values": [
+          "Personenwagen",
+          "Personentransportfahrzeuge",
+          "Sachentransportfahrzeuge",
+          "Landwirtschaftsfahrzeuge",
+          "Industriefahrzeuge",
+          "Motorräder",
+          "Anhänger"
+        ]
+      },
+      "values": {
+        "count": 7,
+        "strategy": "full",
+        "values": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      }
+    },
+    {
+      "code": "Treibstoff",
+      "label": "Treibstoff",
+      "value_labels": {
+        "count": 11,
+        "strategy": "full",
+        "values": [
+          "Benzin",
+          "Diesel",
+          "Benzin-elektrisch: Normal-Hybrid",
+          "Benzin-elektrisch: Plug-in-Hybrid",
+          "Diesel-elektrisch: Normal-Hybrid",
+          "Diesel-elektrisch: Plug-in-Hybrid",
+          "Elektrisch",
+          "Wasserstoff",
+          "Gas (mono- und bivalent)",
+          "Anderer",
+          "Ohne Motor"
+        ]
+      },
+      "values": {
+        "count": 11,
+        "strategy": "full",
+        "values": [
+          "100",
+          "200",
+          "300",
+          "310",
+          "400",
+          "410",
+          "500",
+          "550",
+          "600",
+          "9900",
+          "9999"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 15,
+        "strategy": "full",
+        "values": [
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      },
+      "values": {
+        "count": 15,
+        "strategy": "full",
+        "values": [
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1103020200_121",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1103020200_121/px-x-1103020200_121.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Neue Inverkehrsetzungen von Strassenfahrzeugen nach Gemeinde, Fahrzeuggruppe, Treibstoff und Jahr",
+  "topic_score": 6,
+  "topics": [
+    "mobility-transport",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Fahrzeuggruppe": {
+      "count": 7,
+      "strategy": "full",
+      "values": [
+        "Personenwagen",
+        "Personentransportfahrzeuge",
+        "Sachentransportfahrzeuge",
+        "Landwirtschaftsfahrzeuge",
+        "Industriefahrzeuge",
+        "Motorräder",
+        "Anhänger"
+      ]
+    },
+    "Gemeinde": {
+      "count": 2132,
+      "first": [
+        "1 Aeugst am Albis",
+        "2 Affoltern am Albis",
+        "3 Bonstetten",
+        "4 Hausen am Albis",
+        "5 Hedingen"
+      ],
+      "sample": [
+        "1 Aeugst am Albis",
+        "389 Meienried",
+        "879 Riggisberg",
+        "1509 Stans",
+        "2548 Hubersdorf",
+        "3295 Quarten",
+        "4121 Villigen",
+        "5063 Bedretto",
+        "5610 Saint-Saphorin (Lavaux)",
+        "6090 Mont-Noble"
+      ],
+      "strategy": "summary"
+    },
+    "Jahr": {
+      "count": 15,
+      "strategy": "full",
+      "values": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    "Treibstoff": {
+      "count": 11,
+      "strategy": "full",
+      "values": [
+        "Benzin",
+        "Diesel",
+        "Benzin-elektrisch: Normal-Hybrid",
+        "Benzin-elektrisch: Plug-in-Hybrid",
+        "Diesel-elektrisch: Normal-Hybrid",
+        "Diesel-elektrisch: Plug-in-Hybrid",
+        "Elektrisch",
+        "Wasserstoff",
+        "Gas (mono- und bivalent)",
+        "Anderer",
+        "Ohne Motor"
+      ]
+    }
+  },
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

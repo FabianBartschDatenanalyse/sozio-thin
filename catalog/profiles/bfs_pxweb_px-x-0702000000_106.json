@@ -1,0 +1,458 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Beobachtungseinheit",
+    "Kanton",
+    "Landwirtschaftliche Produktionszone",
+    "Betriebssystem",
+    "Betriebsform",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0702000000_106/px-x-0702000000_106.px"
+  },
+  "measures": [
+    "Betriebe",
+    "LN - Total (in ha)",
+    "LN - Weizen (in ha)",
+    "LN - Gerste (in ha)",
+    "LN - Körnermais (in ha)",
+    "LN - Hafer (in ha)",
+    "LN - Roggen (in ha)",
+    "LN - Triticale (in ha)",
+    "LN - Dinkel (in ha)",
+    "LN - Mischel und übrige Brotgetreide (in ha)",
+    "LN - Mischel und übrige Futtergetreide (in ha)",
+    "LN - Getreide allgemein (in ha)",
+    "LN - Andere Getreide (in ha)",
+    "LN - Kartoffeln (in ha)",
+    "LN - Zuckerrüben (in ha)",
+    "LN - Futterrüben (in ha)",
+    "LN - Silo- und Grünmais (in ha)",
+    "LN - Raps zur Speiseölgewinnung (in ha)",
+    "LN - Raps als nachwachsender Rohstoff (in ha)",
+    "LN - Tabak (in ha)",
+    "LN - Soja (in ha)",
+    "LN - Sonnenblumen zur Speiseölgewinnung (in ha)",
+    "LN - Sonnenblumen als nachwachsender Rohstoff (in ha)",
+    "LN - Eiweisserbsen (in ha)",
+    "LN - Ackerbohnen (in ha)",
+    "LN - Lupinen zu Futterzwecken (in ha)",
+    "LN - Hülsenfrüchte allgemein (in ha)",
+    "LN - Freilandgemüse (in ha)",
+    "LN - Einjährige gärtnerische Freilandkulturen (in ha)",
+    "LN - Einjährige Beeren (in ha)"
+  ],
+  "primary_topic": "agriculture-food",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Beobachtungseinheit",
+      "label": "Beobachtungseinheit",
+      "value_labels": {
+        "count": 67,
+        "first": [
+          "Betriebe",
+          "LN - Total (in ha)",
+          "LN - Weizen (in ha)",
+          "LN - Gerste (in ha)",
+          "LN - Körnermais (in ha)"
+        ],
+        "sample": [
+          "Betriebe",
+          "LN - Roggen (in ha)",
+          "LN - Andere Getreide (in ha)",
+          "LN - Raps als nachwachsender Rohstoff (in ha)",
+          "LN - Ackerbohnen (in ha)",
+          "LN - Einjährige Gewürz- und Medizinalpflanzen (in ha)",
+          "LN - Übrige offene Ackerfläche (in ha)",
+          "LN - Übrige Dauerwiesen (in ha)",
+          "LN - Mehrjährige Beeren (in ha)",
+          "LN - Mehrjährige Gewürz- und Medizinalpflanzen  (in ha)"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 67,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "6",
+          "12",
+          "18",
+          "24",
+          "30",
+          "36",
+          "42",
+          "48",
+          "54"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Kanton",
+      "label": "Kanton",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Schweiz",
+          "Zürich",
+          "Bern / Berne",
+          "Luzern",
+          "Uri"
+        ],
+        "sample": [
+          "Schweiz",
+          "Bern / Berne",
+          "Uri",
+          "Obwalden",
+          "Glarus",
+          "Fribourg / Freiburg",
+          "Basel-Stadt",
+          "Schaffhausen",
+          "Appenzell Innerrhoden",
+          "Graubünden / Grigioni / Grischun"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Landwirtschaftliche Produktionszone",
+      "label": "Landwirtschaftliche Produktionszone",
+      "value_labels": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "Landwirtschaftliche Produktionszone - Total",
+          "Talzone",
+          "Hügelzone",
+          "Bergzone 1",
+          "Bergzone 2",
+          "Bergzone 3",
+          "Bergzone 4",
+          "Unbestimmt"
+        ]
+      },
+      "values": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "0",
+          "31",
+          "41",
+          "51",
+          "52",
+          "53",
+          "54",
+          "99"
+        ]
+      }
+    },
+    {
+      "code": "Betriebssystem",
+      "label": "Betriebssystem",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Betriebssystem - Total",
+          "Biologische Betriebe",
+          "Konventionelle Betriebe",
+          "Unbestimmt"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "99"
+        ]
+      }
+    },
+    {
+      "code": "Betriebsform",
+      "label": "Betriebsform",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Betriebsform - Total",
+          "Hauptberufliche Betriebe",
+          "Nebenberufliche Betriebe",
+          "Unbestimmt"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "99"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 34,
+        "first": [
+          "2025",
+          "2024",
+          "2023",
+          "2022",
+          "2021"
+        ],
+        "sample": [
+          "2025",
+          "2022",
+          "2019",
+          "2016",
+          "2013",
+          "2010",
+          "2007",
+          "2004",
+          "2001",
+          "1998"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 34,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "3",
+          "6",
+          "9",
+          "12",
+          "15",
+          "18",
+          "21",
+          "24",
+          "27"
+        ],
+        "strategy": "summary"
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0702000000_106",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0702000000_106/px-x-0702000000_106.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Landwirtschaftliche Betriebe und Landwirtschaftliche Nutzfläche (LN) auf Klassifizierungsebene 3 nach Beobachtungseinheit, Kanton, Landwirtschaftliche Produktionszone, Betriebssystem, Betriebsform und Jahr",
+  "topic_score": 18,
+  "topics": [
+    "agriculture-food",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Beobachtungseinheit": {
+      "count": 67,
+      "first": [
+        "Betriebe",
+        "LN - Total (in ha)",
+        "LN - Weizen (in ha)",
+        "LN - Gerste (in ha)",
+        "LN - Körnermais (in ha)"
+      ],
+      "sample": [
+        "Betriebe",
+        "LN - Roggen (in ha)",
+        "LN - Andere Getreide (in ha)",
+        "LN - Raps als nachwachsender Rohstoff (in ha)",
+        "LN - Ackerbohnen (in ha)",
+        "LN - Einjährige Gewürz- und Medizinalpflanzen (in ha)",
+        "LN - Übrige offene Ackerfläche (in ha)",
+        "LN - Übrige Dauerwiesen (in ha)",
+        "LN - Mehrjährige Beeren (in ha)",
+        "LN - Mehrjährige Gewürz- und Medizinalpflanzen  (in ha)"
+      ],
+      "strategy": "summary"
+    },
+    "Betriebsform": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Betriebsform - Total",
+        "Hauptberufliche Betriebe",
+        "Nebenberufliche Betriebe",
+        "Unbestimmt"
+      ]
+    },
+    "Betriebssystem": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Betriebssystem - Total",
+        "Biologische Betriebe",
+        "Konventionelle Betriebe",
+        "Unbestimmt"
+      ]
+    },
+    "Jahr": {
+      "count": 34,
+      "first": [
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021"
+      ],
+      "sample": [
+        "2025",
+        "2022",
+        "2019",
+        "2016",
+        "2013",
+        "2010",
+        "2007",
+        "2004",
+        "2001",
+        "1998"
+      ],
+      "strategy": "summary"
+    },
+    "Kanton": {
+      "count": 27,
+      "first": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri"
+      ],
+      "sample": [
+        "Schweiz",
+        "Bern / Berne",
+        "Uri",
+        "Obwalden",
+        "Glarus",
+        "Fribourg / Freiburg",
+        "Basel-Stadt",
+        "Schaffhausen",
+        "Appenzell Innerrhoden",
+        "Graubünden / Grigioni / Grischun"
+      ],
+      "strategy": "summary"
+    },
+    "Landwirtschaftliche Produktionszone": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        "Landwirtschaftliche Produktionszone - Total",
+        "Talzone",
+        "Hügelzone",
+        "Bergzone 1",
+        "Bergzone 2",
+        "Bergzone 3",
+        "Bergzone 4",
+        "Unbestimmt"
+      ]
+    }
+  },
+  "years": [
+    1975,
+    1980,
+    1985,
+    1990,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ]
+}

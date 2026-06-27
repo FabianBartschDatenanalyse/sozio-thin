@@ -1,0 +1,690 @@
+{
+  "columns": [
+    "ebene_resultat",
+    "wahl_jahr",
+    "geoLevelName",
+    "kanton_nummer",
+    "kanton_bezeichnung",
+    "gemeinde_nummer",
+    "gemeinde_bezeichnung",
+    "partei_id_red1",
+    "partei_bezeichnung_de",
+    "partei_bezeichnung_fr",
+    "partei_bezeichnung_it",
+    "partei_bezeichnung_en",
+    "stimmen_partei",
+    "letzte_wahl_stimmen_partei",
+    "differenz_stimmen_partei",
+    "anzahl_listen",
+    "anzahl_kandidierende",
+    "anzahl_kandidierende_f",
+    "anzahl_kandidierende_m",
+    "anzahl_gewaehlte",
+    "anzahl_gewaehlte_f",
+    "anzahl_gewaehlte_m",
+    "letzte_wahl_anzahl_gewaehlte",
+    "letzte_wahl_anzahl_gewaehlte_f",
+    "letzte_wahl_anzahl_gewaehlte_m",
+    "differenz_anzahl_gewaehlte",
+    "differenz_anzahl_gewaehlte_f",
+    "differenz_anzahl_gewaehlte_m",
+    "fiktive_waehlende",
+    "letzte_wahl_fiktive_waehlende",
+    "differenz_fiktive_waehlende",
+    "partei_staerke",
+    "letzte_wahl_partei_staerke",
+    "differenz_partei_staerke",
+    "flag_staerkste_partei",
+    "partei_rang"
+  ],
+  "description": "",
+  "dimensions": [
+    "ebene_resultat",
+    "wahl_jahr",
+    "geoLevelName",
+    "kanton_nummer",
+    "kanton_bezeichnung",
+    "gemeinde_nummer",
+    "gemeinde_bezeichnung",
+    "partei_id_red1",
+    "partei_bezeichnung_de",
+    "partei_bezeichnung_fr",
+    "partei_bezeichnung_it",
+    "partei_bezeichnung_en",
+    "stimmen_partei",
+    "letzte_wahl_stimmen_partei",
+    "differenz_stimmen_partei",
+    "anzahl_listen",
+    "anzahl_kandidierende",
+    "anzahl_kandidierende_f",
+    "anzahl_kandidierende_m",
+    "anzahl_gewaehlte",
+    "anzahl_gewaehlte_f",
+    "anzahl_gewaehlte_m",
+    "letzte_wahl_anzahl_gewaehlte",
+    "letzte_wahl_anzahl_gewaehlte_f",
+    "letzte_wahl_anzahl_gewaehlte_m",
+    "differenz_anzahl_gewaehlte",
+    "differenz_anzahl_gewaehlte_f",
+    "differenz_anzahl_gewaehlte_m",
+    "fiktive_waehlende",
+    "letzte_wahl_fiktive_waehlende",
+    "differenz_fiktive_waehlende",
+    "partei_staerke",
+    "letzte_wahl_partei_staerke",
+    "differenz_partei_staerke",
+    "flag_staerkste_partei",
+    "partei_rang"
+  ],
+  "geo_levels": [
+    "Canton",
+    "Municipality"
+  ],
+  "join_keys": [
+    "local_feature_id",
+    "bfs_municipality_id",
+    "canton_code",
+    "sex",
+    "vote_or_election_id",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik BFS",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de"
+  },
+  "measures": [
+    "anzahl_listen",
+    "anzahl_kandidierende",
+    "anzahl_kandidierende_f",
+    "anzahl_kandidierende_m",
+    "anzahl_gewaehlte",
+    "anzahl_gewaehlte_f",
+    "anzahl_gewaehlte_m",
+    "letzte_wahl_anzahl_gewaehlte",
+    "letzte_wahl_anzahl_gewaehlte_f",
+    "letzte_wahl_anzahl_gewaehlte_m",
+    "differenz_anzahl_gewaehlte",
+    "differenz_anzahl_gewaehlte_f",
+    "differenz_anzahl_gewaehlte_m"
+  ],
+  "primary_topic": "politics-elections",
+  "publisher": "Bundesamt für Statistik BFS",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de:e8e12e1a-bee0-41b4-9445-561e7a085bc1",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de",
+    "source_url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/28845352/appendix"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Nationalratswahlen 2023: Mandate, gewählte Frauen und Männer, Parteistärke sowie Veränderung zu den letzten Wahlen und stärkste Partei (Schweiz, Kantone, Gemeinden)",
+  "topic_score": 12,
+  "topics": [
+    "politics-elections",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "anzahl_gewaehlte": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        28.0,
+        41.0,
+        62.0,
+        2.0,
+        0.0,
+        23.0,
+        1.0,
+        10.0,
+        29.0,
+        5.0
+      ]
+    },
+    "anzahl_gewaehlte_f": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        12.0,
+        24.0,
+        0.0,
+        13.0,
+        7.0,
+        9.0,
+        2.0,
+        6.0,
+        3.0,
+        4.0
+      ]
+    },
+    "anzahl_gewaehlte_m": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        16.0,
+        17.0,
+        50.0,
+        2.0,
+        0.0,
+        10.0,
+        1.0,
+        3.0,
+        20.0,
+        8.0
+      ]
+    },
+    "anzahl_kandidierende": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        651.0,
+        703.0,
+        619.0,
+        366.0,
+        7.0,
+        109.0,
+        36.0,
+        643.0,
+        37.0,
+        197.0
+      ]
+    },
+    "anzahl_kandidierende_f": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        234.0,
+        376.0,
+        140.0,
+        190.0,
+        4.0,
+        57.0,
+        20.0,
+        344.0,
+        9.0,
+        59.0
+      ]
+    },
+    "anzahl_kandidierende_m": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        417.0,
+        327.0,
+        479.0,
+        176.0,
+        3.0,
+        52.0,
+        16.0,
+        299.0,
+        28.0,
+        138.0
+      ]
+    },
+    "anzahl_listen": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        79.0,
+        74.0,
+        71.0,
+        29.0,
+        1.0,
+        8.0,
+        68.0,
+        4.0,
+        16.0,
+        5.0
+      ]
+    },
+    "differenz_anzahl_gewaehlte": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        -1.0,
+        2.0,
+        9.0,
+        0.0,
+        -2.0,
+        -5.0,
+        1.0,
+        -6.0
+      ]
+    },
+    "differenz_anzahl_gewaehlte_f": {
+      "count": 6,
+      "strategy": "full",
+      "values": [
+        2.0,
+        -1.0,
+        -2.0,
+        0.0,
+        -4.0,
+        1.0
+      ]
+    },
+    "differenz_anzahl_gewaehlte_m": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        -3.0,
+        3.0,
+        10.0,
+        1.0,
+        0.0,
+        -1.0,
+        -5.0,
+        2.0
+      ]
+    },
+    "differenz_fiktive_waehlende": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        -2260.0,
+        58580.0,
+        93121.0,
+        -488.0,
+        -3840.0,
+        -6993.0,
+        -3366.0,
+        -70106.0,
+        -1172.0,
+        7366.0
+      ]
+    },
+    "differenz_partei_staerke": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        -0.858770586,
+        1.4349738989,
+        2.3409080054,
+        -0.12492527,
+        -0.16345644,
+        -0.32723295,
+        -0.147993934,
+        -3.417308543,
+        -0.052608499,
+        0.2375602259
+      ]
+    },
+    "differenz_stimmen_partei": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        -1752.0,
+        855179.0,
+        478502.0,
+        -27714.0,
+        3440.0,
+        -79278.0,
+        -465884.0,
+        -11370.0,
+        2975.0,
+        -64270.0
+      ]
+    },
+    "ebene_resultat": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Schweiz",
+        "Kanton",
+        "Gemeinde"
+      ]
+    },
+    "fiktive_waehlende": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        364052.68995,
+        466713.74091,
+        713470.87974,
+        49828.355691,
+        2397.4563617,
+        18434.958511,
+        4342.9359597,
+        249891.52437,
+        2029.9658799,
+        31512.804919
+      ]
+    },
+    "flag_staerkste_partei": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        0.0,
+        1.0
+      ]
+    },
+    "gemeinde_bezeichnung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Aeugst am Albis",
+        "Affoltern am Albis",
+        "Bonstetten",
+        "Hausen am Albis",
+        "Hedingen",
+        "Kappel am Albis",
+        "Knonau",
+        "Maschwanden",
+        "Mettmenstetten",
+        "Obfelden"
+      ]
+    },
+    "gemeinde_nummer": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0
+      ]
+    },
+    "geoLevelName": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri",
+        "Schwyz",
+        "Obwalden",
+        "Nidwalden",
+        "Glarus",
+        "Zug"
+      ]
+    },
+    "kanton_bezeichnung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri",
+        "Schwyz",
+        "Obwalden",
+        "Nidwalden",
+        "Glarus",
+        "Zug",
+        "Fribourg / Freiburg"
+      ]
+    },
+    "kanton_nummer": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0
+      ]
+    },
+    "letzte_wahl_anzahl_gewaehlte": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        29.0,
+        39.0,
+        53.0,
+        3.0,
+        0.0,
+        2.0,
+        28.0,
+        1.0,
+        16.0,
+        5.0
+      ]
+    },
+    "letzte_wahl_anzahl_gewaehlte_f": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        10.0,
+        25.0,
+        13.0,
+        2.0,
+        0.0,
+        1.0,
+        17.0,
+        8.0,
+        5.0,
+        3.0
+      ]
+    },
+    "letzte_wahl_anzahl_gewaehlte_m": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        19.0,
+        14.0,
+        40.0,
+        1.0,
+        0.0,
+        11.0,
+        8.0,
+        20.0,
+        3.0,
+        2.0
+      ]
+    },
+    "letzte_wahl_fiktive_waehlende": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        366312.89837,
+        408134.17963,
+        620349.97191,
+        50316.726593,
+        6237.8482763,
+        25428.161469,
+        7709.3001635,
+        319997.03584,
+        3201.8493777,
+        24147.272346
+      ]
+    },
+    "letzte_wahl_partei_staerke": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        15.110297508,
+        16.835412853,
+        25.589250819,
+        2.0755499242,
+        0.2573093759,
+        1.048904056,
+        0.3180063262,
+        13.19978203,
+        0.1320753293,
+        0.9960677628
+      ]
+    },
+    "letzte_wahl_stimmen_partei": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1993644.0,
+        2526077.0,
+        3896541.0,
+        481814.0,
+        45271.0,
+        234589.0,
+        2054383.0,
+        27242.0,
+        235022.0,
+        2042336.0
+      ]
+    },
+    "partei_bezeichnung_de": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "FDP",
+        "SP",
+        "SVP",
+        "EVP",
+        "CSP",
+        "PdA/Sol.",
+        "FGA",
+        "GRÜNE",
+        "SD",
+        "EDU"
+      ]
+    },
+    "partei_bezeichnung_en": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "FDP",
+        "SP",
+        "SVP",
+        "EVP",
+        "CSP",
+        "PdA/Sol.",
+        "FGA",
+        "GREENS",
+        "SD",
+        "EDU"
+      ]
+    },
+    "partei_bezeichnung_fr": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "PLR",
+        "PS",
+        "UDC",
+        "PEV",
+        "PCS",
+        "PST/Sol.",
+        "AVF",
+        "VERT-E-S",
+        "DS",
+        "UDF"
+      ]
+    },
+    "partei_bezeichnung_it": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "PLR",
+        "PS",
+        "UDC",
+        "PEV",
+        "PCS",
+        "PdL/Sol.",
+        "AVF",
+        "VERDI",
+        "DS",
+        "UDF"
+      ]
+    },
+    "partei_id_red1": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1,
+        3,
+        4,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        16
+      ]
+    },
+    "partei_rang": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        3.0,
+        2.0,
+        1.0,
+        8.0,
+        14.0,
+        10.0,
+        13.0,
+        5.0,
+        15.0,
+        9.0
+      ]
+    },
+    "partei_staerke": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        14.251526922,
+        18.270386752,
+        27.930158825,
+        1.9506246547,
+        0.0938529362,
+        0.7216711064,
+        0.1700123923,
+        9.7824734866,
+        0.0794668305,
+        1.2336279887
+      ]
+    },
+    "stimmen_partei": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1991892.0,
+        3381256.0,
+        4375043.0,
+        454100.0,
+        48711.0,
+        155311.0,
+        1588499.0,
+        15872.0,
+        237997.0,
+        1978066.0
+      ]
+    },
+    "wahl_jahr": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        2023
+      ]
+    }
+  },
+  "years": [
+    2023
+  ]
+}

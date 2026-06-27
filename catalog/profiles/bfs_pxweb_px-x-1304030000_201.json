@@ -1,0 +1,363 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Kanton",
+    "Geschlecht",
+    "Zivilstand",
+    "Personengruppe",
+    "Staatsangehörigkeit (Kategorie)",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "sex",
+    "nationality",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1304030000_201/px-x-1304030000_201.px"
+  },
+  "measures": [],
+  "primary_topic": "population-demography",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Kanton",
+      "label": "Kanton",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Schweiz",
+          "Zürich",
+          "Luzern",
+          "Uri",
+          "Schwyz"
+        ],
+        "sample": [
+          "Schweiz",
+          "Luzern",
+          "Schwyz",
+          "Nidwalden",
+          "Zug",
+          "Schaffhausen",
+          "Appenzell Innerrhoden",
+          "Graubünden / Grigioni / Grischun",
+          "Thurgau",
+          "Vaud"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "0",
+          "1",
+          "3",
+          "4",
+          "5"
+        ],
+        "sample": [
+          "0",
+          "3",
+          "5",
+          "7",
+          "9",
+          "14",
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Geschlecht",
+      "label": "Geschlecht",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Geschlecht - Total",
+          "Mann",
+          "Frau",
+          "Ohne Angabe des Geschlechts"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "99"
+        ]
+      }
+    },
+    {
+      "code": "Zivilstand",
+      "label": "Zivilstand",
+      "value_labels": {
+        "count": 6,
+        "strategy": "full",
+        "values": [
+          "Zivilstand - Total",
+          "Ledig",
+          "Verheiratet/Getrennt/In eingetragener Partnerschaft",
+          "Verwitwet",
+          "Geschieden",
+          "Ohne Angaben zum Zivilstand"
+        ]
+      },
+      "values": {
+        "count": 6,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "4",
+          "5",
+          "99"
+        ]
+      }
+    },
+    {
+      "code": "Personengruppe",
+      "label": "Personengruppe",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Personengruppe - Total",
+          "Volljährige",
+          "Kinder und junge Erwachsene",
+          "Ohne Angaben der Personengruppe"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "99"
+        ]
+      }
+    },
+    {
+      "code": "Staatsangehörigkeit (Kategorie)",
+      "label": "Staatsangehörigkeit (Kategorie)",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Staatsangehörigkeit - Total",
+          "Schweiz",
+          "Ausland",
+          "Ohne Angabe der Staatsangehörigkeit"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "99"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 16,
+        "strategy": "full",
+        "values": [
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      },
+      "values": {
+        "count": 16,
+        "strategy": "full",
+        "values": [
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1304030000_201",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1304030000_201/px-x-1304030000_201.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "ALBV: Von der Alimentenbevorschussung unterstützte Personen nach Kanton, Geschlecht, Zivilstand, Personengruppe, Staatsangehörigkeit (Kategorie) und Jahr",
+  "topic_score": 3,
+  "topics": [
+    "population-demography",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Geschlecht": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Geschlecht - Total",
+        "Mann",
+        "Frau",
+        "Ohne Angabe des Geschlechts"
+      ]
+    },
+    "Jahr": {
+      "count": 16,
+      "strategy": "full",
+      "values": [
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    "Kanton": {
+      "count": 27,
+      "first": [
+        "Schweiz",
+        "Zürich",
+        "Luzern",
+        "Uri",
+        "Schwyz"
+      ],
+      "sample": [
+        "Schweiz",
+        "Luzern",
+        "Schwyz",
+        "Nidwalden",
+        "Zug",
+        "Schaffhausen",
+        "Appenzell Innerrhoden",
+        "Graubünden / Grigioni / Grischun",
+        "Thurgau",
+        "Vaud"
+      ],
+      "strategy": "summary"
+    },
+    "Personengruppe": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Personengruppe - Total",
+        "Volljährige",
+        "Kinder und junge Erwachsene",
+        "Ohne Angaben der Personengruppe"
+      ]
+    },
+    "Staatsangehörigkeit (Kategorie)": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Staatsangehörigkeit - Total",
+        "Schweiz",
+        "Ausland",
+        "Ohne Angabe der Staatsangehörigkeit"
+      ]
+    },
+    "Zivilstand": {
+      "count": 6,
+      "strategy": "full",
+      "values": [
+        "Zivilstand - Total",
+        "Ledig",
+        "Verheiratet/Getrennt/In eingetragener Partnerschaft",
+        "Verwitwet",
+        "Geschieden",
+        "Ohne Angaben zum Zivilstand"
+      ]
+    }
+  },
+  "years": [
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

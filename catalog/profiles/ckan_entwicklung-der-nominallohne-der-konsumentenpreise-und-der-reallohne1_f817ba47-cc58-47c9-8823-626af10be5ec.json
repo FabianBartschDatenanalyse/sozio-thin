@@ -1,0 +1,48 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [],
+  "geo_levels": [],
+  "join_keys": [
+    "sex",
+    "year"
+  ],
+  "license": {
+    "attribution": "bundesamt-fur-statistik-bfs",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.bfs.admin.ch/bfsstatic/dam/assets/17524281/master"
+  },
+  "measures": [],
+  "primary_topic": "science-research",
+  "publisher": "bundesamt-fur-statistik-bfs",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:entwicklung-der-nominallohne-der-konsumentenpreise-und-der-reallohne1:f817ba47-cc58-47c9-8823-626af10be5ec",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": null,
+    "source_url": "https://www.bfs.admin.ch/bfsstatic/dam/assets/17524281/master"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Entwicklung der Nominallöhne, der Konsumentenpreise und der Reallöhne",
+  "topic_score": 3,
+  "topics": [
+    "labor-economy",
+    "science-research"
+  ],
+  "units": [],
+  "value_summaries": {},
+  "years": []
+}

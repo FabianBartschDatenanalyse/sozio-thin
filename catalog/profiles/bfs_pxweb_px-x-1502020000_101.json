@@ -1,0 +1,392 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Bildungsstufe und Bildungstyp",
+    "Schulkanton",
+    "Geschlecht",
+    "Staatsangehörigkeit (Kategorie)",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "sex",
+    "nationality",
+    "education_level",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502020000_101/px-x-1502020000_101.px"
+  },
+  "measures": [],
+  "primary_topic": "education",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Bildungsstufe und Bildungstyp",
+      "label": "Bildungsstufe und Bildungstyp",
+      "value_labels": {
+        "count": 24,
+        "strategy": "full",
+        "values": [
+          "Bildungsstufe und -typ - Total",
+          "Übergangsausbildungen Sek. I - Sek. II",
+          "> Übergangsausbildungen Sek. I - Sek. II",
+          "> Übergangsausbildung Sek.I - Sek. II : schulisch",
+          "> Übergangsausbildung Sek.I - Sek. II : kombiniert/dual",
+          "> Übergangsausbildung Sek.I - Sek. II : integration",
+          "> Andere Übergangsausbildungen Sek.I - Sek. II",
+          "Berufliche Grundbildung",
+          "> Berufliche Grundbildung mit EFZ",
+          "> Berufliche Grundbildung mit EBA",
+          "> Nicht BBG-reglementierte berufliche Grundbildung",
+          "> Handels- und Informatikmittelschulen",
+          "> Anlehre",
+          "Berufsmaturität",
+          "Allgemeinbildende Ausbildungen",
+          "> Gymnasiale Maturität",
+          "> Fachmittelschulen",
+          "> Fachmaturität",
+          "> Unterrichtsberufe",
+          "> Andere und ausländische allgemeinbildende Ausbildungen",
+          "Zusatzausbildungen Sekundarstufe II",
+          "> Passerellenlehrgang",
+          "> Andere Übergangsausbildungen Sek. II - Tertiärstufe",
+          "> Andere Zusatzausbildungen"
+        ]
+      },
+      "values": {
+        "count": 24,
+        "strategy": "full",
+        "values": [
+          "0",
+          "21",
+          "211",
+          "2113",
+          "2114",
+          "2115",
+          "2119",
+          "22",
+          "221",
+          "222",
+          "223",
+          "224",
+          "225",
+          "23",
+          "24",
+          "241",
+          "242",
+          "243",
+          "244",
+          "245",
+          "25",
+          "251",
+          "252",
+          "253"
+        ]
+      }
+    },
+    {
+      "code": "Schulkanton",
+      "label": "Schulkanton",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Schweiz",
+          "Zürich",
+          "Bern / Berne",
+          "Luzern",
+          "Uri"
+        ],
+        "sample": [
+          "Schweiz",
+          "Bern / Berne",
+          "Uri",
+          "Obwalden",
+          "Glarus",
+          "Fribourg / Freiburg",
+          "Basel-Stadt",
+          "Schaffhausen",
+          "Appenzell Innerrhoden",
+          "Graubünden / Grigioni / Grischun"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Geschlecht",
+      "label": "Geschlecht",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Geschlecht - Total",
+          "Mann",
+          "Frau"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Staatsangehörigkeit (Kategorie)",
+      "label": "Staatsangehörigkeit (Kategorie)",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Staatsangehörigkeit - Total",
+          "Schweiz",
+          "Ausland",
+          "Unbekannt"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "99"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 26,
+        "first": [
+          "1999/00",
+          "2000/01",
+          "2001/02",
+          "2002/03",
+          "2003/04"
+        ],
+        "sample": [
+          "1999/00",
+          "2001/02",
+          "2003/04",
+          "2005/06",
+          "2007/08",
+          "2009/10",
+          "2011/12",
+          "2013/14",
+          "2015/16",
+          "2017/18"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 26,
+        "first": [
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003"
+        ],
+        "sample": [
+          "1999",
+          "2001",
+          "2003",
+          "2005",
+          "2007",
+          "2009",
+          "2011",
+          "2013",
+          "2015",
+          "2017"
+        ],
+        "strategy": "summary"
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1502020000_101",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502020000_101/px-x-1502020000_101.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Sekundarstufe II: Lernende nach Bildungsstufe und Bildungstyp, Schulkanton, Geschlecht, Staatsangehörigkeit (Kategorie) und Jahr",
+  "topic_score": 6,
+  "topics": [
+    "education"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Bildungsstufe und Bildungstyp": {
+      "count": 24,
+      "strategy": "full",
+      "values": [
+        "Bildungsstufe und -typ - Total",
+        "Übergangsausbildungen Sek. I - Sek. II",
+        "> Übergangsausbildungen Sek. I - Sek. II",
+        "> Übergangsausbildung Sek.I - Sek. II : schulisch",
+        "> Übergangsausbildung Sek.I - Sek. II : kombiniert/dual",
+        "> Übergangsausbildung Sek.I - Sek. II : integration",
+        "> Andere Übergangsausbildungen Sek.I - Sek. II",
+        "Berufliche Grundbildung",
+        "> Berufliche Grundbildung mit EFZ",
+        "> Berufliche Grundbildung mit EBA",
+        "> Nicht BBG-reglementierte berufliche Grundbildung",
+        "> Handels- und Informatikmittelschulen",
+        "> Anlehre",
+        "Berufsmaturität",
+        "Allgemeinbildende Ausbildungen",
+        "> Gymnasiale Maturität",
+        "> Fachmittelschulen",
+        "> Fachmaturität",
+        "> Unterrichtsberufe",
+        "> Andere und ausländische allgemeinbildende Ausbildungen",
+        "Zusatzausbildungen Sekundarstufe II",
+        "> Passerellenlehrgang",
+        "> Andere Übergangsausbildungen Sek. II - Tertiärstufe",
+        "> Andere Zusatzausbildungen"
+      ]
+    },
+    "Geschlecht": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Geschlecht - Total",
+        "Mann",
+        "Frau"
+      ]
+    },
+    "Jahr": {
+      "count": 26,
+      "first": [
+        "1999/00",
+        "2000/01",
+        "2001/02",
+        "2002/03",
+        "2003/04"
+      ],
+      "sample": [
+        "1999/00",
+        "2001/02",
+        "2003/04",
+        "2005/06",
+        "2007/08",
+        "2009/10",
+        "2011/12",
+        "2013/14",
+        "2015/16",
+        "2017/18"
+      ],
+      "strategy": "summary"
+    },
+    "Schulkanton": {
+      "count": 27,
+      "first": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri"
+      ],
+      "sample": [
+        "Schweiz",
+        "Bern / Berne",
+        "Uri",
+        "Obwalden",
+        "Glarus",
+        "Fribourg / Freiburg",
+        "Basel-Stadt",
+        "Schaffhausen",
+        "Appenzell Innerrhoden",
+        "Graubünden / Grigioni / Grischun"
+      ],
+      "strategy": "summary"
+    },
+    "Staatsangehörigkeit (Kategorie)": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Staatsangehörigkeit - Total",
+        "Schweiz",
+        "Ausland",
+        "Unbekannt"
+      ]
+    }
+  },
+  "years": [
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

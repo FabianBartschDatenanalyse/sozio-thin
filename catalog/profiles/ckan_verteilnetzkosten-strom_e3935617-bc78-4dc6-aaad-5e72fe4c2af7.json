@@ -1,0 +1,169 @@
+{
+  "columns": [
+    "﻿Jahr",
+    "Hauptszenario",
+    "Sensitivitaet",
+    "Modellnetz",
+    "Netzebene",
+    "WACC_prozent",
+    "Kosten_Subtyp",
+    "Kosten_netznutzung_vor_waelzung_chf"
+  ],
+  "description": "",
+  "dimensions": [
+    "﻿Jahr",
+    "Hauptszenario",
+    "Sensitivitaet",
+    "Modellnetz",
+    "Netzebene",
+    "WACC_prozent",
+    "Kosten_Subtyp",
+    "Kosten_netznutzung_vor_waelzung_chf"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "year"
+  ],
+  "license": {
+    "attribution": "bundesamt-fur-energie-bfe",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/verteilnetzkosten-strom"
+  },
+  "measures": [],
+  "primary_topic": "environment-energy-climate",
+  "publisher": "bundesamt-fur-energie-bfe",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:verteilnetzkosten-strom:e3935617-bc78-4dc6-aaad-5e72fe4c2af7",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/verteilnetzkosten-strom",
+    "source_url": "https://www.uvek-gis.admin.ch/BFE/ogd/113/ogd113_kosten_netznutzung_vor_waelzung.csv"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Stromnetznutzung vor Wälzung",
+  "topic_score": 3,
+  "topics": [
+    "environment-energy-climate"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Hauptszenario": {
+      "count": 6,
+      "strategy": "full",
+      "values": [
+        "WWB",
+        "ZERO A",
+        "ZERO B",
+        "ZERO Basis",
+        "ZERO C",
+        "zusatzSzenarioPV"
+      ]
+    },
+    "Kosten_Subtyp": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Abschreibungen",
+        "Betriebskosten",
+        "Kapitalzinsen"
+      ]
+    },
+    "Kosten_netznutzung_vor_waelzung_chf": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        24503480,
+        30016763,
+        16330454,
+        140843527,
+        197180937,
+        112330551,
+        83859916,
+        88052912,
+        55947917,
+        269900805
+      ]
+    },
+    "Modellnetz": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "Ganze Schweiz",
+        "Grossstädtische Gemeinden",
+        "Ländliche Gemeinden",
+        "Perirubane Gemeinden",
+        "Städtische Gemeinden"
+      ]
+    },
+    "Netzebene": {
+      "count": 6,
+      "strategy": "full",
+      "values": [
+        "NE 2",
+        "NE 3",
+        "NE 4",
+        "NE 5",
+        "NE 6",
+        "NE 7"
+      ]
+    },
+    "Sensitivitaet": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "-",
+        "Kombination netzorientiertes Verhalten und Spitzenkappung 70%",
+        "Kombination netzorientiertes Verhalten und Spitzenkappung 85%",
+        "Kombination verstärktes Heimladen und marktorientiertes Verhalten",
+        "Kombination verstärktes Heimladen und netzorientiertes Verhalten",
+        "Marktorientiertes Ladeverhalten",
+        "Netzorientiertes Ladeverhalten",
+        "Smarteres Netz",
+        "Spitzenkappung 70%",
+        "Spitzenkappung 85%"
+      ]
+    },
+    "WACC_prozent": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        3.83
+      ]
+    },
+    "﻿Jahr": {
+      "count": 7,
+      "strategy": "full",
+      "values": [
+        2020,
+        2025,
+        2030,
+        2035,
+        2040,
+        2045,
+        2050
+      ]
+    }
+  },
+  "years": [
+    2020,
+    2025,
+    2030,
+    2035,
+    2040,
+    2045,
+    2050
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "columns": [
+    "year",
+    "provider",
+    "provider_fullname",
+    "service",
+    "service_fullname",
+    "age_class",
+    "sex",
+    "anzahl"
+  ],
+  "description": "",
+  "dimensions": [
+    "year",
+    "provider",
+    "provider_fullname",
+    "service",
+    "service_fullname",
+    "age_class",
+    "sex",
+    "anzahl"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "sex",
+    "year",
+    "date"
+  ],
+  "license": {
+    "attribution": "Kanton St. Gallen",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/klientinnen-und-klienten-der-spitex-hilfe-und-pflege-zu-hause-kanton-st-gallen-seit-2015"
+  },
+  "measures": [
+    "anzahl"
+  ],
+  "primary_topic": "health",
+  "publisher": "Kanton St. Gallen",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:klientinnen-und-klienten-der-spitex-hilfe-und-pflege-zu-hause-kanton-st-gallen-seit-2015:06d12ccd-3a62-4e01-8da3-7ace497683a6",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "PARQUET",
+    "format_family": "columnar",
+    "landing_page_url": "https://opendata.swiss/de/dataset/klientinnen-und-klienten-der-spitex-hilfe-und-pflege-zu-hause-kanton-st-gallen-seit-2015",
+    "source_url": "https://daten.sg.ch/api/v2/catalog/datasets/klientinnen-und-klienten-der-spitex-kanton-stgallen/exports/parquet"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Klientinnen und Klienten der Spitex (Hilfe und Pflege zu Hause), Kanton St.Gallen, seit 2015",
+  "topic_score": 3,
+  "topics": [
+    "health",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "age_class": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "0-4",
+        "5-19",
+        "80+",
+        "65-79",
+        "20-64"
+      ]
+    },
+    "anzahl": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        0,
+        45,
+        4,
+        1384,
+        1645,
+        46,
+        616,
+        2,
+        1327,
+        2035
+      ]
+    },
+    "provider": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "provider_fullname": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "gemeinnützige und öffentlich-rechtliche Unternehmen",
+        "erwerbswirtschaftliche Unternehmen",
+        "selbstständige Pflegefachpersonen"
+      ]
+    },
+    "service": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "hwt",
+        "klv",
+        "aup"
+      ]
+    },
+    "service_fullname": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Hauswirtschaftliche Leistungen",
+        "Pflegeleistungen",
+        "Akut- und Übergangspflege"
+      ]
+    },
+    "sex": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "m",
+        "f"
+      ]
+    },
+    "year": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "2015-01-01 00:00:00",
+        "2016-01-01 00:00:00",
+        "2017-01-01 00:00:00",
+        "2018-01-01 00:00:00",
+        "2019-01-01 00:00:00",
+        "2020-01-01 00:00:00",
+        "2021-01-01 00:00:00",
+        "2022-01-01 00:00:00",
+        "2023-01-01 00:00:00",
+        "2024-01-01 00:00:00"
+      ]
+    }
+  },
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [],
+  "geo_levels": [],
+  "join_keys": [
+    "year"
+  ],
+  "license": {
+    "attribution": "bundesamt-fur-statistik-bfs",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/16564368/master"
+  },
+  "measures": [],
+  "primary_topic": "public-administration-finance",
+  "publisher": "bundesamt-fur-statistik-bfs",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:statistik-der-schweizer-staedte-2021:34e05d50-41e8-4a64-aa46-17208387e1e3",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": null,
+    "source_url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/16564368/master"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Steuerbelastung in der Schweiz: Natürliche Personen - Lediger, ein Einkommen, ohne Kinder, 2019",
+  "topic_score": 3,
+  "topics": [
+    "labor-economy",
+    "public-administration-finance"
+  ],
+  "units": [],
+  "value_summaries": {},
+  "years": []
+}

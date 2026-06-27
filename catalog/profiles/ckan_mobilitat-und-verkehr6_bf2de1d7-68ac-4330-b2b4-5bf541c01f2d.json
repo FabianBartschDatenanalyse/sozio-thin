@@ -1,0 +1,206 @@
+{
+  "columns": [
+    "﻿\"GEO_NR\"",
+    "GEO_NAME",
+    "CLASS_HAB",
+    "GEOM_PERIOD",
+    "VARIABLE",
+    "SOURCE",
+    "VALUE_PERIOD",
+    "UNIT_VALUE",
+    "VALUE",
+    "OBS_CONFIDENCE",
+    "STATUS"
+  ],
+  "description": "",
+  "dimensions": [
+    "﻿\"GEO_NR\"",
+    "GEO_NAME",
+    "CLASS_HAB",
+    "GEOM_PERIOD",
+    "VARIABLE",
+    "SOURCE",
+    "VALUE_PERIOD",
+    "UNIT_VALUE",
+    "VALUE",
+    "OBS_CONFIDENCE",
+    "STATUS"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "spatial_geometry",
+    "date"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik BFS",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/mobilitat-und-verkehr6"
+  },
+  "measures": [],
+  "primary_topic": "mobility-transport",
+  "publisher": "Bundesamt für Statistik BFS",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:mobilitat-und-verkehr6:bf2de1d7-68ac-4330-b2b4-5bf541c01f2d",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/mobilitat-und-verkehr6",
+    "source_url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/24885589/master"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Mobilität und Verkehr",
+  "topic_score": 6,
+  "topics": [
+    "mobility-transport"
+  ],
+  "units": [],
+  "value_summaries": {
+    "CLASS_HAB": {
+      "count": 7,
+      "strategy": "full",
+      "values": [
+        "Total",
+        "2",
+        "4",
+        "3",
+        "6",
+        "5",
+        "1"
+      ]
+    },
+    "GEOM_PERIOD": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "2022-05-01",
+        "2020-10-18"
+      ]
+    },
+    "GEO_NAME": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Schweiz / Suisse",
+        "Affoltern am Albis",
+        "Bassersdorf",
+        "Bülach",
+        "Kloten",
+        "Opfikon",
+        "Wallisellen",
+        "Regensdorf",
+        "Hinwil",
+        "Rüti (ZH)"
+      ]
+    },
+    "OBS_CONFIDENCE": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        0.0,
+        0.4,
+        0.3,
+        7.1,
+        11.7,
+        10.3,
+        9.7,
+        5.4,
+        9.2,
+        7.6
+      ]
+    },
+    "SOURCE": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "MFZ",
+        "MFZ, STATPOP",
+        "IVS",
+        "PEND, SE"
+      ]
+    },
+    "STATUS": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "A"
+      ]
+    },
+    "UNIT_VALUE": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Num",
+        "Per"
+      ]
+    },
+    "VALUE": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        6339553,
+        4709366,
+        71697,
+        412776,
+        54081,
+        791323,
+        372007,
+        543,
+        242022,
+        32007
+      ]
+    },
+    "VALUE_PERIOD": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "2021",
+        "2016/2020"
+      ]
+    },
+    "VARIABLE": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "tran_t",
+        "voit_tour",
+        "voit_tour_e",
+        "voit_livr",
+        "tran_lou",
+        "moto",
+        "tran_aut",
+        "txmot",
+        "voit_tour_new",
+        "voit_tour_new_e"
+      ]
+    },
+    "﻿\"GEO_NR\"": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "CH",
+        "2",
+        "52",
+        "53",
+        "62",
+        "66",
+        "69",
+        "96",
+        "117",
+        "118"
+      ]
+    }
+  },
+  "years": []
+}

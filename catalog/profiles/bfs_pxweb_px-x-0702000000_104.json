@@ -1,0 +1,372 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Beobachtungseinheit",
+    "Kanton (-) / Bezirk (>>) / Gemeinde (......)",
+    "Betriebssystem",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Canton",
+    "Municipality"
+  ],
+  "join_keys": [
+    "bfs_municipality_id",
+    "canton_code",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0702000000_104/px-x-0702000000_104.px"
+  },
+  "measures": [
+    "Betriebe",
+    "Beschäftigte Total",
+    "Beschäftigte Vollzeit (ab 75%)",
+    "Beschäftigte Teilzeit 1 (50% bis unter 75%)",
+    "Beschäftigte Teilzeit 2 (unter 50%)",
+    "Beschäftigte Männer",
+    "Beschäftigte Frauen",
+    "Beschäftigte Schweizer",
+    "Beschäftigte Ausländer",
+    "Beschäftigte Familienangehörige",
+    "LN - Landwirtschaftliche Nutzfläche Total (in ha)",
+    "LN - Offene Ackerfläche (in ha)",
+    "LN - Grünfläche (in ha)",
+    "LN - Dauerkulturen (in ha)",
+    "LN - Übrige LN (in ha)",
+    "Tiere - Rinder",
+    "Tiere - Pferdegattung",
+    "Tiere - Schafe",
+    "Tiere - Ziege",
+    "Tiere - Schweine",
+    "Tiere - Geflügel",
+    "Tiere - Übrige Tiere",
+    "Betriebe mit Rindern",
+    "Betriebe mit Pferdegattung",
+    "Betriebe mit Schafen",
+    "Betriebe mit Ziegen",
+    "Betriebe mit Schweinen",
+    "Betriebe mit Geflügel",
+    "Betriebe mit übrigen Tieren"
+  ],
+  "primary_topic": "agriculture-food",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Beobachtungseinheit",
+      "label": "Beobachtungseinheit",
+      "value_labels": {
+        "count": 29,
+        "first": [
+          "Betriebe",
+          "Beschäftigte Total",
+          "Beschäftigte Vollzeit (ab 75%)",
+          "Beschäftigte Teilzeit 1 (50% bis unter 75%)",
+          "Beschäftigte Teilzeit 2 (unter 50%)"
+        ],
+        "sample": [
+          "Betriebe",
+          "Beschäftigte Vollzeit (ab 75%)",
+          "Beschäftigte Teilzeit 2 (unter 50%)",
+          "Beschäftigte Frauen",
+          "Beschäftigte Ausländer",
+          "LN - Landwirtschaftliche Nutzfläche Total (in ha)",
+          "LN - Grünfläche (in ha)",
+          "LN - Übrige LN (in ha)",
+          "Tiere - Pferdegattung",
+          "Tiere - Ziege"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 29,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Kanton (-) / Bezirk (>>) / Gemeinde (......)",
+      "label": "Kanton (-) / Bezirk (>>) / Gemeinde (......)",
+      "value_labels": {
+        "count": 2285,
+        "first": [
+          "Schweiz",
+          "- Zürich",
+          ">> Bezirk Affoltern",
+          "......0001 Aeugst am Albis",
+          "......0002 Affoltern am Albis"
+        ],
+        "sample": [
+          "Schweiz",
+          "......0743 Nidau",
+          "......0934 Oberhofen am Thunersee",
+          "......1510 Stansstad",
+          "......2549 Kammersrohr",
+          "......3251 Altstätten",
+          "......4083 Zufikon",
+          "......4901 Birwinken",
+          "......5750 Les Clées",
+          ">> District d'Hérens"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 2285,
+        "first": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "sample": [
+          "1",
+          "229",
+          "457",
+          "685",
+          "913",
+          "1141",
+          "1369",
+          "1597",
+          "1825",
+          "2053"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Betriebssystem",
+      "label": "Betriebssystem",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Betriebssystem - Total",
+          "Biologische Betriebe",
+          "Konventionelle Betriebe",
+          "Unbestimmt"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "99"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 28,
+        "first": [
+          "2025",
+          "2024",
+          "2023",
+          "2022",
+          "2021"
+        ],
+        "sample": [
+          "2025",
+          "2023",
+          "2021",
+          "2019",
+          "2017",
+          "2015",
+          "2013",
+          "2011",
+          "2008",
+          "2004"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 28,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0702000000_104",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0702000000_104/px-x-0702000000_104.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Beschäftigte, Landwirtschaftliche Betriebe, Landwirtschaftliche Nutzfläche (LN) und Nutztiere auf Klassifizierungsebene 1 nach Beobachtungseinheit, Kanton (-) / Bezirk (>>) / Gemeinde (......), Betriebssystem und Jahr",
+  "topic_score": 12,
+  "topics": [
+    "labor-economy",
+    "agriculture-food",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Beobachtungseinheit": {
+      "count": 29,
+      "first": [
+        "Betriebe",
+        "Beschäftigte Total",
+        "Beschäftigte Vollzeit (ab 75%)",
+        "Beschäftigte Teilzeit 1 (50% bis unter 75%)",
+        "Beschäftigte Teilzeit 2 (unter 50%)"
+      ],
+      "sample": [
+        "Betriebe",
+        "Beschäftigte Vollzeit (ab 75%)",
+        "Beschäftigte Teilzeit 2 (unter 50%)",
+        "Beschäftigte Frauen",
+        "Beschäftigte Ausländer",
+        "LN - Landwirtschaftliche Nutzfläche Total (in ha)",
+        "LN - Grünfläche (in ha)",
+        "LN - Übrige LN (in ha)",
+        "Tiere - Pferdegattung",
+        "Tiere - Ziege"
+      ],
+      "strategy": "summary"
+    },
+    "Betriebssystem": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Betriebssystem - Total",
+        "Biologische Betriebe",
+        "Konventionelle Betriebe",
+        "Unbestimmt"
+      ]
+    },
+    "Jahr": {
+      "count": 28,
+      "first": [
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021"
+      ],
+      "sample": [
+        "2025",
+        "2023",
+        "2021",
+        "2019",
+        "2017",
+        "2015",
+        "2013",
+        "2011",
+        "2008",
+        "2004"
+      ],
+      "strategy": "summary"
+    },
+    "Kanton (-) / Bezirk (>>) / Gemeinde (......)": {
+      "count": 2285,
+      "first": [
+        "Schweiz",
+        "- Zürich",
+        ">> Bezirk Affoltern",
+        "......0001 Aeugst am Albis",
+        "......0002 Affoltern am Albis"
+      ],
+      "sample": [
+        "Schweiz",
+        "......0743 Nidau",
+        "......0934 Oberhofen am Thunersee",
+        "......1510 Stansstad",
+        "......2549 Kammersrohr",
+        "......3251 Altstätten",
+        "......4083 Zufikon",
+        "......4901 Birwinken",
+        "......5750 Les Clées",
+        ">> District d'Hérens"
+      ],
+      "strategy": "summary"
+    }
+  },
+  "years": [
+    1975,
+    1980,
+    1985,
+    1990,
+    1996,
+    1997,
+    1998,
+    2000,
+    2002,
+    2004,
+    2006,
+    2008,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ]
+}

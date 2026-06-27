@@ -1,0 +1,306 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Beobachtungseinheit",
+    "Sitzland (Auswahl)",
+    "Grossregion",
+    "Wirtschaftssektor",
+    "Jahr"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "geo_region",
+    "economic_activity",
+    "enterprise_type",
+    "vote_or_election_id",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0606010000_104/px-x-0606010000_104.px"
+  },
+  "measures": [
+    "Unternehmen",
+    "Beschäftigte"
+  ],
+  "primary_topic": "labor-economy",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Beobachtungseinheit",
+      "label": "Beobachtungseinheit",
+      "value_labels": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Unternehmen",
+          "Beschäftigte"
+        ]
+      },
+      "values": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Sitzland (Auswahl)",
+      "label": "Sitzland (Auswahl)",
+      "value_labels": {
+        "count": 44,
+        "first": [
+          "Sitzland - Total",
+          "Schweiz",
+          "Belgien",
+          "Bulgarien",
+          "Dänemark"
+        ],
+        "sample": [
+          "Sitzland - Total",
+          "Dänemark",
+          "Griechenland",
+          "Italien",
+          "Niederlande",
+          "Portugal",
+          "Türkei",
+          "Tschechien",
+          "Lettland",
+          "Vereinigte Staaten"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 44,
+        "first": [
+          "9999",
+          "8100",
+          "8204",
+          "8205",
+          "8206"
+        ],
+        "sample": [
+          "9999",
+          "8206",
+          "8214",
+          "8218",
+          "8227",
+          "8231",
+          "8239",
+          "8244",
+          "8261",
+          "8439"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Grossregion",
+      "label": "Grossregion",
+      "value_labels": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "Schweiz",
+          "Région lémanique",
+          "Espace Mittelland",
+          "Nordwestschweiz",
+          "Zürich",
+          "Ostschweiz",
+          "Zentralschweiz",
+          "Tessin"
+        ]
+      },
+      "values": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "999",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    },
+    {
+      "code": "Wirtschaftssektor",
+      "label": "Wirtschaftssektor",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Primärsektor",
+          "Sekundärer Sektor",
+          "Tertiärer Sektor"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 11,
+        "strategy": "full",
+        "values": [
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      },
+      "values": {
+        "count": 11,
+        "strategy": "full",
+        "values": [
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0606010000_104",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0606010000_104/px-x-0606010000_104.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Unternehmen und Beschäftigte nach Beobachtungseinheit, Sitzland (Auswahl), Grossregion, Wirtschaftssektor und Jahr",
+  "topic_score": 9,
+  "topics": [
+    "labor-economy"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Beobachtungseinheit": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Unternehmen",
+        "Beschäftigte"
+      ]
+    },
+    "Grossregion": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        "Schweiz",
+        "Région lémanique",
+        "Espace Mittelland",
+        "Nordwestschweiz",
+        "Zürich",
+        "Ostschweiz",
+        "Zentralschweiz",
+        "Tessin"
+      ]
+    },
+    "Jahr": {
+      "count": 11,
+      "strategy": "full",
+      "values": [
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    "Sitzland (Auswahl)": {
+      "count": 44,
+      "first": [
+        "Sitzland - Total",
+        "Schweiz",
+        "Belgien",
+        "Bulgarien",
+        "Dänemark"
+      ],
+      "sample": [
+        "Sitzland - Total",
+        "Dänemark",
+        "Griechenland",
+        "Italien",
+        "Niederlande",
+        "Portugal",
+        "Türkei",
+        "Tschechien",
+        "Lettland",
+        "Vereinigte Staaten"
+      ],
+      "strategy": "summary"
+    },
+    "Wirtschaftssektor": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Primärsektor",
+        "Sekundärer Sektor",
+        "Tertiärer Sektor"
+      ]
+    }
+  },
+  "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {"question": "Binnenzuwanderung Wohnbevoelkerung Kanton Zivilstand Alter", "topic": "population-demography"},
+  {"question": "Bevoelkerungsstand Staatsangehoerigkeit Geschlecht", "topic": "population-demography"},
+  {"question": "Schweizerischer Lohnindex Veraenderung NOGA08", "topic": "labor-economy"},
+  {"question": "Bruttoinlandsprodukt BIP Grossregion Kanton", "topic": "labor-economy"},
+  {"question": "Personal Hilfe Pflege zu Hause Ausbildung", "topic": "health"},
+  {"question": "Fakturierte Pflegetage sozialmedizinische Institutionen", "topic": "health"},
+  {"question": "Studierende Fachhochschulen Fachbereich", "topic": "education"},
+  {"question": "Abschluesse universitaere Hochschulen", "topic": "education"},
+  {"question": "Sozialhilfebeziehende wirtschaftliche Sozialhilfe", "topic": "social-security-welfare"},
+  {"question": "AHV Renten Rentensumme Kanton", "topic": "social-security-welfare"},
+  {"question": "CO2 Emissionen Treibstoffart", "topic": "environment-energy-climate"},
+  {"question": "Stromnetznutzung Waelzung", "topic": "environment-energy-climate"},
+  {"question": "Strassenverkehrsunfaelle verunfallte Personen", "topic": "mobility-transport"},
+  {"question": "Pendler Kantone Erwerbstaetige Auszubildende", "topic": "mobility-transport"},
+  {"question": "Gebaeude Bauperiode Kantone", "topic": "housing-construction"},
+  {"question": "Nationalratswahlen Parteien Stimmen", "topic": "politics-elections"},
+  {"question": "Steuerbelastung natuerliche Personen", "topic": "public-administration-finance"},
+  {"question": "Verurteilungen Strafgesetzbuch", "topic": "justice-police-safety"},
+  {"question": "Landwirtschaftliche Betriebe Nutzflaeche Nutztiere", "topic": "agriculture-food"},
+  {"question": "Hotellerie Logiernaechte Tourismusregion", "topic": "culture-sport-tourism"}
+]

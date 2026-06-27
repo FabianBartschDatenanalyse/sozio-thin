@@ -1,0 +1,288 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Grossregion (<<) / Kanton (-)",
+    "Beherbergungstyp",
+    "Pflegeintensitätsstufe",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "geo_region",
+    "canton_code",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1404010100_303/px-x-1404010100_303.px"
+  },
+  "measures": [],
+  "primary_topic": "health",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Grossregion (<<) / Kanton (-)",
+      "label": "Grossregion (<<) / Kanton (-)",
+      "value_labels": {
+        "count": 34,
+        "first": [
+          "Schweiz",
+          "<< Région lémanique",
+          "- Vaud",
+          "- Valais / Wallis",
+          "- Genève"
+        ],
+        "sample": [
+          "Schweiz",
+          "- Valais / Wallis",
+          "- Bern / Berne",
+          "- Neuchâtel",
+          "- Basel-Stadt",
+          "<< Zürich",
+          "- Glarus",
+          "- Appenzell Innerrhoden",
+          "- Thurgau",
+          "- Uri"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 34,
+        "first": [
+          "8100",
+          "A",
+          "VD",
+          "VS",
+          "GE"
+        ],
+        "sample": [
+          "8100",
+          "VS",
+          "BE",
+          "NE",
+          "BS",
+          "D",
+          "GL",
+          "AI",
+          "TG",
+          "UR"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Beherbergungstyp",
+      "label": "Beherbergungstyp",
+      "value_labels": {
+        "count": 5,
+        "strategy": "full",
+        "values": [
+          "Beherbergungstyp - Total",
+          "Langzeit",
+          "Kurzzeit",
+          "Tages- oder Nachtstruktur",
+          "Akut- und Übergangspflege"
+        ]
+      },
+      "values": {
+        "count": 5,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "4",
+          "5"
+        ]
+      }
+    },
+    {
+      "code": "Pflegeintensitätsstufe",
+      "label": "Pflegeintensitätsstufe",
+      "value_labels": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "Pflegestufe - Total",
+          "Akut- & Übergangspflege",
+          "Pflegestufe bis 20 min",
+          "Pflegestufe 21 - 40 min",
+          "Pflegestufe 41 - 60 min",
+          "Pflegestufe 61 - 80 min",
+          "Pflegestufe 81 - 100 min",
+          "Pflegestufe 101 - 120 min",
+          "Pflegestufe 121 - 140 min",
+          "Pflegestufe 141 - 160 min",
+          "Pflegestufe 161 - 180 min",
+          "Pflegestufe 181 - 200 min",
+          "Pflegestufe 201 - 220 min",
+          "Pflegestufe mehr als 220 min"
+        ]
+      },
+      "values": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "Jours_Total",
+          "Jours_SAT",
+          "Jours_Niveau_1",
+          "Jours_Niveau_2",
+          "Jours_Niveau_3",
+          "Jours_Niveau_4",
+          "Jours_Niveau_5",
+          "Jours_Niveau_6",
+          "Jours_Niveau_7",
+          "Jours_Niveau_8",
+          "Jours_Niveau_9",
+          "Jours_Niveau_10",
+          "Jours_Niveau_11",
+          "Jours_Niveau_12"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      },
+      "values": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1404010100_303",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1404010100_303/px-x-1404010100_303.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Anzahl fakturierte Pflegetage in sozialmedizinischen Institutionen nach Grossregion (<<) / Kanton (-), Beherbergungstyp, Pflegeintensitätsstufe und Jahr",
+  "topic_score": 6,
+  "topics": [
+    "health",
+    "social-security-welfare",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Beherbergungstyp": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "Beherbergungstyp - Total",
+        "Langzeit",
+        "Kurzzeit",
+        "Tages- oder Nachtstruktur",
+        "Akut- und Übergangspflege"
+      ]
+    },
+    "Grossregion (<<) / Kanton (-)": {
+      "count": 34,
+      "first": [
+        "Schweiz",
+        "<< Région lémanique",
+        "- Vaud",
+        "- Valais / Wallis",
+        "- Genève"
+      ],
+      "sample": [
+        "Schweiz",
+        "- Valais / Wallis",
+        "- Bern / Berne",
+        "- Neuchâtel",
+        "- Basel-Stadt",
+        "<< Zürich",
+        "- Glarus",
+        "- Appenzell Innerrhoden",
+        "- Thurgau",
+        "- Uri"
+      ],
+      "strategy": "summary"
+    },
+    "Jahr": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    "Pflegeintensitätsstufe": {
+      "count": 14,
+      "strategy": "full",
+      "values": [
+        "Pflegestufe - Total",
+        "Akut- & Übergangspflege",
+        "Pflegestufe bis 20 min",
+        "Pflegestufe 21 - 40 min",
+        "Pflegestufe 41 - 60 min",
+        "Pflegestufe 61 - 80 min",
+        "Pflegestufe 81 - 100 min",
+        "Pflegestufe 101 - 120 min",
+        "Pflegestufe 121 - 140 min",
+        "Pflegestufe 141 - 160 min",
+        "Pflegestufe 161 - 180 min",
+        "Pflegestufe 181 - 200 min",
+        "Pflegestufe 201 - 220 min",
+        "Pflegestufe mehr als 220 min"
+      ]
+    }
+  },
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

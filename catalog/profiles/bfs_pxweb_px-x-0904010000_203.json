@@ -1,0 +1,367 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Grossregion (<<) / Kanton (-) / Gemeinde (......)",
+    "Art der Auftraggeber",
+    "Kategorie der Bauwerke",
+    "Beobachtungseinheit",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Canton",
+    "Municipality"
+  ],
+  "join_keys": [
+    "bfs_municipality_id",
+    "geo_region",
+    "canton_code",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0904010000_203/px-x-0904010000_203.px"
+  },
+  "measures": [
+    "Laufendes Jahr - Absolute Werte",
+    "Laufendes Jahr - Veränderungsraten",
+    "Folgejahr (Arbeitsvorrat) - Absolute Werte",
+    "Folgejahr (Arbeitsvorrat) - Veränderungsraten"
+  ],
+  "primary_topic": "housing-construction",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Grossregion (<<) / Kanton (-) / Gemeinde (......)",
+      "label": "Grossregion (<<) / Kanton (-) / Gemeinde (......)",
+      "value_labels": {
+        "count": 2197,
+        "first": [
+          "Schweiz",
+          "<< Genferseeregion",
+          "- Waadt",
+          "......5401 Aigle",
+          "......5402 Bex"
+        ],
+        "sample": [
+          "Schweiz",
+          "......5761 Romainmôtier-Envy",
+          "......6610 Céligny",
+          "......0666 Kriechenwil",
+          "......2163 Val-de-Charmey",
+          "......6719 Pleigne",
+          "......4137 Leimbach (AG)",
+          "......0160 Zumikon",
+          "......3662 Flerden",
+          "......1099 Schenkon"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 2197,
+        "first": [
+          "CH",
+          "R1",
+          "VD",
+          "5401",
+          "5402"
+        ],
+        "sample": [
+          "CH",
+          "5761",
+          "6610",
+          "0666",
+          "2163",
+          "6719",
+          "4137",
+          "0160",
+          "3662",
+          "1099"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Art der Auftraggeber",
+      "label": "Art der Auftraggeber",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Art der Auftraggeber - Total",
+          "Oeffentliche Auftraggeber",
+          "Private Auftraggeber"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Kategorie der Bauwerke",
+      "label": "Kategorie der Bauwerke",
+      "value_labels": {
+        "count": 12,
+        "strategy": "full",
+        "values": [
+          "Kategorie der Bauwerke - Total",
+          "Infrastruktur Versorgung",
+          "Infrastruktur Entsorgung",
+          "Infrastruktur Strassenverkehr",
+          "Infrastruktur übriger Verkehr und Kommunikation",
+          "Bildung, Forschung",
+          "Gesundheit",
+          "Freizeit und Kultur",
+          "Uebrige Infrastruktur",
+          "Wohnen",
+          "Land- und Forstwirtschaft",
+          "Industrie, Gewerbe und Dienstleistungen"
+        ]
+      },
+      "values": {
+        "count": 12,
+        "strategy": "full",
+        "values": [
+          "0",
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900",
+          "1000",
+          "1100"
+        ]
+      }
+    },
+    {
+      "code": "Beobachtungseinheit",
+      "label": "Beobachtungseinheit",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Laufendes Jahr - Absolute Werte",
+          "Laufendes Jahr - Veränderungsraten",
+          "Folgejahr (Arbeitsvorrat) - Absolute Werte",
+          "Folgejahr (Arbeitsvorrat) - Veränderungsraten"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "kost_j",
+          "var_kost_j",
+          "arbv_k",
+          "var_arbv_k"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 30,
+        "first": [
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998"
+        ],
+        "sample": [
+          "1994",
+          "1997",
+          "2000",
+          "2003",
+          "2006",
+          "2009",
+          "2012",
+          "2015",
+          "2018",
+          "2021"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 30,
+        "first": [
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998"
+        ],
+        "sample": [
+          "1994",
+          "1997",
+          "2000",
+          "2003",
+          "2006",
+          "2009",
+          "2012",
+          "2015",
+          "2018",
+          "2021"
+        ],
+        "strategy": "summary"
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0904010000_203",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0904010000_203/px-x-0904010000_203.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Bauinvestitionen und Arbeitsvorrat nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Art der Auftraggeber, Kategorie der Bauwerke, Beobachtungseinheit und Jahr",
+  "topic_score": 6,
+  "topics": [
+    "labor-economy",
+    "housing-construction",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Art der Auftraggeber": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Art der Auftraggeber - Total",
+        "Oeffentliche Auftraggeber",
+        "Private Auftraggeber"
+      ]
+    },
+    "Beobachtungseinheit": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Laufendes Jahr - Absolute Werte",
+        "Laufendes Jahr - Veränderungsraten",
+        "Folgejahr (Arbeitsvorrat) - Absolute Werte",
+        "Folgejahr (Arbeitsvorrat) - Veränderungsraten"
+      ]
+    },
+    "Grossregion (<<) / Kanton (-) / Gemeinde (......)": {
+      "count": 2197,
+      "first": [
+        "Schweiz",
+        "<< Genferseeregion",
+        "- Waadt",
+        "......5401 Aigle",
+        "......5402 Bex"
+      ],
+      "sample": [
+        "Schweiz",
+        "......5761 Romainmôtier-Envy",
+        "......6610 Céligny",
+        "......0666 Kriechenwil",
+        "......2163 Val-de-Charmey",
+        "......6719 Pleigne",
+        "......4137 Leimbach (AG)",
+        "......0160 Zumikon",
+        "......3662 Flerden",
+        "......1099 Schenkon"
+      ],
+      "strategy": "summary"
+    },
+    "Jahr": {
+      "count": 30,
+      "first": [
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998"
+      ],
+      "sample": [
+        "1994",
+        "1997",
+        "2000",
+        "2003",
+        "2006",
+        "2009",
+        "2012",
+        "2015",
+        "2018",
+        "2021"
+      ],
+      "strategy": "summary"
+    },
+    "Kategorie der Bauwerke": {
+      "count": 12,
+      "strategy": "full",
+      "values": [
+        "Kategorie der Bauwerke - Total",
+        "Infrastruktur Versorgung",
+        "Infrastruktur Entsorgung",
+        "Infrastruktur Strassenverkehr",
+        "Infrastruktur übriger Verkehr und Kommunikation",
+        "Bildung, Forschung",
+        "Gesundheit",
+        "Freizeit und Kultur",
+        "Uebrige Infrastruktur",
+        "Wohnen",
+        "Land- und Forstwirtschaft",
+        "Industrie, Gewerbe und Dienstleistungen"
+      ]
+    }
+  },
+  "years": [
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ]
+}

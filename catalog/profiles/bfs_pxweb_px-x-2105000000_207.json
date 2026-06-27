@@ -1,0 +1,255 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Stadt / Agglomeration",
+    "Indikator zur persönlichen Sicherheit",
+    "Absolut / relativ",
+    "Jahr"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-2105000000_207/px-x-2105000000_207.px"
+  },
+  "measures": [],
+  "primary_topic": "justice-police-safety",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Stadt / Agglomeration",
+      "label": "Stadt / Agglomeration",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Winterthur: Kernstadt",
+          "Winterthur: Andere Agglomerationsgemeinden",
+          "Winterthur: Agglomeration",
+          "Zürich: Kernstadt",
+          "Zürich: Andere Agglomerationsgemeinden"
+        ],
+        "sample": [
+          "Winterthur: Kernstadt",
+          "Winterthur: Agglomeration",
+          "Zürich: Andere Agglomerationsgemeinden",
+          "Bern: Kernstadt",
+          "Bern: Agglomeration",
+          "Luzern: Andere Agglomerationsgemeinden",
+          "Basel: Kernstadt",
+          "Basel: Nationale Agglomeration",
+          "St. Gallen: Andere Agglomerationsgemeinden",
+          "Lugano: Kernstadt"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "230901",
+          "230910",
+          "230920",
+          "261901",
+          "261910"
+        ],
+        "sample": [
+          "230901",
+          "230920",
+          "261910",
+          "351901",
+          "351920",
+          "1061910",
+          "2701901",
+          "2701920",
+          "3203910",
+          "5192901"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Indikator zur persönlichen Sicherheit",
+      "label": "Indikator zur persönlichen Sicherheit",
+      "value_labels": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "Diebstähle (ohne Ladendiebstahl)",
+          "Fahrzeugdiebstähle (ohne Fahrraddiebstahl)",
+          "Autodiebstähle",
+          "Einbruch- und Einschleichdiebstähle",
+          "Einbruch- und Einschleichdiebstähle in Wohnheiten",
+          "Gewaltstraftaten",
+          "Tötungsdelikte (vollendete)",
+          "Bei Strassenverkehrsunfällen schwer verletzte oder getötete Personen"
+        ]
+      },
+      "values": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "code": "Absolut / relativ",
+      "label": "Absolut / relativ",
+      "value_labels": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Anzahl",
+          "pro 10'000 Einwohner"
+        ]
+      },
+      "values": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "2020",
+          "2019",
+          "2018",
+          "2017",
+          "2016",
+          "2015",
+          "2014",
+          "2011"
+        ]
+      },
+      "values": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "2020",
+          "2019",
+          "2018",
+          "2017",
+          "2016",
+          "2015",
+          "2014",
+          "2011"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-2105000000_207",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-2105000000_207/px-x-2105000000_207.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Lebensqualität in den Städten und Agglomerationen (Agglo 2012): Persönliche Sicherheit",
+  "topic_score": 3,
+  "topics": [
+    "justice-police-safety"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Absolut / relativ": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Anzahl",
+        "pro 10'000 Einwohner"
+      ]
+    },
+    "Indikator zur persönlichen Sicherheit": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        "Diebstähle (ohne Ladendiebstahl)",
+        "Fahrzeugdiebstähle (ohne Fahrraddiebstahl)",
+        "Autodiebstähle",
+        "Einbruch- und Einschleichdiebstähle",
+        "Einbruch- und Einschleichdiebstähle in Wohnheiten",
+        "Gewaltstraftaten",
+        "Tötungsdelikte (vollendete)",
+        "Bei Strassenverkehrsunfällen schwer verletzte oder getötete Personen"
+      ]
+    },
+    "Jahr": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2011"
+      ]
+    },
+    "Stadt / Agglomeration": {
+      "count": 27,
+      "first": [
+        "Winterthur: Kernstadt",
+        "Winterthur: Andere Agglomerationsgemeinden",
+        "Winterthur: Agglomeration",
+        "Zürich: Kernstadt",
+        "Zürich: Andere Agglomerationsgemeinden"
+      ],
+      "sample": [
+        "Winterthur: Kernstadt",
+        "Winterthur: Agglomeration",
+        "Zürich: Andere Agglomerationsgemeinden",
+        "Bern: Kernstadt",
+        "Bern: Agglomeration",
+        "Luzern: Andere Agglomerationsgemeinden",
+        "Basel: Kernstadt",
+        "Basel: Nationale Agglomeration",
+        "St. Gallen: Andere Agglomerationsgemeinden",
+        "Lugano: Kernstadt"
+      ],
+      "strategy": "summary"
+    }
+  },
+  "years": [
+    2011,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ]
+}

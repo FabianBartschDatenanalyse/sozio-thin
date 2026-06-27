@@ -1,0 +1,704 @@
+{
+  "resources": [
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0702000000_104",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0702000000_104/px-x-0702000000_104.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0702000000_107",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0702000000_107/px-x-0702000000_107.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0702000000_106",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0702000000_106/px-x-0702000000_106.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0702000000_108",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0702000000_108/px-x-0702000000_108.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1602010000_102",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1602010000_102/px-x-1602010000_102.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1003020000_203",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1003020000_203/px-x-1003020000_203.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1003020000_103",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1003020000_103/px-x-1003020000_103.px"
+    },
+    {
+      "attribution": "bundesamt-fur-statistik-bfs",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:statistik-der-schweizer-staedte-2021:58140042-8d26-41e7-bcd1-dfa258e8e2eb",
+      "status": "verify_at_source",
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/16564342/master"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1503040400_103",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1503040400_103/px-x-1503040400_103.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1503040300_123",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1503040300_123/px-x-1503040300_123.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1503040100_103",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1503040100_103/px-x-1503040100_103.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1503030000_204",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1503030000_204/px-x-1503030000_204.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1502030000_111",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502030000_111/px-x-1502030000_111.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1502020000_101",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502020000_101/px-x-1502020000_101.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1502040400_140",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502040400_140/px-x-1502040400_140.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1502040100_109",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502040100_109/px-x-1502040100_109.px"
+    },
+    {
+      "attribution": "bundesamt-fur-energie-bfe",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:energieforschungsstatistik-efstat:fe86ad62-1455-4658-8f81-c13e626dbd27",
+      "status": "verify_at_source",
+      "url": "https://www.uvek-gis.admin.ch/BFE/ogd/10/ogd10_energieforschungstatistik_iea.csv"
+    },
+    {
+      "attribution": "bundesamt-fur-energie-bfe",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:kennzahlen-alternativ-angetriebene-lnf-durchschnittliche-co2-emissionen:aae8800f-2951-4589-a558-ab59270d3f06",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/kennzahlen-alternativ-angetriebene-lnf-durchschnittliche-co2-emissionen"
+    },
+    {
+      "attribution": "Bundesamt für Energie BFE",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:durchschnittliche-co2-emissionen-nach-treibstoffart:5943acdf-19ea-4158-b975-d11a725061a4",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/durchschnittliche-co2-emissionen-nach-treibstoffart"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0204000000_111",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0204000000_111/px-x-0204000000_111.px"
+    },
+    {
+      "attribution": "bundesamt-fur-energie-bfe",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:verteilnetzkosten-strom:e3935617-bc78-4dc6-aaad-5e72fe4c2af7",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/verteilnetzkosten-strom"
+    },
+    {
+      "attribution": "Schweizerische Bundesbahnen SBB",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:zuge-pro-streckenabschnitt1:a2bfba14-de85-4fd9-88c4-ded95378fc58",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/zuge-pro-streckenabschnitt1"
+    },
+    {
+      "attribution": "bundesamt-fur-energie-bfe",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:energiedashboard-ch-stromproduktion-swissgrid:0879ba1b-40ea-4e26-bba0-9cbb339f577e",
+      "status": "verify_at_source",
+      "url": "https://www.bfe-ogd.ch/ogd104_stromproduktion_swissgrid.csv"
+    },
+    {
+      "attribution": "bundesamt-fur-energie-bfe",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:energiedashboard-ch-tagliche-flusse-in-die-und-aus-der-schweiz-strom:0e1aa262-869f-4736-a568-ccf85cb13f9a",
+      "status": "verify_at_source",
+      "url": "https://www.bfe-ogd.ch/ogd107_strom_import_export.csv"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0102020000_201",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102020000_201/px-x-0102020000_201.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik BFS",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton:1e7b4e51-dfe1-458f-b9ea-791a0a246b0c",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1506010000_106",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1506010000_106/px-x-1506010000_106.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1404010100_303",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1404010100_303/px-x-1404010100_303.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-2105000000_223",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-2105000000_223/px-x-2105000000_223.px"
+    },
+    {
+      "attribution": "Kanton St. Gallen",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:klientinnen-und-klienten-der-spitex-hilfe-und-pflege-zu-hause-kanton-st-gallen-seit-2015:06d12ccd-3a62-4e01-8da3-7ace497683a6",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/klientinnen-und-klienten-der-spitex-hilfe-und-pflege-zu-hause-kanton-st-gallen-seit-2015"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-2105000000_204",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-2105000000_204/px-x-2105000000_204.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1404040000_101",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1404040000_101/px-x-1404040000_101.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1404040000_103",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1404040000_103/px-x-1404040000_103.px"
+    },
+    {
+      "attribution": "kanton-thurgau",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:pflegekinder-im-kanton-thurgau1:815bea5e-1e82-42be-9d2e-95d8bdb2a899",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/pflegekinder-im-kanton-thurgau1"
+    },
+    {
+      "attribution": "Kanton St. Gallen",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:zeitaufwand-der-spitex-organisationen-und-privaten-spitex-pflegefachpersonen-kanton-st-gal-2015:8677da45-c533-48c6-be0e-795b60ab40f9",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/zeitaufwand-der-spitex-organisationen-und-privaten-spitex-pflegefachpersonen-kanton-st-gal-2015"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0904010000_202",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0904010000_202/px-x-0904010000_202.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0904010000_203",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0904010000_203/px-x-0904010000_203.px"
+    },
+    {
+      "attribution": "bundesamt-fur-statistik-bfs",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:gebaude-nach-gebaudekategorie-kantonen-und-bauperiode5:fb6f5cf3-faea-4f5a-ac53-11987e8fab55",
+      "status": "verify_at_source",
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/36158426/master"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0904030000_106",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0904030000_106/px-x-0904030000_106.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0904030000_107",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0904030000_107/px-x-0904030000_107.px"
+    },
+    {
+      "attribution": "Schweizerische Bundesbahnen SBB",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:haltestelle-wartehallen:77d25943-3204-49fa-aaca-ceda546d8cd3",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/haltestelle-wartehallen"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1404010100_101",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1404010100_101/px-x-1404010100_101.px"
+    },
+    {
+      "attribution": "Schweizerische Bundesbahnen SBB",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:brandschutzwand:ef25f25b-2d54-4c82-ac46-66440f8a34a6",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/brandschutzwand"
+    },
+    {
+      "attribution": "kanton-basel-stadt",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:straftaten-nach-auslander-und-integrationsgesetz-aig:073a3e24-dd25-4dcf-9cfb-642d567e3dac",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/straftaten-nach-auslander-und-integrationsgesetz-aig"
+    },
+    {
+      "attribution": "kanton-zug",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:beschuldigte-gemass-strafgesetzbuch-nach-straftat:9ebb6bd7-fe55-4b71-b0fb-41256defcbb5",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/beschuldigte-gemass-strafgesetzbuch-nach-straftat"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-2105000000_207",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-2105000000_207/px-x-2105000000_207.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1903020100_102",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1903020100_102/px-x-1903020100_102.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1903020100_101",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1903020100_101/px-x-1903020100_101.px"
+    },
+    {
+      "attribution": "bundesamt-fur-statistik-bfs",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:statistik-der-schweizer-staedte-2021:5b1f209e-ba9a-4baa-a3bf-bb5c726b00d8",
+      "status": "verify_at_source",
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/16564222/master"
+    },
+    {
+      "attribution": "bundesamt-fur-statistik-bfs",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:arbeitsproduktivitat-nach-tatsachlichen-arbeitsstunden-zu-preisen-des-vorjahres6:87f0abd6-4644-484c-bc9d-76deac162871",
+      "status": "verify_at_source",
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/36178401/master"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0602010000_102",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0602010000_102/px-x-0602010000_102.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0103030100_101",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0103030100_101/px-x-0103030100_101.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0602010000_108",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0602010000_108/px-x-0602010000_108.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-2105000000_203",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-2105000000_203/px-x-2105000000_203.px"
+    },
+    {
+      "attribution": "bundesamt-fur-statistik-bfs",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:schweizerischer-lohnindex-index-und-veranderung-auf-der-basis-2020-100-noga08:5c1f111b-1237-4ec0-aa21-88bd3113fb61",
+      "status": "verify_at_source",
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/36506631/master"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0606010000_104",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0606010000_104/px-x-0606010000_104.px"
+    },
+    {
+      "attribution": "bundesamt-fur-statistik-bfs",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:zerlegung-der-wachstumsrate-des-bip-pro-kopf:abccbd05-98e2-4702-813a-5a5b45cefe28",
+      "status": "verify_at_source",
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/36191843/master"
+    },
+    {
+      "attribution": "Swissmedic Schweizerisches Heilmittelinstitut",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:bei-der-swissmedic-registrierte-schweizer-und-liechtensteiner-wirtschaftsakteure-medizinprodukt:a9eac020-a65a-4348-a4dd-5e25836617a8",
+      "status": "verify_at_source",
+      "url": "https://ogd.swissmedic.cloud/ogd-md/CHRNActors.csv"
+    },
+    {
+      "attribution": "kanton-zug",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:interkantonale-pendlerbewegungen:c3fb86db-95ac-4a2c-9640-f491be871853",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/interkantonale-pendlerbewegungen"
+    },
+    {
+      "attribution": "Bundesamt für Statistik BFS",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:mobilitat-und-verkehr6:bf2de1d7-68ac-4330-b2b4-5bf541c01f2d",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/mobilitat-und-verkehr6"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1103020200_121",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1103020200_121/px-x-1103020200_121.px"
+    },
+    {
+      "attribution": "Schweizerische Bundesbahnen SBB",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:anzahl-sbb-bahnhofbenutzer:3dcbfcef-6da4-4012-b536-33ce9c821908",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/anzahl-sbb-bahnhofbenutzer"
+    },
+    {
+      "attribution": "Schweizerische Bundesbahnen SBB",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:ausrustung-reisezug-rollmaterial:a2dcd0ee-ab64-4cd1-bb3e-465a5486a974",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/ausrustung-reisezug-rollmaterial"
+    },
+    {
+      "attribution": "Kantonspolizei Zürich",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:polizeilich-registrierte-verkehrsunfalle-im-kanton-zurich-seit-2011:fa0a76c6-2ce2-4407-ae81-0749c9472c30",
+      "status": "verify_at_source",
+      "url": "https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000718_00001795.json"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1106010100_105",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1106010100_105/px-x-1106010100_105.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1106010100_104",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1106010100_104/px-x-1106010100_104.px"
+    },
+    {
+      "attribution": "bundesamt-fur-statistik-bfs",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:eidg-wahlen-2023:89ddc561-9544-4021-8b7d-13271c5f939d",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/eidg-wahlen-2023"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1702020000_104",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1702020000_104/px-x-1702020000_104.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik BFS",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de:e8e12e1a-bee0-41b4-9445-561e7a085bc1",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de"
+    },
+    {
+      "attribution": "Bundesamt für Statistik BFS",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:nationalratswahlen-2023-wahlberechtigte-wahlende-wahlbeteiligung-und-veranderung-der-wahlbeteil:fc20e530-3557-41db-8695-8ad8b407fc23",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/nationalratswahlen-2023-wahlberechtigte-wahlende-wahlbeteiligung-und-veranderung-der-wahlbeteil"
+    },
+    {
+      "attribution": "Bundesamt für Statistik BFS",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:nationalratswahlen-zeitreihen-zu-listen-kandidierenden-parteistarken-mandaten-gewahlten-frauen-:248576ad-1b14-4dba-b6c9-4ae0f934ea13",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/nationalratswahlen-zeitreihen-zu-listen-kandidierenden-parteistarken-mandaten-gewahlten-frauen-"
+    },
+    {
+      "attribution": "Bundesamt für Statistik BFS",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:nationalratswahlen-zeitreihen-zur-wahlbeteiligung-und-zum-frauenanteil-in-schweiz-und-kantone:87ab0a38-51b4-4f32-9058-e89a089f8f7a",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/nationalratswahlen-zeitreihen-zur-wahlbeteiligung-und-zum-frauenanteil-in-schweiz-und-kantone"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1304030000_201",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1304030000_201/px-x-1304030000_201.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0103020300_103",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0103020300_103/px-x-0103020300_103.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0103010200_111",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0103010200_111/px-x-0103010200_111.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0103010200_151",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0103010200_151/px-x-0103010200_151.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0103010200_101",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0103010200_101/px-x-0103010200_101.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0102020000_104",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102020000_104/px-x-0102020000_104.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1305020000_105",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1305020000_105/px-x-1305020000_105.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0103020200_103",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0103020200_103/px-x-0103020200_103.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0102020300_102",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102020300_102/px-x-0102020300_102.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1506020000_112",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1506020000_112/px-x-1506020000_112.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-0102010000_103",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1304030000_151",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1304030000_151/px-x-1304030000_151.px"
+    },
+    {
+      "attribution": "amt-fuer-statistik-fl",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:steuerpflichtige-personen-nach-bruttovermogens-und-schuldenklasse-seit-2020:4968be01-2507-4776-95ac-908161da1b57",
+      "status": "verify_at_source",
+      "url": "https://etab.llv.li/PXWEb/api/v1/en/eTab//Soziales/Verm?gens-%20und%20Einkommensverteilung/Verm?gen/411.216.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1303030000_131",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1303030000_131/px-x-1303030000_131.px"
+    },
+    {
+      "attribution": "Kanton Thurgau",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:konsolidierte-ausgaben-nach-funktionaler-gliederung-kanton-thurgau-staatsrechnung:69da249e-17b1-476e-9206-2c4e0a34c72d",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/konsolidierte-ausgaben-nach-funktionaler-gliederung-kanton-thurgau-staatsrechnung"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1303030000_121",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1303030000_121/px-x-1303030000_121.px"
+    },
+    {
+      "attribution": "bundesamt-fur-statistik-bfs",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:statistik-der-schweizer-staedte-2021:34e05d50-41e8-4a64-aa46-17208387e1e3",
+      "status": "verify_at_source",
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/16564368/master"
+    },
+    {
+      "attribution": "bundesamt-fur-statistik-bfs",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:offentliche-finanzen1:4efb0dbf-abd1-4c89-b2e9-7597cb43cdc7",
+      "status": "verify_at_source",
+      "url": "https://opendata.swiss/de/dataset/offentliche-finanzen1"
+    },
+    {
+      "attribution": "bundesamt-fur-statistik-bfs",
+      "name": "Source-specific open-data terms",
+      "resource_id": "ckan:entwicklung-der-nominallohne-der-konsumentenpreise-und-der-reallohne1:f817ba47-cc58-47c9-8823-626af10be5ec",
+      "status": "verify_at_source",
+      "url": "https://www.bfs.admin.ch/bfsstatic/dam/assets/17524281/master"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1515020000_104",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1515020000_104/px-x-1515020000_104.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1305000000_101",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1305000000_101/px-x-1305000000_101.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1305000000_102",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1305000000_102/px-x-1305000000_102.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1305020000_104",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1305020000_104/px-x-1305020000_104.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1305010000_022",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1305010000_022/px-x-1305010000_022.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1305010000_123",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1305010000_123/px-x-1305010000_123.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1305010000_113",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1305010000_113/px-x-1305010000_113.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1304030000_141",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1304030000_141/px-x-1304030000_141.px"
+    },
+    {
+      "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+      "name": "Source-specific open-data terms",
+      "resource_id": "bfs_pxweb:px-x-1304030000_121",
+      "status": "verify_at_source",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1304030000_121/px-x-1304030000_121.px"
+    }
+  ]
+}

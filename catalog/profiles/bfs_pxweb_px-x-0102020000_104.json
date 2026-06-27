@@ -1,0 +1,458 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Jahr",
+    "Kanton",
+    "Staatsangehörigkeit (Kategorie)",
+    "Geschlecht",
+    "Alter",
+    "Demografische Komponente"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "age_group",
+    "sex",
+    "nationality",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102020000_104/px-x-0102020000_104.px"
+  },
+  "measures": [],
+  "primary_topic": "population-demography",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 44,
+        "first": [
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1985"
+        ],
+        "sample": [
+          "1981",
+          "1985",
+          "1989",
+          "1993",
+          "1997",
+          "2001",
+          "2005",
+          "2009",
+          "2013",
+          "2017"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 44,
+        "first": [
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1985"
+        ],
+        "sample": [
+          "1981",
+          "1985",
+          "1989",
+          "1993",
+          "1997",
+          "2001",
+          "2005",
+          "2009",
+          "2013",
+          "2017"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Kanton",
+      "label": "Kanton",
+      "value_labels": {
+        "count": 28,
+        "first": [
+          "Schweiz",
+          "Zürich",
+          "Bern / Berne",
+          "Luzern",
+          "Uri"
+        ],
+        "sample": [
+          "Schweiz",
+          "Bern / Berne",
+          "Uri",
+          "Obwalden",
+          "Glarus",
+          "Fribourg / Freiburg",
+          "Basel-Stadt",
+          "Schaffhausen",
+          "Appenzell Innerrhoden",
+          "Graubünden / Grigioni / Grischun"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 28,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Staatsangehörigkeit (Kategorie)",
+      "label": "Staatsangehörigkeit (Kategorie)",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Staatsangehörigkeit (Kategorie) - Total",
+          "Schweiz",
+          "Ausland"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Geschlecht",
+      "label": "Geschlecht",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Geschlecht - Total",
+          "Mann",
+          "Frau"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Alter",
+      "label": "Alter",
+      "value_labels": {
+        "count": 102,
+        "first": [
+          "Alter - Total",
+          "0 Jahre",
+          "1 Jahr",
+          "2 Jahre",
+          "3 Jahre"
+        ],
+        "sample": [
+          "Alter - Total",
+          "9 Jahre",
+          "19 Jahre",
+          "29 Jahre",
+          "39 Jahre",
+          "49 Jahre",
+          "59 Jahre",
+          "69 Jahre",
+          "79 Jahre",
+          "89 Jahre"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 102,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "10",
+          "20",
+          "30",
+          "40",
+          "50",
+          "60",
+          "70",
+          "80",
+          "90"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Demografische Komponente",
+      "label": "Demografische Komponente",
+      "value_labels": {
+        "count": 16,
+        "strategy": "full",
+        "values": [
+          "Bestand am 1. Januar",
+          "Lebendgeburt",
+          "Todesfall",
+          "Geburtenüberschuss",
+          "Einwanderung inkl. Änderung des Bevölkerungstyps",
+          "Interkantonaler Zuzug",
+          "Auswanderung",
+          "Interkantonaler Wegzug",
+          "Wanderungssaldo inkl. Änderung des Bevölkerungstyps",
+          "Änderung des Bevölkerungstyps",
+          "Erwerb des Schweizer Bürgerrechts",
+          "Geschlechtsänderung beim Zivilstandsamt (Zugang)",
+          "Geschlechtsänderung beim Zivilstandsamt (Abgang)",
+          "Bestandesbereinigung",
+          "Bestand am 31. Dezember",
+          "Veränderung"
+        ]
+      },
+      "values": {
+        "count": 16,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0102020000_104",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102020000_104/px-x-0102020000_104.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Demografische Bilanz nach Alter und Kanton",
+  "topic_score": 3,
+  "topics": [
+    "population-demography",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Alter": {
+      "count": 102,
+      "first": [
+        "Alter - Total",
+        "0 Jahre",
+        "1 Jahr",
+        "2 Jahre",
+        "3 Jahre"
+      ],
+      "sample": [
+        "Alter - Total",
+        "9 Jahre",
+        "19 Jahre",
+        "29 Jahre",
+        "39 Jahre",
+        "49 Jahre",
+        "59 Jahre",
+        "69 Jahre",
+        "79 Jahre",
+        "89 Jahre"
+      ],
+      "strategy": "summary"
+    },
+    "Demografische Komponente": {
+      "count": 16,
+      "strategy": "full",
+      "values": [
+        "Bestand am 1. Januar",
+        "Lebendgeburt",
+        "Todesfall",
+        "Geburtenüberschuss",
+        "Einwanderung inkl. Änderung des Bevölkerungstyps",
+        "Interkantonaler Zuzug",
+        "Auswanderung",
+        "Interkantonaler Wegzug",
+        "Wanderungssaldo inkl. Änderung des Bevölkerungstyps",
+        "Änderung des Bevölkerungstyps",
+        "Erwerb des Schweizer Bürgerrechts",
+        "Geschlechtsänderung beim Zivilstandsamt (Zugang)",
+        "Geschlechtsänderung beim Zivilstandsamt (Abgang)",
+        "Bestandesbereinigung",
+        "Bestand am 31. Dezember",
+        "Veränderung"
+      ]
+    },
+    "Geschlecht": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Geschlecht - Total",
+        "Mann",
+        "Frau"
+      ]
+    },
+    "Jahr": {
+      "count": 44,
+      "first": [
+        "1981",
+        "1982",
+        "1983",
+        "1984",
+        "1985"
+      ],
+      "sample": [
+        "1981",
+        "1985",
+        "1989",
+        "1993",
+        "1997",
+        "2001",
+        "2005",
+        "2009",
+        "2013",
+        "2017"
+      ],
+      "strategy": "summary"
+    },
+    "Kanton": {
+      "count": 28,
+      "first": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri"
+      ],
+      "sample": [
+        "Schweiz",
+        "Bern / Berne",
+        "Uri",
+        "Obwalden",
+        "Glarus",
+        "Fribourg / Freiburg",
+        "Basel-Stadt",
+        "Schaffhausen",
+        "Appenzell Innerrhoden",
+        "Graubünden / Grigioni / Grischun"
+      ],
+      "strategy": "summary"
+    },
+    "Staatsangehörigkeit (Kategorie)": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Staatsangehörigkeit (Kategorie) - Total",
+        "Schweiz",
+        "Ausland"
+      ]
+    }
+  },
+  "years": [
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

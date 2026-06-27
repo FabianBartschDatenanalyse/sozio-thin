@@ -1,0 +1,446 @@
+{
+  "columns": [
+    "Jahr",
+    "Gemeinde",
+    "SR-Gesetznummer",
+    "Gesetztitel",
+    "Gesetztitel kurz",
+    "Sortierung Straftat",
+    "Straftaten",
+    "Total Straftaten",
+    "Aufgeklärte Straftaten",
+    "Männliche Beschuldigte",
+    "Weibliche Beschuldigte",
+    "Geschlecht Beschuldigte unbekannt",
+    "Beschuldigte Schweizer",
+    "Beschuldigte Ausländer",
+    "Staatsangehörigkeit Beschuldigte unbekannt",
+    "Beschuldigte zwischen 0 und 17 Jahren",
+    "Beschuldigte zwischen 18 und 29 Jahren",
+    "Beschuldigte zwischen 30 und 39 Jahren",
+    "Beschuldigte zwischen 40 und 49 Jahren",
+    "Beschuldigte zwischen 50 und 59 Jahren",
+    "Beschuldigte zwischen 60 und 69 Jahren",
+    "Beschuldigte über 70 Jahren",
+    "Alter Beschuldigte unbekannt",
+    "Total Beschuldigte"
+  ],
+  "description": "",
+  "dimensions": [
+    "Jahr",
+    "Gemeinde",
+    "SR-Gesetznummer",
+    "Gesetztitel",
+    "Gesetztitel kurz",
+    "Sortierung Straftat",
+    "Straftaten",
+    "Total Straftaten",
+    "Aufgeklärte Straftaten",
+    "Männliche Beschuldigte",
+    "Weibliche Beschuldigte",
+    "Geschlecht Beschuldigte unbekannt",
+    "Beschuldigte Schweizer",
+    "Beschuldigte Ausländer",
+    "Staatsangehörigkeit Beschuldigte unbekannt",
+    "Beschuldigte zwischen 0 und 17 Jahren",
+    "Beschuldigte zwischen 18 und 29 Jahren",
+    "Beschuldigte zwischen 30 und 39 Jahren",
+    "Beschuldigte zwischen 40 und 49 Jahren",
+    "Beschuldigte zwischen 50 und 59 Jahren",
+    "Beschuldigte zwischen 60 und 69 Jahren",
+    "Beschuldigte über 70 Jahren",
+    "Alter Beschuldigte unbekannt",
+    "Total Beschuldigte"
+  ],
+  "geo_levels": [
+    "Switzerland",
+    "Municipality"
+  ],
+  "join_keys": [
+    "local_feature_id",
+    "bfs_municipality_id",
+    "age_group",
+    "sex",
+    "nationality",
+    "year"
+  ],
+  "license": {
+    "attribution": "kanton-basel-stadt",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/straftaten-nach-auslander-und-integrationsgesetz-aig"
+  },
+  "measures": [],
+  "primary_topic": "justice-police-safety",
+  "publisher": "kanton-basel-stadt",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:straftaten-nach-auslander-und-integrationsgesetz-aig:073a3e24-dd25-4dcf-9cfb-642d567e3dac",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/straftaten-nach-auslander-und-integrationsgesetz-aig",
+    "source_url": "https://data.bs.ch/api/v2/catalog/datasets/100441/exports/csv?use_labels=true"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Angezeigte Straftaten nach Ausländer- und Integrationsgesetz (AIG)",
+  "topic_score": 3,
+  "topics": [
+    "justice-police-safety"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Alter Beschuldigte unbekannt": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        0,
+        2,
+        1
+      ]
+    },
+    "Aufgeklärte Straftaten": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        111,
+        450,
+        23,
+        1,
+        2,
+        21,
+        4,
+        7,
+        118,
+        224
+      ]
+    },
+    "Beschuldigte Ausländer": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        92,
+        333,
+        10,
+        1,
+        25,
+        7,
+        4,
+        80,
+        179,
+        41
+      ]
+    },
+    "Beschuldigte Schweizer": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        0,
+        1,
+        12,
+        5,
+        6,
+        4,
+        2,
+        20,
+        30,
+        23
+      ]
+    },
+    "Beschuldigte zwischen 0 und 17 Jahren": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        22,
+        32,
+        0,
+        8,
+        15,
+        3,
+        23,
+        12,
+        9,
+        5
+      ]
+    },
+    "Beschuldigte zwischen 18 und 29 Jahren": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        34,
+        233,
+        3,
+        1,
+        16,
+        0,
+        2,
+        4,
+        51,
+        101
+      ]
+    },
+    "Beschuldigte zwischen 30 und 39 Jahren": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        17,
+        61,
+        2,
+        0,
+        10,
+        3,
+        18,
+        38,
+        12,
+        6
+      ]
+    },
+    "Beschuldigte zwischen 40 und 49 Jahren": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        12,
+        14,
+        5,
+        0,
+        9,
+        6,
+        1,
+        16,
+        10,
+        4
+      ]
+    },
+    "Beschuldigte zwischen 50 und 59 Jahren": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        7,
+        3,
+        0,
+        4,
+        1,
+        2,
+        5,
+        31,
+        9,
+        10
+      ]
+    },
+    "Beschuldigte zwischen 60 und 69 Jahren": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        2,
+        0,
+        3,
+        1,
+        9,
+        7,
+        6,
+        21,
+        14,
+        13
+      ]
+    },
+    "Beschuldigte über 70 Jahren": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        0,
+        2,
+        3,
+        1,
+        6,
+        11,
+        19,
+        22,
+        8,
+        4
+      ]
+    },
+    "Gemeinde": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "Basel",
+        "Riehen",
+        "Bettingen",
+        "Gemeinde unbekannt",
+        "Kanton Basel-Stadt"
+      ]
+    },
+    "Geschlecht Beschuldigte unbekannt": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        0
+      ]
+    },
+    "Gesetztitel": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "Ausländer- und Integrationsgesetz"
+      ]
+    },
+    "Gesetztitel kurz": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "AIG"
+      ]
+    },
+    "Jahr": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    "Männliche Beschuldigte": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        74,
+        270,
+        7,
+        1,
+        22,
+        8,
+        4,
+        82,
+        132,
+        13
+      ]
+    },
+    "SR-Gesetznummer": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        142.2
+      ]
+    },
+    "Sortierung Straftat": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        11,
+        12,
+        21,
+        32,
+        40,
+        52,
+        41,
+        42,
+        50,
+        31
+      ]
+    },
+    "Staatsangehörigkeit Beschuldigte unbekannt": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    "Straftaten": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Rechtswidrige Einreise (inkl. fahrlässig)",
+        "Rechtswidriger Aufenthalt (inkl. fahrlässig)",
+        "Förderung der rechtswidrigen Ein-, Ausreise oder des rechtswidrigen Aufenthalts (inkl. Leichter Fall / Bereichgerungsabsicht oder fortgesetzte Begehung)",
+        "Förderung der Erwerbstätigkeit ohne Bewilligung (inkl. Leichter Fall / Bereichgerungsabsicht oder fortgesetzte Begehung)",
+        "Total Täuschung der Behörden",
+        "Verletzung der An- und Abmeldepflichten (inkl. fahrlässig)",
+        "Täuschung der Behörden (inkl. Bereicherungsabsicht / fortgesetzte Begehung)",
+        "Täuschung im Bereich Scheinehe (inkl. Bereicherungsabsicht / fortgesetzte Begehung)",
+        "Total weitere Widerhandlungen gegen das AIG",
+        "Erwerbstätigkeit ohne Bewilligung (inkl. fahrlässig)"
+      ]
+    },
+    "Total Beschuldigte": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        94,
+        347,
+        13,
+        1,
+        39,
+        11,
+        5,
+        9,
+        83,
+        180
+      ]
+    },
+    "Total Straftaten": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        111,
+        450,
+        23,
+        1,
+        24,
+        2,
+        21,
+        4,
+        8,
+        118
+      ]
+    },
+    "Weibliche Beschuldigte": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        20,
+        77,
+        6,
+        0,
+        17,
+        3,
+        1,
+        5,
+        48,
+        28
+      ]
+    }
+  },
+  "years": [
+    2009,
+    2010,
+    2011,
+    2012,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+  ]
+}

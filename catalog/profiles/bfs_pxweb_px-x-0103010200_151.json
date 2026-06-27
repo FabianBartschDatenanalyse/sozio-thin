@@ -1,0 +1,421 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Jahr",
+    "Zuzugskanton",
+    "Wegzugskanton",
+    "Staatsangehörigkeit (Kategorie)",
+    "Geschlecht",
+    "Alter"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "age_group",
+    "sex",
+    "nationality",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0103010200_151/px-x-0103010200_151.px"
+  },
+  "measures": [],
+  "primary_topic": "population-demography",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      },
+      "values": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      }
+    },
+    {
+      "code": "Zuzugskanton",
+      "label": "Zuzugskanton",
+      "value_labels": {
+        "count": 28,
+        "first": [
+          "Zuzug Schweiz",
+          "Zuzug Zürich",
+          "Zuzug Bern",
+          "Zuzug Luzern",
+          "Zuzug Uri"
+        ],
+        "sample": [
+          "Zuzug Schweiz",
+          "Zuzug Bern",
+          "Zuzug Uri",
+          "Zuzug Obwalden",
+          "Zuzug Glarus",
+          "Zuzug Freiburg",
+          "Zuzug Basel-Stadt",
+          "Zuzug Schaffhausen",
+          "Zuzug Appenzell Innerrhoden",
+          "Zuzug Graubünden"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 28,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Wegzugskanton",
+      "label": "Wegzugskanton",
+      "value_labels": {
+        "count": 28,
+        "first": [
+          "Wegzug Schweiz",
+          "Wegzug Zürich",
+          "Wegzug Bern",
+          "Wegzug Luzern",
+          "Wegzug Uri"
+        ],
+        "sample": [
+          "Wegzug Schweiz",
+          "Wegzug Bern",
+          "Wegzug Uri",
+          "Wegzug Obwalden",
+          "Wegzug Glarus",
+          "Wegzug Freiburg",
+          "Wegzug Basel-Stadt",
+          "Wegzug Schaffhausen",
+          "Wegzug Appenzell Innerrhoden",
+          "Wegzug Graubünden"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 28,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Staatsangehörigkeit (Kategorie)",
+      "label": "Staatsangehörigkeit (Kategorie)",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Staatsangehörigkeit (Kategorie) - Total",
+          "Schweiz",
+          "Ausland"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Geschlecht",
+      "label": "Geschlecht",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Geschlecht - Total",
+          "Mann",
+          "Frau"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Alter",
+      "label": "Alter",
+      "value_labels": {
+        "count": 102,
+        "first": [
+          "Alter - Total",
+          "0 Jahre",
+          "1 Jahr",
+          "2 Jahre",
+          "3 Jahre"
+        ],
+        "sample": [
+          "Alter - Total",
+          "9 Jahre",
+          "19 Jahre",
+          "29 Jahre",
+          "39 Jahre",
+          "49 Jahre",
+          "59 Jahre",
+          "69 Jahre",
+          "79 Jahre",
+          "89 Jahre"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 102,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "10",
+          "20",
+          "30",
+          "40",
+          "50",
+          "60",
+          "70",
+          "80",
+          "90"
+        ],
+        "strategy": "summary"
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0103010200_151",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0103010200_151/px-x-0103010200_151.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Binnenwanderung der ständigen Wohnbevölkerung nach Jahr, Zuzugskanton, Wegzugskanton, Staatsangehörigkeit (Kategorie), Geschlecht und Alter",
+  "topic_score": 3,
+  "topics": [
+    "population-demography"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Alter": {
+      "count": 102,
+      "first": [
+        "Alter - Total",
+        "0 Jahre",
+        "1 Jahr",
+        "2 Jahre",
+        "3 Jahre"
+      ],
+      "sample": [
+        "Alter - Total",
+        "9 Jahre",
+        "19 Jahre",
+        "29 Jahre",
+        "39 Jahre",
+        "49 Jahre",
+        "59 Jahre",
+        "69 Jahre",
+        "79 Jahre",
+        "89 Jahre"
+      ],
+      "strategy": "summary"
+    },
+    "Geschlecht": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Geschlecht - Total",
+        "Mann",
+        "Frau"
+      ]
+    },
+    "Jahr": {
+      "count": 14,
+      "strategy": "full",
+      "values": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    "Staatsangehörigkeit (Kategorie)": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Staatsangehörigkeit (Kategorie) - Total",
+        "Schweiz",
+        "Ausland"
+      ]
+    },
+    "Wegzugskanton": {
+      "count": 28,
+      "first": [
+        "Wegzug Schweiz",
+        "Wegzug Zürich",
+        "Wegzug Bern",
+        "Wegzug Luzern",
+        "Wegzug Uri"
+      ],
+      "sample": [
+        "Wegzug Schweiz",
+        "Wegzug Bern",
+        "Wegzug Uri",
+        "Wegzug Obwalden",
+        "Wegzug Glarus",
+        "Wegzug Freiburg",
+        "Wegzug Basel-Stadt",
+        "Wegzug Schaffhausen",
+        "Wegzug Appenzell Innerrhoden",
+        "Wegzug Graubünden"
+      ],
+      "strategy": "summary"
+    },
+    "Zuzugskanton": {
+      "count": 28,
+      "first": [
+        "Zuzug Schweiz",
+        "Zuzug Zürich",
+        "Zuzug Bern",
+        "Zuzug Luzern",
+        "Zuzug Uri"
+      ],
+      "sample": [
+        "Zuzug Schweiz",
+        "Zuzug Bern",
+        "Zuzug Uri",
+        "Zuzug Obwalden",
+        "Zuzug Glarus",
+        "Zuzug Freiburg",
+        "Zuzug Basel-Stadt",
+        "Zuzug Schaffhausen",
+        "Zuzug Appenzell Innerrhoden",
+        "Zuzug Graubünden"
+      ],
+      "strategy": "summary"
+    }
+  },
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

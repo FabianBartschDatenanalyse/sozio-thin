@@ -1,0 +1,349 @@
+{
+  "columns": [
+    "wahl_jahr",
+    "ebene_resultat",
+    "geoLevelName",
+    "kanton_nummer",
+    "kanton_bezeichnung",
+    "bezirk_nummer",
+    "bezirk_bezeichnung",
+    "gemeinde_nummer",
+    "gemeinde_bezeichnung",
+    "wahlberechtigte",
+    "leere_wahlzettel",
+    "ungueltige_wahlzettel",
+    "gueltige_wahlzettel",
+    "wahlbeteiligung",
+    "letzte_wahl_wahlbeteiligung",
+    "differenz_wahlbeteiligung",
+    "eingelegte_wahlzettel"
+  ],
+  "description": "",
+  "dimensions": [
+    "wahl_jahr",
+    "ebene_resultat",
+    "geoLevelName",
+    "kanton_nummer",
+    "kanton_bezeichnung",
+    "bezirk_nummer",
+    "bezirk_bezeichnung",
+    "gemeinde_nummer",
+    "gemeinde_bezeichnung",
+    "wahlberechtigte",
+    "leere_wahlzettel",
+    "ungueltige_wahlzettel",
+    "gueltige_wahlzettel",
+    "wahlbeteiligung",
+    "letzte_wahl_wahlbeteiligung",
+    "differenz_wahlbeteiligung",
+    "eingelegte_wahlzettel"
+  ],
+  "geo_levels": [
+    "Canton",
+    "Municipality"
+  ],
+  "join_keys": [
+    "local_feature_id",
+    "bfs_municipality_id",
+    "canton_code",
+    "vote_or_election_id",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik BFS",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/nationalratswahlen-2023-wahlberechtigte-wahlende-wahlbeteiligung-und-veranderung-der-wahlbeteil"
+  },
+  "measures": [],
+  "primary_topic": "politics-elections",
+  "publisher": "Bundesamt für Statistik BFS",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:nationalratswahlen-2023-wahlberechtigte-wahlende-wahlbeteiligung-und-veranderung-der-wahlbeteil:fc20e530-3557-41db-8695-8ad8b407fc23",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/nationalratswahlen-2023-wahlberechtigte-wahlende-wahlbeteiligung-und-veranderung-der-wahlbeteil",
+    "source_url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/28845368/appendix"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Nationalratswahlen 2023: Wahlberechtigte, Wählende, Wahlbeteiligung und Veränderung der Wahlbeteiligung (Schweiz, Kantone, Gemeinden)",
+  "topic_score": 12,
+  "topics": [
+    "politics-elections",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "bezirk_bezeichnung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Bezirk Affoltern",
+        "Bezirk Andelfingen",
+        "Bezirk Bülach",
+        "Bezirk Dielsdorf",
+        "Bezirk Hinwil",
+        "Bezirk Horgen",
+        "Bezirk Meilen",
+        "Bezirk Pfäffikon",
+        "Bezirk Uster",
+        "Bezirk Winterthur"
+      ]
+    },
+    "bezirk_nummer": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        101.0,
+        102.0,
+        103.0,
+        104.0,
+        105.0,
+        106.0,
+        107.0,
+        108.0,
+        109.0,
+        110.0
+      ]
+    },
+    "differenz_wahlbeteiligung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1.5475927734,
+        2.5127391591,
+        2.3724957588,
+        1.8654394315,
+        4.6286183089,
+        5.9638576568,
+        3.6726558159,
+        5.8208348577,
+        8.0911252395,
+        0.9889923057
+      ]
+    },
+    "ebene_resultat": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Schweiz",
+        "Kanton",
+        "Gemeinde"
+      ]
+    },
+    "eingelegte_wahlzettel": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        2604984,
+        454092,
+        371818,
+        143512,
+        13667,
+        58790,
+        16201,
+        17953,
+        12825,
+        41753
+      ]
+    },
+    "gemeinde_bezeichnung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Aeugst am Albis",
+        "Affoltern am Albis",
+        "Bonstetten",
+        "Hausen am Albis",
+        "Hedingen",
+        "Kappel am Albis",
+        "Knonau",
+        "Maschwanden",
+        "Mettmenstetten",
+        "Obfelden"
+      ]
+    },
+    "gemeinde_nummer": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0
+      ]
+    },
+    "geoLevelName": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri",
+        "Schwyz",
+        "Obwalden",
+        "Nidwalden",
+        "Glarus",
+        "Zug"
+      ]
+    },
+    "gueltige_wahlzettel": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        2554482,
+        447232,
+        367180,
+        139906,
+        13282,
+        58225,
+        15711,
+        17701,
+        12650,
+        40794
+      ]
+    },
+    "kanton_bezeichnung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri",
+        "Schwyz",
+        "Obwalden",
+        "Nidwalden",
+        "Glarus",
+        "Zug",
+        "Fribourg / Freiburg"
+      ]
+    },
+    "kanton_nummer": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0
+      ]
+    },
+    "leere_wahlzettel": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        9523,
+        188,
+        430,
+        239,
+        286,
+        59,
+        265,
+        165,
+        91,
+        51
+      ]
+    },
+    "letzte_wahl_wahlbeteiligung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        45.109775796,
+        44.439305012,
+        47.376696425,
+        48.387027461,
+        45.860871513,
+        48.647804102,
+        55.077706818,
+        50.384161699,
+        39.886877828,
+        52.115657674
+      ]
+    },
+    "ungueltige_wahlzettel": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        40979,
+        6672,
+        4208,
+        3367,
+        99,
+        506,
+        225,
+        87,
+        84,
+        908
+      ]
+    },
+    "wahl_jahr": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        2023
+      ]
+    },
+    "wahlberechtigte": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        5583221,
+        967140,
+        747385,
+        285582,
+        27069,
+        107651,
+        27576,
+        31942,
+        26731,
+        78624
+      ]
+    },
+    "wahlbeteiligung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        46.657368569,
+        46.952044171,
+        49.749192183,
+        50.252466892,
+        50.489489822,
+        54.611661759,
+        58.750362634,
+        56.204996556,
+        47.978003068,
+        53.10464998
+      ]
+    }
+  },
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "building_or_dwelling",
+    "year"
+  ],
+  "license": {
+    "attribution": "bundesamt-fur-statistik-bfs",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/36158426/master"
+  },
+  "measures": [],
+  "primary_topic": "housing-construction",
+  "publisher": "bundesamt-fur-statistik-bfs",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:gebaude-nach-gebaudekategorie-kantonen-und-bauperiode5:fb6f5cf3-faea-4f5a-ac53-11987e8fab55",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": null,
+    "source_url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/36158426/master"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Gebäude nach Gebäudekategorie, Kantonen und Bauperiode",
+  "topic_score": 9,
+  "topics": [
+    "housing-construction",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {},
+  "years": []
+}

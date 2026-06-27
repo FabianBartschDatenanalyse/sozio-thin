@@ -1,0 +1,267 @@
+{
+  "columns": [
+    "Kanton",
+    "Year",
+    "Quarter",
+    "Month",
+    "t13",
+    "t14",
+    "t15",
+    "t16",
+    "t17",
+    "t18",
+    "t19",
+    "t20",
+    "t21"
+  ],
+  "description": "",
+  "dimensions": [
+    "Kanton",
+    "Year",
+    "Quarter",
+    "Month",
+    "t13",
+    "t14",
+    "t15",
+    "t16",
+    "t17",
+    "t18",
+    "t19",
+    "t20",
+    "t21"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "year",
+    "date"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Energie BFE",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/durchschnittliche-co2-emissionen-nach-treibstoffart"
+  },
+  "measures": [],
+  "primary_topic": "environment-energy-climate",
+  "publisher": "Bundesamt für Energie BFE",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:durchschnittliche-co2-emissionen-nach-treibstoffart:5943acdf-19ea-4158-b975-d11a725061a4",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/durchschnittliche-co2-emissionen-nach-treibstoffart",
+    "source_url": "https://www.bfe-ogd.ch/ogd92_data-ch.csv"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Durchschnittliche CO2-Emissionen nach Treibstoffart (PW)",
+  "topic_score": 6,
+  "topics": [
+    "environment-energy-climate"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Kanton": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        28,
+        31
+      ]
+    },
+    "Month": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0
+      ]
+    },
+    "Quarter": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ]
+    },
+    "Year": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    "t13": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        0
+      ]
+    },
+    "t14": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        43,
+        33,
+        40,
+        39,
+        38,
+        51,
+        47,
+        52,
+        49,
+        50
+      ]
+    },
+    "t15": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        45.0,
+        47.0,
+        48.0,
+        49.0,
+        44.0,
+        37.0,
+        40.0,
+        39.0,
+        43.0,
+        38.0
+      ]
+    },
+    "t16": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        97,
+        93,
+        91,
+        95,
+        96,
+        101,
+        98,
+        104,
+        115,
+        120
+      ]
+    },
+    "t17": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        103,
+        105,
+        100,
+        102,
+        101,
+        104,
+        113,
+        107,
+        116,
+        139
+      ]
+    },
+    "t18": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        96.0,
+        95.0,
+        98.0,
+        94.0,
+        93.0,
+        92.0,
+        99.0,
+        102.0,
+        107.0,
+        100.0
+      ]
+    },
+    "t19": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        0.0
+      ]
+    },
+    "t20": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        138,
+        136,
+        135,
+        137,
+        139,
+        142,
+        144,
+        145,
+        143,
+        147
+      ]
+    },
+    "t21": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        143,
+        141,
+        139,
+        137,
+        140,
+        136,
+        138,
+        142,
+        144,
+        145
+      ]
+    }
+  },
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

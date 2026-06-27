@@ -1,0 +1,48 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [],
+  "geo_levels": [],
+  "join_keys": [
+    "local_feature_id",
+    "local_area_name",
+    "country_code"
+  ],
+  "license": {
+    "attribution": "Swissmedic Schweizerisches Heilmittelinstitut",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://ogd.swissmedic.cloud/ogd-md/CHRNActors.csv"
+  },
+  "measures": [],
+  "primary_topic": "labor-economy",
+  "publisher": "Swissmedic Schweizerisches Heilmittelinstitut",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:bei-der-swissmedic-registrierte-schweizer-und-liechtensteiner-wirtschaftsakteure-medizinprodukt:a9eac020-a65a-4348-a4dd-5e25836617a8",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": null,
+    "source_url": "https://ogd.swissmedic.cloud/ogd-md/CHRNActors.csv"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "swissdamed: Export der aktiven registrierten Wirtschaftsakteure",
+  "topic_score": 6,
+  "topics": [
+    "labor-economy"
+  ],
+  "units": [],
+  "value_summaries": {},
+  "years": []
+}

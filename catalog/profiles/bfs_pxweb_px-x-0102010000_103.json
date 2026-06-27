@@ -1,0 +1,406 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Jahr",
+    "Kanton (-) / Bezirk (>>) / Gemeinde (......)",
+    "Bevölkerungstyp",
+    "Geschlecht",
+    "Zivilstand",
+    "Altersklasse"
+  ],
+  "geo_levels": [
+    "Canton",
+    "Municipality"
+  ],
+  "join_keys": [
+    "bfs_municipality_id",
+    "canton_code",
+    "age_group",
+    "sex",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px"
+  },
+  "measures": [],
+  "primary_topic": "population-demography",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 15,
+        "strategy": "full",
+        "values": [
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      },
+      "values": {
+        "count": 15,
+        "strategy": "full",
+        "values": [
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      }
+    },
+    {
+      "code": "Kanton (-) / Bezirk (>>) / Gemeinde (......)",
+      "label": "Kanton (-) / Bezirk (>>) / Gemeinde (......)",
+      "value_labels": {
+        "count": 2302,
+        "first": [
+          "Schweiz",
+          "- Zürich",
+          ">> Bezirk Affoltern",
+          "......0001 Aeugst am Albis",
+          "......0002 Affoltern am Albis"
+        ],
+        "sample": [
+          "Schweiz",
+          "......0745 Port",
+          "......0939 Steffisburg",
+          "......1631 Glarus Süd",
+          "......2551 Lommiswil",
+          "......3255 Rebstein",
+          "......4093 Birrhard",
+          ">> Distretto di Bellinzona",
+          "......5755 Lignerolle",
+          "......6089 Vex"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 2302,
+        "first": [
+          "8100",
+          "ZH",
+          "000101",
+          "0001",
+          "0002"
+        ],
+        "sample": [
+          "8100",
+          "0745",
+          "0939",
+          "1631",
+          "2551",
+          "3255",
+          "4093",
+          "002101",
+          "5755",
+          "6089"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Bevölkerungstyp",
+      "label": "Bevölkerungstyp",
+      "value_labels": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Ständige Wohnbevölkerung",
+          "Nichtständige Wohnbevölkerung"
+        ]
+      },
+      "values": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Geschlecht",
+      "label": "Geschlecht",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Geschlecht- Total",
+          "Mann",
+          "Frau"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "-99999",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Zivilstand",
+      "label": "Zivilstand",
+      "value_labels": {
+        "count": 6,
+        "strategy": "full",
+        "values": [
+          "Zivilstand - Total",
+          "Ledig",
+          "Verheiratet, in eingetragener Partnerschaft",
+          "Verwitwet, durch Tod aufgelöste Partnerschaft",
+          "Geschieden, unverheiratet, gerichtlich aufgelöste Partnerschaft",
+          "Ohne Angabe"
+        ]
+      },
+      "values": {
+        "count": 6,
+        "strategy": "full",
+        "values": [
+          "-99999",
+          "1",
+          "2",
+          "3",
+          "4",
+          "-9"
+        ]
+      }
+    },
+    {
+      "code": "Altersklasse",
+      "label": "Altersklasse",
+      "value_labels": {
+        "count": 22,
+        "strategy": "full",
+        "values": [
+          "Altersklasse - Total",
+          "0-4 Jahre",
+          "5-9 Jahre",
+          "10-14 Jahre",
+          "15-19 Jahre",
+          "20-24 Jahre",
+          "25-29 Jahre",
+          "30-34 Jahre",
+          "35-39 Jahre",
+          "40-44 Jahre",
+          "45-49 Jahre",
+          "50-54 Jahre",
+          "55-59 Jahre",
+          "60-64 Jahre",
+          "65-69 Jahre",
+          "70-74 Jahre",
+          "75-79 Jahre",
+          "80-84 Jahre",
+          "85-89 Jahre",
+          "90-94 Jahre",
+          "95-99 Jahre",
+          "100 Jahre und mehr"
+        ]
+      },
+      "values": {
+        "count": 22,
+        "strategy": "full",
+        "values": [
+          "-99999",
+          "0",
+          "5",
+          "10",
+          "15",
+          "20",
+          "25",
+          "30",
+          "35",
+          "40",
+          "45",
+          "50",
+          "55",
+          "60",
+          "65",
+          "70",
+          "75",
+          "80",
+          "85",
+          "90",
+          "95",
+          "100"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0102010000_103",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Ständige und nichtständige Wohnbevölkerung nach Jahr, Kanton (-) / Bezirk (>>) / Gemeinde (......), Bevölkerungstyp, Geschlecht, Zivilstand und Altersklasse",
+  "topic_score": 9,
+  "topics": [
+    "population-demography",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Altersklasse": {
+      "count": 22,
+      "strategy": "full",
+      "values": [
+        "Altersklasse - Total",
+        "0-4 Jahre",
+        "5-9 Jahre",
+        "10-14 Jahre",
+        "15-19 Jahre",
+        "20-24 Jahre",
+        "25-29 Jahre",
+        "30-34 Jahre",
+        "35-39 Jahre",
+        "40-44 Jahre",
+        "45-49 Jahre",
+        "50-54 Jahre",
+        "55-59 Jahre",
+        "60-64 Jahre",
+        "65-69 Jahre",
+        "70-74 Jahre",
+        "75-79 Jahre",
+        "80-84 Jahre",
+        "85-89 Jahre",
+        "90-94 Jahre",
+        "95-99 Jahre",
+        "100 Jahre und mehr"
+      ]
+    },
+    "Bevölkerungstyp": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Ständige Wohnbevölkerung",
+        "Nichtständige Wohnbevölkerung"
+      ]
+    },
+    "Geschlecht": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Geschlecht- Total",
+        "Mann",
+        "Frau"
+      ]
+    },
+    "Jahr": {
+      "count": 15,
+      "strategy": "full",
+      "values": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    "Kanton (-) / Bezirk (>>) / Gemeinde (......)": {
+      "count": 2302,
+      "first": [
+        "Schweiz",
+        "- Zürich",
+        ">> Bezirk Affoltern",
+        "......0001 Aeugst am Albis",
+        "......0002 Affoltern am Albis"
+      ],
+      "sample": [
+        "Schweiz",
+        "......0745 Port",
+        "......0939 Steffisburg",
+        "......1631 Glarus Süd",
+        "......2551 Lommiswil",
+        "......3255 Rebstein",
+        "......4093 Birrhard",
+        ">> Distretto di Bellinzona",
+        "......5755 Lignerolle",
+        "......6089 Vex"
+      ],
+      "strategy": "summary"
+    },
+    "Zivilstand": {
+      "count": 6,
+      "strategy": "full",
+      "values": [
+        "Zivilstand - Total",
+        "Ledig",
+        "Verheiratet, in eingetragener Partnerschaft",
+        "Verwitwet, durch Tod aufgelöste Partnerschaft",
+        "Geschieden, unverheiratet, gerichtlich aufgelöste Partnerschaft",
+        "Ohne Angabe"
+      ]
+    }
+  },
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

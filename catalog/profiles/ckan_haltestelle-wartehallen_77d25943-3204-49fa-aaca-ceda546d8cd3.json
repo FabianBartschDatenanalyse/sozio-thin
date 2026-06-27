@@ -1,0 +1,382 @@
+{
+  "columns": [
+    "linie",
+    "km",
+    "gebaudename",
+    "strasse",
+    "anzahl_untergeschosse",
+    "anzahl_obergeschosse",
+    "gebaudetyp",
+    "plz",
+    "ort",
+    "gemeinde",
+    "kanton",
+    "status",
+    "geopos",
+    "bpuic",
+    "bezeichnung_offiziell",
+    "abkuerzung",
+    "lod",
+    "tu_nummer",
+    "dst_id",
+    "sloid"
+  ],
+  "description": "",
+  "dimensions": [
+    "linie",
+    "km",
+    "gebaudename",
+    "strasse",
+    "anzahl_untergeschosse",
+    "anzahl_obergeschosse",
+    "gebaudetyp",
+    "plz",
+    "ort",
+    "gemeinde",
+    "kanton",
+    "status",
+    "geopos",
+    "bpuic",
+    "bezeichnung_offiziell",
+    "abkuerzung",
+    "lod",
+    "tu_nummer",
+    "dst_id",
+    "sloid"
+  ],
+  "geo_levels": [
+    "Canton",
+    "Municipality"
+  ],
+  "join_keys": [
+    "spatial_point",
+    "local_feature_id",
+    "bfs_municipality_id",
+    "canton_code",
+    "age_group",
+    "building_or_dwelling",
+    "transport_stop_id",
+    "transport_line_id"
+  ],
+  "license": {
+    "attribution": "Schweizerische Bundesbahnen SBB",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/haltestelle-wartehallen"
+  },
+  "measures": [
+    "anzahl_untergeschosse",
+    "anzahl_obergeschosse"
+  ],
+  "primary_topic": "housing-construction",
+  "publisher": "Schweizerische Bundesbahnen SBB",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:haltestelle-wartehallen:77d25943-3204-49fa-aaca-ceda546d8cd3",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "PARQUET",
+    "format_family": "columnar",
+    "landing_page_url": "https://opendata.swiss/de/dataset/haltestelle-wartehallen",
+    "source_url": "https://data.sbb.ch/api/v2/catalog/datasets/haltestelle-wartehallen/exports/parquet"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Stop: waiting rooms",
+  "topic_score": 6,
+  "topics": [
+    "mobility-transport",
+    "housing-construction",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "abkuerzung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "AA",
+        "ABO",
+        "ALN",
+        "AS",
+        "AVRY",
+        "BDR",
+        "BEL",
+        "BET",
+        "BGG",
+        "BI"
+      ]
+    },
+    "anzahl_obergeschosse": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        1,
+        0
+      ]
+    },
+    "anzahl_untergeschosse": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        0,
+        1
+      ]
+    },
+    "bezeichnung_offiziell": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Aarau",
+        "Aarburg-Oftringen",
+        "Altnau",
+        "Amsteg-Silenen",
+        "Avry-Matran",
+        "Boudry",
+        "Bellinzona",
+        "Bettlach",
+        "Brügg BE",
+        "Biel/Bienne"
+      ]
+    },
+    "bpuic": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        8502113,
+        8502000,
+        8506125,
+        8505115,
+        8501632,
+        8504208,
+        8505213,
+        8500203,
+        8504416,
+        8504300
+      ]
+    },
+    "dst_id": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        2113,
+        2000,
+        6125,
+        5115,
+        1632,
+        4208,
+        5213,
+        203,
+        4416,
+        4300
+      ]
+    },
+    "gebaudename": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Wartehalle",
+        "Wartehalle offen Gleis 2",
+        "Haltestelle Intschi (mit Technik)",
+        "Quai 2",
+        "RV 05",
+        "sala d'aspetta chiusa",
+        "Abri voyageurs",
+        "Offene Wartehalle Typ RV05 / Seetal",
+        "Offene Wartehalle WH 08",
+        "Wartehalle Typ Z81"
+      ]
+    },
+    "gebaudetyp": {
+      "count": 9,
+      "strategy": "full",
+      "values": [
+        "Wartehalle 94",
+        "Wartehalle 75",
+        "Andere (SBB / ZB)",
+        "Wartehalle 04",
+        "Wartehalle 08",
+        "Wartehalle 81",
+        "kein Normtyp",
+        "Unterstand 94",
+        "2000"
+      ]
+    },
+    "gemeinde": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Aarau",
+        "Aarburg",
+        "Altnau",
+        "Silenen",
+        "Avry",
+        "Boudry",
+        "Bellinzona",
+        "Bettlach",
+        "Brugg",
+        "Biel (BE)"
+      ]
+    },
+    "geopos": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00x\\xed\\x81\\x8c@\\x1a @7+\\x8d\\x11\\x18\\xb2G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xb2ce\\x1b\\x05\\xa2\\x1f@\\xeb5\\xa5\\x8e\\xfe\\xa8G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00D\\xd5\\x0ef&\\x88\"@\\xd5\\x03\\x02\\xfc\\x88\\xcfG@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xc8m\\xc97\\x1eX!@\\x88\\xfd\\xa9\\xdf\\xf7cG@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xed\\x84\\xd1o]R\\x1c@\\xdcm\\xf9\\xa2\\x9cdG@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x06\\x91n\\xb9\\x16W\\x1b@\\xd1\\xc7e}\\xcfzG@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00s\\xad\\xe9\\x0c\\x1d\\x0f\"@\\xa9\\x0f\\xb2\\xe8\\x03\\x19G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00&\\xc7\\x85j\\xa7\\xb6\\x1d@`B8\\x1a\\xf4\\x98G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00x\\xc1\\xc79\\xe6\\x1c\\x1d@_=\\x83k\\xd3\\x8fG@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\"\\xdb\\xa2\\x8e\\xbd\\xf8\\x1c@\\x8c\\x87$\\xcc\\x02\\x91G@')"
+      ]
+    },
+    "kanton": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "AG",
+        "TG",
+        "UR",
+        "FR",
+        "NE",
+        "TI",
+        "SO",
+        "BE",
+        "LU",
+        "VD"
+      ]
+    },
+    "km": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        41.34312,
+        42.918227,
+        92.848411,
+        49.954794,
+        58.998794,
+        66.247156,
+        150.825286,
+        82.937419,
+        30.588481,
+        104.460311
+      ]
+    },
+    "linie": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        650,
+        500,
+        824,
+        600,
+        250,
+        210,
+        410,
+        260,
+        651,
+        450
+      ]
+    },
+    "lod": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "http://lod.opentransportdata.swiss/didok/didok85"
+      ]
+    },
+    "ort": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Aarau",
+        "Aarburg",
+        "Altnau",
+        "Amsteg",
+        "Avry-sur-Matran",
+        "Boudry",
+        "Bellinzona",
+        "Bettlach",
+        "Brugg BE",
+        "Biel/Bienne"
+      ]
+    },
+    "plz": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "5000",
+        "4663",
+        "8595",
+        "6474",
+        "1754",
+        "2017",
+        "6500",
+        "2544",
+        "2555",
+        "2500"
+      ]
+    },
+    "sloid": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "ch:1:sloid:2113",
+        "ch:1:sloid:2000",
+        "ch:1:sloid:6125",
+        "ch:1:sloid:5115",
+        "ch:1:sloid:1632",
+        "ch:1:sloid:4208",
+        "ch:1:sloid:5213",
+        "ch:1:sloid:203",
+        "ch:1:sloid:4416",
+        "ch:1:sloid:4300"
+      ]
+    },
+    "status": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "BESTEHEND",
+        "PROJEKTIERT NEU",
+        "PROJEKTIERT ABBRUCH"
+      ]
+    },
+    "strasse": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Hintere Bahnhofstrasse",
+        "Bahnhofstrasse Perron 2",
+        "Bahnhofstrasse",
+        "Spitzacher, km 49.95",
+        "Quai 2",
+        "Marciapiede 2 Nord",
+        "Perron 2",
+        "Perron 2/3",
+        "Bahnhofplatz",
+        "Station Baldegg  Stationsstrasse"
+      ]
+    },
+    "tu_nummer": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        11
+      ]
+    }
+  },
+  "years": []
+}

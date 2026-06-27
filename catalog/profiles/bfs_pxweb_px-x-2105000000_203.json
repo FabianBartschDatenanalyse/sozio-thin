@@ -1,0 +1,288 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Stadt / Agglomeration",
+    "Indikator zu Einkommen und Arbeit",
+    "Geschlecht",
+    "Resultat",
+    "Jahr"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "sex",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-2105000000_203/px-x-2105000000_203.px"
+  },
+  "measures": [],
+  "primary_topic": "labor-economy",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Stadt / Agglomeration",
+      "label": "Stadt / Agglomeration",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Winterthur: Kernstadt",
+          "Winterthur: Andere Agglomerationsgemeinden",
+          "Winterthur: Agglomeration",
+          "Zürich: Kernstadt",
+          "Zürich: Andere Agglomerationsgemeinden"
+        ],
+        "sample": [
+          "Winterthur: Kernstadt",
+          "Winterthur: Agglomeration",
+          "Zürich: Andere Agglomerationsgemeinden",
+          "Bern: Kernstadt",
+          "Bern: Agglomeration",
+          "Luzern: Andere Agglomerationsgemeinden",
+          "Basel: Kernstadt",
+          "Basel: Nationale Agglomeration",
+          "St. Gallen: Andere Agglomerationsgemeinden",
+          "Lugano: Kernstadt"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "230901",
+          "230910",
+          "230920",
+          "261901",
+          "261910"
+        ],
+        "sample": [
+          "230901",
+          "230920",
+          "261910",
+          "351901",
+          "351920",
+          "1061910",
+          "2701901",
+          "2701920",
+          "3203910",
+          "5192901"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Indikator zu Einkommen und Arbeit",
+      "label": "Indikator zu Einkommen und Arbeit",
+      "value_labels": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "Nettoerwerbsquote in %",
+          "Erwerbstätigenquote 20-64-Jährige in %",
+          "Arbeitslosenquote (seco) in %",
+          "Jugendarbeitslosenquote 15-24-Jährige (seco) in %",
+          "Arbeitslosenquote 55-64-Jährige (seco) in %",
+          "Teilzeitanteil unter den Erwerbstätigen in %",
+          "Sozialhilfequote in %",
+          "Standardisierte Erwerbsquote in %"
+        ]
+      },
+      "values": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    },
+    {
+      "code": "Geschlecht",
+      "label": "Geschlecht",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Geschlecht - Total",
+          "Mann",
+          "Frau"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Resultat",
+      "label": "Resultat",
+      "value_labels": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Wert",
+          "Vertrauensintervall ± (in %-Punkten)"
+        ]
+      },
+      "values": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "1",
+          "3"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "2020",
+          "2019",
+          "2018",
+          "2017",
+          "2016",
+          "2015",
+          "2014",
+          "2011"
+        ]
+      },
+      "values": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "2020",
+          "2019",
+          "2018",
+          "2017",
+          "2016",
+          "2015",
+          "2014",
+          "2011"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-2105000000_203",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-2105000000_203/px-x-2105000000_203.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Lebensqualität in den Städten und Agglomerationen (Agglo 2012): Einkommen und Arbeit",
+  "topic_score": 6,
+  "topics": [
+    "labor-economy"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Geschlecht": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Geschlecht - Total",
+        "Mann",
+        "Frau"
+      ]
+    },
+    "Indikator zu Einkommen und Arbeit": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        "Nettoerwerbsquote in %",
+        "Erwerbstätigenquote 20-64-Jährige in %",
+        "Arbeitslosenquote (seco) in %",
+        "Jugendarbeitslosenquote 15-24-Jährige (seco) in %",
+        "Arbeitslosenquote 55-64-Jährige (seco) in %",
+        "Teilzeitanteil unter den Erwerbstätigen in %",
+        "Sozialhilfequote in %",
+        "Standardisierte Erwerbsquote in %"
+      ]
+    },
+    "Jahr": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2011"
+      ]
+    },
+    "Resultat": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Wert",
+        "Vertrauensintervall ± (in %-Punkten)"
+      ]
+    },
+    "Stadt / Agglomeration": {
+      "count": 27,
+      "first": [
+        "Winterthur: Kernstadt",
+        "Winterthur: Andere Agglomerationsgemeinden",
+        "Winterthur: Agglomeration",
+        "Zürich: Kernstadt",
+        "Zürich: Andere Agglomerationsgemeinden"
+      ],
+      "sample": [
+        "Winterthur: Kernstadt",
+        "Winterthur: Agglomeration",
+        "Zürich: Andere Agglomerationsgemeinden",
+        "Bern: Kernstadt",
+        "Bern: Agglomeration",
+        "Luzern: Andere Agglomerationsgemeinden",
+        "Basel: Kernstadt",
+        "Basel: Nationale Agglomeration",
+        "St. Gallen: Andere Agglomerationsgemeinden",
+        "Lugano: Kernstadt"
+      ],
+      "strategy": "summary"
+    }
+  },
+  "years": [
+    2011,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "columns": [
+    "n",
+    "e",
+    "linie",
+    "km",
+    "bezeichnung",
+    "lage",
+    "objekt_name",
+    "typ",
+    "be_nr",
+    "material",
+    "bem_material",
+    "b_jahr",
+    "besonderheit",
+    "netz_auf_wand",
+    "h_ab_sok",
+    "lange",
+    "distanz_zu_gl",
+    "fundationsart",
+    "bem_fundation",
+    "eigentumer",
+    "anteil_eigentum",
+    "eigentumer_gruppe",
+    "miteigentumer",
+    "anteil_miteigentum",
+    "miteigentumer_gruppe",
+    "miteigentumer_bemerkung",
+    "lauf_nr",
+    "geopos2",
+    "geopos",
+    "geoshape"
+  ],
+  "description": "",
+  "dimensions": [
+    "n",
+    "e",
+    "linie",
+    "km",
+    "bezeichnung",
+    "lage",
+    "objekt_name",
+    "typ",
+    "be_nr",
+    "material",
+    "bem_material",
+    "b_jahr",
+    "besonderheit",
+    "netz_auf_wand",
+    "h_ab_sok",
+    "lange",
+    "distanz_zu_gl",
+    "fundationsart",
+    "bem_fundation",
+    "eigentumer",
+    "anteil_eigentum",
+    "eigentumer_gruppe",
+    "miteigentumer",
+    "anteil_miteigentum",
+    "miteigentumer_gruppe",
+    "miteigentumer_bemerkung",
+    "lauf_nr",
+    "geopos2",
+    "geopos",
+    "geoshape"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "spatial_point",
+    "local_feature_id",
+    "age_group",
+    "transport_line_id",
+    "year"
+  ],
+  "license": {
+    "attribution": "Schweizerische Bundesbahnen SBB",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/brandschutzwand"
+  },
+  "measures": [
+    "anteil_eigentum",
+    "anteil_miteigentum"
+  ],
+  "primary_topic": "infrastructure-utilities",
+  "publisher": "Schweizerische Bundesbahnen SBB",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:brandschutzwand:ef25f25b-2d54-4c82-ac46-66440f8a34a6",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "PARQUET",
+    "format_family": "columnar",
+    "landing_page_url": "https://opendata.swiss/de/dataset/brandschutzwand",
+    "source_url": "https://data.sbb.ch/api/v2/catalog/datasets/brandschutzwand/exports/parquet"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "murs parafeu",
+  "topic_score": 3,
+  "topics": [
+    "infrastructure-utilities"
+  ],
+  "units": [],
+  "value_summaries": {
+    "anteil_eigentum": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        100
+      ]
+    },
+    "anteil_miteigentum": {
+      "count": 0,
+      "strategy": "full",
+      "values": []
+    },
+    "b_jahr": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "1985",
+        "2009",
+        "2020",
+        "2006",
+        "1968",
+        "2010",
+        "2021",
+        "2000",
+        "2022",
+        "2008"
+      ]
+    },
+    "be_nr": {
+      "count": 7,
+      "strategy": "full",
+      "values": [
+        1,
+        2,
+        5,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    "bem_fundation": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "muro",
+        "Ponte",
+        "muro/ponte",
+        "Stutzmauer",
+        "ringhiera",
+        "ponte",
+        "posta su muro",
+        "posta sopra muro attr.",
+        "Muro in cemento",
+        "Muro"
+      ]
+    },
+    "bem_material": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Elements prefabriques",
+        "rete",
+        "pali con rete",
+        "lamiera",
+        "Metall",
+        "Stahl / HEB 260",
+        "0",
+        "solo rete",
+        "cemento armato",
+        "meta` con ramina-meta' senza"
+      ]
+    },
+    "besonderheit": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        "Oilumschlagplatz",
+        "Pallizzata in granito",
+        "Verladeschutzwand",
+        "Gastank Anlage Quer zur Bahn",
+        "alla fine piastra in lamiera",
+        "Schutzwand",
+        "controventi LNP 120/80/12",
+        "Verlade-Schutzwand"
+      ]
+    },
+    "bezeichnung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Brand 161.730 BE1",
+        "Brand 162.621 BE2",
+        "Brand 99.302 BE1",
+        "Brand 101.815 BE1",
+        "Brand 109.530 BE2",
+        "Brand 117.312 BE2",
+        "Brand 161.074 BE1",
+        "Brand 8.220 BE2",
+        "Brand 110.543 BE2",
+        "Brand 113.694 BE1"
+      ]
+    },
+    "distanz_zu_gl": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        3.03,
+        3.0,
+        2.73,
+        4.14,
+        3.25,
+        3.01,
+        2.31,
+        2.35,
+        2.56,
+        2.33
+      ]
+    },
+    "e": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        2715838.567,
+        2714963.93,
+        2701206.139,
+        2701700.103,
+        2706474.314,
+        2709277.9,
+        2716492.796,
+        2546610.682,
+        2706798.728,
+        2708465.094
+      ]
+    },
+    "eigentumer": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "SBB Infrastruktur"
+      ]
+    },
+    "eigentumer_gruppe": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "SBB"
+      ]
+    },
+    "fundationsart": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Einzelfundament",
+        "aufgesetzt auf",
+        "Streifenfundament",
+        "unbekannt"
+      ]
+    },
+    "geopos": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00AK\\xad\\xb93\\xe0!@\\x08VQ{\\x89\\x12G@')",
+        "bytearray(b\"\\x01\\x01\\x00\\x00\\x00\\xce\\x9bn\\xeae\\xda!@\\x8f\\'\\xa41x\\x12G@\")",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00Gf\\x83\\x0e\\x8a\\x83!@\\xf4mJ\\xcc\\x1b?G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x88\\xba/\\xfa\\xc8\\x86!@\\x96\\xa1\\xfd\\xf4\\x9b>G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x00\\xa7\\xa0\\x97P\\xa6!@<\\x87Z\\xed\\x91;G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00S\\x0eQ\\xa4j\\xb8!@x$VG\\xf65G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xaa|\\x08\\x9b\\x8a\\xe4!@\\x0bQ\\x92\\xa4\\x91\\x12G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00u\\xe4\\xf5=\\xfa\\xf4\\x1a@{l\\xa4\\xaa\\xb0fG@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xcdyl\\\\]\\xa8!@5\\x8e]gx:G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe0\\xd8\\x865+\\xb3!@\\xd6\\xe0[\\xa7\\x8f7G@')"
+      ]
+    },
+    "geopos2": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xd5\\x88\\x9ftx\\xde!@\\xee\\xbe\\x93\\x8by\\x12G@')",
+        "bytearray(b\"\\x01\\x01\\x00\\x00\\x00\\xc8\\x08\\xd6\\xdd\\x9c\\xd9!@\\x15\\xe4\\'\\xc1v\\x12G@\")",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\t]\\x94V\\xb7\\x83!@\\xdf\\xa5\\x06\\xa3 ?G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xa8q\\xb1\\xe1\\xd1\\x86!@`\\xce\\xd5\\x0c\\x9c>G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00NY\\x89D\\x82\\xa6!@MA9_};G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xd2\\x0f\\xb06\\x9d\\xb8!@\\xe9r\\xfe\\xfb\\xea5G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x01NhU[\\xe2!@O\\xf1\\x96D\\x91\\x12G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xfd\\x94\\x9e\\xa5N\\xf5\\x1a@A\\xbf\\xff\\x0c\\xaffG@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x8dV{\\xd4`\\xa8!@\\x89\\x1cL\\x82u:G@')",
+        "bytearray(b'\\x01\\x01\\x00\\x00\\x00Y~=\\xfd/\\xb3!@\\xa1\\xe0(\\x17\\x8c7G@')"
+      ]
+    },
+    "geoshape": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "bytearray(b'\\x01\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\xaf@\\xad\\xb93\\xe0!@\\x9aJQ{\\x89\\x12G@\\xef\\x92\\x9ftx\\xde!@\\xce\\xa6\\x93\\x8by\\x12G@')",
+        "bytearray(b\"\\x01\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x03\\xa1n\\xeae\\xda!@\\xb97\\xa41x\\x12G@d\\x0f\\xd6\\xdd\\x9c\\xd9!@\\x10\\xeb\\'\\xc1v\\x12G@\")",
+        "bytearray(b'\\x01\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\xd9[\\x83\\x0e\\x8a\\x83!@\\x15\\x82J\\xcc\\x1b?G@t[\\x94V\\xb7\\x83!@p\\xa0\\x06\\xa3 ?G@')",
+        "bytearray(b'\\x01\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x83\\xb3/\\xfa\\xc8\\x86!@X\\xab\\xfd\\xf4\\x9b>G@\\xc5x\\xb1\\xe1\\xd1\\x86!@>\\xe4\\xd5\\x0c\\x9c>G@')",
+        "bytearray(b'\\x01\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\xbb\\xb0\\xa0\\x97P\\xa6!@W\\x8fZ\\xed\\x91;G@\\x03a\\x89D\\x82\\xa6!@\\x05<9_};G@')",
+        "bytearray(b'\\x01\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00-\\x14Q\\xa4j\\xb8!@\")VG\\xf65G@\\xfd\\x08\\xb06\\x9d\\xb8!@\\xf5r\\xfe\\xfb\\xea5G@')",
+        "bytearray(b'\\x01\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00ku\\x08\\x9b\\x8a\\xe4!@\\xf9X\\x92\\xa4\\x91\\x12G@\\xb3HhU[\\xe2!@\\xf3\\xd6\\x96D\\x91\\x12G@')",
+        "bytearray(b'\\x01\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x000\\xe4\\xf5=\\xfa\\xf4\\x1a@;o\\xa4\\xaa\\xb0fG@`\\x99\\x9e\\xa5N\\xf5\\x1a@\\x12\\xcd\\xff\\x0c\\xaffG@')",
+        "bytearray(b'\\x01\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x86rl\\\\]\\xa8!@\\xdc\\x8f]gx:G@\\xcf_{\\xd4`\\xa8!@\\xcc!L\\x82u:G@')",
+        "bytearray(b'\\x01\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x007\\xe1\\x865+\\xb3!@\\xc7\\xdc[\\xa7\\x8f7G@\\xd6\\x7f=\\xfd/\\xb3!@6\\xe8(\\x17\\x8c7G@')"
+      ]
+    },
+    "h_ab_sok": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1.9,
+        2.3,
+        2.0,
+        1.8,
+        1.7,
+        1.4,
+        0.0,
+        1.0,
+        2.4,
+        2.1
+      ]
+    },
+    "km": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        161.73,
+        162.621,
+        99.302,
+        101.815,
+        109.53,
+        117.312,
+        161.074,
+        8.22,
+        110.543,
+        113.694
+      ]
+    },
+    "lage": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "rechts der Bahn",
+        "links der Bahn",
+        "zwischen den Gleisen"
+      ]
+    },
+    "lange": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        272.56,
+        118.62,
+        32.23,
+        5.23,
+        80.01,
+        48.8,
+        333.56,
+        10.03,
+        12.75,
+        19.67
+      ]
+    },
+    "lauf_nr": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        35,
+        10,
+        13,
+        14,
+        34,
+        1,
+        15,
+        17,
+        31,
+        -11
+      ]
+    },
+    "linie": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        600,
+        252,
+        152,
+        607,
+        250,
+        753,
+        606,
+        720,
+        890,
+        450
+      ]
+    },
+    "material": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Beton",
+        "andere",
+        "Holz",
+        "Naturstein"
+      ]
+    },
+    "miteigentumer": {
+      "count": 0,
+      "strategy": "full",
+      "values": []
+    },
+    "miteigentumer_bemerkung": {
+      "count": 0,
+      "strategy": "full",
+      "values": []
+    },
+    "miteigentumer_gruppe": {
+      "count": 0,
+      "strategy": "full",
+      "values": []
+    },
+    "n": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1111476.91,
+        1111401.596,
+        1149929.744,
+        1149504.303,
+        1146946.935,
+        1142125.907,
+        1111517.142,
+        1183694.95,
+        1145997.461,
+        1143500.257
+      ]
+    },
+    "netz_auf_wand": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "ja",
+        "nein"
+      ]
+    },
+    "objekt_name": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "PP 161.730",
+        "PP 162.608",
+        "PP 99.303",
+        "PP 101.815",
+        "PP 109.492",
+        "PP 117.309",
+        "PP 161.074",
+        "M 8.182",
+        "PP 110.543",
+        "PP 113.694"
+      ]
+    },
+    "typ": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Brandschutz",
+        "andere",
+        "Blendschutz"
+      ]
+    }
+  },
+  "years": [
+    1968,
+    1985,
+    2000,
+    2006,
+    2008,
+    2009,
+    2010,
+    2020,
+    2021,
+    2022
+  ]
+}

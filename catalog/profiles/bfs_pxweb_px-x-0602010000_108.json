@@ -1,0 +1,349 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Jahr",
+    "Kanton",
+    "Wirtschaftssektor",
+    "Öffentlicher/privater Sektor",
+    "Wirtschaftliche Ausrichtung",
+    "Beobachtungseinheit"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "economic_activity",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0602010000_108/px-x-0602010000_108.px"
+  },
+  "measures": [
+    "Institutionelle Einheiten",
+    "Beschäftigte",
+    "Beschäftigte Frauen",
+    "Beschäftigte Männer",
+    "Vollzeitäquivalente",
+    "Vollzeitäquivalente Frauen",
+    "Vollzeitäquivalente Männer"
+  ],
+  "primary_topic": "labor-economy",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 13,
+        "strategy": "full",
+        "values": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "values": {
+        "count": 13,
+        "strategy": "full",
+        "values": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      }
+    },
+    {
+      "code": "Kanton",
+      "label": "Kanton",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Schweiz",
+          "Zürich",
+          "Bern / Berne",
+          "Luzern",
+          "Uri"
+        ],
+        "sample": [
+          "Schweiz",
+          "Bern / Berne",
+          "Uri",
+          "Obwalden",
+          "Glarus",
+          "Fribourg / Freiburg",
+          "Basel-Stadt",
+          "Schaffhausen",
+          "Appenzell Innerrhoden",
+          "Graubünden / Grigioni / Grischun"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "999",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "999",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Wirtschaftssektor",
+      "label": "Wirtschaftssektor",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Wirtschaftssektor - Total",
+          "Primärsektor",
+          "Sekundärer Sektor",
+          "Tertiärer Sektor"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "999",
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "code": "Öffentlicher/privater Sektor",
+      "label": "Öffentlicher/privater Sektor",
+      "value_labels": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Öffentlicher Sektor",
+          "Privater Sektor"
+        ]
+      },
+      "values": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "2",
+          "1"
+        ]
+      }
+    },
+    {
+      "code": "Wirtschaftliche Ausrichtung",
+      "label": "Wirtschaftliche Ausrichtung",
+      "value_labels": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Marktwirtschaftlich",
+          "Nichtmarktwirtschaftlich"
+        ]
+      },
+      "values": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    {
+      "code": "Beobachtungseinheit",
+      "label": "Beobachtungseinheit",
+      "value_labels": {
+        "count": 7,
+        "strategy": "full",
+        "values": [
+          "Institutionelle Einheiten",
+          "Beschäftigte",
+          "Beschäftigte Frauen",
+          "Beschäftigte Männer",
+          "Vollzeitäquivalente",
+          "Vollzeitäquivalente Frauen",
+          "Vollzeitäquivalente Männer"
+        ]
+      },
+      "values": {
+        "count": 7,
+        "strategy": "full",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0602010000_108",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0602010000_108/px-x-0602010000_108.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Institutionelle Einheiten und Beschäftigte nach Jahr, Kanton, Wirtschaftssektor, Öffentlicher/privater Sektor, Wirtschaftliche Ausrichtung und Beobachtungseinheit",
+  "topic_score": 9,
+  "topics": [
+    "labor-economy",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Beobachtungseinheit": {
+      "count": 7,
+      "strategy": "full",
+      "values": [
+        "Institutionelle Einheiten",
+        "Beschäftigte",
+        "Beschäftigte Frauen",
+        "Beschäftigte Männer",
+        "Vollzeitäquivalente",
+        "Vollzeitäquivalente Frauen",
+        "Vollzeitäquivalente Männer"
+      ]
+    },
+    "Jahr": {
+      "count": 13,
+      "strategy": "full",
+      "values": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ]
+    },
+    "Kanton": {
+      "count": 27,
+      "first": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri"
+      ],
+      "sample": [
+        "Schweiz",
+        "Bern / Berne",
+        "Uri",
+        "Obwalden",
+        "Glarus",
+        "Fribourg / Freiburg",
+        "Basel-Stadt",
+        "Schaffhausen",
+        "Appenzell Innerrhoden",
+        "Graubünden / Grigioni / Grischun"
+      ],
+      "strategy": "summary"
+    },
+    "Wirtschaftliche Ausrichtung": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Marktwirtschaftlich",
+        "Nichtmarktwirtschaftlich"
+      ]
+    },
+    "Wirtschaftssektor": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Wirtschaftssektor - Total",
+        "Primärsektor",
+        "Sekundärer Sektor",
+        "Tertiärer Sektor"
+      ]
+    },
+    "Öffentlicher/privater Sektor": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Öffentlicher Sektor",
+        "Privater Sektor"
+      ]
+    }
+  },
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ]
+}

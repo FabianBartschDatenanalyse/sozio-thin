@@ -1,0 +1,329 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Beobachtungseinheit",
+    "EL-Stelle",
+    "Staatsangehörigkeit (Kategorie)",
+    "Geschlecht",
+    "Jahr"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "sex",
+    "nationality",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1305020000_104/px-x-1305020000_104.px"
+  },
+  "measures": [
+    "Quote EL zur AV",
+    "Quote EL zur HV",
+    "Quote EL zur AHV",
+    "Quote EL zur IV",
+    "Quote EL zur AHV und IV"
+  ],
+  "primary_topic": "social-security-welfare",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Beobachtungseinheit",
+      "label": "Beobachtungseinheit",
+      "value_labels": {
+        "count": 5,
+        "strategy": "full",
+        "values": [
+          "Quote EL zur AV",
+          "Quote EL zur HV",
+          "Quote EL zur AHV",
+          "Quote EL zur IV",
+          "Quote EL zur AHV und IV"
+        ]
+      },
+      "values": {
+        "count": 5,
+        "strategy": "full",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    },
+    {
+      "code": "EL-Stelle",
+      "label": "EL-Stelle",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "EL-Stelle - Total",
+          "ZH",
+          "BE",
+          "LU",
+          "UR"
+        ],
+        "sample": [
+          "EL-Stelle - Total",
+          "BE",
+          "UR",
+          "OW",
+          "GL",
+          "FR",
+          "BS",
+          "SH",
+          "AI",
+          "GR"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "¯99999",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "¯99999",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Staatsangehörigkeit (Kategorie)",
+      "label": "Staatsangehörigkeit (Kategorie)",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Staatsangehörigkeit - Total",
+          "Schweiz",
+          "Ausland"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "¯99999",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Geschlecht",
+      "label": "Geschlecht",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Geschlecht - Total",
+          "Mann",
+          "Frau"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "¯99999",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 18,
+        "strategy": "full",
+        "values": [
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ]
+      },
+      "values": {
+        "count": 18,
+        "strategy": "full",
+        "values": [
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1305020000_104",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1305020000_104/px-x-1305020000_104.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "EL-Quoten nach Beobachtungseinheit, EL-Stelle, Staatsangehörigkeit (Kategorie), Geschlecht und Jahr",
+  "topic_score": 12,
+  "topics": [
+    "social-security-welfare"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Beobachtungseinheit": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "Quote EL zur AV",
+        "Quote EL zur HV",
+        "Quote EL zur AHV",
+        "Quote EL zur IV",
+        "Quote EL zur AHV und IV"
+      ]
+    },
+    "EL-Stelle": {
+      "count": 27,
+      "first": [
+        "EL-Stelle - Total",
+        "ZH",
+        "BE",
+        "LU",
+        "UR"
+      ],
+      "sample": [
+        "EL-Stelle - Total",
+        "BE",
+        "UR",
+        "OW",
+        "GL",
+        "FR",
+        "BS",
+        "SH",
+        "AI",
+        "GR"
+      ],
+      "strategy": "summary"
+    },
+    "Geschlecht": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Geschlecht - Total",
+        "Mann",
+        "Frau"
+      ]
+    },
+    "Jahr": {
+      "count": 18,
+      "strategy": "full",
+      "values": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ]
+    },
+    "Staatsangehörigkeit (Kategorie)": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Staatsangehörigkeit - Total",
+        "Schweiz",
+        "Ausland"
+      ]
+    }
+  },
+  "years": [
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ]
+}

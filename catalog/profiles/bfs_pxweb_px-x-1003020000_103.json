@@ -1,0 +1,393 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Jahr",
+    "Monat",
+    "Tourismusregion",
+    "Herkunftsland",
+    "Indikator"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "year",
+    "date"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1003020000_103/px-x-1003020000_103.px"
+  },
+  "measures": [],
+  "primary_topic": "culture-sport-tourism",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 22,
+        "strategy": "full",
+        "values": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      "values": {
+        "count": 22,
+        "strategy": "full",
+        "values": [
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    },
+    {
+      "code": "Monat",
+      "label": "Monat",
+      "value_labels": {
+        "count": 13,
+        "strategy": "full",
+        "values": [
+          "Jahrestotal",
+          "Januar",
+          "Februar",
+          "März",
+          "April",
+          "Mai",
+          "Juni",
+          "Juli",
+          "August",
+          "September",
+          "Oktober",
+          "November",
+          "Dezember"
+        ]
+      },
+      "values": {
+        "count": 13,
+        "strategy": "full",
+        "values": [
+          "YYYY",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ]
+      }
+    },
+    {
+      "code": "Tourismusregion",
+      "label": "Tourismusregion",
+      "value_labels": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "Schweiz",
+          "Graubünden",
+          "Ostschweiz",
+          "Zürich Region",
+          "Luzern / Vierwaldstättersee",
+          "Basel Region",
+          "Bern Region",
+          "Jura & Drei-Seen-Land",
+          "Waadt",
+          "Genf",
+          "Wallis",
+          "Tessin",
+          "Fribourg Region",
+          "Aargau und Solothurn Region"
+        ]
+      },
+      "values": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "8100",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ]
+      }
+    },
+    {
+      "code": "Herkunftsland",
+      "label": "Herkunftsland",
+      "value_labels": {
+        "count": 78,
+        "first": [
+          "Herkunftsland - Total",
+          "Schweiz",
+          "Baltische Staaten",
+          "Deutschland",
+          "Frankreich"
+        ],
+        "sample": [
+          "Herkunftsland - Total",
+          "Vereinigtes Königreich",
+          "Norwegen",
+          "Liechtenstein",
+          "Zypern",
+          "Zentralamerika, Karibik",
+          "Bahrain",
+          "Australien",
+          "Malaysia",
+          "Übriges Westasien"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 78,
+        "first": [
+          "00",
+          "1",
+          "10",
+          "11",
+          "13"
+        ],
+        "sample": [
+          "00",
+          "16",
+          "23",
+          "32",
+          "39",
+          "47",
+          "60",
+          "70",
+          "77",
+          "84"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Indikator",
+      "label": "Indikator",
+      "value_labels": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Ankünfte",
+          "Logiernächte"
+        ]
+      },
+      "values": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "1",
+          "2"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1003020000_103",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1003020000_103/px-x-1003020000_103.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Hotellerie: Ankünfte und Logiernächte der geöffneten Betriebe nach Jahr, Monat, Tourismusregion, Herkunftsland und Indikator",
+  "topic_score": 6,
+  "topics": [
+    "agriculture-food",
+    "culture-sport-tourism"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Herkunftsland": {
+      "count": 78,
+      "first": [
+        "Herkunftsland - Total",
+        "Schweiz",
+        "Baltische Staaten",
+        "Deutschland",
+        "Frankreich"
+      ],
+      "sample": [
+        "Herkunftsland - Total",
+        "Vereinigtes Königreich",
+        "Norwegen",
+        "Liechtenstein",
+        "Zypern",
+        "Zentralamerika, Karibik",
+        "Bahrain",
+        "Australien",
+        "Malaysia",
+        "Übriges Westasien"
+      ],
+      "strategy": "summary"
+    },
+    "Indikator": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Ankünfte",
+        "Logiernächte"
+      ]
+    },
+    "Jahr": {
+      "count": 22,
+      "strategy": "full",
+      "values": [
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "Monat": {
+      "count": 13,
+      "strategy": "full",
+      "values": [
+        "Jahrestotal",
+        "Januar",
+        "Februar",
+        "März",
+        "April",
+        "Mai",
+        "Juni",
+        "Juli",
+        "August",
+        "September",
+        "Oktober",
+        "November",
+        "Dezember"
+      ]
+    },
+    "Tourismusregion": {
+      "count": 14,
+      "strategy": "full",
+      "values": [
+        "Schweiz",
+        "Graubünden",
+        "Ostschweiz",
+        "Zürich Region",
+        "Luzern / Vierwaldstättersee",
+        "Basel Region",
+        "Bern Region",
+        "Jura & Drei-Seen-Land",
+        "Waadt",
+        "Genf",
+        "Wallis",
+        "Tessin",
+        "Fribourg Region",
+        "Aargau und Solothurn Region"
+      ]
+    }
+  },
+  "years": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Grossregion (<<) / Kanton (-) / Gemeinde (......)",
+    "Gebäudetyp",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Canton",
+    "Municipality"
+  ],
+  "join_keys": [
+    "bfs_municipality_id",
+    "geo_region",
+    "canton_code",
+    "building_or_dwelling",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0904030000_107/px-x-0904030000_107.px"
+  },
+  "measures": [],
+  "primary_topic": "housing-construction",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Grossregion (<<) / Kanton (-) / Gemeinde (......)",
+      "label": "Grossregion (<<) / Kanton (-) / Gemeinde (......)",
+      "value_labels": {
+        "count": 2170,
+        "first": [
+          "Schweiz",
+          "<< Genferseeregion",
+          "<< Espace Mittelland",
+          "<< Nordwestschweiz",
+          "<< Zürich"
+        ],
+        "sample": [
+          "Schweiz",
+          "......0382 Büetigen",
+          "......0872 Kirchdorf (BE)",
+          "......1504 Emmetten",
+          "......2542 Bellach",
+          "......3273 Grabs",
+          "......4106 Mönthal",
+          "......5017 Sant'Antonino",
+          "......5607 Puidoux",
+          "......6101 Agarn"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 2170,
+        "first": [
+          "CH",
+          "R1",
+          "R2",
+          "R3",
+          "R4"
+        ],
+        "sample": [
+          "CH",
+          "0382",
+          "0872",
+          "1504",
+          "2542",
+          "3273",
+          "4106",
+          "5017",
+          "5607",
+          "6101"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Gebäudetyp",
+      "label": "Gebäudetyp",
+      "value_labels": {
+        "count": 5,
+        "strategy": "full",
+        "values": [
+          "Gebäudetyp - alle",
+          "Einfamilienhaus",
+          "Mehrfamilienhaus",
+          "Wohngebäude mit Nebennutzung",
+          "Gebäude mit teilweiser Wohnnutzung"
+        ]
+      },
+      "values": {
+        "count": 5,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 11,
+        "strategy": "full",
+        "values": [
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "values": {
+        "count": 11,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0904030000_107",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0904030000_107/px-x-0904030000_107.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Neu erstellte Wohnungen nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Gebäudetyp und Jahr",
+  "topic_score": 6,
+  "topics": [
+    "housing-construction",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Gebäudetyp": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "Gebäudetyp - alle",
+        "Einfamilienhaus",
+        "Mehrfamilienhaus",
+        "Wohngebäude mit Nebennutzung",
+        "Gebäude mit teilweiser Wohnnutzung"
+      ]
+    },
+    "Grossregion (<<) / Kanton (-) / Gemeinde (......)": {
+      "count": 2170,
+      "first": [
+        "Schweiz",
+        "<< Genferseeregion",
+        "<< Espace Mittelland",
+        "<< Nordwestschweiz",
+        "<< Zürich"
+      ],
+      "sample": [
+        "Schweiz",
+        "......0382 Büetigen",
+        "......0872 Kirchdorf (BE)",
+        "......1504 Emmetten",
+        "......2542 Bellach",
+        "......3273 Grabs",
+        "......4106 Mönthal",
+        "......5017 Sant'Antonino",
+        "......5607 Puidoux",
+        "......6101 Agarn"
+      ],
+      "strategy": "summary"
+    },
+    "Jahr": {
+      "count": 11,
+      "strategy": "full",
+      "values": [
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ]
+    }
+  },
+  "years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ]
+}

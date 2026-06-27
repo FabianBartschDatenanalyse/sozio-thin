@@ -1,0 +1,311 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Jahr",
+    "Wohnkanton vor Studienbeginn",
+    "Hochschule"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "education_level",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502040400_140/px-x-1502040400_140.px"
+  },
+  "measures": [],
+  "primary_topic": "education",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 29,
+        "first": [
+          "1997/98",
+          "1998/99",
+          "1999/00",
+          "2000/01",
+          "2001/02"
+        ],
+        "sample": [
+          "1997/98",
+          "1999/00",
+          "2001/02",
+          "2003/04",
+          "2005/06",
+          "2007/08",
+          "2009/10",
+          "2011/12",
+          "2013/14",
+          "2015/16"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 29,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Wohnkanton vor Studienbeginn",
+      "label": "Wohnkanton vor Studienbeginn",
+      "value_labels": {
+        "count": 28,
+        "first": [
+          "ZH",
+          "BE",
+          "LU",
+          "UR",
+          "SZ"
+        ],
+        "sample": [
+          "ZH",
+          "LU",
+          "SZ",
+          "NW",
+          "ZG",
+          "SO",
+          "BL",
+          "AR",
+          "SG",
+          "AG"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 28,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Hochschule",
+      "label": "Hochschule",
+      "value_labels": {
+        "count": 19,
+        "strategy": "full",
+        "values": [
+          "BFH",
+          "EHSM",
+          "HES-SO",
+          "FHNW",
+          "HSLU",
+          "SUPSI",
+          "FHO",
+          "OST",
+          "FHGR",
+          "ZFH",
+          "ZHAW",
+          "ZHdK",
+          "HWZ",
+          "Kal FH",
+          "LRG",
+          "SBS",
+          "CRCS",
+          "Andere PH/Inst.",
+          "Andere FH"
+        ]
+      },
+      "values": {
+        "count": 19,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1502040400_140",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502040400_140/px-x-1502040400_140.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Studierende an den Fachhochschulen und pädagogischen Hochschulen nach Jahr, Wohnkanton vor Studienbeginn und Hochschule",
+  "topic_score": 9,
+  "topics": [
+    "education"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Hochschule": {
+      "count": 19,
+      "strategy": "full",
+      "values": [
+        "BFH",
+        "EHSM",
+        "HES-SO",
+        "FHNW",
+        "HSLU",
+        "SUPSI",
+        "FHO",
+        "OST",
+        "FHGR",
+        "ZFH",
+        "ZHAW",
+        "ZHdK",
+        "HWZ",
+        "Kal FH",
+        "LRG",
+        "SBS",
+        "CRCS",
+        "Andere PH/Inst.",
+        "Andere FH"
+      ]
+    },
+    "Jahr": {
+      "count": 29,
+      "first": [
+        "1997/98",
+        "1998/99",
+        "1999/00",
+        "2000/01",
+        "2001/02"
+      ],
+      "sample": [
+        "1997/98",
+        "1999/00",
+        "2001/02",
+        "2003/04",
+        "2005/06",
+        "2007/08",
+        "2009/10",
+        "2011/12",
+        "2013/14",
+        "2015/16"
+      ],
+      "strategy": "summary"
+    },
+    "Wohnkanton vor Studienbeginn": {
+      "count": 28,
+      "first": [
+        "ZH",
+        "BE",
+        "LU",
+        "UR",
+        "SZ"
+      ],
+      "sample": [
+        "ZH",
+        "LU",
+        "SZ",
+        "NW",
+        "ZG",
+        "SO",
+        "BL",
+        "AR",
+        "SG",
+        "AG"
+      ],
+      "strategy": "summary"
+    }
+  },
+  "years": [
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ]
+}

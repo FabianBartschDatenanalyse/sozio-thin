@@ -1,0 +1,48 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [],
+  "geo_levels": [],
+  "join_keys": [
+    "sex",
+    "economic_activity",
+    "year"
+  ],
+  "license": {
+    "attribution": "bundesamt-fur-statistik-bfs",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/36506631/master"
+  },
+  "measures": [],
+  "primary_topic": "labor-economy",
+  "publisher": "bundesamt-fur-statistik-bfs",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:schweizerischer-lohnindex-index-und-veranderung-auf-der-basis-2020-100-noga08:5c1f111b-1237-4ec0-aa21-88bd3113fb61",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": null,
+    "source_url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/36506631/master"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Schweizerischer Lohnindex: Index und Veränderung auf der Basis 2020 = 100 (NOGA08)",
+  "topic_score": 3,
+  "topics": [
+    "labor-economy"
+  ],
+  "units": [],
+  "value_summaries": {},
+  "years": []
+}

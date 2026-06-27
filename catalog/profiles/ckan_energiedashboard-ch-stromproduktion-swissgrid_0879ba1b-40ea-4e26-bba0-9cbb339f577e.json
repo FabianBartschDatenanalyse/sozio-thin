@@ -1,0 +1,46 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [],
+  "geo_levels": [],
+  "join_keys": [
+    "date"
+  ],
+  "license": {
+    "attribution": "bundesamt-fur-energie-bfe",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.bfe-ogd.ch/ogd104_stromproduktion_swissgrid.csv"
+  },
+  "measures": [],
+  "primary_topic": "environment-energy-climate",
+  "publisher": "bundesamt-fur-energie-bfe",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:energiedashboard-ch-stromproduktion-swissgrid:0879ba1b-40ea-4e26-bba0-9cbb339f577e",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": null,
+    "source_url": "https://www.bfe-ogd.ch/ogd104_stromproduktion_swissgrid.csv"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "energiedashboard.ch: Stromproduktion Swissgrid-CSV",
+  "topic_score": 6,
+  "topics": [
+    "environment-energy-climate"
+  ],
+  "units": [],
+  "value_summaries": {},
+  "years": []
+}

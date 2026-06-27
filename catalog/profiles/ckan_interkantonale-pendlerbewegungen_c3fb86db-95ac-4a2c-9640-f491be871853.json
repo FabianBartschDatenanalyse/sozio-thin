@@ -1,0 +1,114 @@
+{
+  "columns": [
+    "periode",
+    "gebiet",
+    "kennzahl",
+    "anzahl"
+  ],
+  "description": "",
+  "dimensions": [
+    "periode",
+    "gebiet",
+    "kennzahl",
+    "anzahl"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "date"
+  ],
+  "license": {
+    "attribution": "kanton-zug",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/interkantonale-pendlerbewegungen"
+  },
+  "measures": [
+    "anzahl"
+  ],
+  "primary_topic": "mobility-transport",
+  "publisher": "kanton-zug",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:interkantonale-pendlerbewegungen:c3fb86db-95ac-4a2c-9640-f491be871853",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/interkantonale-pendlerbewegungen",
+    "source_url": "https://data.zg.ch/store/1/resource/534"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Interkantonale Pendlerbewegungen",
+  "topic_score": 3,
+  "topics": [
+    "mobility-transport"
+  ],
+  "units": [],
+  "value_summaries": {
+    "anzahl": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        4905,
+        1471,
+        11251,
+        4925,
+        4576,
+        2272,
+        5492,
+        1317,
+        9762,
+        9438
+      ]
+    },
+    "gebiet": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "Aargau",
+        "Luzern",
+        "Restliche Schweiz",
+        "Schwyz",
+        "Zürich"
+      ]
+    },
+    "kennzahl": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Pendler nach Zug",
+        "Pendler von Zug"
+      ]
+    },
+    "periode": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "2010-2012",
+        "2013-2015",
+        "2016-2018",
+        "2019-2021",
+        "2022-2024"
+      ]
+    }
+  },
+  "years": [
+    2010,
+    2013,
+    2016,
+    2019,
+    2022
+  ]
+}

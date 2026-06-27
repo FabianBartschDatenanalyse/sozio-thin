@@ -1,0 +1,285 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Kanton",
+    "Haushaltstyp",
+    "Absolut / relativ",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "household_type",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1304030000_151/px-x-1304030000_151.px"
+  },
+  "measures": [],
+  "primary_topic": "population-demography",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Kanton",
+      "label": "Kanton",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Schweiz",
+          "Zürich",
+          "Bern / Berne",
+          "Luzern",
+          "Uri"
+        ],
+        "sample": [
+          "Schweiz",
+          "Bern / Berne",
+          "Uri",
+          "Obwalden",
+          "Glarus",
+          "Fribourg / Freiburg",
+          "Basel-Stadt",
+          "Schaffhausen",
+          "Appenzell Innerrhoden",
+          "Graubünden / Grigioni / Grischun"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Haushaltstyp",
+      "label": "Haushaltstyp",
+      "value_labels": {
+        "count": 12,
+        "strategy": "full",
+        "values": [
+          "Privathaushalte - Total",
+          "- Total Haushalte ohne Minderjährige",
+          ">> Eine erwachsene Person",
+          ">> Zwei Erwachsene verheiratet, ohne Minderjährige",
+          ">> Zwei Erwachsene nicht verheiratet, ohne Minderjährige",
+          ">> Drei oder mehr Erwachsene ohne Minderjährige",
+          "- Total Haushalte mit Minderjährigen",
+          ">> Eine erwachsene Person mit Minderjährigen",
+          ">> Zwei Erwachsene verheiratet, mit Minderjährigen",
+          ">> Zwei Erwachsene nicht verheiratet, mit Minderjährigen",
+          ">> Drei oder mehr Erwachsene mit Minderjährigen",
+          "- Ohne Angabe des Haushaltstyps"
+        ]
+      },
+      "values": {
+        "count": 12,
+        "strategy": "full",
+        "values": [
+          "0",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "99"
+        ]
+      }
+    },
+    {
+      "code": "Absolut / relativ",
+      "label": "Absolut / relativ",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Anzahl unterstützte Haushalte",
+          "Privathaushalte in Wohnbevölkerung",
+          "Quote der Haushalte mit Sozialhilfebezug"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 10,
+        "strategy": "full",
+        "values": [
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "values": {
+        "count": 10,
+        "strategy": "full",
+        "values": [
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1304030000_151",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1304030000_151/px-x-1304030000_151.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "WSH: Von der wirtschaftlichen Sozialhilfe unterstützte Haushalte nach Kanton, Haushaltstyp, Absolut / relativ und Jahr",
+  "topic_score": 6,
+  "topics": [
+    "population-demography",
+    "labor-economy",
+    "social-security-welfare",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Absolut / relativ": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Anzahl unterstützte Haushalte",
+        "Privathaushalte in Wohnbevölkerung",
+        "Quote der Haushalte mit Sozialhilfebezug"
+      ]
+    },
+    "Haushaltstyp": {
+      "count": 12,
+      "strategy": "full",
+      "values": [
+        "Privathaushalte - Total",
+        "- Total Haushalte ohne Minderjährige",
+        ">> Eine erwachsene Person",
+        ">> Zwei Erwachsene verheiratet, ohne Minderjährige",
+        ">> Zwei Erwachsene nicht verheiratet, ohne Minderjährige",
+        ">> Drei oder mehr Erwachsene ohne Minderjährige",
+        "- Total Haushalte mit Minderjährigen",
+        ">> Eine erwachsene Person mit Minderjährigen",
+        ">> Zwei Erwachsene verheiratet, mit Minderjährigen",
+        ">> Zwei Erwachsene nicht verheiratet, mit Minderjährigen",
+        ">> Drei oder mehr Erwachsene mit Minderjährigen",
+        "- Ohne Angabe des Haushaltstyps"
+      ]
+    },
+    "Jahr": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ]
+    },
+    "Kanton": {
+      "count": 27,
+      "first": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri"
+      ],
+      "sample": [
+        "Schweiz",
+        "Bern / Berne",
+        "Uri",
+        "Obwalden",
+        "Glarus",
+        "Fribourg / Freiburg",
+        "Basel-Stadt",
+        "Schaffhausen",
+        "Appenzell Innerrhoden",
+        "Graubünden / Grigioni / Grischun"
+      ],
+      "strategy": "summary"
+    }
+  },
+  "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ]
+}

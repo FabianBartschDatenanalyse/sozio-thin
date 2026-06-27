@@ -1,0 +1,409 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Beobachtungseinheit",
+    "Verwaltungsform",
+    "Art der Risikodeckung",
+    "Rechtsform",
+    "Registrierung VE",
+    "Jahr"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "legal_form",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1303030000_121/px-x-1303030000_121.px"
+  },
+  "measures": [
+    "Vorsorgeeinrichtungen",
+    "Flüssige Mittel und kurzfristige Anlagen",
+    "Forderungen und Darlehen, inkl. VSt.",
+    "Anlagen beim Arbeitgeber: Forderungen",
+    "Anlagen beim Arbeitgeber: Kotierte und nicht kotierte Aktien / Beteiligungen",
+    "Obligationen und Kassascheine: Inländische Schuldner",
+    "Obligationen und Kassascheine: Ausländische Schuldner in CHF",
+    "Obligationen und Kassascheine: In Fremdwährungen",
+    "Hypotheken auf schweizerischen Liegenschaften",
+    "Hypotheken auf ausländischen Liegenschaften",
+    "Schweizerische Immobilien",
+    "Ausländische Immobilien",
+    "Schweizerische Aktien",
+    "Ausländische Aktien",
+    "Infrastrukturen Schweiz",
+    "Infrastrukturen Ausland",
+    "Alternative Anlagen: Private Equity",
+    "Alternative Anlagen: Hedge Funds",
+    "Alternative Anlagen: Insurance Linked Securities",
+    "Alternative Anlagen: Rohstoffe",
+    "Alternative Anlagen: Infrastrukturen",
+    "Übrige alternative Anlagen",
+    "Mischvermögen bei kollektiven Anlagen",
+    "Übrige Aktiven",
+    "Aktive Rechnungsabgrenzung",
+    "Total Aktiven",
+    "Aktiven aus Versicherungsverträgen"
+  ],
+  "primary_topic": "public-administration-finance",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Beobachtungseinheit",
+      "label": "Beobachtungseinheit",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Vorsorgeeinrichtungen",
+          "Flüssige Mittel und kurzfristige Anlagen",
+          "Forderungen und Darlehen, inkl. VSt.",
+          "Anlagen beim Arbeitgeber: Forderungen",
+          "Anlagen beim Arbeitgeber: Kotierte und nicht kotierte Aktien / Beteiligungen"
+        ],
+        "sample": [
+          "Vorsorgeeinrichtungen",
+          "Forderungen und Darlehen, inkl. VSt.",
+          "Anlagen beim Arbeitgeber: Kotierte und nicht kotierte Aktien / Beteiligungen",
+          "Obligationen und Kassascheine: Ausländische Schuldner in CHF",
+          "Hypotheken auf schweizerischen Liegenschaften",
+          "Schweizerische Immobilien",
+          "Schweizerische Aktien",
+          "Infrastrukturen Schweiz",
+          "Alternative Anlagen: Private Equity",
+          "Alternative Anlagen: Insurance Linked Securities"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "99",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "99",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Verwaltungsform",
+      "label": "Verwaltungsform",
+      "value_labels": {
+        "count": 5,
+        "strategy": "full",
+        "values": [
+          "Alle Verwaltungsformen",
+          "VE nur eines Arbeitgebers",
+          "Sammeleinrichtungen",
+          "Gemeinschaftseinrichtungen",
+          "VE aus anderem Zusammenschluss mehrerer Arbeitgeber"
+        ]
+      },
+      "values": {
+        "count": 5,
+        "strategy": "full",
+        "values": [
+          "99",
+          "3",
+          "1",
+          "2",
+          "4"
+        ]
+      }
+    },
+    {
+      "code": "Art der Risikodeckung",
+      "label": "Art der Risikodeckung",
+      "value_labels": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "Art der Risikodeckung - Total",
+          "Autonome VE",
+          "Autonome VE (mit Rückversicherung)",
+          "Teilautonome VE (Altersrenten durch die VE sichergestellt)",
+          "Teilautonome VE (Altersrenten durch eine Versicherungsgesellschaft sichergestellt)",
+          "Kollektive VE (alle Risiken bei einer Versicherungsgesellschaft)",
+          "VE analog Art. 1e BVV2",
+          "Spareinrichtung"
+        ]
+      },
+      "values": {
+        "count": 8,
+        "strategy": "full",
+        "values": [
+          "99",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "13",
+          "6"
+        ]
+      }
+    },
+    {
+      "code": "Rechtsform",
+      "label": "Rechtsform",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Rechtsform - Total",
+          "Privates Recht",
+          "Öffentliches Recht"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "99",
+          "PR",
+          "OR"
+        ]
+      }
+    },
+    {
+      "code": "Registrierung VE",
+      "label": "Registrierung VE",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Registrierung VE - Total",
+          "Registrierte VE",
+          "Nicht registrierte VE"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "99",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 21,
+        "strategy": "full",
+        "values": [
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      },
+      "values": {
+        "count": 21,
+        "strategy": "full",
+        "values": [
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1303030000_121",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1303030000_121/px-x-1303030000_121.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Schlussbilanz - Aktiven: Direkte / kollektive Anlagen und Aktiven aus Versicherungsverträgen nach Beobachtungseinheit, Verwaltungsform, Art der Risikodeckung, Rechtsform, Registrierung VE und Jahr",
+  "topic_score": 3,
+  "topics": [
+    "public-administration-finance"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Art der Risikodeckung": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        "Art der Risikodeckung - Total",
+        "Autonome VE",
+        "Autonome VE (mit Rückversicherung)",
+        "Teilautonome VE (Altersrenten durch die VE sichergestellt)",
+        "Teilautonome VE (Altersrenten durch eine Versicherungsgesellschaft sichergestellt)",
+        "Kollektive VE (alle Risiken bei einer Versicherungsgesellschaft)",
+        "VE analog Art. 1e BVV2",
+        "Spareinrichtung"
+      ]
+    },
+    "Beobachtungseinheit": {
+      "count": 27,
+      "first": [
+        "Vorsorgeeinrichtungen",
+        "Flüssige Mittel und kurzfristige Anlagen",
+        "Forderungen und Darlehen, inkl. VSt.",
+        "Anlagen beim Arbeitgeber: Forderungen",
+        "Anlagen beim Arbeitgeber: Kotierte und nicht kotierte Aktien / Beteiligungen"
+      ],
+      "sample": [
+        "Vorsorgeeinrichtungen",
+        "Forderungen und Darlehen, inkl. VSt.",
+        "Anlagen beim Arbeitgeber: Kotierte und nicht kotierte Aktien / Beteiligungen",
+        "Obligationen und Kassascheine: Ausländische Schuldner in CHF",
+        "Hypotheken auf schweizerischen Liegenschaften",
+        "Schweizerische Immobilien",
+        "Schweizerische Aktien",
+        "Infrastrukturen Schweiz",
+        "Alternative Anlagen: Private Equity",
+        "Alternative Anlagen: Insurance Linked Securities"
+      ],
+      "strategy": "summary"
+    },
+    "Jahr": {
+      "count": 21,
+      "strategy": "full",
+      "values": [
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    "Rechtsform": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Rechtsform - Total",
+        "Privates Recht",
+        "Öffentliches Recht"
+      ]
+    },
+    "Registrierung VE": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Registrierung VE - Total",
+        "Registrierte VE",
+        "Nicht registrierte VE"
+      ]
+    },
+    "Verwaltungsform": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "Alle Verwaltungsformen",
+        "VE nur eines Arbeitgebers",
+        "Sammeleinrichtungen",
+        "Gemeinschaftseinrichtungen",
+        "VE aus anderem Zusammenschluss mehrerer Arbeitgeber"
+      ]
+    }
+  },
+  "years": [
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

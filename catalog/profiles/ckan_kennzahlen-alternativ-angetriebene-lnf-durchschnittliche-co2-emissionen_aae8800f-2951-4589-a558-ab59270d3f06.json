@@ -1,0 +1,398 @@
+{
+  "columns": [
+    "date",
+    "ZH",
+    "BE",
+    "LU",
+    "UR",
+    "SZ",
+    "OW",
+    "NW",
+    "GL",
+    "ZG",
+    "FR",
+    "SO",
+    "BS",
+    "BL",
+    "SH",
+    "AR",
+    "AI",
+    "SG",
+    "GR",
+    "AG",
+    "TG",
+    "TI",
+    "VD",
+    "VS",
+    "NE",
+    "GE",
+    "JU"
+  ],
+  "description": "",
+  "dimensions": [
+    "date",
+    "ZH",
+    "BE",
+    "LU",
+    "UR",
+    "SZ",
+    "OW",
+    "NW",
+    "GL",
+    "ZG",
+    "FR",
+    "SO",
+    "BS",
+    "BL",
+    "SH",
+    "AR",
+    "AI",
+    "SG",
+    "GR",
+    "AG",
+    "TG",
+    "TI",
+    "VD",
+    "VS",
+    "NE",
+    "GE",
+    "JU"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "age_group",
+    "date"
+  ],
+  "license": {
+    "attribution": "bundesamt-fur-energie-bfe",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/kennzahlen-alternativ-angetriebene-lnf-durchschnittliche-co2-emissionen"
+  },
+  "measures": [],
+  "primary_topic": "environment-energy-climate",
+  "publisher": "bundesamt-fur-energie-bfe",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:kennzahlen-alternativ-angetriebene-lnf-durchschnittliche-co2-emissionen:aae8800f-2951-4589-a558-ab59270d3f06",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/kennzahlen-alternativ-angetriebene-lnf-durchschnittliche-co2-emissionen",
+    "source_url": "https://www.bfe-ogd.ch/ogd95_data_t4_lnf.csv"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Durchschnittliche CO2-Emissionen (LNF)",
+  "topic_score": 6,
+  "topics": [
+    "environment-energy-climate"
+  ],
+  "units": [],
+  "value_summaries": {
+    "AG": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        178,
+        226,
+        211,
+        196,
+        203
+      ]
+    },
+    "AI": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        193,
+        246,
+        243,
+        205,
+        225
+      ]
+    },
+    "AR": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        190,
+        226,
+        221,
+        206,
+        209
+      ]
+    },
+    "BE": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        177,
+        219,
+        202,
+        192,
+        195
+      ]
+    },
+    "BL": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        177,
+        224,
+        205,
+        196,
+        189
+      ]
+    },
+    "BS": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        154,
+        205,
+        191,
+        155,
+        176
+      ]
+    },
+    "FR": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        172,
+        211,
+        206,
+        197,
+        191
+      ]
+    },
+    "GE": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        155,
+        197,
+        191,
+        163,
+        172
+      ]
+    },
+    "GL": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        192,
+        244,
+        230,
+        202,
+        203
+      ]
+    },
+    "GR": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        192,
+        238,
+        223,
+        205,
+        211
+      ]
+    },
+    "JU": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        175,
+        227,
+        208,
+        177,
+        187
+      ]
+    },
+    "LU": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        171,
+        219,
+        199,
+        183
+      ]
+    },
+    "NE": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        166,
+        218,
+        192,
+        198,
+        187
+      ]
+    },
+    "NW": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        177,
+        212,
+        208,
+        205,
+        195
+      ]
+    },
+    "OW": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        180,
+        223,
+        209,
+        210,
+        222
+      ]
+    },
+    "SG": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        179,
+        221,
+        189,
+        191
+      ]
+    },
+    "SH": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        180,
+        216,
+        205,
+        185,
+        197
+      ]
+    },
+    "SO": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        180,
+        233,
+        213,
+        186,
+        187
+      ]
+    },
+    "SZ": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        179,
+        223,
+        217,
+        209
+      ]
+    },
+    "TG": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        179,
+        215,
+        213,
+        194,
+        197
+      ]
+    },
+    "TI": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        172,
+        204,
+        188,
+        186,
+        184
+      ]
+    },
+    "UR": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        189,
+        225,
+        200,
+        201,
+        160
+      ]
+    },
+    "VD": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        171,
+        213,
+        202,
+        190,
+        195
+      ]
+    },
+    "VS": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        184,
+        227,
+        215,
+        207,
+        206
+      ]
+    },
+    "ZG": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        176,
+        220,
+        204,
+        195,
+        184
+      ]
+    },
+    "ZH": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        168,
+        209,
+        189,
+        165,
+        187
+      ]
+    },
+    "date": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        20200101,
+        20210101,
+        20220101,
+        20230101,
+        20240101
+      ]
+    }
+  },
+  "years": []
+}

@@ -1,0 +1,290 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Jahr",
+    "Herkunftsland",
+    "Alle Filme - Erstaufführungen",
+    "Beobachtungseinheit"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1602010000_102/px-x-1602010000_102.px"
+  },
+  "measures": [
+    "Anzahl Filme",
+    "Kinoeintritte"
+  ],
+  "primary_topic": "culture-sport-tourism",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 31,
+        "first": [
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999"
+        ],
+        "sample": [
+          "1995",
+          "1998",
+          "2001",
+          "2004",
+          "2007",
+          "2010",
+          "2013",
+          "2016",
+          "2019",
+          "2022"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 31,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "3",
+          "6",
+          "9",
+          "12",
+          "15",
+          "18",
+          "21",
+          "24",
+          "27"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Herkunftsland",
+      "label": "Herkunftsland",
+      "value_labels": {
+        "count": 106,
+        "first": [
+          "Herkunftsland - Total",
+          "......Schweiz",
+          "......Vereinigte Staaten",
+          "- Total Europa",
+          "> Subtotal EU"
+        ],
+        "sample": [
+          "Herkunftsland - Total",
+          "......Deutschland",
+          "......Malta",
+          "......Spanien",
+          "......Montenegro",
+          "- Total Lateinamerika",
+          "......Mexiko",
+          "......Hongkong",
+          "......Korea (Süd-)",
+          "- Total andere Länder"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 106,
+        "first": [
+          "9999",
+          "8100",
+          "8439",
+          "1",
+          "1a"
+        ],
+        "sample": [
+          "9999",
+          "8207",
+          "8224",
+          "8236",
+          "8254",
+          "3",
+          "8427",
+          "8509",
+          "8539",
+          "8"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Alle Filme - Erstaufführungen",
+      "label": "Alle Filme - Erstaufführungen",
+      "value_labels": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Alle vorgeführten Filme",
+          "Erstaufführungen"
+        ]
+      },
+      "values": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "code": "Beobachtungseinheit",
+      "label": "Beobachtungseinheit",
+      "value_labels": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Anzahl Filme",
+          "Kinoeintritte"
+        ]
+      },
+      "values": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1602010000_102",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1602010000_102/px-x-1602010000_102.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Filmangebot und Nachfrage nach Herkunftsland",
+  "topic_score": 3,
+  "topics": [
+    "culture-sport-tourism"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Alle Filme - Erstaufführungen": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Alle vorgeführten Filme",
+        "Erstaufführungen"
+      ]
+    },
+    "Beobachtungseinheit": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Anzahl Filme",
+        "Kinoeintritte"
+      ]
+    },
+    "Herkunftsland": {
+      "count": 106,
+      "first": [
+        "Herkunftsland - Total",
+        "......Schweiz",
+        "......Vereinigte Staaten",
+        "- Total Europa",
+        "> Subtotal EU"
+      ],
+      "sample": [
+        "Herkunftsland - Total",
+        "......Deutschland",
+        "......Malta",
+        "......Spanien",
+        "......Montenegro",
+        "- Total Lateinamerika",
+        "......Mexiko",
+        "......Hongkong",
+        "......Korea (Süd-)",
+        "- Total andere Länder"
+      ],
+      "strategy": "summary"
+    },
+    "Jahr": {
+      "count": 31,
+      "first": [
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999"
+      ],
+      "sample": [
+        "1995",
+        "1998",
+        "2001",
+        "2004",
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022"
+      ],
+      "strategy": "summary"
+    }
+  },
+  "years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ]
+}

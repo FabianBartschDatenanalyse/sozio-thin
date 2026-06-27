@@ -1,0 +1,135 @@
+{
+  "columns": [
+    "jahr",
+    "kategorie",
+    "straftat",
+    "anzahl"
+  ],
+  "description": "",
+  "dimensions": [
+    "jahr",
+    "kategorie",
+    "straftat",
+    "anzahl"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "offence_type",
+    "year"
+  ],
+  "license": {
+    "attribution": "kanton-zug",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/beschuldigte-gemass-strafgesetzbuch-nach-straftat"
+  },
+  "measures": [
+    "anzahl"
+  ],
+  "primary_topic": "justice-police-safety",
+  "publisher": "kanton-zug",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:beschuldigte-gemass-strafgesetzbuch-nach-straftat:9ebb6bd7-fe55-4b71-b0fb-41256defcbb5",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/beschuldigte-gemass-strafgesetzbuch-nach-straftat",
+    "source_url": "https://data.zg.ch/store/1/resource/1399"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Beschuldigte nach Straftat, einzelne Delikte",
+  "topic_score": 6,
+  "topics": [
+    "justice-police-safety"
+  ],
+  "units": [],
+  "value_summaries": {
+    "anzahl": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        221,
+        178,
+        174,
+        158,
+        140,
+        100,
+        79,
+        76,
+        73,
+        71
+      ]
+    },
+    "jahr": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ]
+    },
+    "kategorie": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Leib und Leben",
+        "Vermögen",
+        "Freiheit",
+        "Ehre-, Geheim-, Privatbereich",
+        "Öffentliche Gewalt",
+        "Urkundenfälschung",
+        "Bundesrechtliche Bestimmungen",
+        "Sexuelle Integrität",
+        "Familie",
+        "Rechtspflege"
+      ]
+    },
+    "straftat": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Tätlichkeiten (Art. 126)",
+        "Sachbeschädigung (Art. 144)",
+        "Ladendiebstahl (Art. 139)",
+        "Drohung (Art. 180)",
+        "Einfache Körperverletzung (Art. 123)",
+        "Hausfriedensbruch und Diebstahl (Art. 186)",
+        "Sachbeschädigung und Diebstahl (Art. 144)",
+        "Einbruchdiebstahl (Art. 139)",
+        "Betrug (Art. 146)",
+        "Hausfriedensbruch (Art. 186)"
+      ]
+    }
+  },
+  "years": [
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ]
+}

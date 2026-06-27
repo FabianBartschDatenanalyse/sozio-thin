@@ -1,0 +1,338 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Kanton",
+    "Jahr",
+    "Partei",
+    "Ergebnisse"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "vote_or_election_id",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1702020000_104/px-x-1702020000_104.px"
+  },
+  "measures": [],
+  "primary_topic": "politics-elections",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Kanton",
+      "label": "Kanton",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Schweiz",
+          "Zürich",
+          "Bern / Berne",
+          "Luzern",
+          "Uri"
+        ],
+        "sample": [
+          "Schweiz",
+          "Bern / Berne",
+          "Uri",
+          "Obwalden",
+          "Glarus",
+          "Fribourg / Freiburg",
+          "Basel-Stadt",
+          "Schaffhausen",
+          "Appenzell Innerrhoden",
+          "Graubünden / Grigioni / Grischun"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "CH",
+          "ZH",
+          "BE",
+          "LU",
+          "UR"
+        ],
+        "sample": [
+          "CH",
+          "BE",
+          "UR",
+          "OW",
+          "GL",
+          "FR",
+          "BS",
+          "SH",
+          "AI",
+          "GR"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "2023",
+          "2019",
+          "2015",
+          "2011",
+          "2007",
+          "2003",
+          "1999",
+          "1995",
+          "1991",
+          "1987",
+          "1983",
+          "1979",
+          "1975",
+          "1971"
+        ]
+      },
+      "values": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "2023",
+          "2019",
+          "2015",
+          "2011",
+          "2007",
+          "2003",
+          "1999",
+          "1995",
+          "1991",
+          "1987",
+          "1983",
+          "1979",
+          "1975",
+          "1971"
+        ]
+      }
+    },
+    {
+      "code": "Partei",
+      "label": "Partei",
+      "value_labels": {
+        "count": 25,
+        "strategy": "full",
+        "values": [
+          "FDP",
+          "Mitte",
+          "SP",
+          "SVP",
+          "LPS",
+          "EVP",
+          "CSP",
+          "GLP",
+          "PdA",
+          "Sol.",
+          "FGA",
+          "Grüne",
+          "SD",
+          "EDU",
+          "Lega",
+          "MCR",
+          "CVP",
+          "BDP",
+          "LdU",
+          "POCH",
+          "Rep.",
+          "PSA",
+          "FPS",
+          "Sep.",
+          "Übrige"
+        ]
+      },
+      "values": {
+        "count": 25,
+        "strategy": "full",
+        "values": [
+          "1",
+          "34",
+          "3",
+          "4",
+          "5",
+          "7",
+          "8",
+          "31",
+          "9",
+          "27",
+          "12",
+          "13",
+          "15",
+          "16",
+          "18",
+          "33",
+          "2",
+          "32",
+          "6",
+          "11",
+          "14",
+          "10",
+          "17",
+          "26",
+          "35"
+        ]
+      }
+    },
+    {
+      "code": "Ergebnisse",
+      "label": "Ergebnisse",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Parteistimmen",
+          "Fiktive Wählende",
+          "Parteistärke in %"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1702020000_104",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1702020000_104/px-x-1702020000_104.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Nationalratswahlen (Parteistimmen, fiktive Wählende und Parteistärke seit 1971: Schweiz und Kantone)",
+  "topic_score": 9,
+  "topics": [
+    "politics-elections",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Ergebnisse": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Parteistimmen",
+        "Fiktive Wählende",
+        "Parteistärke in %"
+      ]
+    },
+    "Jahr": {
+      "count": 14,
+      "strategy": "full",
+      "values": [
+        "2023",
+        "2019",
+        "2015",
+        "2011",
+        "2007",
+        "2003",
+        "1999",
+        "1995",
+        "1991",
+        "1987",
+        "1983",
+        "1979",
+        "1975",
+        "1971"
+      ]
+    },
+    "Kanton": {
+      "count": 27,
+      "first": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri"
+      ],
+      "sample": [
+        "Schweiz",
+        "Bern / Berne",
+        "Uri",
+        "Obwalden",
+        "Glarus",
+        "Fribourg / Freiburg",
+        "Basel-Stadt",
+        "Schaffhausen",
+        "Appenzell Innerrhoden",
+        "Graubünden / Grigioni / Grischun"
+      ],
+      "strategy": "summary"
+    },
+    "Partei": {
+      "count": 25,
+      "strategy": "full",
+      "values": [
+        "FDP",
+        "Mitte",
+        "SP",
+        "SVP",
+        "LPS",
+        "EVP",
+        "CSP",
+        "GLP",
+        "PdA",
+        "Sol.",
+        "FGA",
+        "Grüne",
+        "SD",
+        "EDU",
+        "Lega",
+        "MCR",
+        "CVP",
+        "BDP",
+        "LdU",
+        "POCH",
+        "Rep.",
+        "PSA",
+        "FPS",
+        "Sep.",
+        "Übrige"
+      ]
+    }
+  },
+  "years": [
+    1971,
+    1975,
+    1979,
+    1983,
+    1987,
+    1991,
+    1995,
+    1999,
+    2003,
+    2007,
+    2011,
+    2015,
+    2019,
+    2023
+  ]
+}

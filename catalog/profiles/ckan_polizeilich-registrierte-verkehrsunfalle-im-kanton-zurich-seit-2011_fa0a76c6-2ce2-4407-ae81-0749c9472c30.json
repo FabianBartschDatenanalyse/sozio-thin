@@ -1,0 +1,51 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "year"
+  ],
+  "license": {
+    "attribution": "Kantonspolizei Zürich",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000718_00001795.json"
+  },
+  "measures": [],
+  "primary_topic": "mobility-transport",
+  "publisher": "Kantonspolizei Zürich",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:polizeilich-registrierte-verkehrsunfalle-im-kanton-zurich-seit-2011:fa0a76c6-2ce2-4407-ae81-0749c9472c30",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "JSON",
+    "format_family": "json",
+    "landing_page_url": null,
+    "source_url": "https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000718_00001795.json"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Polizeilich registrierte Verkehrsunfälle im Kanton Zürich",
+  "topic_score": 3,
+  "topics": [
+    "mobility-transport",
+    "justice-police-safety",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {},
+  "years": []
+}

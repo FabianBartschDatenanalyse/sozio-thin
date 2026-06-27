@@ -1,0 +1,156 @@
+{
+  "columns": [
+    "jahr",
+    "status",
+    "alterskategorie",
+    "geschlecht",
+    "herkunftsort",
+    "in_pflegefamilie",
+    "in_heim"
+  ],
+  "description": "",
+  "dimensions": [
+    "jahr",
+    "status",
+    "alterskategorie",
+    "geschlecht",
+    "herkunftsort",
+    "in_pflegefamilie",
+    "in_heim"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "age_group",
+    "sex",
+    "year",
+    "date"
+  ],
+  "license": {
+    "attribution": "kanton-thurgau",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/pflegekinder-im-kanton-thurgau1"
+  },
+  "measures": [],
+  "primary_topic": "health",
+  "publisher": "kanton-thurgau",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:pflegekinder-im-kanton-thurgau1:815bea5e-1e82-42be-9d2e-95d8bdb2a899",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "PARQUET",
+    "format_family": "columnar",
+    "landing_page_url": "https://opendata.swiss/de/dataset/pflegekinder-im-kanton-thurgau1",
+    "source_url": "https://data.tg.ch/api/v2/catalog/datasets/djs-gs-6/exports/parquet"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Pflegekinder im Kanton Thurgau",
+  "topic_score": 3,
+  "topics": [
+    "health",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "alterskategorie": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "0-2 Jahre",
+        "7-14 Jahre",
+        "3-6 Jahre",
+        "15-18 Jahre"
+      ]
+    },
+    "geschlecht": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "weiblich",
+        "männlich"
+      ]
+    },
+    "herkunftsort": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Kanton Thurgau",
+        "ausserkantonal"
+      ]
+    },
+    "in_heim": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1,
+        15,
+        3,
+        2,
+        0,
+        6,
+        4,
+        11,
+        14,
+        13
+      ]
+    },
+    "in_pflegefamilie": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        3,
+        27,
+        5,
+        4,
+        16,
+        0,
+        13,
+        28,
+        17,
+        22
+      ]
+    },
+    "jahr": {
+      "count": 7,
+      "strategy": "full",
+      "values": [
+        "2019-01-01 00:00:00",
+        "2020-01-01 00:00:00",
+        "2021-01-01 00:00:00",
+        "2022-01-01 00:00:00",
+        "2023-01-01 00:00:00",
+        "2024-01-01 00:00:00",
+        "2025-01-01 00:00:00"
+      ]
+    },
+    "status": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "Pflegekind"
+      ]
+    }
+  },
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Leistungserbringertyp",
+    "Kanton",
+    "Leistungsangebot",
+    "Leistungserbringer",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1404040000_101/px-x-1404040000_101.px"
+  },
+  "measures": [],
+  "primary_topic": "health",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Leistungserbringertyp",
+      "label": "Leistungserbringertyp",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Leistungserbringertyp - Total",
+          "Gemeinnützige und öffentlich-rechtliche Unternehmen",
+          "Erwerbswirtschaftliche Unternehmen",
+          "Selbstständige Pflegefachpersonen"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "code": "Kanton",
+      "label": "Kanton",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Schweiz",
+          "Zürich",
+          "Bern / Berne",
+          "Luzern",
+          "Uri"
+        ],
+        "sample": [
+          "Schweiz",
+          "Bern / Berne",
+          "Uri",
+          "Obwalden",
+          "Glarus",
+          "Fribourg / Freiburg",
+          "Basel-Stadt",
+          "Schaffhausen",
+          "Appenzell Innerrhoden",
+          "Graubünden / Grigioni / Grischun"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "CH",
+          "ZH",
+          "BE",
+          "LU",
+          "UR"
+        ],
+        "sample": [
+          "CH",
+          "BE",
+          "UR",
+          "OW",
+          "GL",
+          "FR",
+          "BS",
+          "SH",
+          "AI",
+          "GR"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Leistungsangebot",
+      "label": "Leistungsangebot",
+      "value_labels": {
+        "count": 11,
+        "strategy": "full",
+        "values": [
+          "Leistungsangebot - Total",
+          "< Langzeitpflege",
+          "...Abklärung und Beratung",
+          "...Untersuchung und Behandlung",
+          "...Grundpflege",
+          "< Akut- und Übergangspflege",
+          "< Hauswirtschaftliche und sozialbetreuerische Leistungen",
+          "< Mahlzeiten",
+          "< Weitere Leistungen",
+          "< Anbieter nur für Kinder",
+          "< Anbieter nur für Seniorenresidenzen-Alterswohnungen"
+        ]
+      },
+      "values": {
+        "count": 11,
+        "strategy": "full",
+        "values": [
+          "0",
+          "13",
+          "131",
+          "132",
+          "133",
+          "14",
+          "11",
+          "12",
+          "20",
+          "54",
+          "53"
+        ]
+      }
+    },
+    {
+      "code": "Leistungserbringer",
+      "label": "Leistungserbringer",
+      "value_labels": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Leistungserbringer - Betrieb",
+          "Leistungserbringer - Unternehmen"
+        ]
+      },
+      "values": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "BUR",
+          "ENTID"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      },
+      "values": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1404040000_101",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1404040000_101/px-x-1404040000_101.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Leistungserbringer für Hilfe und Pflege zu Hause nach Leistungserbringertyp, Kanton, Leistungsangebot, Leistungserbringer und Jahr",
+  "topic_score": 3,
+  "topics": [
+    "health",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Jahr": {
+      "count": 14,
+      "strategy": "full",
+      "values": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    "Kanton": {
+      "count": 27,
+      "first": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri"
+      ],
+      "sample": [
+        "Schweiz",
+        "Bern / Berne",
+        "Uri",
+        "Obwalden",
+        "Glarus",
+        "Fribourg / Freiburg",
+        "Basel-Stadt",
+        "Schaffhausen",
+        "Appenzell Innerrhoden",
+        "Graubünden / Grigioni / Grischun"
+      ],
+      "strategy": "summary"
+    },
+    "Leistungsangebot": {
+      "count": 11,
+      "strategy": "full",
+      "values": [
+        "Leistungsangebot - Total",
+        "< Langzeitpflege",
+        "...Abklärung und Beratung",
+        "...Untersuchung und Behandlung",
+        "...Grundpflege",
+        "< Akut- und Übergangspflege",
+        "< Hauswirtschaftliche und sozialbetreuerische Leistungen",
+        "< Mahlzeiten",
+        "< Weitere Leistungen",
+        "< Anbieter nur für Kinder",
+        "< Anbieter nur für Seniorenresidenzen-Alterswohnungen"
+      ]
+    },
+    "Leistungserbringer": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Leistungserbringer - Betrieb",
+        "Leistungserbringer - Unternehmen"
+      ]
+    },
+    "Leistungserbringertyp": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Leistungserbringertyp - Total",
+        "Gemeinnützige und öffentlich-rechtliche Unternehmen",
+        "Erwerbswirtschaftliche Unternehmen",
+        "Selbstständige Pflegefachpersonen"
+      ]
+    }
+  },
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

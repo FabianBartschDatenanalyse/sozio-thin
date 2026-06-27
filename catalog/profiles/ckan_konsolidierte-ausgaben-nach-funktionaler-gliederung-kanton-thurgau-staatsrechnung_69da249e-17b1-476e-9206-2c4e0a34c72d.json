@@ -1,0 +1,119 @@
+{
+  "columns": [
+    "funktionale_gliederung",
+    "ausgaben_millionen_chf",
+    "jahr"
+  ],
+  "description": "",
+  "dimensions": [
+    "funktionale_gliederung",
+    "ausgaben_millionen_chf",
+    "jahr"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "year",
+    "date"
+  ],
+  "license": {
+    "attribution": "Kanton Thurgau",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/konsolidierte-ausgaben-nach-funktionaler-gliederung-kanton-thurgau-staatsrechnung"
+  },
+  "measures": [],
+  "primary_topic": "public-administration-finance",
+  "publisher": "Kanton Thurgau",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:konsolidierte-ausgaben-nach-funktionaler-gliederung-kanton-thurgau-staatsrechnung:69da249e-17b1-476e-9206-2c4e0a34c72d",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "PARQUET",
+    "format_family": "columnar",
+    "landing_page_url": "https://opendata.swiss/de/dataset/konsolidierte-ausgaben-nach-funktionaler-gliederung-kanton-thurgau-staatsrechnung",
+    "source_url": "https://data.tg.ch/api/v2/catalog/datasets/dfs-fv-10/exports/parquet"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Konsolidierte Ausgaben nach funktionaler Gliederung Kanton Thurgau (Staatsrechnung)",
+  "topic_score": 6,
+  "topics": [
+    "public-administration-finance",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "ausgaben_millionen_chf": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        225.9,
+        271.8,
+        148.5,
+        435.9,
+        381.1,
+        92.8,
+        488.2,
+        35.1,
+        34.1,
+        119.7
+      ]
+    },
+    "funktionale_gliederung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Allgemeine_Verwaltung",
+        "Oeffentliche_Sicherheit",
+        "Verkehr",
+        "Gesundheit",
+        "Soziale_Wohlfahrt",
+        "Volkswirtschaft",
+        "Bildung",
+        "Kultur_Freizeit",
+        "Umwelt_Raumordnung",
+        "Finanzen_Steuern"
+      ]
+    },
+    "jahr": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "2025-01-01 00:00:00",
+        "2024-01-01 00:00:00",
+        "2023-01-01 00:00:00",
+        "2022-01-01 00:00:00",
+        "2021-01-01 00:00:00",
+        "2020-01-01 00:00:00",
+        "2019-01-01 00:00:00",
+        "2018-01-01 00:00:00",
+        "2017-01-01 00:00:00",
+        "2016-01-01 00:00:00"
+      ]
+    }
+  },
+  "years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ]
+}

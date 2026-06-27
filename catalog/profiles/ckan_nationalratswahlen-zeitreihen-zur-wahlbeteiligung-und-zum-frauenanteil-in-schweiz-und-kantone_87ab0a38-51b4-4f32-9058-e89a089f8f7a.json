@@ -1,0 +1,318 @@
+{
+  "columns": [
+    "wahl_jahr",
+    "ebene_resultat",
+    "geoLevelName",
+    "kanton_nummer",
+    "kanton_bezeichnung",
+    "anzahl_listen",
+    "anzahl_kandidierende",
+    "anzahl_kandidierende_f",
+    "anzahl_kandidierende_m",
+    "anzahl_gewaehlte",
+    "anzahl_gewaehlte_f",
+    "anzahl_gewaehlte_m",
+    "frauen_anteil",
+    "wahlbeteiligung"
+  ],
+  "description": "",
+  "dimensions": [
+    "wahl_jahr",
+    "ebene_resultat",
+    "geoLevelName",
+    "kanton_nummer",
+    "kanton_bezeichnung",
+    "anzahl_listen",
+    "anzahl_kandidierende",
+    "anzahl_kandidierende_f",
+    "anzahl_kandidierende_m",
+    "anzahl_gewaehlte",
+    "anzahl_gewaehlte_f",
+    "anzahl_gewaehlte_m",
+    "frauen_anteil",
+    "wahlbeteiligung"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "local_feature_id",
+    "canton_code",
+    "sex",
+    "vote_or_election_id",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik BFS",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/nationalratswahlen-zeitreihen-zur-wahlbeteiligung-und-zum-frauenanteil-in-schweiz-und-kantone"
+  },
+  "measures": [
+    "anzahl_listen",
+    "anzahl_kandidierende",
+    "anzahl_kandidierende_f",
+    "anzahl_kandidierende_m",
+    "anzahl_gewaehlte",
+    "anzahl_gewaehlte_f",
+    "anzahl_gewaehlte_m",
+    "frauen_anteil"
+  ],
+  "primary_topic": "politics-elections",
+  "publisher": "Bundesamt für Statistik BFS",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:nationalratswahlen-zeitreihen-zur-wahlbeteiligung-und-zum-frauenanteil-in-schweiz-und-kantone:87ab0a38-51b4-4f32-9058-e89a089f8f7a",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/nationalratswahlen-zeitreihen-zur-wahlbeteiligung-und-zum-frauenanteil-in-schweiz-und-kantone",
+    "source_url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/28845366/appendix"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Nationalratswahlen: Zeitreihen zur Wahlbeteiligung und zum Frauenanteil in % (Schweiz und Kantone)",
+  "topic_score": 3,
+  "topics": [
+    "politics-elections",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "anzahl_gewaehlte": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        200,
+        35,
+        34,
+        36,
+        29,
+        27,
+        26,
+        25,
+        24,
+        9
+      ]
+    },
+    "anzahl_gewaehlte_f": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        35,
+        43,
+        47,
+        52,
+        59,
+        58,
+        64,
+        84,
+        77,
+        9
+      ]
+    },
+    "anzahl_gewaehlte_m": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        165,
+        157,
+        153,
+        148,
+        141,
+        142,
+        136,
+        116,
+        123,
+        26
+      ]
+    },
+    "anzahl_kandidierende": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        2561.0,
+        2834.0,
+        2845.0,
+        2836.0,
+        3089.0,
+        3458.0,
+        3788.0,
+        4645.0,
+        5909.0,
+        814.0
+      ]
+    },
+    "anzahl_kandidierende_f": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        834.0,
+        990.0,
+        983.0,
+        993.0,
+        1088.0,
+        1133.0,
+        1308.0,
+        1873.0,
+        2409.0,
+        290.0
+      ]
+    },
+    "anzahl_kandidierende_m": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1727.0,
+        1844.0,
+        1862.0,
+        1843.0,
+        2001.0,
+        2325.0,
+        2480.0,
+        2772.0,
+        3500.0,
+        524.0
+      ]
+    },
+    "anzahl_listen": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        248.0,
+        278.0,
+        268.0,
+        262.0,
+        311.0,
+        365.0,
+        422.0,
+        511.0,
+        618.0,
+        34.0
+      ]
+    },
+    "ebene_resultat": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Schweiz",
+        "Kanton"
+      ]
+    },
+    "frauen_anteil": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        17.5,
+        21.5,
+        23.5,
+        26.0,
+        29.5,
+        29.0,
+        32.0,
+        42.0,
+        38.5,
+        25.714285714
+      ]
+    },
+    "geoLevelName": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri",
+        "Schwyz",
+        "Obwalden",
+        "Nidwalden",
+        "Glarus",
+        "Zug"
+      ]
+    },
+    "kanton_bezeichnung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri",
+        "Schwyz",
+        "Obwalden",
+        "Nidwalden",
+        "Glarus",
+        "Zug",
+        "Fribourg / Freiburg"
+      ]
+    },
+    "kanton_nummer": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0
+      ]
+    },
+    "wahl_jahr": {
+      "count": 9,
+      "strategy": "full",
+      "values": [
+        1991,
+        1995,
+        1999,
+        2003,
+        2007,
+        2011,
+        2015,
+        2019,
+        2023
+      ]
+    },
+    "wahlbeteiligung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        46.045700707,
+        42.222231409,
+        43.303141085,
+        45.230999305,
+        48.276098472,
+        48.504810858,
+        48.509980778,
+        45.109775796,
+        46.657368569,
+        46.25177542
+      ]
+    }
+  },
+  "years": [
+    1991,
+    1995,
+    1999,
+    2003,
+    2007,
+    2011,
+    2015,
+    2019,
+    2023
+  ]
+}

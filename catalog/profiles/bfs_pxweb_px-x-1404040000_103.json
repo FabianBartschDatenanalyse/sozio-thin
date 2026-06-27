@@ -1,0 +1,346 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Leistungserbringertyp",
+    "Kanton",
+    "Ausbildung/Hauptfunktion",
+    "Personal",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "education_level",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1404040000_103/px-x-1404040000_103.px"
+  },
+  "measures": [],
+  "primary_topic": "health",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Leistungserbringertyp",
+      "label": "Leistungserbringertyp",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Leistungserbringertyp - Total",
+          "Gemeinnützige und öffentlich-rechtliche Unternehmen",
+          "Erwerbswirtschaftliche Unternehmen",
+          "Selbstständige Pflegefachpersonen"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "code": "Kanton",
+      "label": "Kanton",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Schweiz",
+          "Zürich",
+          "Bern / Berne",
+          "Luzern",
+          "Uri"
+        ],
+        "sample": [
+          "Schweiz",
+          "Bern / Berne",
+          "Uri",
+          "Obwalden",
+          "Glarus",
+          "Fribourg / Freiburg",
+          "Basel-Stadt",
+          "Schaffhausen",
+          "Appenzell Innerrhoden",
+          "Graubünden / Grigioni / Grischun"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "CH",
+          "ZH",
+          "BE",
+          "LU",
+          "UR"
+        ],
+        "sample": [
+          "CH",
+          "BE",
+          "UR",
+          "OW",
+          "GL",
+          "FR",
+          "BS",
+          "SH",
+          "AI",
+          "GR"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Ausbildung/Hauptfunktion",
+      "label": "Ausbildung/Hauptfunktion",
+      "value_labels": {
+        "count": 35,
+        "first": [
+          "Ausbildung - Total",
+          "< Pflegefachpersonen Diplom Hochschulen (Bachelor FH, Master of Science, PhD)",
+          ".. Pflegefachfrau / Pflegefachmann FH (Bachelor of Science in Nursing (BScN)",
+          ".. Master of Science in Pflege (MScN) FH",
+          ".. Master of Science in Nursing (MSN)"
+        ],
+        "sample": [
+          "Ausbildung - Total",
+          ".. Master of Science in Pflege (MScN) FH",
+          "< Pflegefachpersonen Höhere Berufsbildung (HF)",
+          ".. Diplom: Krankenschwester/-pfleger AKP/GKP/KWS/PsyKP",
+          ".. Nachdiplom Gesundheitsschwester/-pfleger, Fachbereich  Mütter-/Väterberatung",
+          ".. Pflegefachfrau DNI /Pflegefachmann DNI",
+          ".. Fachfrau/Fachmann Gesundheit (EFZ), Hauspfleger/in (EFZ oder kantonales Diplom)",
+          ".. Assistent/in Gesundheit und Soziales (EBA), Pflegeassistent/in SRK",
+          ".. Therapeutische Ausbildung mit Diplom (Ergo-, Physiotherapie u.ä.)",
+          "< Pflege-/Betreuungskurse, Praktikanten und keine spezifische Ausbildung"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 35,
+        "first": [
+          "199",
+          "PERS_5a_ISCED",
+          "100",
+          "101",
+          "102"
+        ],
+        "sample": [
+          "199",
+          "101",
+          "PERS_5b_ISCED",
+          "112",
+          "141",
+          "120",
+          "130",
+          "133",
+          "151",
+          "PERS_KeinSPX"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Personal",
+      "label": "Personal",
+      "value_labels": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Anzahl Personen",
+          "Personal in Vollzeitäquivalenten"
+        ]
+      },
+      "values": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Total",
+          "FTE"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      },
+      "values": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1404040000_103",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1404040000_103/px-x-1404040000_103.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Personal der Hilfe und Pflege zu Hause nach Leistungserbringertyp, Kanton, Ausbildung/Hauptfunktion, Personal und Jahr",
+  "topic_score": 3,
+  "topics": [
+    "health",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Ausbildung/Hauptfunktion": {
+      "count": 35,
+      "first": [
+        "Ausbildung - Total",
+        "< Pflegefachpersonen Diplom Hochschulen (Bachelor FH, Master of Science, PhD)",
+        ".. Pflegefachfrau / Pflegefachmann FH (Bachelor of Science in Nursing (BScN)",
+        ".. Master of Science in Pflege (MScN) FH",
+        ".. Master of Science in Nursing (MSN)"
+      ],
+      "sample": [
+        "Ausbildung - Total",
+        ".. Master of Science in Pflege (MScN) FH",
+        "< Pflegefachpersonen Höhere Berufsbildung (HF)",
+        ".. Diplom: Krankenschwester/-pfleger AKP/GKP/KWS/PsyKP",
+        ".. Nachdiplom Gesundheitsschwester/-pfleger, Fachbereich  Mütter-/Väterberatung",
+        ".. Pflegefachfrau DNI /Pflegefachmann DNI",
+        ".. Fachfrau/Fachmann Gesundheit (EFZ), Hauspfleger/in (EFZ oder kantonales Diplom)",
+        ".. Assistent/in Gesundheit und Soziales (EBA), Pflegeassistent/in SRK",
+        ".. Therapeutische Ausbildung mit Diplom (Ergo-, Physiotherapie u.ä.)",
+        "< Pflege-/Betreuungskurse, Praktikanten und keine spezifische Ausbildung"
+      ],
+      "strategy": "summary"
+    },
+    "Jahr": {
+      "count": 14,
+      "strategy": "full",
+      "values": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    "Kanton": {
+      "count": 27,
+      "first": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri"
+      ],
+      "sample": [
+        "Schweiz",
+        "Bern / Berne",
+        "Uri",
+        "Obwalden",
+        "Glarus",
+        "Fribourg / Freiburg",
+        "Basel-Stadt",
+        "Schaffhausen",
+        "Appenzell Innerrhoden",
+        "Graubünden / Grigioni / Grischun"
+      ],
+      "strategy": "summary"
+    },
+    "Leistungserbringertyp": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Leistungserbringertyp - Total",
+        "Gemeinnützige und öffentlich-rechtliche Unternehmen",
+        "Erwerbswirtschaftliche Unternehmen",
+        "Selbstständige Pflegefachpersonen"
+      ]
+    },
+    "Personal": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Anzahl Personen",
+        "Personal in Vollzeitäquivalenten"
+      ]
+    }
+  },
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

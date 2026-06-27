@@ -1,0 +1,190 @@
+{
+  "columns": [
+    "﻿\"GEO_NR\"",
+    "GEO_NAME",
+    "CLASS_HAB",
+    "GEOM_PERIOD",
+    "VARIABLE",
+    "SOURCE",
+    "VALUE_PERIOD",
+    "UNIT_VALUE",
+    "VALUE",
+    "STATUS"
+  ],
+  "description": "",
+  "dimensions": [
+    "﻿\"GEO_NR\"",
+    "GEO_NAME",
+    "CLASS_HAB",
+    "GEOM_PERIOD",
+    "VARIABLE",
+    "SOURCE",
+    "VALUE_PERIOD",
+    "UNIT_VALUE",
+    "VALUE",
+    "STATUS"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "spatial_geometry",
+    "date"
+  ],
+  "license": {
+    "attribution": "bundesamt-fur-statistik-bfs",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/offentliche-finanzen1"
+  },
+  "measures": [],
+  "primary_topic": "public-administration-finance",
+  "publisher": "bundesamt-fur-statistik-bfs",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:offentliche-finanzen1:4efb0dbf-abd1-4c89-b2e9-7597cb43cdc7",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/offentliche-finanzen1",
+    "source_url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/31646112/master"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Öffentliche Finanzen",
+  "topic_score": 3,
+  "topics": [
+    "public-administration-finance"
+  ],
+  "units": [],
+  "value_summaries": {
+    "CLASS_HAB": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "Total",
+        "2",
+        "4",
+        "3",
+        "6"
+      ]
+    },
+    "GEOM_PERIOD": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "2021-07-01",
+        "2020-10-18",
+        "2023-01-01"
+      ]
+    },
+    "GEO_NAME": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Schweiz / Suisse",
+        "Affoltern am Albis",
+        "Bassersdorf",
+        "Bülach",
+        "Kloten",
+        "Opfikon",
+        "Wallisellen",
+        "Regensdorf",
+        "Hinwil",
+        "Rüti (ZH)"
+      ]
+    },
+    "SOURCE": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "EFV",
+        "ESTV"
+      ]
+    },
+    "STATUS": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "O",
+        "A",
+        "N"
+      ]
+    },
+    "UNIT_VALUE": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Num",
+        "Per"
+      ]
+    },
+    "VALUE": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1309.0,
+        1236.0,
+        -5.5,
+        1570.0,
+        1317.0,
+        -16.2,
+        146210.66,
+        59718.41,
+        29708.32,
+        12591.71
+      ]
+    },
+    "VALUE_PERIOD": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "2021",
+        "2019",
+        "2020",
+        "2019/2020",
+        "2023"
+      ]
+    },
+    "VARIABLE": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "act_t",
+        "pat_fin_t",
+        "pat_fin_liq",
+        "pat_fin_cre",
+        "pat_fin_pla_cou",
+        "pat_fin_reg",
+        "pat_fin_sto",
+        "pat_fin_pla",
+        "pat_fin_imm_cor",
+        "pat_fin_spe"
+      ]
+    },
+    "﻿\"GEO_NR\"": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "CH",
+        "2",
+        "52",
+        "53",
+        "62",
+        "66",
+        "69",
+        "96",
+        "117",
+        "118"
+      ]
+    }
+  },
+  "years": []
+}

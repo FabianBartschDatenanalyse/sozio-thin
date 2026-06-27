@@ -1,0 +1,128 @@
+{
+  "columns": [
+    "bahnhof_gare_stazione",
+    "unite",
+    "jahr",
+    "anzahl_bahnhofbenutzer"
+  ],
+  "description": "",
+  "dimensions": [
+    "bahnhof_gare_stazione",
+    "unite",
+    "jahr",
+    "anzahl_bahnhofbenutzer"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "transport_stop_id",
+    "year",
+    "date"
+  ],
+  "license": {
+    "attribution": "Schweizerische Bundesbahnen SBB",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/anzahl-sbb-bahnhofbenutzer"
+  },
+  "measures": [
+    "anzahl_bahnhofbenutzer"
+  ],
+  "primary_topic": "mobility-transport",
+  "publisher": "Schweizerische Bundesbahnen SBB",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:anzahl-sbb-bahnhofbenutzer:3dcbfcef-6da4-4012-b536-33ce9c821908",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "PARQUET",
+    "format_family": "columnar",
+    "landing_page_url": "https://opendata.swiss/de/dataset/anzahl-sbb-bahnhofbenutzer",
+    "source_url": "https://data.sbb.ch/api/v2/catalog/datasets/anzahl-sbb-bahnhofbenutzer/exports/parquet"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Number of SBB station users",
+  "topic_score": 3,
+  "topics": [
+    "mobility-transport"
+  ],
+  "units": [],
+  "value_summaries": {
+    "anzahl_bahnhofbenutzer": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        51900,
+        68200,
+        76000,
+        55400,
+        62800,
+        61300,
+        60300,
+        45700,
+        126400,
+        136200
+      ]
+    },
+    "bahnhof_gare_stazione": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Aarau",
+        "Baden",
+        "Basel SBB",
+        "Bellinzona",
+        "Bern",
+        "Biel/Bienne",
+        "Chur",
+        "Fribourg/Freiburg",
+        "Genève",
+        "Genève-Aéroport"
+      ]
+    },
+    "jahr": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "2021-01-01 00:00:00",
+        "2023-01-01 00:00:00",
+        "2013-01-01 00:00:00",
+        "2014-01-01 00:00:00",
+        "2019-01-01 00:00:00",
+        "2017-01-01 00:00:00",
+        "2018-01-01 00:00:00",
+        "2020-01-01 00:00:00",
+        "2015-01-01 00:00:00",
+        "2025-01-01 00:00:00"
+      ]
+    },
+    "unite": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "DP/jour",
+        "DP/jour ouvré"
+      ]
+    }
+  },
+  "years": [
+    2013,
+    2014,
+    2015,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2023,
+    2025
+  ]
+}

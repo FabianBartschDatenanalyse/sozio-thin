@@ -1,0 +1,46 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [],
+  "geo_levels": [],
+  "join_keys": [
+    "year"
+  ],
+  "license": {
+    "attribution": "amt-fuer-statistik-fl",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://etab.llv.li/PXWEb/api/v1/en/eTab//Soziales/Verm?gens-%20und%20Einkommensverteilung/Verm?gen/411.216.px"
+  },
+  "measures": [],
+  "primary_topic": "public-administration-finance",
+  "publisher": "amt-fuer-statistik-fl",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:steuerpflichtige-personen-nach-bruttovermogens-und-schuldenklasse-seit-2020:4968be01-2507-4776-95ac-908161da1b57",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "JSON",
+    "format_family": "json",
+    "landing_page_url": null,
+    "source_url": "https://etab.llv.li/PXWEb/api/v1/en/eTab//Soziales/Verm?gens-%20und%20Einkommensverteilung/Verm?gen/411.216.px"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": " Steuerpflichtige Personen nach Bruttoverm?gens- und Schuldenklasse seit 2020",
+  "topic_score": 3,
+  "topics": [
+    "public-administration-finance"
+  ],
+  "units": [],
+  "value_summaries": {},
+  "years": []
+}

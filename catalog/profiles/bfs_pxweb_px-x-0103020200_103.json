@@ -1,0 +1,437 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Jahr",
+    "Kanton",
+    "Staatsangehörigkeit (Kategorie)",
+    "Geburtsstaat",
+    "Geschlecht",
+    "Altersklasse"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "age_group",
+    "sex",
+    "nationality",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0103020200_103/px-x-0103020200_103.px"
+  },
+  "measures": [],
+  "primary_topic": "population-demography",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      },
+      "values": {
+        "count": 14,
+        "strategy": "full",
+        "values": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      }
+    },
+    {
+      "code": "Kanton",
+      "label": "Kanton",
+      "value_labels": {
+        "count": 28,
+        "first": [
+          "Schweiz",
+          "Zürich",
+          "Bern / Berne",
+          "Luzern",
+          "Uri"
+        ],
+        "sample": [
+          "Schweiz",
+          "Bern / Berne",
+          "Uri",
+          "Obwalden",
+          "Glarus",
+          "Fribourg / Freiburg",
+          "Basel-Stadt",
+          "Schaffhausen",
+          "Appenzell Innerrhoden",
+          "Graubünden / Grigioni / Grischun"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 28,
+        "first": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Staatsangehörigkeit (Kategorie)",
+      "label": "Staatsangehörigkeit (Kategorie)",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Staatsangehörigkeit (Kategorie) - Total",
+          "Schweiz",
+          "Ausland"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Geburtsstaat",
+      "label": "Geburtsstaat",
+      "value_labels": {
+        "count": 203,
+        "first": [
+          "Geburtsstaat - Total",
+          "Schweiz",
+          "Albanien",
+          "Andorra",
+          "Belgien"
+        ],
+        "sample": [
+          "Geburtsstaat - Total",
+          "Norwegen",
+          "Kosovo",
+          "Guinea-Bissau",
+          "Burkina Faso",
+          "Eritrea",
+          "Kolumbien",
+          "Bhutan",
+          "Malediven",
+          "Kasachstan"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 203,
+        "first": [
+          "0",
+          "8100",
+          "8201",
+          "8202",
+          "8204"
+        ],
+        "sample": [
+          "0",
+          "8228",
+          "8256",
+          "8314",
+          "8337",
+          "8362",
+          "8424",
+          "8503",
+          "8526",
+          "8563"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Geschlecht",
+      "label": "Geschlecht",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Geschlecht - Total",
+          "Mann",
+          "Frau"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Altersklasse",
+      "label": "Altersklasse",
+      "value_labels": {
+        "count": 22,
+        "strategy": "full",
+        "values": [
+          "Altersklasse - Total",
+          "0-4 Jahre",
+          "5-9 Jahre",
+          "10-14 Jahre",
+          "15-19 Jahre",
+          "20-24 Jahre",
+          "25-29 Jahre",
+          "30-34 Jahre",
+          "35-39 Jahre",
+          "40-44 Jahre",
+          "45-49 Jahre",
+          "50-54 Jahre",
+          "55-59 Jahre",
+          "60-64 Jahre",
+          "65-69 Jahre",
+          "70-74 Jahre",
+          "75-79 Jahre",
+          "80-84 Jahre",
+          "85-89 Jahre",
+          "90-94 Jahre",
+          "95-99 Jahre",
+          "100 Jahre und mehr"
+        ]
+      },
+      "values": {
+        "count": 22,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0103020200_103",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0103020200_103/px-x-0103020200_103.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Einwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat, Geschlecht und Altersklasse",
+  "topic_score": 6,
+  "topics": [
+    "population-demography",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Altersklasse": {
+      "count": 22,
+      "strategy": "full",
+      "values": [
+        "Altersklasse - Total",
+        "0-4 Jahre",
+        "5-9 Jahre",
+        "10-14 Jahre",
+        "15-19 Jahre",
+        "20-24 Jahre",
+        "25-29 Jahre",
+        "30-34 Jahre",
+        "35-39 Jahre",
+        "40-44 Jahre",
+        "45-49 Jahre",
+        "50-54 Jahre",
+        "55-59 Jahre",
+        "60-64 Jahre",
+        "65-69 Jahre",
+        "70-74 Jahre",
+        "75-79 Jahre",
+        "80-84 Jahre",
+        "85-89 Jahre",
+        "90-94 Jahre",
+        "95-99 Jahre",
+        "100 Jahre und mehr"
+      ]
+    },
+    "Geburtsstaat": {
+      "count": 203,
+      "first": [
+        "Geburtsstaat - Total",
+        "Schweiz",
+        "Albanien",
+        "Andorra",
+        "Belgien"
+      ],
+      "sample": [
+        "Geburtsstaat - Total",
+        "Norwegen",
+        "Kosovo",
+        "Guinea-Bissau",
+        "Burkina Faso",
+        "Eritrea",
+        "Kolumbien",
+        "Bhutan",
+        "Malediven",
+        "Kasachstan"
+      ],
+      "strategy": "summary"
+    },
+    "Geschlecht": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Geschlecht - Total",
+        "Mann",
+        "Frau"
+      ]
+    },
+    "Jahr": {
+      "count": 14,
+      "strategy": "full",
+      "values": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    "Kanton": {
+      "count": 28,
+      "first": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri"
+      ],
+      "sample": [
+        "Schweiz",
+        "Bern / Berne",
+        "Uri",
+        "Obwalden",
+        "Glarus",
+        "Fribourg / Freiburg",
+        "Basel-Stadt",
+        "Schaffhausen",
+        "Appenzell Innerrhoden",
+        "Graubünden / Grigioni / Grischun"
+      ],
+      "strategy": "summary"
+    },
+    "Staatsangehörigkeit (Kategorie)": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Staatsangehörigkeit (Kategorie) - Total",
+        "Schweiz",
+        "Ausland"
+      ]
+    }
+  },
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

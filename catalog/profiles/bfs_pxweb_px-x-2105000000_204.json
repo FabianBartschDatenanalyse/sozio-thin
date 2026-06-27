@@ -1,0 +1,257 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Stadt / Agglomeration",
+    "Gesundheitsindikator",
+    "Geschlecht",
+    "Jahr"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "sex",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-2105000000_204/px-x-2105000000_204.px"
+  },
+  "measures": [],
+  "primary_topic": "health",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Stadt / Agglomeration",
+      "label": "Stadt / Agglomeration",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Winterthur: Kernstadt",
+          "Winterthur: Andere Agglomerationsgemeinden",
+          "Winterthur: Agglomeration",
+          "Zürich: Kernstadt",
+          "Zürich: Andere Agglomerationsgemeinden"
+        ],
+        "sample": [
+          "Winterthur: Kernstadt",
+          "Winterthur: Agglomeration",
+          "Zürich: Andere Agglomerationsgemeinden",
+          "Bern: Kernstadt",
+          "Bern: Agglomeration",
+          "Luzern: Andere Agglomerationsgemeinden",
+          "Basel: Kernstadt",
+          "Basel: Nationale Agglomeration",
+          "St. Gallen: Andere Agglomerationsgemeinden",
+          "Lugano: Kernstadt"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "230901",
+          "230910",
+          "230920",
+          "261901",
+          "261910"
+        ],
+        "sample": [
+          "230901",
+          "230920",
+          "261910",
+          "351901",
+          "351920",
+          "1061910",
+          "2701901",
+          "2701920",
+          "3203910",
+          "5192901"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Gesundheitsindikator",
+      "label": "Gesundheitsindikator",
+      "value_labels": {
+        "count": 6,
+        "strategy": "full",
+        "values": [
+          "Sterberate der unter 65-Jährigen aufgrund von Erkrankungen des Kreislauf- oder Atmungssystems (pro 100'000 Einwohner)",
+          "Sterberate, Suizid (pro 100'000 Einwohner)",
+          "Berufstätige Ärzte pro 1000 Einwohner",
+          "Sterberate der unter 65-Jährigen",
+          "Rohe Sterbeziffer",
+          "Rohe Geburtenziffer"
+        ]
+      },
+      "values": {
+        "count": 6,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    },
+    {
+      "code": "Geschlecht",
+      "label": "Geschlecht",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Geschlecht - Total",
+          "Mann",
+          "Frau"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 9,
+        "strategy": "full",
+        "values": [
+          "2020",
+          "2019",
+          "2018",
+          "2017",
+          "2016",
+          "2015",
+          "2014",
+          "2013",
+          "2011"
+        ]
+      },
+      "values": {
+        "count": 9,
+        "strategy": "full",
+        "values": [
+          "2020",
+          "2019",
+          "2018",
+          "2017",
+          "2016",
+          "2015",
+          "2014",
+          "2013",
+          "2011"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-2105000000_204",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-2105000000_204/px-x-2105000000_204.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Lebensqualität in den Städten und Agglomerationen (Agglo 2012): Gesundheit",
+  "topic_score": 3,
+  "topics": [
+    "health"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Geschlecht": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Geschlecht - Total",
+        "Mann",
+        "Frau"
+      ]
+    },
+    "Gesundheitsindikator": {
+      "count": 6,
+      "strategy": "full",
+      "values": [
+        "Sterberate der unter 65-Jährigen aufgrund von Erkrankungen des Kreislauf- oder Atmungssystems (pro 100'000 Einwohner)",
+        "Sterberate, Suizid (pro 100'000 Einwohner)",
+        "Berufstätige Ärzte pro 1000 Einwohner",
+        "Sterberate der unter 65-Jährigen",
+        "Rohe Sterbeziffer",
+        "Rohe Geburtenziffer"
+      ]
+    },
+    "Jahr": {
+      "count": 9,
+      "strategy": "full",
+      "values": [
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2011"
+      ]
+    },
+    "Stadt / Agglomeration": {
+      "count": 27,
+      "first": [
+        "Winterthur: Kernstadt",
+        "Winterthur: Andere Agglomerationsgemeinden",
+        "Winterthur: Agglomeration",
+        "Zürich: Kernstadt",
+        "Zürich: Andere Agglomerationsgemeinden"
+      ],
+      "sample": [
+        "Winterthur: Kernstadt",
+        "Winterthur: Agglomeration",
+        "Zürich: Andere Agglomerationsgemeinden",
+        "Bern: Kernstadt",
+        "Bern: Agglomeration",
+        "Luzern: Andere Agglomerationsgemeinden",
+        "Basel: Kernstadt",
+        "Basel: Nationale Agglomeration",
+        "St. Gallen: Andere Agglomerationsgemeinden",
+        "Lugano: Kernstadt"
+      ],
+      "strategy": "summary"
+    }
+  },
+  "years": [
+    2011,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ]
+}

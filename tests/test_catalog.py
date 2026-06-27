@@ -1,0 +1,46 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+from sozio_thin.catalog import Catalog
+
+
+def test_shipped_catalog_has_exactly_100_valid_resources() -> None:
+    result = Catalog().verify()
+    assert result["valid"], result["issues"]
+    assert result["resource_count"] == 100
+    assert sum(result["topic_counts"].values()) == 100
+
+
+def test_catalog_has_twenty_documented_join_pairs() -> None:
+    root = Path(__file__).resolve().parents[1]
+    payload = json.loads((root / "catalog" / "joins.json").read_text(encoding="utf-8"))
+    assert payload["join_pair_count"] >= 20
+    assert all(pair["join_keys"] for pair in payload["pairs"])
+
+
+def test_catalog_contains_no_secret_or_runtime_dependency() -> None:
+    root = Path(__file__).resolve().parents[1]
+    text = "\n".join(path.read_text(encoding="utf-8") for path in (root / "catalog").rglob("*.json"))
+    lowered = text.lower()
+    assert "api_key" not in lowered
+    assert "localhost:" not in lowered
+    assert "127.0.0.1" not in lowered
+    assert "gemini" not in lowered
+    assert "vespa_url" not in lowered
+
+
+def test_ten_workflow_scenarios_include_three_joins() -> None:
+    root = Path(__file__).resolve().parents[1]
+    scenarios = json.loads(
+        (root / "tests" / "fixtures" / "workflow_scenarios.json").read_text(encoding="utf-8")
+    )
+    assert len(scenarios) == 10
+    assert sum(bool(item["requires_join"]) for item in scenarios) >= 3
+
+
+def test_runtime_does_not_import_main_project() -> None:
+    root = Path(__file__).resolve().parents[1]
+    runtime = "\n".join(path.read_text(encoding="utf-8") for path in (root / "src").rglob("*.py"))
+    assert "sozio_research" not in runtime

@@ -1,0 +1,1085 @@
+{
+  "columns": [
+    "fahrzeug_art_struktur",
+    "fahrzeug_typ",
+    "objekt",
+    "baudatum_fahrzeug",
+    "eigengewicht_tara",
+    "larmarm",
+    "abteile_1_kl_nichtraucher",
+    "abteile_2_kl_nichtraucher",
+    "ansage_system_speicher",
+    "anzahl_abteil_langtische",
+    "anzeigeblinkleuchte_durchsage",
+    "audio_anlage",
+    "aussenanzeigen_front_kis",
+    "aussenanzeigen_front_kis_st",
+    "barstuhle",
+    "bartheke",
+    "beistellstuhle",
+    "bildschirm_kis",
+    "bildschirm_kis_st",
+    "dienst_raum_abteil",
+    "eigengewicht_tara_zug",
+    "druckertuchtigt",
+    "el_anschluss_230_v_anzahl_od",
+    "fahrgastzahleinrichtung_afz",
+    "fis_fahrgastinformationssystem",
+    "gepackraum_ladeflache",
+    "gepacktragerart",
+    "in_train_aussen",
+    "in_train_innen",
+    "in_train_versorgung",
+    "innenanzeigen_matrix_kis",
+    "innenanzeigen_matrix_kis_st",
+    "klappsitze_total_pro_zug",
+    "komfortanlage_fuhrerraum",
+    "komfortanlage_gepackabteil",
+    "komfortanlage_passagierraum",
+    "kundeninformationssystem_kis",
+    "lange_uber_puffer_lup",
+    "lange_uber_zug",
+    "notsitze_klappbar",
+    "platze_rollstuhle_nr_r_total",
+    "platze_rollstuhle_pro_zug",
+    "restaurationsplatze_wr",
+    "restaurationsplatze_wr_pro_zug",
+    "sitzpl_1_kl_afz",
+    "sitzpl_1_kl_nichtraucher",
+    "sitzpl_2_kl_afz",
+    "sitzpl_2_kl_klappbar",
+    "sitzpl_2_kl_nichtraucher",
+    "sitzplatze_1_kl_nr_zug",
+    "sitzplatze_1_kl_total_zug",
+    "sitzplatze_2_kl_nr_zug",
+    "sitzplatze_2_kl_total_zug",
+    "sitzplatze_pro_wagen_total",
+    "sitzplatze_pro_zug_total",
+    "sitzplatze_total_afz",
+    "sitzpl_1_kl_nr_r_total",
+    "sitzpl_2_kl_nr_r_total",
+    "sitzpl_bestuhlungsart",
+    "sitzplatze_business_pro_wagen",
+    "ski_snowboardhalter",
+    "velo_spanngurt_stehplatzzone",
+    "veloabteil",
+    "velohaken",
+    "veloplattform",
+    "velostander",
+    "video_audio_anlage",
+    "fahrzeug_nr_uic"
+  ],
+  "description": "",
+  "dimensions": [
+    "fahrzeug_art_struktur",
+    "fahrzeug_typ",
+    "objekt",
+    "baudatum_fahrzeug",
+    "eigengewicht_tara",
+    "larmarm",
+    "abteile_1_kl_nichtraucher",
+    "abteile_2_kl_nichtraucher",
+    "ansage_system_speicher",
+    "anzahl_abteil_langtische",
+    "anzeigeblinkleuchte_durchsage",
+    "audio_anlage",
+    "aussenanzeigen_front_kis",
+    "aussenanzeigen_front_kis_st",
+    "barstuhle",
+    "bartheke",
+    "beistellstuhle",
+    "bildschirm_kis",
+    "bildschirm_kis_st",
+    "dienst_raum_abteil",
+    "eigengewicht_tara_zug",
+    "druckertuchtigt",
+    "el_anschluss_230_v_anzahl_od",
+    "fahrgastzahleinrichtung_afz",
+    "fis_fahrgastinformationssystem",
+    "gepackraum_ladeflache",
+    "gepacktragerart",
+    "in_train_aussen",
+    "in_train_innen",
+    "in_train_versorgung",
+    "innenanzeigen_matrix_kis",
+    "innenanzeigen_matrix_kis_st",
+    "klappsitze_total_pro_zug",
+    "komfortanlage_fuhrerraum",
+    "komfortanlage_gepackabteil",
+    "komfortanlage_passagierraum",
+    "kundeninformationssystem_kis",
+    "lange_uber_puffer_lup",
+    "lange_uber_zug",
+    "notsitze_klappbar",
+    "platze_rollstuhle_nr_r_total",
+    "platze_rollstuhle_pro_zug",
+    "restaurationsplatze_wr",
+    "restaurationsplatze_wr_pro_zug",
+    "sitzpl_1_kl_afz",
+    "sitzpl_1_kl_nichtraucher",
+    "sitzpl_2_kl_afz",
+    "sitzpl_2_kl_klappbar",
+    "sitzpl_2_kl_nichtraucher",
+    "sitzplatze_1_kl_nr_zug",
+    "sitzplatze_1_kl_total_zug",
+    "sitzplatze_2_kl_nr_zug",
+    "sitzplatze_2_kl_total_zug",
+    "sitzplatze_pro_wagen_total",
+    "sitzplatze_pro_zug_total",
+    "sitzplatze_total_afz",
+    "sitzpl_1_kl_nr_r_total",
+    "sitzpl_2_kl_nr_r_total",
+    "sitzpl_bestuhlungsart",
+    "sitzplatze_business_pro_wagen",
+    "ski_snowboardhalter",
+    "velo_spanngurt_stehplatzzone",
+    "veloabteil",
+    "velohaken",
+    "veloplattform",
+    "velostander",
+    "video_audio_anlage",
+    "fahrzeug_nr_uic"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "local_feature_id",
+    "age_group",
+    "vehicle_or_rolling_stock",
+    "date"
+  ],
+  "license": {
+    "attribution": "Schweizerische Bundesbahnen SBB",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/ausrustung-reisezug-rollmaterial"
+  },
+  "measures": [
+    "anzahl_abteil_langtische",
+    "el_anschluss_230_v_anzahl_od"
+  ],
+  "primary_topic": "mobility-transport",
+  "publisher": "Schweizerische Bundesbahnen SBB",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:ausrustung-reisezug-rollmaterial:a2dcd0ee-ab64-4cd1-bb3e-465a5486a974",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "PARQUET",
+    "format_family": "columnar",
+    "landing_page_url": "https://opendata.swiss/de/dataset/ausrustung-reisezug-rollmaterial",
+    "source_url": "https://data.sbb.ch/api/v2/catalog/datasets/rollmaterial/exports/parquet"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Passenger coach equipment (rolling stock)",
+  "topic_score": 9,
+  "topics": [
+    "mobility-transport",
+    "housing-construction"
+  ],
+  "units": [],
+  "value_summaries": {
+    "abteile_1_kl_nichtraucher": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        10,
+        2,
+        6,
+        4,
+        8,
+        0,
+        5,
+        12,
+        18,
+        9
+      ]
+    },
+    "abteile_2_kl_nichtraucher": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        5,
+        6,
+        10,
+        7,
+        11,
+        32,
+        20,
+        15,
+        2,
+        1
+      ]
+    },
+    "ansage_system_speicher": {
+      "count": 6,
+      "strategy": "full",
+      "values": [
+        "Sprechstelle, Verstärker",
+        "Ruf",
+        "Railvox",
+        "Annax",
+        "TIMS2.0",
+        "TIMS"
+      ]
+    },
+    "anzahl_abteil_langtische": {
+      "count": 7,
+      "strategy": "full",
+      "values": [
+        3,
+        10,
+        13,
+        7,
+        2,
+        0,
+        4
+      ]
+    },
+    "anzeigeblinkleuchte_durchsage": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Ja",
+        "Nein"
+      ]
+    },
+    "audio_anlage": {
+      "count": 9,
+      "strategy": "full",
+      "values": [
+        "Ja",
+        "ja",
+        "AUDIO - Ausrüstung",
+        "ErvoCom PAS2263",
+        "ErvoCom PAS2327",
+        "ErvoCom PAS2395",
+        "ErvoCom PAS2175",
+        "ErvoCom PAS2219",
+        "1: Musik- und Schwerhörigen- a"
+      ]
+    },
+    "aussenanzeigen_front_kis": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        "LCD 26x120 / Apricot",
+        "LED 16x112 / Ruf",
+        "LED 16x180 / Annax",
+        "LED 19x128 / Ruf",
+        "LED 16x110 / Annax",
+        "LED 16x112 / Gorba",
+        "LED 16x112 / Annax",
+        "Dot-LED Front / Annax"
+      ]
+    },
+    "aussenanzeigen_front_kis_st": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "0",
+        "2",
+        "1"
+      ]
+    },
+    "barstuhle": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "0",
+        "7"
+      ]
+    },
+    "bartheke": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Nein",
+        "Ja"
+      ]
+    },
+    "baudatum_fahrzeug": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "1983-12-01 00:00:00",
+        "1931-01-15 00:00:00",
+        "1941-04-29 00:00:00",
+        "1946-05-20 00:00:00",
+        "1947-06-16 00:00:00",
+        "1956-09-14 00:00:00",
+        "1956-10-30 00:00:00",
+        "1961-11-03 00:00:00",
+        "1961-12-15 00:00:00",
+        "1962-02-20 00:00:00"
+      ]
+    },
+    "beistellstuhle": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "0"
+      ]
+    },
+    "bildschirm_kis": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "TFT 15\" / Fela",
+        "TFT 20.1\"/ Fela",
+        "TFT 16:9, 21.5\" 110V Annax",
+        "TFT 17\" 10.2\" / Alstom",
+        "TFT 17\" / Alstom",
+        "TFT 22\" / Ruf",
+        "TFT 21.5\" / FELA",
+        "TFT 15\" / Ruf",
+        "TFT 15\" / Ruf u. MC / Fela",
+        "TFT 22\" 15\" / Ruf"
+      ]
+    },
+    "bildschirm_kis_st": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        39,
+        8,
+        32,
+        20,
+        12
+      ]
+    },
+    "dienst_raum_abteil": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "1",
+        "0"
+      ]
+    },
+    "druckertuchtigt": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "nein",
+        "ja"
+      ]
+    },
+    "eigengewicht_tara": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        385.6,
+        45.0,
+        39.0,
+        44.0,
+        46.0,
+        15.0,
+        26.0,
+        25.5,
+        2.6,
+        42.0
+      ]
+    },
+    "eigengewicht_tara_zug": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "170.000 t",
+        "376.900 t",
+        "443.000 t",
+        "355.000 t",
+        "470.000 t",
+        "468.000 t",
+        "239.000 t",
+        "225.000 t",
+        "78.000 t",
+        "128.500 t"
+      ]
+    },
+    "el_anschluss_230_v_anzahl_od": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        42,
+        40,
+        2,
+        48,
+        27,
+        26,
+        33,
+        267,
+        34,
+        24
+      ]
+    },
+    "fahrgastzahleinrichtung_afz": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Ja",
+        "Dilax/APFZ",
+        "Nein",
+        "DILAX AFZ Zählsystem"
+      ]
+    },
+    "fahrzeug_art_struktur": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "17",
+        "10",
+        "20",
+        "40",
+        "32",
+        "51",
+        "15",
+        "13",
+        "36",
+        "30"
+      ]
+    },
+    "fahrzeug_nr_uic": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "97 85 1 930 402-3",
+        "97 85 1 930 427-0",
+        "97 85 1 930 430-4",
+        "97 85 1 930 448-6",
+        "97 85 1 930 451-0",
+        "97 85 1 220 268-7",
+        "31 85 454 0 012-5",
+        "50 85 10-75 070-8",
+        "50 85 10-75 080-7",
+        "50 85 10-75 092-2"
+      ]
+    },
+    "fahrzeug_typ": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "TGV",
+        "Ee 3/3",
+        "Ee 3/3 II",
+        "SNB",
+        "Tem I",
+        "Tem II",
+        "Sgs-y",
+        "SP",
+        "A EWIV",
+        "A EWIV 200"
+      ]
+    },
+    "fis_fahrgastinformationssystem": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "TIMS2.0",
+        "Annax V5.4.0"
+      ]
+    },
+    "gepackraum_ladeflache": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "7.0 m2",
+        "17.0 m2",
+        "15.0 m2",
+        "20.0 m2",
+        "37.0 m2",
+        "30.0 m2",
+        "23.0 m2",
+        "10.0 m2",
+        "9.0 m2",
+        "8.0 m2"
+      ]
+    },
+    "gepacktragerart": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Längs-Gepäckträger",
+        "Längsgepäckträger Norm DIN5510",
+        "Gepäckträger über Sitzbank , m"
+      ]
+    },
+    "in_train_aussen": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "1 Kathrain Ant. 790-2700 MHz",
+        "2 H+S Ant. SWA-0825/360 2.4GHz",
+        "3 Ant. SWA-0825/360/5/30/MIMO",
+        "4 Antenne H&S 1399.99.0037"
+      ]
+    },
+    "in_train_innen": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "3G Repeater + HC25-GPS Modem",
+        "HF-Scheiben",
+        "3G Repeater + Modem PHS8",
+        "HF Scheiben / APFZ (Antonics)",
+        "Kabel-Booster GSM/UMTS"
+      ]
+    },
+    "in_train_versorgung": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Strahlungskabel",
+        "GSM/UMTS/LTE 800/900/1800/2100",
+        "TEMS Automatic+Strahlungskabel"
+      ]
+    },
+    "innenanzeigen_matrix_kis": {
+      "count": 8,
+      "strategy": "full",
+      "values": [
+        "LED 36x150 / Annax",
+        "LED 24x180 / Fela",
+        "LED 16x152 / Alstom",
+        "LED 20x120 / Annax",
+        "TFT 22\" / 16/10 / Annax",
+        "LED 12x180 / Annax",
+        "LED Doppelanzeiger 19x144 / An",
+        "LED 24x180 / Ruf"
+      ]
+    },
+    "innenanzeigen_matrix_kis_st": {
+      "count": 7,
+      "strategy": "full",
+      "values": [
+        2,
+        4,
+        0,
+        3,
+        1,
+        16,
+        8
+      ]
+    },
+    "klappsitze_total_pro_zug": {
+      "count": 9,
+      "strategy": "full",
+      "values": [
+        3,
+        6,
+        18,
+        11,
+        19,
+        39,
+        49,
+        0,
+        16
+      ]
+    },
+    "komfortanlage_fuhrerraum": {
+      "count": 6,
+      "strategy": "full",
+      "values": [
+        "Führerraumklimaanlage",
+        "220V 16,7 Hz Konvekt.heizung",
+        "el Luftheiz,el Tempreg,künstl",
+        "Klimaanl Führer/Fahrgastr komb",
+        "el Konvekt.heizung m Thermosta",
+        "Klimagerät"
+      ]
+    },
+    "komfortanlage_gepackabteil": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "el Luftheiz,el Tempreg,Rechn,k",
+        "el Luftheiz,el Tempreg,künstl",
+        "el Konvekt.heizung m Thermosta",
+        "220V 16,7 Hz Konvekt.heizung"
+      ]
+    },
+    "komfortanlage_passagierraum": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Klimaanlage mit elektronischer",
+        "Klimaanlage mit Mikroprozessor",
+        "el Konvekt.heizung m Thermosta",
+        "el Luftheiz,el Tempreg,künstl",
+        "el Luftheiz,el Tempreg,Rechn,k",
+        "el Luftheiz,elektron Tempreg,R",
+        "el Luftheiz,Thermostatreg,küns",
+        "1000V 16,7 Hz Konvekt.heizung",
+        "1500V 16,7, 50Hz,= Konvektions",
+        "Gasofen"
+      ]
+    },
+    "kundeninformationssystem_kis": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Annax / Monolith",
+        "Annax / RailvoxR",
+        "Ruf / F14 8TE",
+        "MEN / F26L",
+        "MEN 26L",
+        "Annax / REC2",
+        "Alstom / PIS",
+        "Annax / Railvox",
+        "TIMS",
+        "Syslogic RSL81"
+      ]
+    },
+    "lange_uber_puffer_lup": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        9890,
+        9750,
+        9510,
+        6900,
+        5870,
+        6700,
+        19900,
+        20190,
+        26400,
+        26800
+      ]
+    },
+    "lange_uber_zug": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        201900,
+        73300,
+        202000,
+        187400,
+        0,
+        188660,
+        200600,
+        101000,
+        150000,
+        100360
+      ]
+    },
+    "larmarm": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Nein",
+        "Ja",
+        "Nicht betroffen"
+      ]
+    },
+    "notsitze_klappbar": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        2,
+        1,
+        3,
+        10,
+        4,
+        5,
+        0,
+        8,
+        6,
+        27
+      ]
+    },
+    "objekt": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "114",
+        "16340",
+        "16369",
+        "16402",
+        "16409",
+        "16427",
+        "16430",
+        "16431",
+        "16436",
+        "16439"
+      ]
+    },
+    "platze_rollstuhle_nr_r_total": {
+      "count": 7,
+      "strategy": "full",
+      "values": [
+        2,
+        3,
+        0,
+        1,
+        4,
+        8,
+        16
+      ]
+    },
+    "platze_rollstuhle_pro_zug": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        2,
+        4,
+        3,
+        1,
+        8
+      ]
+    },
+    "restaurationsplatze_wr": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        0,
+        10,
+        52,
+        30,
+        36,
+        56,
+        17,
+        29,
+        20,
+        18
+      ]
+    },
+    "restaurationsplatze_wr_pro_zug": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        17,
+        18,
+        23,
+        20
+      ]
+    },
+    "sitzpl_1_kl_afz": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        48,
+        60,
+        0,
+        31,
+        81,
+        24,
+        54,
+        117,
+        27,
+        28
+      ]
+    },
+    "sitzpl_1_kl_nichtraucher": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        60,
+        86,
+        68,
+        36,
+        24,
+        48,
+        30,
+        46,
+        0,
+        31
+      ]
+    },
+    "sitzpl_1_kl_nr_r_total": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        60,
+        86,
+        68,
+        48,
+        0,
+        31,
+        28,
+        24,
+        81,
+        30
+      ]
+    },
+    "sitzpl_2_kl_afz": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        0,
+        79,
+        80,
+        68,
+        132,
+        72,
+        60,
+        36,
+        33,
+        297
+      ]
+    },
+    "sitzpl_2_kl_klappbar": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        8,
+        0,
+        4,
+        6,
+        12,
+        28,
+        26,
+        21,
+        3,
+        25
+      ]
+    },
+    "sitzpl_2_kl_nichtraucher": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        24,
+        32,
+        40,
+        79,
+        47,
+        55,
+        80,
+        68,
+        70,
+        86
+      ]
+    },
+    "sitzpl_2_kl_nr_r_total": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        80,
+        79,
+        68,
+        78,
+        86,
+        132,
+        136,
+        98,
+        126,
+        114
+      ]
+    },
+    "sitzpl_bestuhlungsart": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "normal 'vis-à-vis'",
+        "gemischt normal/Flugzeug",
+        "gemischt normal/Zick-Zack",
+        "lose",
+        "Flugzeug"
+      ]
+    },
+    "sitzplatze_1_kl_nr_zug": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        110,
+        52,
+        117,
+        108,
+        34,
+        31,
+        15,
+        125,
+        120,
+        74
+      ]
+    },
+    "sitzplatze_1_kl_total_zug": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        110,
+        52,
+        117,
+        159,
+        34,
+        31,
+        37,
+        15,
+        120,
+        74
+      ]
+    },
+    "sitzplatze_2_kl_nr_zug": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        240,
+        150,
+        288,
+        304,
+        54,
+        48,
+        40,
+        60,
+        32,
+        326
+      ]
+    },
+    "sitzplatze_2_kl_total_zug": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        240,
+        304,
+        54,
+        48,
+        40,
+        60,
+        32,
+        415,
+        265,
+        286
+      ]
+    },
+    "sitzplatze_business_pro_wagen": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "28",
+        "24",
+        "19",
+        "0",
+        "12"
+      ]
+    },
+    "sitzplatze_pro_wagen_total": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        60,
+        86,
+        68,
+        48,
+        80,
+        79,
+        78,
+        132,
+        136,
+        98
+      ]
+    },
+    "sitzplatze_pro_zug_total": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        350,
+        202,
+        405,
+        412,
+        54,
+        34,
+        48,
+        31,
+        40,
+        15
+      ]
+    },
+    "sitzplatze_total_afz": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        48,
+        60,
+        79,
+        80,
+        68,
+        0,
+        132,
+        72,
+        67,
+        114
+      ]
+    },
+    "ski_snowboardhalter": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        12,
+        9,
+        0
+      ]
+    },
+    "velo_spanngurt_stehplatzzone": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        2,
+        0
+      ]
+    },
+    "veloabteil": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Nein",
+        "Ja"
+      ]
+    },
+    "velohaken": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        3,
+        0,
+        5,
+        2,
+        27,
+        20,
+        21,
+        54,
+        18,
+        26
+      ]
+    },
+    "veloplattform": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Ja",
+        "Nein"
+      ]
+    },
+    "velostander": {
+      "count": 6,
+      "strategy": "full",
+      "values": [
+        0,
+        5,
+        9,
+        4,
+        7,
+        1
+      ]
+    },
+    "video_audio_anlage": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "VIDEO - Ausrüstung",
+        "Ja"
+      ]
+    }
+  },
+  "years": []
+}

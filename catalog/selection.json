@@ -1,0 +1,625 @@
+{
+  "created_at": "2026-06-27T16:21:13+00:00",
+  "input_report": "resource_readiness_live_vespa_with_vespa_profile_hydration_joinfix8_pxweb.json",
+  "method": "fixed topic quotas, readiness eligibility, national relevance score",
+  "resources": [
+    {
+      "primary_topic": "agriculture-food",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0702000000_104",
+      "selection_score": 205
+    },
+    {
+      "primary_topic": "agriculture-food",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0702000000_107",
+      "selection_score": 201
+    },
+    {
+      "primary_topic": "agriculture-food",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0702000000_106",
+      "selection_score": 201
+    },
+    {
+      "primary_topic": "agriculture-food",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0702000000_108",
+      "selection_score": 201
+    },
+    {
+      "primary_topic": "culture-sport-tourism",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1602010000_102",
+      "selection_score": 166
+    },
+    {
+      "primary_topic": "culture-sport-tourism",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1003020000_203",
+      "selection_score": 164
+    },
+    {
+      "primary_topic": "culture-sport-tourism",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1003020000_103",
+      "selection_score": 164
+    },
+    {
+      "primary_topic": "culture-sport-tourism",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:statistik-der-schweizer-staedte-2021:58140042-8d26-41e7-bcd1-dfa258e8e2eb",
+      "selection_score": 141
+    },
+    {
+      "primary_topic": "education",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1503040400_103",
+      "selection_score": 187
+    },
+    {
+      "primary_topic": "education",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1503040300_123",
+      "selection_score": 187
+    },
+    {
+      "primary_topic": "education",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1503040100_103",
+      "selection_score": 187
+    },
+    {
+      "primary_topic": "education",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1503030000_204",
+      "selection_score": 194
+    },
+    {
+      "primary_topic": "education",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1502030000_111",
+      "selection_score": 186
+    },
+    {
+      "primary_topic": "education",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1502020000_101",
+      "selection_score": 186
+    },
+    {
+      "primary_topic": "education",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1502040400_140",
+      "selection_score": 187
+    },
+    {
+      "primary_topic": "education",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1502040100_109",
+      "selection_score": 187
+    },
+    {
+      "primary_topic": "environment-energy-climate",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:energieforschungsstatistik-efstat:fe86ad62-1455-4658-8f81-c13e626dbd27",
+      "selection_score": 132
+    },
+    {
+      "primary_topic": "environment-energy-climate",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:kennzahlen-alternativ-angetriebene-lnf-durchschnittliche-co2-emissionen:aae8800f-2951-4589-a558-ab59270d3f06",
+      "selection_score": 136
+    },
+    {
+      "primary_topic": "environment-energy-climate",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:durchschnittliche-co2-emissionen-nach-treibstoffart:5943acdf-19ea-4158-b975-d11a725061a4",
+      "selection_score": 174
+    },
+    {
+      "primary_topic": "environment-energy-climate",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0204000000_111",
+      "selection_score": 154
+    },
+    {
+      "primary_topic": "environment-energy-climate",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:verteilnetzkosten-strom:e3935617-bc78-4dc6-aaad-5e72fe4c2af7",
+      "selection_score": 158
+    },
+    {
+      "primary_topic": "environment-energy-climate",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:zuge-pro-streckenabschnitt1:a2bfba14-de85-4fd9-88c4-ded95378fc58",
+      "selection_score": 169
+    },
+    {
+      "primary_topic": "environment-energy-climate",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:energiedashboard-ch-stromproduktion-swissgrid:0879ba1b-40ea-4e26-bba0-9cbb339f577e",
+      "selection_score": 132
+    },
+    {
+      "primary_topic": "environment-energy-climate",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:energiedashboard-ch-tagliche-flusse-in-die-und-aus-der-schweiz-strom:0e1aa262-869f-4736-a568-ccf85cb13f9a",
+      "selection_score": 132
+    },
+    {
+      "primary_topic": "geography-planning",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0102020000_201",
+      "selection_score": 195
+    },
+    {
+      "primary_topic": "geography-planning",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton:1e7b4e51-dfe1-458f-b9ea-791a0a246b0c",
+      "selection_score": 193
+    },
+    {
+      "primary_topic": "geography-planning",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1506010000_106",
+      "selection_score": 191
+    },
+    {
+      "primary_topic": "health",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1404010100_303",
+      "selection_score": 165
+    },
+    {
+      "primary_topic": "health",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-2105000000_223",
+      "selection_score": 103
+    },
+    {
+      "primary_topic": "health",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:klientinnen-und-klienten-der-spitex-hilfe-und-pflege-zu-hause-kanton-st-gallen-seit-2015:06d12ccd-3a62-4e01-8da3-7ace497683a6",
+      "selection_score": 84
+    },
+    {
+      "primary_topic": "health",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-2105000000_204",
+      "selection_score": 99
+    },
+    {
+      "primary_topic": "health",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1404040000_101",
+      "selection_score": 158
+    },
+    {
+      "primary_topic": "health",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1404040000_103",
+      "selection_score": 162
+    },
+    {
+      "primary_topic": "health",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:pflegekinder-im-kanton-thurgau1:815bea5e-1e82-42be-9d2e-95d8bdb2a899",
+      "selection_score": 70
+    },
+    {
+      "primary_topic": "health",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:zeitaufwand-der-spitex-organisationen-und-privaten-spitex-pflegefachpersonen-kanton-st-gal-2015:8677da45-c533-48c6-be0e-795b60ab40f9",
+      "selection_score": 65
+    },
+    {
+      "primary_topic": "housing-construction",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0904010000_202",
+      "selection_score": 202
+    },
+    {
+      "primary_topic": "housing-construction",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0904010000_203",
+      "selection_score": 197
+    },
+    {
+      "primary_topic": "housing-construction",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:gebaude-nach-gebaudekategorie-kantonen-und-bauperiode5:fb6f5cf3-faea-4f5a-ac53-11987e8fab55",
+      "selection_score": 159
+    },
+    {
+      "primary_topic": "housing-construction",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0904030000_106",
+      "selection_score": 185
+    },
+    {
+      "primary_topic": "housing-construction",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0904030000_107",
+      "selection_score": 176
+    },
+    {
+      "primary_topic": "housing-construction",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:haltestelle-wartehallen:77d25943-3204-49fa-aaca-ceda546d8cd3",
+      "selection_score": 173
+    },
+    {
+      "primary_topic": "infrastructure-utilities",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1404010100_101",
+      "selection_score": 169
+    },
+    {
+      "primary_topic": "infrastructure-utilities",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:brandschutzwand:ef25f25b-2d54-4c82-ac46-66440f8a34a6",
+      "selection_score": 179
+    },
+    {
+      "primary_topic": "justice-police-safety",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:straftaten-nach-auslander-und-integrationsgesetz-aig:073a3e24-dd25-4dcf-9cfb-642d567e3dac",
+      "selection_score": 64
+    },
+    {
+      "primary_topic": "justice-police-safety",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:beschuldigte-gemass-strafgesetzbuch-nach-straftat:9ebb6bd7-fe55-4b71-b0fb-41256defcbb5",
+      "selection_score": 65
+    },
+    {
+      "primary_topic": "justice-police-safety",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-2105000000_207",
+      "selection_score": 95
+    },
+    {
+      "primary_topic": "justice-police-safety",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1903020100_102",
+      "selection_score": 178
+    },
+    {
+      "primary_topic": "justice-police-safety",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1903020100_101",
+      "selection_score": 179
+    },
+    {
+      "primary_topic": "labor-economy",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:statistik-der-schweizer-staedte-2021:5b1f209e-ba9a-4baa-a3bf-bb5c726b00d8",
+      "selection_score": 127
+    },
+    {
+      "primary_topic": "labor-economy",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:arbeitsproduktivitat-nach-tatsachlichen-arbeitsstunden-zu-preisen-des-vorjahres6:87f0abd6-4644-484c-bc9d-76deac162871",
+      "selection_score": 141
+    },
+    {
+      "primary_topic": "labor-economy",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0602010000_102",
+      "selection_score": 194
+    },
+    {
+      "primary_topic": "labor-economy",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0103030100_101",
+      "selection_score": 179
+    },
+    {
+      "primary_topic": "labor-economy",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0602010000_108",
+      "selection_score": 194
+    },
+    {
+      "primary_topic": "labor-economy",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-2105000000_203",
+      "selection_score": 108
+    },
+    {
+      "primary_topic": "labor-economy",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:schweizerischer-lohnindex-index-und-veranderung-auf-der-basis-2020-100-noga08:5c1f111b-1237-4ec0-aa21-88bd3113fb61",
+      "selection_score": 131
+    },
+    {
+      "primary_topic": "labor-economy",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0606010000_104",
+      "selection_score": 190
+    },
+    {
+      "primary_topic": "labor-economy",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:zerlegung-der-wachstumsrate-des-bip-pro-kopf:abccbd05-98e2-4702-813a-5a5b45cefe28",
+      "selection_score": 123
+    },
+    {
+      "primary_topic": "labor-economy",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:bei-der-swissmedic-registrierte-schweizer-und-liechtensteiner-wirtschaftsakteure-medizinprodukt:a9eac020-a65a-4348-a4dd-5e25836617a8",
+      "selection_score": 140
+    },
+    {
+      "primary_topic": "mobility-transport",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:interkantonale-pendlerbewegungen:c3fb86db-95ac-4a2c-9640-f491be871853",
+      "selection_score": 69
+    },
+    {
+      "primary_topic": "mobility-transport",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:mobilitat-und-verkehr6:bf2de1d7-68ac-4330-b2b4-5bf541c01f2d",
+      "selection_score": 136
+    },
+    {
+      "primary_topic": "mobility-transport",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1103020200_121",
+      "selection_score": 168
+    },
+    {
+      "primary_topic": "mobility-transport",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:anzahl-sbb-bahnhofbenutzer:3dcbfcef-6da4-4012-b536-33ce9c821908",
+      "selection_score": 173
+    },
+    {
+      "primary_topic": "mobility-transport",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:ausrustung-reisezug-rollmaterial:a2dcd0ee-ab64-4cd1-bb3e-465a5486a974",
+      "selection_score": 168
+    },
+    {
+      "primary_topic": "mobility-transport",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:polizeilich-registrierte-verkehrsunfalle-im-kanton-zurich-seit-2011:fa0a76c6-2ce2-4407-ae81-0749c9472c30",
+      "selection_score": 37
+    },
+    {
+      "primary_topic": "mobility-transport",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1106010100_105",
+      "selection_score": 180
+    },
+    {
+      "primary_topic": "mobility-transport",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1106010100_104",
+      "selection_score": 184
+    },
+    {
+      "primary_topic": "politics-elections",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:eidg-wahlen-2023:89ddc561-9544-4021-8b7d-13271c5f939d",
+      "selection_score": 199
+    },
+    {
+      "primary_topic": "politics-elections",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1702020000_104",
+      "selection_score": 187
+    },
+    {
+      "primary_topic": "politics-elections",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de:e8e12e1a-bee0-41b4-9445-561e7a085bc1",
+      "selection_score": 200
+    },
+    {
+      "primary_topic": "politics-elections",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:nationalratswahlen-2023-wahlberechtigte-wahlende-wahlbeteiligung-und-veranderung-der-wahlbeteil:fc20e530-3557-41db-8695-8ad8b407fc23",
+      "selection_score": 185
+    },
+    {
+      "primary_topic": "politics-elections",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:nationalratswahlen-zeitreihen-zu-listen-kandidierenden-parteistarken-mandaten-gewahlten-frauen-:248576ad-1b14-4dba-b6c9-4ae0f934ea13",
+      "selection_score": 217
+    },
+    {
+      "primary_topic": "politics-elections",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:nationalratswahlen-zeitreihen-zur-wahlbeteiligung-und-zum-frauenanteil-in-schweiz-und-kantone:87ab0a38-51b4-4f32-9058-e89a089f8f7a",
+      "selection_score": 199
+    },
+    {
+      "primary_topic": "population-demography",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1304030000_201",
+      "selection_score": 168
+    },
+    {
+      "primary_topic": "population-demography",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0103020300_103",
+      "selection_score": 179
+    },
+    {
+      "primary_topic": "population-demography",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0103010200_111",
+      "selection_score": 179
+    },
+    {
+      "primary_topic": "population-demography",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0103010200_151",
+      "selection_score": 170
+    },
+    {
+      "primary_topic": "population-demography",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0103010200_101",
+      "selection_score": 179
+    },
+    {
+      "primary_topic": "population-demography",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0102020000_104",
+      "selection_score": 177
+    },
+    {
+      "primary_topic": "population-demography",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1305020000_105",
+      "selection_score": 175
+    },
+    {
+      "primary_topic": "population-demography",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0103020200_103",
+      "selection_score": 179
+    },
+    {
+      "primary_topic": "population-demography",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0102020300_102",
+      "selection_score": 174
+    },
+    {
+      "primary_topic": "population-demography",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1506020000_112",
+      "selection_score": 173
+    },
+    {
+      "primary_topic": "population-demography",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-0102010000_103",
+      "selection_score": 189
+    },
+    {
+      "primary_topic": "population-demography",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1304030000_151",
+      "selection_score": 167
+    },
+    {
+      "primary_topic": "public-administration-finance",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:steuerpflichtige-personen-nach-bruttovermogens-und-schuldenklasse-seit-2020:4968be01-2507-4776-95ac-908161da1b57",
+      "selection_score": 23
+    },
+    {
+      "primary_topic": "public-administration-finance",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1303030000_131",
+      "selection_score": 170
+    },
+    {
+      "primary_topic": "public-administration-finance",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:konsolidierte-ausgaben-nach-funktionaler-gliederung-kanton-thurgau-staatsrechnung:69da249e-17b1-476e-9206-2c4e0a34c72d",
+      "selection_score": 74
+    },
+    {
+      "primary_topic": "public-administration-finance",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1303030000_121",
+      "selection_score": 170
+    },
+    {
+      "primary_topic": "public-administration-finance",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:statistik-der-schweizer-staedte-2021:34e05d50-41e8-4a64-aa46-17208387e1e3",
+      "selection_score": 123
+    },
+    {
+      "primary_topic": "public-administration-finance",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:offentliche-finanzen1:4efb0dbf-abd1-4c89-b2e9-7597cb43cdc7",
+      "selection_score": 127
+    },
+    {
+      "primary_topic": "science-research",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "ckan:entwicklung-der-nominallohne-der-konsumentenpreise-und-der-reallohne1:f817ba47-cc58-47c9-8823-626af10be5ec",
+      "selection_score": 127
+    },
+    {
+      "primary_topic": "science-research",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1515020000_104",
+      "selection_score": 151
+    },
+    {
+      "primary_topic": "social-security-welfare",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1305000000_101",
+      "selection_score": 195
+    },
+    {
+      "primary_topic": "social-security-welfare",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1305000000_102",
+      "selection_score": 209
+    },
+    {
+      "primary_topic": "social-security-welfare",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1305020000_104",
+      "selection_score": 192
+    },
+    {
+      "primary_topic": "social-security-welfare",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1305010000_022",
+      "selection_score": 202
+    },
+    {
+      "primary_topic": "social-security-welfare",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1305010000_123",
+      "selection_score": 193
+    },
+    {
+      "primary_topic": "social-security-welfare",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1305010000_113",
+      "selection_score": 202
+    },
+    {
+      "primary_topic": "social-security-welfare",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1304030000_141",
+      "selection_score": 185
+    },
+    {
+      "primary_topic": "social-security-welfare",
+      "reason": "highest-ranked eligible resource within the fixed topic quota",
+      "resource_id": "bfs_pxweb:px-x-1304030000_121",
+      "selection_score": 185
+    }
+  ],
+  "topic_quotas": {
+    "agriculture-food": 4,
+    "culture-sport-tourism": 4,
+    "education": 8,
+    "environment-energy-climate": 8,
+    "geography-planning": 3,
+    "health": 8,
+    "housing-construction": 6,
+    "infrastructure-utilities": 2,
+    "justice-police-safety": 5,
+    "labor-economy": 10,
+    "mobility-transport": 8,
+    "politics-elections": 6,
+    "population-demography": 12,
+    "public-administration-finance": 6,
+    "science-research": 2,
+    "social-security-welfare": 8
+  }
+}

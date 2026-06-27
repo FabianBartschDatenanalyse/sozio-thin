@@ -1,0 +1,417 @@
+{
+  "columns": [
+    "wahl_jahr",
+    "ebene_resultat",
+    "geoLevelName",
+    "kanton_nummer",
+    "kanton_bezeichnung",
+    "partei_id",
+    "partei_bezeichnung_de",
+    "partei_bezeichnung_fr",
+    "partei_bezeichnung_it",
+    "partei_bezeichnung_en",
+    "partei_staerke",
+    "flag_staerkste_partei",
+    "anzahl_listen",
+    "anzahl_kandidierende",
+    "anzahl_kandidierende_f",
+    "anzahl_kandidierende_m",
+    "anzahl_gewaehlte",
+    "anzahl_gewaehlte_f",
+    "anzahl_gewaehlte_m",
+    "frauen_anteil"
+  ],
+  "description": "",
+  "dimensions": [
+    "wahl_jahr",
+    "ebene_resultat",
+    "geoLevelName",
+    "kanton_nummer",
+    "kanton_bezeichnung",
+    "partei_id",
+    "partei_bezeichnung_de",
+    "partei_bezeichnung_fr",
+    "partei_bezeichnung_it",
+    "partei_bezeichnung_en",
+    "partei_staerke",
+    "flag_staerkste_partei",
+    "anzahl_listen",
+    "anzahl_kandidierende",
+    "anzahl_kandidierende_f",
+    "anzahl_kandidierende_m",
+    "anzahl_gewaehlte",
+    "anzahl_gewaehlte_f",
+    "anzahl_gewaehlte_m",
+    "frauen_anteil"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "local_feature_id",
+    "canton_code",
+    "sex",
+    "vote_or_election_id",
+    "year"
+  ],
+  "license": {
+    "attribution": "bundesamt-fur-statistik-bfs",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/eidg-wahlen-2023"
+  },
+  "measures": [
+    "anzahl_listen",
+    "anzahl_kandidierende",
+    "anzahl_kandidierende_f",
+    "anzahl_kandidierende_m",
+    "anzahl_gewaehlte",
+    "anzahl_gewaehlte_f",
+    "anzahl_gewaehlte_m",
+    "frauen_anteil"
+  ],
+  "primary_topic": "politics-elections",
+  "publisher": "bundesamt-fur-statistik-bfs",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:eidg-wahlen-2023:89ddc561-9544-4021-8b7d-13271c5f939d",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/eidg-wahlen-2023",
+    "source_url": "https://ogd-static.voteinfo-app.ch/v4/ogd/sd-t-17.02-NRW2023-zeitreihen-parteien-appendix.csv"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "NR - Zeitreihen (1991-): Parteien (csv)",
+  "topic_score": 3,
+  "topics": [
+    "politics-elections"
+  ],
+  "units": [],
+  "value_summaries": {
+    "anzahl_gewaehlte": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        44.0,
+        35.0,
+        41.0,
+        25.0,
+        10.0,
+        5.0,
+        3.0,
+        1.0,
+        2.0,
+        14.0
+      ]
+    },
+    "anzahl_gewaehlte_f": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        5.0,
+        4.0,
+        12.0,
+        3.0,
+        1.0,
+        0.0,
+        8.0,
+        19.0,
+        2.0,
+        9.0
+      ]
+    },
+    "anzahl_gewaehlte_m": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        39.0,
+        31.0,
+        29.0,
+        22.0,
+        9.0,
+        4.0,
+        3.0,
+        1.0,
+        2.0,
+        0.0
+      ]
+    },
+    "anzahl_kandidierende": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        267.0,
+        303.0,
+        237.0,
+        35.0,
+        164.0,
+        130.0,
+        11.0,
+        72.0,
+        131.0,
+        154.0
+      ]
+    },
+    "anzahl_kandidierende_f": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        72.0,
+        83.0,
+        121.0,
+        40.0,
+        11.0,
+        64.0,
+        38.0,
+        4.0,
+        34.0,
+        84.0
+      ]
+    },
+    "anzahl_kandidierende_m": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        195.0,
+        220.0,
+        146.0,
+        197.0,
+        24.0,
+        100.0,
+        92.0,
+        7.0,
+        38.0,
+        47.0
+      ]
+    },
+    "anzahl_listen": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        25.0,
+        36.0,
+        18.0,
+        5.0,
+        10.0,
+        8.0,
+        2.0,
+        6.0,
+        17.0,
+        14.0
+      ]
+    },
+    "ebene_resultat": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Schweiz",
+        "Kanton"
+      ]
+    },
+    "flag_staerkste_partei": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        1.0,
+        0.0
+      ]
+    },
+    "frauen_anteil": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        11.363636364,
+        11.428571429,
+        29.268292683,
+        12.0,
+        10.0,
+        20.0,
+        0.0,
+        100.0,
+        57.142857143,
+        17.777777778
+      ]
+    },
+    "geoLevelName": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri",
+        "Schwyz",
+        "Obwalden",
+        "Nidwalden",
+        "Glarus",
+        "Zug"
+      ]
+    },
+    "kanton_bezeichnung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri",
+        "Schwyz",
+        "Obwalden",
+        "Nidwalden",
+        "Glarus",
+        "Zug",
+        "Fribourg / Freiburg"
+      ]
+    },
+    "kanton_nummer": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0
+      ]
+    },
+    "partei_bezeichnung_de": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "FDP",
+        "CVP",
+        "SP",
+        "SVP",
+        "LPS",
+        "LdU",
+        "EVP",
+        "CSP",
+        "PdA/Sol.",
+        "FGA"
+      ]
+    },
+    "partei_bezeichnung_en": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "FDP",
+        "CVP",
+        "SP",
+        "SVP",
+        "LPS",
+        "LdU",
+        "EVP",
+        "CSP",
+        "PdA/Sol.",
+        "FGA"
+      ]
+    },
+    "partei_bezeichnung_fr": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "PLR",
+        "PDC",
+        "PS",
+        "UDC",
+        "PL",
+        "AdI",
+        "PEV",
+        "PCS",
+        "PST/Sol.",
+        "AVF"
+      ]
+    },
+    "partei_bezeichnung_it": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "PLR",
+        "PPD",
+        "PS",
+        "UDC",
+        "PLS",
+        "AdI",
+        "PEV",
+        "PCS",
+        "PdL/Sol.",
+        "AVF"
+      ]
+    },
+    "partei_id": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ]
+    },
+    "partei_staerke": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        20.990763511,
+        17.999492193,
+        18.490691992,
+        11.900966155,
+        3.0366819685,
+        2.8285599427,
+        1.8923146683,
+        0.3932550395,
+        0.7764383513,
+        1.4753152145
+      ]
+    },
+    "wahl_jahr": {
+      "count": 9,
+      "strategy": "full",
+      "values": [
+        1991,
+        1995,
+        1999,
+        2003,
+        2007,
+        2011,
+        2015,
+        2019,
+        2023
+      ]
+    }
+  },
+  "years": [
+    1991,
+    1995,
+    1999,
+    2003,
+    2007,
+    2011,
+    2015,
+    2019,
+    2023
+  ]
+}

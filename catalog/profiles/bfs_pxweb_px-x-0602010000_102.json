@@ -1,0 +1,291 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Jahr",
+    "Gemeinde",
+    "Wirtschaftssektor",
+    "Beobachtungseinheit"
+  ],
+  "geo_levels": [
+    "Municipality"
+  ],
+  "join_keys": [
+    "bfs_municipality_id",
+    "economic_activity",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0602010000_102/px-x-0602010000_102.px"
+  },
+  "measures": [
+    "Arbeitsstätten",
+    "Beschäftigte",
+    "Beschäftigte Frauen",
+    "Beschäftigte Männer",
+    "Vollzeitäquivalente",
+    "Vollzeitäquivalente Frauen",
+    "Vollzeitäquivalente Männer"
+  ],
+  "primary_topic": "labor-economy",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 13,
+        "strategy": "full",
+        "values": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "values": {
+        "count": 13,
+        "strategy": "full",
+        "values": [
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      }
+    },
+    {
+      "code": "Gemeinde",
+      "label": "Gemeinde",
+      "value_labels": {
+        "count": 2137,
+        "first": [
+          "Schweiz",
+          "1 Aeugst am Albis",
+          "2 Affoltern am Albis",
+          "3 Bonstetten",
+          "4 Hausen am Albis"
+        ],
+        "sample": [
+          "Schweiz",
+          "388 Leuzigen",
+          "877 Niedermuhlern",
+          "1506 Ennetmoos",
+          "2544 Feldbrunnen-St. Niklaus",
+          "3291 Bad Ragaz",
+          "4110 Remigen",
+          "5017 Sant'Antonino",
+          "5601 Chexbres",
+          "6082 Ayent"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 2137,
+        "first": [
+          "99999",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "99999",
+          "388",
+          "877",
+          "1506",
+          "2544",
+          "3291",
+          "4110",
+          "5017",
+          "5601",
+          "6082"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Wirtschaftssektor",
+      "label": "Wirtschaftssektor",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Wirtschaftssektor - Total",
+          "Primärsektor",
+          "Sekundärer Sektor",
+          "Tertiärer Sektor"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "999",
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "code": "Beobachtungseinheit",
+      "label": "Beobachtungseinheit",
+      "value_labels": {
+        "count": 7,
+        "strategy": "full",
+        "values": [
+          "Arbeitsstätten",
+          "Beschäftigte",
+          "Beschäftigte Frauen",
+          "Beschäftigte Männer",
+          "Vollzeitäquivalente",
+          "Vollzeitäquivalente Frauen",
+          "Vollzeitäquivalente Männer"
+        ]
+      },
+      "values": {
+        "count": 7,
+        "strategy": "full",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-0602010000_102",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0602010000_102/px-x-0602010000_102.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Arbeitsstätten und Beschäftigte nach Jahr, Gemeinde, Wirtschaftssektor und Beobachtungseinheit",
+  "topic_score": 9,
+  "topics": [
+    "labor-economy",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Beobachtungseinheit": {
+      "count": 7,
+      "strategy": "full",
+      "values": [
+        "Arbeitsstätten",
+        "Beschäftigte",
+        "Beschäftigte Frauen",
+        "Beschäftigte Männer",
+        "Vollzeitäquivalente",
+        "Vollzeitäquivalente Frauen",
+        "Vollzeitäquivalente Männer"
+      ]
+    },
+    "Gemeinde": {
+      "count": 2137,
+      "first": [
+        "Schweiz",
+        "1 Aeugst am Albis",
+        "2 Affoltern am Albis",
+        "3 Bonstetten",
+        "4 Hausen am Albis"
+      ],
+      "sample": [
+        "Schweiz",
+        "388 Leuzigen",
+        "877 Niedermuhlern",
+        "1506 Ennetmoos",
+        "2544 Feldbrunnen-St. Niklaus",
+        "3291 Bad Ragaz",
+        "4110 Remigen",
+        "5017 Sant'Antonino",
+        "5601 Chexbres",
+        "6082 Ayent"
+      ],
+      "strategy": "summary"
+    },
+    "Jahr": {
+      "count": 13,
+      "strategy": "full",
+      "values": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ]
+    },
+    "Wirtschaftssektor": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Wirtschaftssektor - Total",
+        "Primärsektor",
+        "Sekundärer Sektor",
+        "Tertiärer Sektor"
+      ]
+    }
+  },
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "columns": [
+    "wahl_jahr",
+    "ebene_resultat",
+    "kanton_nummer",
+    "kanton_bezeichnung",
+    "gemeinde_nummer",
+    "gemeinde_bezeichnung",
+    "liste_nummer_bfs",
+    "liste_nummer_kanton",
+    "liste_bezeichnung",
+    "kandidat_nummer",
+    "name",
+    "vorname",
+    "geschlecht",
+    "geburtsdatum",
+    "geburtsjahr",
+    "wohnort_gemeinde_nummer",
+    "wohnort",
+    "beruf",
+    "kandidat_status_id",
+    "kandidat_status_de",
+    "kandidat_status_fr",
+    "kandidat_status_it",
+    "kandidat_status_en",
+    "kandidat_partei_id",
+    "partei_bezeichnung_de",
+    "partei_bezeichnung_fr",
+    "partei_bezeichnung_it",
+    "partei_bezeichnung_en",
+    "kandidat_listenplatz_1",
+    "kandidat_listenplatz_2",
+    "stimmen_kandidat",
+    "flag_gewaehlt"
+  ],
+  "description": "",
+  "dimensions": [
+    "wahl_jahr",
+    "ebene_resultat",
+    "kanton_nummer",
+    "kanton_bezeichnung",
+    "gemeinde_nummer",
+    "gemeinde_bezeichnung",
+    "liste_nummer_bfs",
+    "liste_nummer_kanton",
+    "liste_bezeichnung",
+    "kandidat_nummer",
+    "name",
+    "vorname",
+    "geschlecht",
+    "geburtsdatum",
+    "geburtsjahr",
+    "wohnort_gemeinde_nummer",
+    "wohnort",
+    "beruf",
+    "kandidat_status_id",
+    "kandidat_status_de",
+    "kandidat_status_fr",
+    "kandidat_status_it",
+    "kandidat_status_en",
+    "kandidat_partei_id",
+    "partei_bezeichnung_de",
+    "partei_bezeichnung_fr",
+    "partei_bezeichnung_it",
+    "partei_bezeichnung_en",
+    "kandidat_listenplatz_1",
+    "kandidat_listenplatz_2",
+    "stimmen_kandidat",
+    "flag_gewaehlt"
+  ],
+  "geo_levels": [
+    "Canton",
+    "Municipality"
+  ],
+  "join_keys": [
+    "local_feature_id",
+    "local_area_name",
+    "bfs_municipality_id",
+    "canton_code",
+    "age_group",
+    "sex",
+    "occupation",
+    "vote_or_election_id",
+    "year",
+    "date"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik BFS",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://opendata.swiss/de/dataset/nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton"
+  },
+  "measures": [],
+  "primary_topic": "geography-planning",
+  "publisher": "Bundesamt für Statistik BFS",
+  "pxweb_dimensions": [],
+  "readiness": {
+    "duckdb_readable": true,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "ckan:nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton:1e7b4e51-dfe1-458f-b9ea-791a0a246b0c",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "download_url",
+    "api_url": null,
+    "format": "CSV",
+    "format_family": "tabular_text",
+    "landing_page_url": "https://opendata.swiss/de/dataset/nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton",
+    "source_url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/28845350/appendix"
+  },
+  "source_system": "ckan_opendata_swiss",
+  "title": "Nationalratswahlen 2023: Kandidierende, erhaltene Stimmen und Status (gewählt/nicht gewählt) (Kantone, Gemeinden)",
+  "topic_score": 6,
+  "topics": [
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "beruf": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "lic. iur., Unternehmer",
+        "Kleinunternehmer",
+        "Unternehmer",
+        "lic. iur. LL.M.",
+        "eidg. dipl. Kaminfegermeister",
+        "a. Gemeindepräsidentin, eidg. dipl. F/A",
+        "eidg. dipl. Landwirt, Präsident Zürcher Bauernverband",
+        "Betriebsökonom, Offizier",
+        "eidg. dipl. Landwirt, Ing. Agr. FH",
+        "eidg. dipl. Landwirt, Geschäftsführer, Ing. Agr. FH"
+      ]
+    },
+    "ebene_resultat": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "Kanton"
+      ]
+    },
+    "flag_gewaehlt": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        1,
+        0
+      ]
+    },
+    "geburtsdatum": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "12.10.1972",
+        "12.10.1961",
+        "23.03.1966",
+        "18.06.1976",
+        "25.01.1972",
+        "11.04.1966",
+        "14.04.1959",
+        "03.05.1962",
+        "16.08.1991",
+        "15.03.1969"
+      ]
+    },
+    "geburtsjahr": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1972.0,
+        1961.0,
+        1966.0,
+        1976.0,
+        1959.0,
+        1962.0,
+        1991.0,
+        1969.0,
+        1987.0,
+        1980.0
+      ]
+    },
+    "gemeinde_bezeichnung": {
+      "count": 0,
+      "strategy": "full",
+      "values": []
+    },
+    "gemeinde_nummer": {
+      "count": 0,
+      "strategy": "full",
+      "values": []
+    },
+    "geschlecht": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "M",
+        "F"
+      ]
+    },
+    "kandidat_listenplatz_1": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "kandidat_listenplatz_2": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        16.0,
+        18.0,
+        20.0
+      ]
+    },
+    "kandidat_nummer": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "kandidat_partei_id": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        4,
+        3,
+        13,
+        31,
+        1,
+        34,
+        7,
+        12,
+        16,
+        35
+      ]
+    },
+    "kandidat_status_de": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "bisherig"
+      ]
+    },
+    "kandidat_status_en": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "incumbent"
+      ]
+    },
+    "kandidat_status_fr": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "sortant/e"
+      ]
+    },
+    "kandidat_status_id": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        2.0
+      ]
+    },
+    "kandidat_status_it": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "uscente"
+      ]
+    },
+    "kanton_bezeichnung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri",
+        "Schwyz",
+        "Obwalden",
+        "Nidwalden",
+        "Glarus",
+        "Zug",
+        "Fribourg / Freiburg"
+      ]
+    },
+    "kanton_nummer": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "liste_bezeichnung": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "SVP Schweizerische Volkspartei",
+        "SP – Sozialdemokratische Partei",
+        "GRÜNE",
+        "Grünliberale – GLP",
+        "FDP.Die Liberalen",
+        "Die Mitte",
+        "Evangelische Volkspartei (EVP)",
+        "AL – Alternative Liste",
+        "EDU",
+        "GRÜNE, Junge Grüne – Klima vor Profit"
+      ]
+    },
+    "liste_nummer_bfs": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "liste_nummer_kanton": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    "name": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Rutz",
+        "Heer",
+        "Matter",
+        "Steinemann",
+        "Tuena",
+        "Walliser",
+        "Schläpfer",
+        "Haab",
+        "Fischer",
+        "Hübscher"
+      ]
+    },
+    "partei_bezeichnung_de": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "SVP",
+        "SP",
+        "GRÜNE",
+        "GLP",
+        "FDP",
+        "Mitte",
+        "EVP",
+        "FGA",
+        "EDU",
+        "Übrige"
+      ]
+    },
+    "partei_bezeichnung_en": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "SVP",
+        "SP",
+        "GREENS",
+        "GLP",
+        "FDP",
+        "Centre",
+        "EVP",
+        "FGA",
+        "EDU",
+        "Others"
+      ]
+    },
+    "partei_bezeichnung_fr": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "UDC",
+        "PS",
+        "VERT-E-S",
+        "PVL",
+        "PLR",
+        "Centre",
+        "PEV",
+        "AVF",
+        "UDF",
+        "Autres"
+      ]
+    },
+    "partei_bezeichnung_it": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "UDC",
+        "PS",
+        "VERDI",
+        "PVL",
+        "PLR",
+        "Centro",
+        "PEV",
+        "AVF",
+        "UDF",
+        "Altri"
+      ]
+    },
+    "stimmen_kandidat": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        139650,
+        131951,
+        129707,
+        123919,
+        124244,
+        120698,
+        120148,
+        121446,
+        122426,
+        120588
+      ]
+    },
+    "vorname": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Gregor",
+        "'Alfred 'Fredi''",
+        "'Thomas 'Tommy''",
+        "Barbara",
+        "Mauro",
+        "Bruno",
+        "Therese",
+        "Martin",
+        "'Benjamin 'Beni''",
+        "'Domenik 'Lädi''"
+      ]
+    },
+    "wahl_jahr": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        2023
+      ]
+    },
+    "wohnort": {
+      "count": 10,
+      "strategy": "full",
+      "values": [
+        "Zürich",
+        "Meilen",
+        "Watt-Regensdorf",
+        "Volketswil",
+        "Hagenbuch",
+        "Mettmenstetten",
+        "Bertschikon (Wiesendangen)",
+        "Herrliberg",
+        "Küsnacht",
+        "Hettlingen"
+      ]
+    },
+    "wohnort_gemeinde_nummer": {
+      "count": 7,
+      "strategy": "full",
+      "values": [
+        1201.0,
+        1630.0,
+        1632.0,
+        3001.0,
+        3022.0,
+        3101.0,
+        3102.0
+      ]
+    }
+  },
+  "years": [
+    1959,
+    1961,
+    1962,
+    1966,
+    1969,
+    1972,
+    1976,
+    1980,
+    1987,
+    1991,
+    2023
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Aufwandsart",
+    "Masseinheit",
+    "Forschungsart",
+    "Jahr"
+  ],
+  "geo_levels": [],
+  "join_keys": [
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1515020000_104/px-x-1515020000_104.px"
+  },
+  "measures": [],
+  "primary_topic": "science-research",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Aufwandsart",
+      "label": "Aufwandsart",
+      "value_labels": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "Intramuros-F+E-Aufwendungen",
+          "F+E-Aufträge"
+        ]
+      },
+      "values": {
+        "count": 2,
+        "strategy": "full",
+        "values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Masseinheit",
+      "label": "Masseinheit",
+      "value_labels": {
+        "count": 1,
+        "strategy": "full",
+        "values": [
+          "Tausend Franken zu laufenden Preisen"
+        ]
+      },
+      "values": {
+        "count": 1,
+        "strategy": "full",
+        "values": [
+          "In Tausend Franken zu laufenden Preisen"
+        ]
+      }
+    },
+    {
+      "code": "Forschungsart",
+      "label": "Forschungsart",
+      "value_labels": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "Forschungsart - Total",
+          "Grundlagenforschung",
+          "Angewandte Forschung",
+          "Experimentelle Entwicklung"
+        ]
+      },
+      "values": {
+        "count": 4,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 15,
+        "strategy": "full",
+        "values": [
+          "2024",
+          "2023",
+          "2022",
+          "2021",
+          "2019",
+          "2017",
+          "2015",
+          "2014",
+          "2012",
+          "2010",
+          "2008",
+          "2006",
+          "2004",
+          "2002",
+          "2000"
+        ]
+      },
+      "values": {
+        "count": 15,
+        "strategy": "full",
+        "values": [
+          "2024",
+          "2023",
+          "2022",
+          "2021",
+          "2019",
+          "2017",
+          "2015",
+          "2014",
+          "2012",
+          "2010",
+          "2008",
+          "2006",
+          "2004",
+          "2002",
+          "2000"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1515020000_104",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1515020000_104/px-x-1515020000_104.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "F+E-Aufwendungen des Bundes nach Aufwandsart, Masseinheit, Forschungsart und Jahr",
+  "topic_score": 3,
+  "topics": [
+    "science-research"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Aufwandsart": {
+      "count": 2,
+      "strategy": "full",
+      "values": [
+        "Intramuros-F+E-Aufwendungen",
+        "F+E-Aufträge"
+      ]
+    },
+    "Forschungsart": {
+      "count": 4,
+      "strategy": "full",
+      "values": [
+        "Forschungsart - Total",
+        "Grundlagenforschung",
+        "Angewandte Forschung",
+        "Experimentelle Entwicklung"
+      ]
+    },
+    "Jahr": {
+      "count": 15,
+      "strategy": "full",
+      "values": [
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2019",
+        "2017",
+        "2015",
+        "2014",
+        "2012",
+        "2010",
+        "2008",
+        "2006",
+        "2004",
+        "2002",
+        "2000"
+      ]
+    },
+    "Masseinheit": {
+      "count": 1,
+      "strategy": "full",
+      "values": [
+        "Tausend Franken zu laufenden Preisen"
+      ]
+    }
+  },
+  "years": [
+    2000,
+    2002,
+    2004,
+    2006,
+    2008,
+    2010,
+    2012,
+    2014,
+    2015,
+    2017,
+    2019,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "columns": [],
+  "description": "",
+  "dimensions": [
+    "Straftat",
+    "Kanton",
+    "Aufenthaltsgruppe",
+    "Geschlecht",
+    "Altersklasse",
+    "Jahr"
+  ],
+  "geo_levels": [
+    "Canton"
+  ],
+  "join_keys": [
+    "canton_code",
+    "age_group",
+    "sex",
+    "year"
+  ],
+  "license": {
+    "attribution": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+    "name": "Source-specific open-data terms",
+    "status": "verify_at_source",
+    "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1903020100_102/px-x-1903020100_102.px"
+  },
+  "measures": [],
+  "primary_topic": "justice-police-safety",
+  "publisher": "Bundesamt für Statistik / Bundesamtliche PxWeb-Statistik",
+  "pxweb_dimensions": [
+    {
+      "code": "Straftat",
+      "label": "Straftat",
+      "value_labels": {
+        "count": 267,
+        "first": [
+          "Straftat - Total",
+          "Tötungsdelikte (Art. 111 - 113/116)",
+          "Tötung auf Verlangen (Art. 114)",
+          "Verleitung/Beihilfe zum Selbstmord (Art. 115)",
+          "Fahrlässige Tötung (Art. 117)"
+        ],
+        "sample": [
+          "Straftat - Total",
+          "Entreissdiebstahl (Art. 139)",
+          "Unwahre Angaben gegenüber Handelsregisterbehörden (Art. 153)",
+          "Unbefugtes Aufnehmen von Gesprächen (Art. 179ter)",
+          "Exhibitionismus (Art. 194)",
+          "Total 7. Titel: Gemeingefährliche Verbrechen und Vergehen",
+          "Unterdrückung von Urkunden (Art. 254)",
+          "Tätliche Angriffe auf schweizerische Hoheitszeichen (Art. 270)",
+          "Veröffentlichung amtlicher geheimer Verhandlungen (Art. 293)",
+          "Entweichenlassen von Gefangenen (Art. 319)"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 267,
+        "first": [
+          "311.00.T0",
+          "311.00.111.00",
+          "311.00.114.00",
+          "311.00.115.00",
+          "311.00.117.00"
+        ],
+        "sample": [
+          "311.00.T0",
+          "311.00.139.72",
+          "311.00.153.00",
+          "311.00.179.B0",
+          "311.00.194.00",
+          "311.00.T7",
+          "311.00.254.00",
+          "311.00.270.00",
+          "311.00.293.00",
+          "311.00.319.00"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Kanton",
+      "label": "Kanton",
+      "value_labels": {
+        "count": 27,
+        "first": [
+          "Schweiz",
+          "Zürich",
+          "Bern / Berne",
+          "Luzern",
+          "Uri"
+        ],
+        "sample": [
+          "Schweiz",
+          "Bern / Berne",
+          "Uri",
+          "Obwalden",
+          "Glarus",
+          "Fribourg / Freiburg",
+          "Basel-Stadt",
+          "Schaffhausen",
+          "Appenzell Innerrhoden",
+          "Graubünden / Grigioni / Grischun"
+        ],
+        "strategy": "summary"
+      },
+      "values": {
+        "count": 27,
+        "first": [
+          "8100",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "sample": [
+          "8100",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "strategy": "summary"
+      }
+    },
+    {
+      "code": "Aufenthaltsgruppe",
+      "label": "Aufenthaltsgruppe",
+      "value_labels": {
+        "count": 5,
+        "strategy": "full",
+        "values": [
+          "Total alle Beschuldigte",
+          "Total Schweizer Beschuldigte",
+          "Total Beschuldigte aus der ständigen ausländischen Wohnbevölkerung",
+          "Total Beschuldigte aus der Asylbevölkerung",
+          "Total übrige ausländische Beschuldigte"
+        ]
+      },
+      "values": {
+        "count": 5,
+        "strategy": "full",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    },
+    {
+      "code": "Geschlecht",
+      "label": "Geschlecht",
+      "value_labels": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "Geschlecht - Total",
+          "Mann",
+          "Frau"
+        ]
+      },
+      "values": {
+        "count": 3,
+        "strategy": "full",
+        "values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Altersklasse",
+      "label": "Altersklasse",
+      "value_labels": {
+        "count": 19,
+        "strategy": "full",
+        "values": [
+          "Altersklasse - Total",
+          "<10 Jahre",
+          "10-14 Jahre",
+          "15-17 Jahre",
+          "18-19 Jahre",
+          "20-24 Jahre",
+          "25-29 Jahre",
+          "30-34 Jahre",
+          "35-39 Jahre",
+          "40-44 Jahre",
+          "45-49 Jahre",
+          "50-54 Jahre",
+          "55-59 Jahre",
+          "60-64 Jahre",
+          "65-69 Jahre",
+          "70-79 Jahre",
+          "80-89 Jahre",
+          "90 Jahre und +",
+          "ohne Angabe"
+        ]
+      },
+      "values": {
+        "count": 19,
+        "strategy": "full",
+        "values": [
+          "Total",
+          "0-9",
+          "10-14",
+          "15-17",
+          "18-19",
+          "20-24",
+          "25-29",
+          "30-34",
+          "35-39",
+          "40-44",
+          "45-49",
+          "50-54",
+          "55-59",
+          "60-64",
+          "65-69",
+          "70-79",
+          "80-89",
+          "90-HIGH",
+          "o.A."
+        ]
+      }
+    },
+    {
+      "code": "Jahr",
+      "label": "Jahr",
+      "value_labels": {
+        "count": 17,
+        "strategy": "full",
+        "values": [
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ]
+      },
+      "values": {
+        "count": 17,
+        "strategy": "full",
+        "values": [
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "duckdb_readable": false,
+    "hydrated": true,
+    "join_keys_detected": true,
+    "materializable": true,
+    "retrievable": true,
+    "workflow_smoke_passed": true
+  },
+  "resource_id": "bfs_pxweb:px-x-1903020100_102",
+  "semantic_warnings": [],
+  "source": {
+    "access_method": "pxweb_api",
+    "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1903020100_102/px-x-1903020100_102.px",
+    "format": "px",
+    "format_family": "",
+    "landing_page_url": null,
+    "source_url": null
+  },
+  "source_system": "bfs_pxweb",
+  "title": "Polizeilich registrierte Beschuldigte gemäss Strafgesetzbuch nach Straftat, Kanton, Aufenthaltsgruppe, Geschlecht, Altersklasse und Jahr",
+  "topic_score": 6,
+  "topics": [
+    "population-demography",
+    "justice-police-safety",
+    "geography-planning"
+  ],
+  "units": [],
+  "value_summaries": {
+    "Altersklasse": {
+      "count": 19,
+      "strategy": "full",
+      "values": [
+        "Altersklasse - Total",
+        "<10 Jahre",
+        "10-14 Jahre",
+        "15-17 Jahre",
+        "18-19 Jahre",
+        "20-24 Jahre",
+        "25-29 Jahre",
+        "30-34 Jahre",
+        "35-39 Jahre",
+        "40-44 Jahre",
+        "45-49 Jahre",
+        "50-54 Jahre",
+        "55-59 Jahre",
+        "60-64 Jahre",
+        "65-69 Jahre",
+        "70-79 Jahre",
+        "80-89 Jahre",
+        "90 Jahre und +",
+        "ohne Angabe"
+      ]
+    },
+    "Aufenthaltsgruppe": {
+      "count": 5,
+      "strategy": "full",
+      "values": [
+        "Total alle Beschuldigte",
+        "Total Schweizer Beschuldigte",
+        "Total Beschuldigte aus der ständigen ausländischen Wohnbevölkerung",
+        "Total Beschuldigte aus der Asylbevölkerung",
+        "Total übrige ausländische Beschuldigte"
+      ]
+    },
+    "Geschlecht": {
+      "count": 3,
+      "strategy": "full",
+      "values": [
+        "Geschlecht - Total",
+        "Mann",
+        "Frau"
+      ]
+    },
+    "Jahr": {
+      "count": 17,
+      "strategy": "full",
+      "values": [
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ]
+    },
+    "Kanton": {
+      "count": 27,
+      "first": [
+        "Schweiz",
+        "Zürich",
+        "Bern / Berne",
+        "Luzern",
+        "Uri"
+      ],
+      "sample": [
+        "Schweiz",
+        "Bern / Berne",
+        "Uri",
+        "Obwalden",
+        "Glarus",
+        "Fribourg / Freiburg",
+        "Basel-Stadt",
+        "Schaffhausen",
+        "Appenzell Innerrhoden",
+        "Graubünden / Grigioni / Grischun"
+      ],
+      "strategy": "summary"
+    },
+    "Straftat": {
+      "count": 267,
+      "first": [
+        "Straftat - Total",
+        "Tötungsdelikte (Art. 111 - 113/116)",
+        "Tötung auf Verlangen (Art. 114)",
+        "Verleitung/Beihilfe zum Selbstmord (Art. 115)",
+        "Fahrlässige Tötung (Art. 117)"
+      ],
+      "sample": [
+        "Straftat - Total",
+        "Entreissdiebstahl (Art. 139)",
+        "Unwahre Angaben gegenüber Handelsregisterbehörden (Art. 153)",
+        "Unbefugtes Aufnehmen von Gesprächen (Art. 179ter)",
+        "Exhibitionismus (Art. 194)",
+        "Total 7. Titel: Gemeingefährliche Verbrechen und Vergehen",
+        "Unterdrückung von Urkunden (Art. 254)",
+        "Tätliche Angriffe auf schweizerische Hoheitszeichen (Art. 270)",
+        "Veröffentlichung amtlicher geheimer Verhandlungen (Art. 293)",
+        "Entweichenlassen von Gefangenen (Art. 319)"
+      ],
+      "strategy": "summary"
+    }
+  },
+  "years": [
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ]
+}
