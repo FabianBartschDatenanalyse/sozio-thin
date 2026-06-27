@@ -6,14 +6,30 @@ LLM API key. The MCP client (Codex or Claude Code) performs reasoning and SQL
 generation; the server only searches profiles, exposes context, materializes
 PXWeb data, validates SQL, executes DuckDB, and formats reproduction details.
 
-## Windows installer
+## Claude Desktop
 
-The easiest installation is the Windows wizard from the
+For Claude Desktop on Windows, download
+`Sozio-Thin-...-Windows-x64.mcpb` from the
+[latest GitHub release](https://github.com/FabianBartschDatenanalyse/sozio-thin/releases/latest).
+Then use one of these installation methods:
+
+1. Double-click the downloaded `.mcpb` file.
+2. Drag the file into the Claude Desktop window.
+3. In Claude Desktop, open `Developer > Extensions > Install Extension` and
+   select the file.
+
+Claude Desktop shows an installation dialog and manages the local extension.
+No JSON configuration, OAuth flow, remote server, or API key is required.
+After installation, open `+ > Connectors` in a chat and select `Sozio Thin`.
+
+## Windows installer for Codex and Claude Code
+
+For Codex or Claude Code, use the Windows wizard from the
 [latest GitHub release](https://github.com/FabianBartschDatenanalyse/sozio-thin/releases/latest):
 
 1. Download `Sozio-Thin-Setup-...-Windows-x64.exe`.
 2. Run the installer without administrator rights.
-3. Select Codex, Claude Code, and/or Claude Desktop integration.
+3. Select Codex and/or Claude Code integration.
 4. Restart the selected client and check for the `sozio-thin` MCP server.
 
 The installer includes Python, all runtime dependencies, and the 100-resource
@@ -139,3 +155,6 @@ Build the Windows installer with:
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts\build_windows_installer.ps1
 ```
+
+The build also creates the official Claude Desktop `.mcpb` package and validates
+its manifest with the pinned MCPB CLI.

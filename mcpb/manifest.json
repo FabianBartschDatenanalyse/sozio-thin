@@ -1,0 +1,79 @@
+{
+  "manifest_version": "0.3",
+  "name": "sozio-thin",
+  "display_name": "Sozio Thin",
+  "version": "0.1.1",
+  "description": "Reproducible analysis tools for 100 curated Swiss open-data resources.",
+  "long_description": "Search, inspect, materialize, join, and analyze 100 curated Swiss open-data resources. Sozio Thin runs locally and lets Claude perform the reasoning and SQL generation. It does not contain an LLM and requires no API key, Python installation, Docker, Gemini, or Vespa.",
+  "author": {
+    "name": "Fabian Bartsch",
+    "url": "https://github.com/FabianBartschDatenanalyse"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FabianBartschDatenanalyse/sozio-thin.git"
+  },
+  "homepage": "https://github.com/FabianBartschDatenanalyse/sozio-thin",
+  "documentation": "https://github.com/FabianBartschDatenanalyse/sozio-thin#readme",
+  "support": "https://github.com/FabianBartschDatenanalyse/sozio-thin/issues",
+  "server": {
+    "type": "binary",
+    "entry_point": "server/sozio-thin.exe",
+    "mcp_config": {
+      "command": "${__dirname}/server/sozio-thin.exe",
+      "args": [
+        "mcp-server"
+      ],
+      "env": {
+        "SOZIO_THIN_STATE_DIR": "${HOME}/.sozio-thin/state"
+      }
+    }
+  },
+  "tools": [
+    {
+      "name": "search_resources",
+      "description": "Search the local catalog of 100 curated Swiss open-data resources."
+    },
+    {
+      "name": "get_resource_profile",
+      "description": "Return a complete resource profile and selected value details."
+    },
+    {
+      "name": "get_context_bundle",
+      "description": "Build deterministic SQL-planning context without calling an LLM."
+    },
+    {
+      "name": "materialize_resource",
+      "description": "Download a scoped PXWeb cube into the local Parquet cache."
+    },
+    {
+      "name": "inspect_source",
+      "description": "Inspect a live source schema, sample rows, and selected distinct values."
+    },
+    {
+      "name": "validate_sql",
+      "description": "Validate one read-only DuckDB query against an explicit source allowlist."
+    },
+    {
+      "name": "execute_sql",
+      "description": "Validate and execute one read-only DuckDB query."
+    },
+    {
+      "name": "format_reproduction_bundle",
+      "description": "Format the exact sources and SQL required to reproduce an answer."
+    }
+  ],
+  "keywords": [
+    "swiss-open-data",
+    "data-analysis",
+    "duckdb",
+    "pxweb",
+    "reproducible-research"
+  ],
+  "license": "Apache-2.0",
+  "compatibility": {
+    "platforms": [
+      "win32"
+    ]
+  }
+}

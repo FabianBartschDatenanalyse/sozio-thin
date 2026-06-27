@@ -65,6 +65,11 @@ try {
         throw "Inno Setup failed with exit code $LASTEXITCODE"
     }
 
+    & (Join-Path $root "scripts\build_mcpb.ps1") -BinaryRoot $buildRoot
+    if ($LASTEXITCODE -ne 0) {
+        throw "MCPB build failed with exit code $LASTEXITCODE"
+    }
+
     Get-ChildItem $release -File | Select-Object Name, Length, FullName
 } finally {
     Pop-Location
