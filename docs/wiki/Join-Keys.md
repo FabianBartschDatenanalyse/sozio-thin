@@ -1,0 +1,411 @@
+# Join-Key-Index
+
+Gemeinsame Join Keys sind Hinweise auf mögliche Verknüpfungen. Vor einem Join müssen Granularität, Codes und Mehrfachzeilen trotzdem geprüft werden.
+
+## `age_group`
+
+- [Angezeigte Straftaten nach Ausländer- und Integrationsgesetz (AIG)](resources/ckan_straftaten-nach-auslander-und-integrationsgesetz-aig_073a3e24-dd25-4dcf-9cfb-642d567e3dac.md)
+- [Auswanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-0103020300_103.md)
+- [Binnenabwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht, Zivilstand und Alter](resources/bfs_pxweb_px-x-0103010200_111.md)
+- [Binnenwanderung der ständigen Wohnbevölkerung nach Jahr, Zuzugskanton, Wegzugskanton, Staatsangehörigkeit (Kategorie), Geschlecht und Alter](resources/bfs_pxweb_px-x-0103010200_151.md)
+- [Binnenzuwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht, Zivilstand und Alter](resources/bfs_pxweb_px-x-0103010200_101.md)
+- [Demografische Bilanz nach Alter und Kanton](resources/bfs_pxweb_px-x-0102020000_104.md)
+- [Durchschnittliche CO2-Emissionen (LNF)](resources/ckan_kennzahlen-alternativ-angetriebene-lnf-durchschnittliche-co2-emissionen_aae8800f-2951-4589-a558-ab59270d3f06.md)
+- [Einwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-0103020200_103.md)
+- [EL-Quoten nach Beobachtungseinheit, Staatsangehörigkeit (Kategorie), Geschlecht, Altersklasse und Jahr](resources/bfs_pxweb_px-x-1305020000_105.md)
+- [Erwerb des Schweizer Bürgerrechts nach Jahr, Kanton, Art des Erwerbs, Geschlecht, Alter und Staatsangehörigkeit ehemalig](resources/bfs_pxweb_px-x-0103030100_101.md)
+- [murs parafeu](resources/ckan_brandschutzwand_ef25f25b-2d54-4c82-ac46-66440f8a34a6.md)
+- [Nationalratswahlen 2023: Kandidierende, erhaltene Stimmen und Status (gewählt/nicht gewählt) (Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton_1e7b4e51-dfe1-458f-b9ea-791a0a246b0c.md)
+- [Passenger coach equipment (rolling stock)](resources/ckan_ausrustung-reisezug-rollmaterial_a2dcd0ee-ab64-4cd1-bb3e-465a5486a974.md)
+- [Periodensterbetafeln 2023 für die Schweiz (1876-2150) nach Jahr, Geschlecht und Alter](resources/bfs_pxweb_px-x-0102020300_102.md)
+- [Pflegekinder im Kanton Thurgau](resources/ckan_pflegekinder-im-kanton-thurgau1_815bea5e-1e82-42be-9d2e-95d8bdb2a899.md)
+- [Polizeilich registrierte Beschuldigte gemäss Strafgesetzbuch nach Straftat, Kanton, Aufenthaltsgruppe, Geschlecht, Altersklasse und Jahr](resources/bfs_pxweb_px-x-1903020100_102.md)
+- [Ständige und nichtständige Wohnbevölkerung nach Jahr, Kanton (-) / Bezirk (>>) / Gemeinde (......), Bevölkerungstyp, Geschlecht, Zivilstand und Altersklasse](resources/bfs_pxweb_px-x-0102010000_103.md)
+- [Stipendien: Bezügerinnen und Bezüger nach Jahr, Kanton, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-1506020000_112.md)
+- [Stop: waiting rooms](resources/ckan_haltestelle-wartehallen_77d25943-3204-49fa-aaca-ceda546d8cd3.md)
+- [Strassenverkehrsunfälle: beteiligte Objekte nach Objektart (Verkehrsteilnahme), Mutmassliche Verantwortlichkeit des Objekts, Geschlecht Fussgänger/in bzw. Fahrzeuglenker/in, Altersklasse Fussgänger/in bzw. Fahrzeuglenker/in, Jahre seit Erteilung des Führerausweises an Fahrzeuglenker/in, Unfallschwere und Jahr](resources/bfs_pxweb_px-x-1106010100_105.md)
+- [Strassenverkehrsunfälle: verunfallte Personen nach Unfallfolge, Verwendetes Verkehrsmittel, Art der Verkehrsteilnahme, Geschlecht, Altersklasse, Verwendung eines Schutzsystems und Jahr](resources/bfs_pxweb_px-x-1106010100_104.md)
+- [WSH: Dossiers der wirtschaftlichen Sozialhilfe nach Kanton, Struktur der Unterstützungseinheit, Geschlecht, Altersklasse, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1304030000_141.md)
+- [WSH: Sozialhilfebeziehende der wirtschaftlichen Sozialhilfe nach Kanton, Geschlecht, Altersklasse, Zivilstand, Staatsangehörigkeit (Kategorie), Absolut / relativ und Jahr](resources/bfs_pxweb_px-x-1304030000_121.md)
+
+## `bfs_municipality_id`
+
+- [Angezeigte Straftaten nach Ausländer- und Integrationsgesetz (AIG)](resources/ckan_straftaten-nach-auslander-und-integrationsgesetz-aig_073a3e24-dd25-4dcf-9cfb-642d567e3dac.md)
+- [Arbeitsstätten und Beschäftigte nach Jahr, Gemeinde, Wirtschaftssektor und Beobachtungseinheit](resources/bfs_pxweb_px-x-0602010000_102.md)
+- [Bauinvestitionen und Arbeitsvorrat nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Art der Auftraggeber, Kategorie der Bauwerke, Beobachtungseinheit und Jahr](resources/bfs_pxweb_px-x-0904010000_203.md)
+- [Beschäftigte, Landwirtschaftliche Betriebe, Landwirtschaftliche Nutzfläche (LN) und Nutztiere auf Klassifizierungsebene 1 nach Beobachtungseinheit, Kanton (-) / Bezirk (>>) / Gemeinde (......), Betriebssystem und Jahr](resources/bfs_pxweb_px-x-0702000000_104.md)
+- [Demografische Bilanz nach institutionellen Gliederungen](resources/bfs_pxweb_px-x-0102020000_201.md)
+- [Nationalratswahlen 2023: Kandidierende, erhaltene Stimmen und Status (gewählt/nicht gewählt) (Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton_1e7b4e51-dfe1-458f-b9ea-791a0a246b0c.md)
+- [Nationalratswahlen 2023: Mandate, gewählte Frauen und Männer, Parteistärke sowie Veränderung zu den letzten Wahlen und stärkste Partei (Schweiz, Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de_e8e12e1a-bee0-41b4-9445-561e7a085bc1.md)
+- [Nationalratswahlen 2023: Wahlberechtigte, Wählende, Wahlbeteiligung und Veränderung der Wahlbeteiligung (Schweiz, Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-wahlberechtigte-wahlende-wahlbeteiligung-und-veranderung-der-wahlbeteil_fc20e530-3557-41db-8695-8ad8b407fc23.md)
+- [Neu erstellte Gebäude mit Wohnungen nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Gebäudetyp und Jahr](resources/bfs_pxweb_px-x-0904030000_106.md)
+- [Neu erstellte Wohnungen nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Gebäudetyp und Jahr](resources/bfs_pxweb_px-x-0904030000_107.md)
+- [Neue Inverkehrsetzungen von Strassenfahrzeugen nach Gemeinde, Fahrzeuggruppe, Treibstoff und Jahr](resources/bfs_pxweb_px-x-1103020200_121.md)
+- [Öffentliche Bildungsausgaben der Kantone und ihrer Gemeinden nach Jahr, Kanton, Bildungsstufe und Ausgabenart](resources/bfs_pxweb_px-x-1506010000_106.md)
+- [Ständige und nichtständige Wohnbevölkerung nach Jahr, Kanton (-) / Bezirk (>>) / Gemeinde (......), Bevölkerungstyp, Geschlecht, Zivilstand und Altersklasse](resources/bfs_pxweb_px-x-0102010000_103.md)
+- [Stop: waiting rooms](resources/ckan_haltestelle-wartehallen_77d25943-3204-49fa-aaca-ceda546d8cd3.md)
+
+## `building_or_dwelling`
+
+- [Gebäude nach Gebäudekategorie, Kantonen und Bauperiode](resources/ckan_gebaude-nach-gebaudekategorie-kantonen-und-bauperiode5_fb6f5cf3-faea-4f5a-ac53-11987e8fab55.md)
+- [Neu erstellte Gebäude mit Wohnungen nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Gebäudetyp und Jahr](resources/bfs_pxweb_px-x-0904030000_106.md)
+- [Neu erstellte Wohnungen nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Gebäudetyp und Jahr](resources/bfs_pxweb_px-x-0904030000_107.md)
+- [Stop: waiting rooms](resources/ckan_haltestelle-wartehallen_77d25943-3204-49fa-aaca-ceda546d8cd3.md)
+
+## `canton_code`
+
+- [Abschlüsse an den Fachhochschulen und pädagogischen Hochschulen nach Jahr, Examensstufe, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1503040400_103.md)
+- [Abschlüsse an den pädagogischen Hochschulen (ohne FH) nach Jahr, Examensstufe, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1503040300_123.md)
+- [Abschlüsse an den universitären Hochschulen nach Jahr, Examensstufe, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1503040100_103.md)
+- [Abschlüsse der vom BBG nicht-reglementierten höheren Berufsbildungen nach Bildungsart, Diplomtyp, Schulkanton, Wohnkanton, Geschlecht und Jahr](resources/bfs_pxweb_px-x-1503030000_204.md)
+- [ALBV: Von der Alimentenbevorschussung unterstützte Personen nach Kanton, Geschlecht, Zivilstand, Personengruppe, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1304030000_201.md)
+- [Anzahl AHV-Renten, Rentensumme und Mittelwert in der Schweiz im Dezember nach Beobachtungseinheit, Rententyp, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305000000_102.md)
+- [Anzahl fakturierte Pflegetage in sozialmedizinischen Institutionen nach Grossregion (<<) / Kanton (-), Beherbergungstyp, Pflegeintensitätsstufe und Jahr](resources/bfs_pxweb_px-x-1404010100_303.md)
+- [Auswanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-0103020300_103.md)
+- [Bauausgaben und Arbeitsvorrat nach Grossregion (<<) / Kanton (-), Art und Kategorie der Auftraggeber, Art der Bauwerke, Kategorie der Bauwerke, Art der Arbeiten, Beobachtungseinheit und Jahr](resources/bfs_pxweb_px-x-0904010000_202.md)
+- [Bauinvestitionen und Arbeitsvorrat nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Art der Auftraggeber, Kategorie der Bauwerke, Beobachtungseinheit und Jahr](resources/bfs_pxweb_px-x-0904010000_203.md)
+- [Beschäftigte, Landwirtschaftliche Betriebe, Landwirtschaftliche Nutzfläche (LN) und Nutztiere auf Klassifizierungsebene 1 nach Beobachtungseinheit, Kanton (-) / Bezirk (>>) / Gemeinde (......), Betriebssystem und Jahr](resources/bfs_pxweb_px-x-0702000000_104.md)
+- [Binnenabwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht, Zivilstand und Alter](resources/bfs_pxweb_px-x-0103010200_111.md)
+- [Binnenwanderung der ständigen Wohnbevölkerung nach Jahr, Zuzugskanton, Wegzugskanton, Staatsangehörigkeit (Kategorie), Geschlecht und Alter](resources/bfs_pxweb_px-x-0103010200_151.md)
+- [Binnenzuwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht, Zivilstand und Alter](resources/bfs_pxweb_px-x-0103010200_101.md)
+- [Demografische Bilanz nach Alter und Kanton](resources/bfs_pxweb_px-x-0102020000_104.md)
+- [Demografische Bilanz nach institutionellen Gliederungen](resources/bfs_pxweb_px-x-0102020000_201.md)
+- [Durchschnittliche CO2-Emissionen nach Treibstoffart (PW)](resources/ckan_durchschnittliche-co2-emissionen-nach-treibstoffart_5943acdf-19ea-4158-b975-d11a725061a4.md)
+- [Einwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-0103020200_103.md)
+- [Erwerb des Schweizer Bürgerrechts nach Jahr, Kanton, Art des Erwerbs, Geschlecht, Alter und Staatsangehörigkeit ehemalig](resources/bfs_pxweb_px-x-0103030100_101.md)
+- [Gebäude nach Gebäudekategorie, Kantonen und Bauperiode](resources/ckan_gebaude-nach-gebaudekategorie-kantonen-und-bauperiode5_fb6f5cf3-faea-4f5a-ac53-11987e8fab55.md)
+- [Höhere Berufsbildung: Lernende nach Bildungstyp, Schulkanton, Geschlecht, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1502030000_111.md)
+- [Institutionelle Einheiten und Beschäftigte nach Jahr, Kanton, Wirtschaftssektor, Öffentlicher/privater Sektor, Wirtschaftliche Ausrichtung und Beobachtungseinheit](resources/bfs_pxweb_px-x-0602010000_108.md)
+- [Interkantonale Pendlerbewegungen](resources/ckan_interkantonale-pendlerbewegungen_c3fb86db-95ac-4a2c-9640-f491be871853.md)
+- [Invalide Neurentner/innen in der Schweiz im Dezember nach Beobachtungseinheit, Kanton, Geschlecht, Invaliditätsursache und Jahr](resources/bfs_pxweb_px-x-1305010000_123.md)
+- [Invalide Rentner/innen in der Schweiz im Dezember nach Beobachtungseinheit, Kanton, Geschlecht, Invaliditätsursache und Jahr](resources/bfs_pxweb_px-x-1305010000_113.md)
+- [IV-Renten in der Schweiz und im Ausland im Dezember nach Beobachtungseinheit, Rentenart, Kanton, Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305010000_022.md)
+- [Klientinnen und Klienten der Spitex (Hilfe und Pflege zu Hause), Kanton St.Gallen, seit 2015](resources/ckan_klientinnen-und-klienten-der-spitex-hilfe-und-pflege-zu-hause-kanton-st-gallen-seit-2015_06d12ccd-3a62-4e01-8da3-7ace497683a6.md)
+- [Konsolidierte Ausgaben nach funktionaler Gliederung Kanton Thurgau (Staatsrechnung)](resources/ckan_konsolidierte-ausgaben-nach-funktionaler-gliederung-kanton-thurgau-staatsrechnung_69da249e-17b1-476e-9206-2c4e0a34c72d.md)
+- [Landwirtschaftliche Betriebe und Beschäftigte nach Beobachtungseinheit, Kanton, Landwirtschaftliche Produktionszone, Betriebssystem, Betriebsform und Jahr](resources/bfs_pxweb_px-x-0702000000_107.md)
+- [Landwirtschaftliche Betriebe und Landwirtschaftliche Nutzfläche (LN) auf Klassifizierungsebene 3 nach Beobachtungseinheit, Kanton, Landwirtschaftliche Produktionszone, Betriebssystem, Betriebsform und Jahr](resources/bfs_pxweb_px-x-0702000000_106.md)
+- [Landwirtschaftliche Betriebe und Nutztiere auf Klassifizierungsebene 3 nach Kanton nach Beobachtungseinheit, Kanton, Landwirtschaftliche Produktionszone, Betriebssystem, Betriebsform und Jahr](resources/bfs_pxweb_px-x-0702000000_108.md)
+- [Leistungserbringer für Hilfe und Pflege zu Hause nach Leistungserbringertyp, Kanton, Leistungsangebot, Leistungserbringer und Jahr](resources/bfs_pxweb_px-x-1404040000_101.md)
+- [Medizinisch-technische Infrastruktur, Anzahl Geräte und Untersuchungen in Krankenhäusern nach Infrastruktur, Geräte und Untersuchungen, Grossregion (<<) / Kanton (-) und Jahr](resources/bfs_pxweb_px-x-1404010100_101.md)
+- [Nationalratswahlen (Parteistimmen, fiktive Wählende und Parteistärke seit 1971: Schweiz und Kantone)](resources/bfs_pxweb_px-x-1702020000_104.md)
+- [Nationalratswahlen 2023: Kandidierende, erhaltene Stimmen und Status (gewählt/nicht gewählt) (Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton_1e7b4e51-dfe1-458f-b9ea-791a0a246b0c.md)
+- [Nationalratswahlen 2023: Mandate, gewählte Frauen und Männer, Parteistärke sowie Veränderung zu den letzten Wahlen und stärkste Partei (Schweiz, Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de_e8e12e1a-bee0-41b4-9445-561e7a085bc1.md)
+- [Nationalratswahlen 2023: Wahlberechtigte, Wählende, Wahlbeteiligung und Veränderung der Wahlbeteiligung (Schweiz, Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-wahlberechtigte-wahlende-wahlbeteiligung-und-veranderung-der-wahlbeteil_fc20e530-3557-41db-8695-8ad8b407fc23.md)
+- [Nationalratswahlen: Zeitreihen zu Listen, Kandidierenden, Parteistärken, Mandaten, gewählten Frauen und Männern, stärkste Partei (Schweiz und Kantone)](resources/ckan_nationalratswahlen-zeitreihen-zu-listen-kandidierenden-parteistarken-mandaten-gewahlten-frauen-_248576ad-1b14-4dba-b6c9-4ae0f934ea13.md)
+- [Nationalratswahlen: Zeitreihen zur Wahlbeteiligung und zum Frauenanteil in % (Schweiz und Kantone)](resources/ckan_nationalratswahlen-zeitreihen-zur-wahlbeteiligung-und-zum-frauenanteil-in-schweiz-und-kantone_87ab0a38-51b4-4f32-9058-e89a089f8f7a.md)
+- [Neu erstellte Gebäude mit Wohnungen nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Gebäudetyp und Jahr](resources/bfs_pxweb_px-x-0904030000_106.md)
+- [Neu erstellte Wohnungen nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Gebäudetyp und Jahr](resources/bfs_pxweb_px-x-0904030000_107.md)
+- [NR - Zeitreihen (1991-): Parteien (csv)](resources/ckan_eidg-wahlen-2023_89ddc561-9544-4021-8b7d-13271c5f939d.md)
+- [Öffentliche Bildungsausgaben der Kantone und ihrer Gemeinden nach Jahr, Kanton, Bildungsstufe und Ausgabenart](resources/bfs_pxweb_px-x-1506010000_106.md)
+- [Personal der Hilfe und Pflege zu Hause nach Leistungserbringertyp, Kanton, Ausbildung/Hauptfunktion, Personal und Jahr](resources/bfs_pxweb_px-x-1404040000_103.md)
+- [Pflegekinder im Kanton Thurgau](resources/ckan_pflegekinder-im-kanton-thurgau1_815bea5e-1e82-42be-9d2e-95d8bdb2a899.md)
+- [Polizeilich registrierte Beschuldigte gemäss Strafgesetzbuch nach Straftat, Kanton, Aufenthaltsgruppe, Geschlecht, Altersklasse und Jahr](resources/bfs_pxweb_px-x-1903020100_102.md)
+- [Polizeilich registrierte Straftaten gemäss Strafgesetzbuch nach Straftat, Kanton, Ausführungsgrad, Aufklärungsgrad und Jahr](resources/bfs_pxweb_px-x-1903020100_101.md)
+- [Polizeilich registrierte Verkehrsunfälle im Kanton Zürich](resources/ckan_polizeilich-registrierte-verkehrsunfalle-im-kanton-zurich-seit-2011_fa0a76c6-2ce2-4407-ae81-0749c9472c30.md)
+- [Sekundarstufe II: Lernende nach Bildungsstufe und Bildungstyp, Schulkanton, Geschlecht, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1502020000_101.md)
+- [Ständige und nichtständige Wohnbevölkerung nach Jahr, Kanton (-) / Bezirk (>>) / Gemeinde (......), Bevölkerungstyp, Geschlecht, Zivilstand und Altersklasse](resources/bfs_pxweb_px-x-0102010000_103.md)
+- [Stipendien: Bezügerinnen und Bezüger nach Jahr, Kanton, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-1506020000_112.md)
+- [Stop: waiting rooms](resources/ckan_haltestelle-wartehallen_77d25943-3204-49fa-aaca-ceda546d8cd3.md)
+- [Studierende an den Fachhochschulen und pädagogischen Hochschulen nach Jahr, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1502040400_140.md)
+- [Studierende an den universitären Hochschulen nach Jahr, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1502040100_109.md)
+- [WSH: Dossiers der wirtschaftlichen Sozialhilfe nach Kanton, Struktur der Unterstützungseinheit, Geschlecht, Altersklasse, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1304030000_141.md)
+- [WSH: Sozialhilfebeziehende der wirtschaftlichen Sozialhilfe nach Kanton, Geschlecht, Altersklasse, Zivilstand, Staatsangehörigkeit (Kategorie), Absolut / relativ und Jahr](resources/bfs_pxweb_px-x-1304030000_121.md)
+- [WSH: Von der wirtschaftlichen Sozialhilfe unterstützte Haushalte nach Kanton, Haushaltstyp, Absolut / relativ und Jahr](resources/bfs_pxweb_px-x-1304030000_151.md)
+- [Zeitaufwand der Spitex-Organisationen und privaten Spitex-Pflegefachpersonen, Kanton St.Gallen, seit 2015](resources/ckan_zeitaufwand-der-spitex-organisationen-und-privaten-spitex-pflegefachpersonen-kanton-st-gal-2015_8677da45-c533-48c6-be0e-795b60ab40f9.md)
+
+## `country_code`
+
+- [swissdamed: Export der aktiven registrierten Wirtschaftsakteure](resources/ckan_bei-der-swissmedic-registrierte-schweizer-und-liechtensteiner-wirtschaftsakteure-medizinprodukt_a9eac020-a65a-4348-a4dd-5e25836617a8.md)
+
+## `date`
+
+- [Durchschnittliche CO2-Emissionen (LNF)](resources/ckan_kennzahlen-alternativ-angetriebene-lnf-durchschnittliche-co2-emissionen_aae8800f-2951-4589-a558-ab59270d3f06.md)
+- [Durchschnittliche CO2-Emissionen nach Treibstoffart (PW)](resources/ckan_durchschnittliche-co2-emissionen-nach-treibstoffart_5943acdf-19ea-4158-b975-d11a725061a4.md)
+- [energiedashboard.ch: Stromproduktion Swissgrid-CSV](resources/ckan_energiedashboard-ch-stromproduktion-swissgrid_0879ba1b-40ea-4e26-bba0-9cbb339f577e.md)
+- [energiedashboard.ch: Tägliche Flüsse in die und aus der Schweiz (Strom)-CSV](resources/ckan_energiedashboard-ch-tagliche-flusse-in-die-und-aus-der-schweiz-strom_0e1aa262-869f-4736-a568-ccf85cb13f9a.md)
+- [Hotellerie: Angebot und Nachfrage der geöffneten Betriebe nach Jahr, Monat, Tourismusregion und Indikator](resources/bfs_pxweb_px-x-1003020000_203.md)
+- [Hotellerie: Ankünfte und Logiernächte der geöffneten Betriebe nach Jahr, Monat, Tourismusregion, Herkunftsland und Indikator](resources/bfs_pxweb_px-x-1003020000_103.md)
+- [Interkantonale Pendlerbewegungen](resources/ckan_interkantonale-pendlerbewegungen_c3fb86db-95ac-4a2c-9640-f491be871853.md)
+- [Klientinnen und Klienten der Spitex (Hilfe und Pflege zu Hause), Kanton St.Gallen, seit 2015](resources/ckan_klientinnen-und-klienten-der-spitex-hilfe-und-pflege-zu-hause-kanton-st-gallen-seit-2015_06d12ccd-3a62-4e01-8da3-7ace497683a6.md)
+- [Konsolidierte Ausgaben nach funktionaler Gliederung Kanton Thurgau (Staatsrechnung)](resources/ckan_konsolidierte-ausgaben-nach-funktionaler-gliederung-kanton-thurgau-staatsrechnung_69da249e-17b1-476e-9206-2c4e0a34c72d.md)
+- [Mobilität und Verkehr](resources/ckan_mobilitat-und-verkehr6_bf2de1d7-68ac-4330-b2b4-5bf541c01f2d.md)
+- [Nationalratswahlen 2023: Kandidierende, erhaltene Stimmen und Status (gewählt/nicht gewählt) (Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton_1e7b4e51-dfe1-458f-b9ea-791a0a246b0c.md)
+- [Number of SBB station users](resources/ckan_anzahl-sbb-bahnhofbenutzer_3dcbfcef-6da4-4012-b536-33ce9c821908.md)
+- [Öffentliche Finanzen](resources/ckan_offentliche-finanzen1_4efb0dbf-abd1-4c89-b2e9-7597cb43cdc7.md)
+- [Passenger coach equipment (rolling stock)](resources/ckan_ausrustung-reisezug-rollmaterial_a2dcd0ee-ab64-4cd1-bb3e-465a5486a974.md)
+- [Pflegekinder im Kanton Thurgau](resources/ckan_pflegekinder-im-kanton-thurgau1_815bea5e-1e82-42be-9d2e-95d8bdb2a899.md)
+- [Zeitaufwand der Spitex-Organisationen und privaten Spitex-Pflegefachpersonen, Kanton St.Gallen, seit 2015](resources/ckan_zeitaufwand-der-spitex-organisationen-und-privaten-spitex-pflegefachpersonen-kanton-st-gal-2015_8677da45-c533-48c6-be0e-795b60ab40f9.md)
+- [Züge pro Streckenabschnitt](resources/ckan_zuge-pro-streckenabschnitt1_a2bfba14-de85-4fd9-88c4-ded95378fc58.md)
+
+## `economic_activity`
+
+- [Arbeitsstätten und Beschäftigte nach Jahr, Gemeinde, Wirtschaftssektor und Beobachtungseinheit](resources/bfs_pxweb_px-x-0602010000_102.md)
+- [Institutionelle Einheiten und Beschäftigte nach Jahr, Kanton, Wirtschaftssektor, Öffentlicher/privater Sektor, Wirtschaftliche Ausrichtung und Beobachtungseinheit](resources/bfs_pxweb_px-x-0602010000_108.md)
+- [Konto des Sektors der Umweltgüter und -dienstleistungen nach Masseinheit, Umweltbereich, Wirtschaftsbranche und Jahr](resources/bfs_pxweb_px-x-0204000000_111.md)
+- [Schweizerischer Lohnindex: Index und Veränderung auf der Basis 2020 = 100 (NOGA08)](resources/ckan_schweizerischer-lohnindex-index-und-veranderung-auf-der-basis-2020-100-noga08_5c1f111b-1237-4ec0-aa21-88bd3113fb61.md)
+- [Unternehmen und Beschäftigte nach Beobachtungseinheit, Sitzland (Auswahl), Grossregion, Wirtschaftssektor und Jahr](resources/bfs_pxweb_px-x-0606010000_104.md)
+
+## `education_level`
+
+- [Abschlüsse an den Fachhochschulen und pädagogischen Hochschulen nach Jahr, Examensstufe, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1503040400_103.md)
+- [Abschlüsse an den pädagogischen Hochschulen (ohne FH) nach Jahr, Examensstufe, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1503040300_123.md)
+- [Abschlüsse an den universitären Hochschulen nach Jahr, Examensstufe, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1503040100_103.md)
+- [Abschlüsse der vom BBG nicht-reglementierten höheren Berufsbildungen nach Bildungsart, Diplomtyp, Schulkanton, Wohnkanton, Geschlecht und Jahr](resources/bfs_pxweb_px-x-1503030000_204.md)
+- [Höhere Berufsbildung: Lernende nach Bildungstyp, Schulkanton, Geschlecht, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1502030000_111.md)
+- [Öffentliche Bildungsausgaben der Kantone und ihrer Gemeinden nach Jahr, Kanton, Bildungsstufe und Ausgabenart](resources/bfs_pxweb_px-x-1506010000_106.md)
+- [Personal der Hilfe und Pflege zu Hause nach Leistungserbringertyp, Kanton, Ausbildung/Hauptfunktion, Personal und Jahr](resources/bfs_pxweb_px-x-1404040000_103.md)
+- [Sekundarstufe II: Lernende nach Bildungsstufe und Bildungstyp, Schulkanton, Geschlecht, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1502020000_101.md)
+- [Studierende an den Fachhochschulen und pädagogischen Hochschulen nach Jahr, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1502040400_140.md)
+- [Studierende an den universitären Hochschulen nach Jahr, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1502040100_109.md)
+
+## `enterprise_type`
+
+- [Unternehmen und Beschäftigte nach Beobachtungseinheit, Sitzland (Auswahl), Grossregion, Wirtschaftssektor und Jahr](resources/bfs_pxweb_px-x-0606010000_104.md)
+
+## `geo_region`
+
+- [Anzahl fakturierte Pflegetage in sozialmedizinischen Institutionen nach Grossregion (<<) / Kanton (-), Beherbergungstyp, Pflegeintensitätsstufe und Jahr](resources/bfs_pxweb_px-x-1404010100_303.md)
+- [Bauausgaben und Arbeitsvorrat nach Grossregion (<<) / Kanton (-), Art und Kategorie der Auftraggeber, Art der Bauwerke, Kategorie der Bauwerke, Art der Arbeiten, Beobachtungseinheit und Jahr](resources/bfs_pxweb_px-x-0904010000_202.md)
+- [Bauinvestitionen und Arbeitsvorrat nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Art der Auftraggeber, Kategorie der Bauwerke, Beobachtungseinheit und Jahr](resources/bfs_pxweb_px-x-0904010000_203.md)
+- [Medizinisch-technische Infrastruktur, Anzahl Geräte und Untersuchungen in Krankenhäusern nach Infrastruktur, Geräte und Untersuchungen, Grossregion (<<) / Kanton (-) und Jahr](resources/bfs_pxweb_px-x-1404010100_101.md)
+- [Neu erstellte Gebäude mit Wohnungen nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Gebäudetyp und Jahr](resources/bfs_pxweb_px-x-0904030000_106.md)
+- [Neu erstellte Wohnungen nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Gebäudetyp und Jahr](resources/bfs_pxweb_px-x-0904030000_107.md)
+- [Unternehmen und Beschäftigte nach Beobachtungseinheit, Sitzland (Auswahl), Grossregion, Wirtschaftssektor und Jahr](resources/bfs_pxweb_px-x-0606010000_104.md)
+
+## `household_type`
+
+- [WSH: Von der wirtschaftlichen Sozialhilfe unterstützte Haushalte nach Kanton, Haushaltstyp, Absolut / relativ und Jahr](resources/bfs_pxweb_px-x-1304030000_151.md)
+
+## `legal_form`
+
+- [Betriebsrechnung - Zufluss aus Beiträgen und Eintrittsleistungen nach Beobachtungseinheit, Verwaltungsform, Art der Risikodeckung, Rechtsform, Registrierung VE und Jahr](resources/bfs_pxweb_px-x-1303030000_131.md)
+- [Schlussbilanz - Aktiven: Direkte / kollektive Anlagen und Aktiven aus Versicherungsverträgen nach Beobachtungseinheit, Verwaltungsform, Art der Risikodeckung, Rechtsform, Registrierung VE und Jahr](resources/bfs_pxweb_px-x-1303030000_121.md)
+
+## `local_area_name`
+
+- [Nationalratswahlen 2023: Kandidierende, erhaltene Stimmen und Status (gewählt/nicht gewählt) (Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton_1e7b4e51-dfe1-458f-b9ea-791a0a246b0c.md)
+- [swissdamed: Export der aktiven registrierten Wirtschaftsakteure](resources/ckan_bei-der-swissmedic-registrierte-schweizer-und-liechtensteiner-wirtschaftsakteure-medizinprodukt_a9eac020-a65a-4348-a4dd-5e25836617a8.md)
+
+## `local_feature_id`
+
+- [Angezeigte Straftaten nach Ausländer- und Integrationsgesetz (AIG)](resources/ckan_straftaten-nach-auslander-und-integrationsgesetz-aig_073a3e24-dd25-4dcf-9cfb-642d567e3dac.md)
+- [murs parafeu](resources/ckan_brandschutzwand_ef25f25b-2d54-4c82-ac46-66440f8a34a6.md)
+- [Nationalratswahlen 2023: Kandidierende, erhaltene Stimmen und Status (gewählt/nicht gewählt) (Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton_1e7b4e51-dfe1-458f-b9ea-791a0a246b0c.md)
+- [Nationalratswahlen 2023: Mandate, gewählte Frauen und Männer, Parteistärke sowie Veränderung zu den letzten Wahlen und stärkste Partei (Schweiz, Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de_e8e12e1a-bee0-41b4-9445-561e7a085bc1.md)
+- [Nationalratswahlen 2023: Wahlberechtigte, Wählende, Wahlbeteiligung und Veränderung der Wahlbeteiligung (Schweiz, Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-wahlberechtigte-wahlende-wahlbeteiligung-und-veranderung-der-wahlbeteil_fc20e530-3557-41db-8695-8ad8b407fc23.md)
+- [Nationalratswahlen: Zeitreihen zu Listen, Kandidierenden, Parteistärken, Mandaten, gewählten Frauen und Männern, stärkste Partei (Schweiz und Kantone)](resources/ckan_nationalratswahlen-zeitreihen-zu-listen-kandidierenden-parteistarken-mandaten-gewahlten-frauen-_248576ad-1b14-4dba-b6c9-4ae0f934ea13.md)
+- [Nationalratswahlen: Zeitreihen zur Wahlbeteiligung und zum Frauenanteil in % (Schweiz und Kantone)](resources/ckan_nationalratswahlen-zeitreihen-zur-wahlbeteiligung-und-zum-frauenanteil-in-schweiz-und-kantone_87ab0a38-51b4-4f32-9058-e89a089f8f7a.md)
+- [NR - Zeitreihen (1991-): Parteien (csv)](resources/ckan_eidg-wahlen-2023_89ddc561-9544-4021-8b7d-13271c5f939d.md)
+- [Passenger coach equipment (rolling stock)](resources/ckan_ausrustung-reisezug-rollmaterial_a2dcd0ee-ab64-4cd1-bb3e-465a5486a974.md)
+- [Stop: waiting rooms](resources/ckan_haltestelle-wartehallen_77d25943-3204-49fa-aaca-ceda546d8cd3.md)
+- [swissdamed: Export der aktiven registrierten Wirtschaftsakteure](resources/ckan_bei-der-swissmedic-registrierte-schweizer-und-liechtensteiner-wirtschaftsakteure-medizinprodukt_a9eac020-a65a-4348-a4dd-5e25836617a8.md)
+- [Züge pro Streckenabschnitt](resources/ckan_zuge-pro-streckenabschnitt1_a2bfba14-de85-4fd9-88c4-ded95378fc58.md)
+
+## `nationality`
+
+- [ALBV: Von der Alimentenbevorschussung unterstützte Personen nach Kanton, Geschlecht, Zivilstand, Personengruppe, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1304030000_201.md)
+- [Angezeigte Straftaten nach Ausländer- und Integrationsgesetz (AIG)](resources/ckan_straftaten-nach-auslander-und-integrationsgesetz-aig_073a3e24-dd25-4dcf-9cfb-642d567e3dac.md)
+- [Anzahl AHV-Renten, Rentensumme und Mittelwert im Dezember nach Beobachtungseinheit, Rententyp, Wohnsitzstaat (Kategorie), Staatsangehörigkeit (Kategorie), Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305000000_101.md)
+- [Anzahl AHV-Renten, Rentensumme und Mittelwert in der Schweiz im Dezember nach Beobachtungseinheit, Rententyp, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305000000_102.md)
+- [Auswanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-0103020300_103.md)
+- [Binnenabwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht, Zivilstand und Alter](resources/bfs_pxweb_px-x-0103010200_111.md)
+- [Binnenwanderung der ständigen Wohnbevölkerung nach Jahr, Zuzugskanton, Wegzugskanton, Staatsangehörigkeit (Kategorie), Geschlecht und Alter](resources/bfs_pxweb_px-x-0103010200_151.md)
+- [Binnenzuwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht, Zivilstand und Alter](resources/bfs_pxweb_px-x-0103010200_101.md)
+- [Demografische Bilanz nach Alter und Kanton](resources/bfs_pxweb_px-x-0102020000_104.md)
+- [Demografische Bilanz nach institutionellen Gliederungen](resources/bfs_pxweb_px-x-0102020000_201.md)
+- [Einwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-0103020200_103.md)
+- [EL-Quoten nach Beobachtungseinheit, EL-Stelle, Staatsangehörigkeit (Kategorie), Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305020000_104.md)
+- [EL-Quoten nach Beobachtungseinheit, Staatsangehörigkeit (Kategorie), Geschlecht, Altersklasse und Jahr](resources/bfs_pxweb_px-x-1305020000_105.md)
+- [Erwerb des Schweizer Bürgerrechts nach Jahr, Kanton, Art des Erwerbs, Geschlecht, Alter und Staatsangehörigkeit ehemalig](resources/bfs_pxweb_px-x-0103030100_101.md)
+- [Höhere Berufsbildung: Lernende nach Bildungstyp, Schulkanton, Geschlecht, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1502030000_111.md)
+- [Sekundarstufe II: Lernende nach Bildungsstufe und Bildungstyp, Schulkanton, Geschlecht, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1502020000_101.md)
+- [WSH: Dossiers der wirtschaftlichen Sozialhilfe nach Kanton, Struktur der Unterstützungseinheit, Geschlecht, Altersklasse, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1304030000_141.md)
+- [WSH: Sozialhilfebeziehende der wirtschaftlichen Sozialhilfe nach Kanton, Geschlecht, Altersklasse, Zivilstand, Staatsangehörigkeit (Kategorie), Absolut / relativ und Jahr](resources/bfs_pxweb_px-x-1304030000_121.md)
+
+## `occupation`
+
+- [Abschlüsse der vom BBG nicht-reglementierten höheren Berufsbildungen nach Bildungsart, Diplomtyp, Schulkanton, Wohnkanton, Geschlecht und Jahr](resources/bfs_pxweb_px-x-1503030000_204.md)
+- [Höhere Berufsbildung: Lernende nach Bildungstyp, Schulkanton, Geschlecht, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1502030000_111.md)
+- [Nationalratswahlen 2023: Kandidierende, erhaltene Stimmen und Status (gewählt/nicht gewählt) (Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton_1e7b4e51-dfe1-458f-b9ea-791a0a246b0c.md)
+
+## `offence_type`
+
+- [Beschuldigte nach Straftat, einzelne Delikte](resources/ckan_beschuldigte-gemass-strafgesetzbuch-nach-straftat_9ebb6bd7-fe55-4b71-b0fb-41256defcbb5.md)
+
+## `sex`
+
+- [Abschlüsse der vom BBG nicht-reglementierten höheren Berufsbildungen nach Bildungsart, Diplomtyp, Schulkanton, Wohnkanton, Geschlecht und Jahr](resources/bfs_pxweb_px-x-1503030000_204.md)
+- [ALBV: Von der Alimentenbevorschussung unterstützte Personen nach Kanton, Geschlecht, Zivilstand, Personengruppe, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1304030000_201.md)
+- [Angezeigte Straftaten nach Ausländer- und Integrationsgesetz (AIG)](resources/ckan_straftaten-nach-auslander-und-integrationsgesetz-aig_073a3e24-dd25-4dcf-9cfb-642d567e3dac.md)
+- [Anzahl AHV-Renten, Rentensumme und Mittelwert im Dezember nach Beobachtungseinheit, Rententyp, Wohnsitzstaat (Kategorie), Staatsangehörigkeit (Kategorie), Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305000000_101.md)
+- [Anzahl AHV-Renten, Rentensumme und Mittelwert in der Schweiz im Dezember nach Beobachtungseinheit, Rententyp, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305000000_102.md)
+- [Arbeitslose nach Geschlecht und Sektor, 2019](resources/ckan_statistik-der-schweizer-staedte-2021_5b1f209e-ba9a-4baa-a3bf-bb5c726b00d8.md)
+- [Auswanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-0103020300_103.md)
+- [Binnenabwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht, Zivilstand und Alter](resources/bfs_pxweb_px-x-0103010200_111.md)
+- [Binnenwanderung der ständigen Wohnbevölkerung nach Jahr, Zuzugskanton, Wegzugskanton, Staatsangehörigkeit (Kategorie), Geschlecht und Alter](resources/bfs_pxweb_px-x-0103010200_151.md)
+- [Binnenzuwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht, Zivilstand und Alter](resources/bfs_pxweb_px-x-0103010200_101.md)
+- [Demografische Bilanz nach Alter und Kanton](resources/bfs_pxweb_px-x-0102020000_104.md)
+- [Demografische Bilanz nach institutionellen Gliederungen](resources/bfs_pxweb_px-x-0102020000_201.md)
+- [Einwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-0103020200_103.md)
+- [EL-Quoten nach Beobachtungseinheit, EL-Stelle, Staatsangehörigkeit (Kategorie), Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305020000_104.md)
+- [EL-Quoten nach Beobachtungseinheit, Staatsangehörigkeit (Kategorie), Geschlecht, Altersklasse und Jahr](resources/bfs_pxweb_px-x-1305020000_105.md)
+- [Entwicklung der Nominallöhne, der Konsumentenpreise und der Reallöhne](resources/ckan_entwicklung-der-nominallohne-der-konsumentenpreise-und-der-reallohne1_f817ba47-cc58-47c9-8823-626af10be5ec.md)
+- [Erwerb des Schweizer Bürgerrechts nach Jahr, Kanton, Art des Erwerbs, Geschlecht, Alter und Staatsangehörigkeit ehemalig](resources/bfs_pxweb_px-x-0103030100_101.md)
+- [Grenzüberschreitender City Statistics: Gesundheit (Agglomerationen 2020)](resources/bfs_pxweb_px-x-2105000000_223.md)
+- [Höhere Berufsbildung: Lernende nach Bildungstyp, Schulkanton, Geschlecht, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1502030000_111.md)
+- [Invalide Neurentner/innen in der Schweiz im Dezember nach Beobachtungseinheit, Kanton, Geschlecht, Invaliditätsursache und Jahr](resources/bfs_pxweb_px-x-1305010000_123.md)
+- [Invalide Rentner/innen in der Schweiz im Dezember nach Beobachtungseinheit, Kanton, Geschlecht, Invaliditätsursache und Jahr](resources/bfs_pxweb_px-x-1305010000_113.md)
+- [IV-Renten in der Schweiz und im Ausland im Dezember nach Beobachtungseinheit, Rentenart, Kanton, Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305010000_022.md)
+- [Klientinnen und Klienten der Spitex (Hilfe und Pflege zu Hause), Kanton St.Gallen, seit 2015](resources/ckan_klientinnen-und-klienten-der-spitex-hilfe-und-pflege-zu-hause-kanton-st-gallen-seit-2015_06d12ccd-3a62-4e01-8da3-7ace497683a6.md)
+- [Lebensqualität in den Städten und Agglomerationen (Agglo 2012): Einkommen und Arbeit](resources/bfs_pxweb_px-x-2105000000_203.md)
+- [Lebensqualität in den Städten und Agglomerationen (Agglo 2012): Gesundheit](resources/bfs_pxweb_px-x-2105000000_204.md)
+- [Nationalratswahlen 2023: Kandidierende, erhaltene Stimmen und Status (gewählt/nicht gewählt) (Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton_1e7b4e51-dfe1-458f-b9ea-791a0a246b0c.md)
+- [Nationalratswahlen 2023: Mandate, gewählte Frauen und Männer, Parteistärke sowie Veränderung zu den letzten Wahlen und stärkste Partei (Schweiz, Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de_e8e12e1a-bee0-41b4-9445-561e7a085bc1.md)
+- [Nationalratswahlen: Zeitreihen zu Listen, Kandidierenden, Parteistärken, Mandaten, gewählten Frauen und Männern, stärkste Partei (Schweiz und Kantone)](resources/ckan_nationalratswahlen-zeitreihen-zu-listen-kandidierenden-parteistarken-mandaten-gewahlten-frauen-_248576ad-1b14-4dba-b6c9-4ae0f934ea13.md)
+- [Nationalratswahlen: Zeitreihen zur Wahlbeteiligung und zum Frauenanteil in % (Schweiz und Kantone)](resources/ckan_nationalratswahlen-zeitreihen-zur-wahlbeteiligung-und-zum-frauenanteil-in-schweiz-und-kantone_87ab0a38-51b4-4f32-9058-e89a089f8f7a.md)
+- [NR - Zeitreihen (1991-): Parteien (csv)](resources/ckan_eidg-wahlen-2023_89ddc561-9544-4021-8b7d-13271c5f939d.md)
+- [Periodensterbetafeln 2023 für die Schweiz (1876-2150) nach Jahr, Geschlecht und Alter](resources/bfs_pxweb_px-x-0102020300_102.md)
+- [Pflegekinder im Kanton Thurgau](resources/ckan_pflegekinder-im-kanton-thurgau1_815bea5e-1e82-42be-9d2e-95d8bdb2a899.md)
+- [Polizeilich registrierte Beschuldigte gemäss Strafgesetzbuch nach Straftat, Kanton, Aufenthaltsgruppe, Geschlecht, Altersklasse und Jahr](resources/bfs_pxweb_px-x-1903020100_102.md)
+- [Schweizerischer Lohnindex: Index und Veränderung auf der Basis 2020 = 100 (NOGA08)](resources/ckan_schweizerischer-lohnindex-index-und-veranderung-auf-der-basis-2020-100-noga08_5c1f111b-1237-4ec0-aa21-88bd3113fb61.md)
+- [Sekundarstufe II: Lernende nach Bildungsstufe und Bildungstyp, Schulkanton, Geschlecht, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1502020000_101.md)
+- [Ständige und nichtständige Wohnbevölkerung nach Jahr, Kanton (-) / Bezirk (>>) / Gemeinde (......), Bevölkerungstyp, Geschlecht, Zivilstand und Altersklasse](resources/bfs_pxweb_px-x-0102010000_103.md)
+- [Stipendien: Bezügerinnen und Bezüger nach Jahr, Kanton, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-1506020000_112.md)
+- [Strassenverkehrsunfälle: beteiligte Objekte nach Objektart (Verkehrsteilnahme), Mutmassliche Verantwortlichkeit des Objekts, Geschlecht Fussgänger/in bzw. Fahrzeuglenker/in, Altersklasse Fussgänger/in bzw. Fahrzeuglenker/in, Jahre seit Erteilung des Führerausweises an Fahrzeuglenker/in, Unfallschwere und Jahr](resources/bfs_pxweb_px-x-1106010100_105.md)
+- [Strassenverkehrsunfälle: verunfallte Personen nach Unfallfolge, Verwendetes Verkehrsmittel, Art der Verkehrsteilnahme, Geschlecht, Altersklasse, Verwendung eines Schutzsystems und Jahr](resources/bfs_pxweb_px-x-1106010100_104.md)
+- [WSH: Dossiers der wirtschaftlichen Sozialhilfe nach Kanton, Struktur der Unterstützungseinheit, Geschlecht, Altersklasse, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1304030000_141.md)
+- [WSH: Sozialhilfebeziehende der wirtschaftlichen Sozialhilfe nach Kanton, Geschlecht, Altersklasse, Zivilstand, Staatsangehörigkeit (Kategorie), Absolut / relativ und Jahr](resources/bfs_pxweb_px-x-1304030000_121.md)
+
+## `spatial_geometry`
+
+- [Mobilität und Verkehr](resources/ckan_mobilitat-und-verkehr6_bf2de1d7-68ac-4330-b2b4-5bf541c01f2d.md)
+- [Öffentliche Finanzen](resources/ckan_offentliche-finanzen1_4efb0dbf-abd1-4c89-b2e9-7597cb43cdc7.md)
+
+## `spatial_point`
+
+- [murs parafeu](resources/ckan_brandschutzwand_ef25f25b-2d54-4c82-ac46-66440f8a34a6.md)
+- [Stop: waiting rooms](resources/ckan_haltestelle-wartehallen_77d25943-3204-49fa-aaca-ceda546d8cd3.md)
+- [Züge pro Streckenabschnitt](resources/ckan_zuge-pro-streckenabschnitt1_a2bfba14-de85-4fd9-88c4-ded95378fc58.md)
+
+## `transport_line_id`
+
+- [murs parafeu](resources/ckan_brandschutzwand_ef25f25b-2d54-4c82-ac46-66440f8a34a6.md)
+- [Stop: waiting rooms](resources/ckan_haltestelle-wartehallen_77d25943-3204-49fa-aaca-ceda546d8cd3.md)
+
+## `transport_mode`
+
+- [Strassenverkehrsunfälle: verunfallte Personen nach Unfallfolge, Verwendetes Verkehrsmittel, Art der Verkehrsteilnahme, Geschlecht, Altersklasse, Verwendung eines Schutzsystems und Jahr](resources/bfs_pxweb_px-x-1106010100_104.md)
+
+## `transport_stop_id`
+
+- [Number of SBB station users](resources/ckan_anzahl-sbb-bahnhofbenutzer_3dcbfcef-6da4-4012-b536-33ce9c821908.md)
+- [Stop: waiting rooms](resources/ckan_haltestelle-wartehallen_77d25943-3204-49fa-aaca-ceda546d8cd3.md)
+
+## `vehicle_or_rolling_stock`
+
+- [Passenger coach equipment (rolling stock)](resources/ckan_ausrustung-reisezug-rollmaterial_a2dcd0ee-ab64-4cd1-bb3e-465a5486a974.md)
+
+## `vote_or_election_id`
+
+- [Nationalratswahlen (Parteistimmen, fiktive Wählende und Parteistärke seit 1971: Schweiz und Kantone)](resources/bfs_pxweb_px-x-1702020000_104.md)
+- [Nationalratswahlen 2023: Kandidierende, erhaltene Stimmen und Status (gewählt/nicht gewählt) (Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton_1e7b4e51-dfe1-458f-b9ea-791a0a246b0c.md)
+- [Nationalratswahlen 2023: Mandate, gewählte Frauen und Männer, Parteistärke sowie Veränderung zu den letzten Wahlen und stärkste Partei (Schweiz, Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de_e8e12e1a-bee0-41b4-9445-561e7a085bc1.md)
+- [Nationalratswahlen 2023: Wahlberechtigte, Wählende, Wahlbeteiligung und Veränderung der Wahlbeteiligung (Schweiz, Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-wahlberechtigte-wahlende-wahlbeteiligung-und-veranderung-der-wahlbeteil_fc20e530-3557-41db-8695-8ad8b407fc23.md)
+- [Nationalratswahlen: Zeitreihen zu Listen, Kandidierenden, Parteistärken, Mandaten, gewählten Frauen und Männern, stärkste Partei (Schweiz und Kantone)](resources/ckan_nationalratswahlen-zeitreihen-zu-listen-kandidierenden-parteistarken-mandaten-gewahlten-frauen-_248576ad-1b14-4dba-b6c9-4ae0f934ea13.md)
+- [Nationalratswahlen: Zeitreihen zur Wahlbeteiligung und zum Frauenanteil in % (Schweiz und Kantone)](resources/ckan_nationalratswahlen-zeitreihen-zur-wahlbeteiligung-und-zum-frauenanteil-in-schweiz-und-kantone_87ab0a38-51b4-4f32-9058-e89a089f8f7a.md)
+- [NR - Zeitreihen (1991-): Parteien (csv)](resources/ckan_eidg-wahlen-2023_89ddc561-9544-4021-8b7d-13271c5f939d.md)
+- [Unternehmen und Beschäftigte nach Beobachtungseinheit, Sitzland (Auswahl), Grossregion, Wirtschaftssektor und Jahr](resources/bfs_pxweb_px-x-0606010000_104.md)
+
+## `year`
+
+- [Steuerpflichtige Personen nach Bruttoverm?gens- und Schuldenklasse seit 2020](resources/ckan_steuerpflichtige-personen-nach-bruttovermogens-und-schuldenklasse-seit-2020_4968be01-2507-4776-95ac-908161da1b57.md)
+- [Abschlüsse an den Fachhochschulen und pädagogischen Hochschulen nach Jahr, Examensstufe, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1503040400_103.md)
+- [Abschlüsse an den pädagogischen Hochschulen (ohne FH) nach Jahr, Examensstufe, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1503040300_123.md)
+- [Abschlüsse an den universitären Hochschulen nach Jahr, Examensstufe, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1503040100_103.md)
+- [Abschlüsse der vom BBG nicht-reglementierten höheren Berufsbildungen nach Bildungsart, Diplomtyp, Schulkanton, Wohnkanton, Geschlecht und Jahr](resources/bfs_pxweb_px-x-1503030000_204.md)
+- [ALBV: Von der Alimentenbevorschussung unterstützte Personen nach Kanton, Geschlecht, Zivilstand, Personengruppe, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1304030000_201.md)
+- [Angezeigte Straftaten nach Ausländer- und Integrationsgesetz (AIG)](resources/ckan_straftaten-nach-auslander-und-integrationsgesetz-aig_073a3e24-dd25-4dcf-9cfb-642d567e3dac.md)
+- [Anzahl AHV-Renten, Rentensumme und Mittelwert im Dezember nach Beobachtungseinheit, Rententyp, Wohnsitzstaat (Kategorie), Staatsangehörigkeit (Kategorie), Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305000000_101.md)
+- [Anzahl AHV-Renten, Rentensumme und Mittelwert in der Schweiz im Dezember nach Beobachtungseinheit, Rententyp, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305000000_102.md)
+- [Anzahl fakturierte Pflegetage in sozialmedizinischen Institutionen nach Grossregion (<<) / Kanton (-), Beherbergungstyp, Pflegeintensitätsstufe und Jahr](resources/bfs_pxweb_px-x-1404010100_303.md)
+- [Arbeitslose nach Geschlecht und Sektor, 2019](resources/ckan_statistik-der-schweizer-staedte-2021_5b1f209e-ba9a-4baa-a3bf-bb5c726b00d8.md)
+- [Arbeitsproduktivität nach tatsächlichen Arbeitsstunden zu Preisen des Vorjahres](resources/ckan_arbeitsproduktivitat-nach-tatsachlichen-arbeitsstunden-zu-preisen-des-vorjahres6_87f0abd6-4644-484c-bc9d-76deac162871.md)
+- [Arbeitsstätten und Beschäftigte nach Jahr, Gemeinde, Wirtschaftssektor und Beobachtungseinheit](resources/bfs_pxweb_px-x-0602010000_102.md)
+- [Auswanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-0103020300_103.md)
+- [Bauausgaben und Arbeitsvorrat nach Grossregion (<<) / Kanton (-), Art und Kategorie der Auftraggeber, Art der Bauwerke, Kategorie der Bauwerke, Art der Arbeiten, Beobachtungseinheit und Jahr](resources/bfs_pxweb_px-x-0904010000_202.md)
+- [Bauinvestitionen und Arbeitsvorrat nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Art der Auftraggeber, Kategorie der Bauwerke, Beobachtungseinheit und Jahr](resources/bfs_pxweb_px-x-0904010000_203.md)
+- [Beschäftigte, Landwirtschaftliche Betriebe, Landwirtschaftliche Nutzfläche (LN) und Nutztiere auf Klassifizierungsebene 1 nach Beobachtungseinheit, Kanton (-) / Bezirk (>>) / Gemeinde (......), Betriebssystem und Jahr](resources/bfs_pxweb_px-x-0702000000_104.md)
+- [Beschuldigte nach Straftat, einzelne Delikte](resources/ckan_beschuldigte-gemass-strafgesetzbuch-nach-straftat_9ebb6bd7-fe55-4b71-b0fb-41256defcbb5.md)
+- [Betriebsrechnung - Zufluss aus Beiträgen und Eintrittsleistungen nach Beobachtungseinheit, Verwaltungsform, Art der Risikodeckung, Rechtsform, Registrierung VE und Jahr](resources/bfs_pxweb_px-x-1303030000_131.md)
+- [Binnenabwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht, Zivilstand und Alter](resources/bfs_pxweb_px-x-0103010200_111.md)
+- [Binnenwanderung der ständigen Wohnbevölkerung nach Jahr, Zuzugskanton, Wegzugskanton, Staatsangehörigkeit (Kategorie), Geschlecht und Alter](resources/bfs_pxweb_px-x-0103010200_151.md)
+- [Binnenzuwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geschlecht, Zivilstand und Alter](resources/bfs_pxweb_px-x-0103010200_101.md)
+- [DATA - Energieforschungsstatistik (EFstat) gemäss Klassifikation der Internationalen Energieagentur](resources/ckan_energieforschungsstatistik-efstat_fe86ad62-1455-4658-8f81-c13e626dbd27.md)
+- [Demografische Bilanz nach Alter und Kanton](resources/bfs_pxweb_px-x-0102020000_104.md)
+- [Demografische Bilanz nach institutionellen Gliederungen](resources/bfs_pxweb_px-x-0102020000_201.md)
+- [Durchschnittliche CO2-Emissionen nach Treibstoffart (PW)](resources/ckan_durchschnittliche-co2-emissionen-nach-treibstoffart_5943acdf-19ea-4158-b975-d11a725061a4.md)
+- [Einwanderung der ständigen Wohnbevölkerung nach Jahr, Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-0103020200_103.md)
+- [EL-Quoten nach Beobachtungseinheit, EL-Stelle, Staatsangehörigkeit (Kategorie), Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305020000_104.md)
+- [EL-Quoten nach Beobachtungseinheit, Staatsangehörigkeit (Kategorie), Geschlecht, Altersklasse und Jahr](resources/bfs_pxweb_px-x-1305020000_105.md)
+- [Entwicklung der Nominallöhne, der Konsumentenpreise und der Reallöhne](resources/ckan_entwicklung-der-nominallohne-der-konsumentenpreise-und-der-reallohne1_f817ba47-cc58-47c9-8823-626af10be5ec.md)
+- [Erwerb des Schweizer Bürgerrechts nach Jahr, Kanton, Art des Erwerbs, Geschlecht, Alter und Staatsangehörigkeit ehemalig](resources/bfs_pxweb_px-x-0103030100_101.md)
+- [F+E-Aufwendungen des Bundes nach Aufwandsart, Masseinheit, Forschungsart und Jahr](resources/bfs_pxweb_px-x-1515020000_104.md)
+- [Filmangebot und Nachfrage nach Herkunftsland](resources/bfs_pxweb_px-x-1602010000_102.md)
+- [Gebäude nach Gebäudekategorie, Kantonen und Bauperiode](resources/ckan_gebaude-nach-gebaudekategorie-kantonen-und-bauperiode5_fb6f5cf3-faea-4f5a-ac53-11987e8fab55.md)
+- [Grenzüberschreitender City Statistics: Gesundheit (Agglomerationen 2020)](resources/bfs_pxweb_px-x-2105000000_223.md)
+- [Höhere Berufsbildung: Lernende nach Bildungstyp, Schulkanton, Geschlecht, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1502030000_111.md)
+- [Hotellerie: Angebot und Nachfrage der geöffneten Betriebe nach Jahr, Monat, Tourismusregion und Indikator](resources/bfs_pxweb_px-x-1003020000_203.md)
+- [Hotellerie: Ankünfte und Logiernächte der geöffneten Betriebe nach Jahr, Monat, Tourismusregion, Herkunftsland und Indikator](resources/bfs_pxweb_px-x-1003020000_103.md)
+- [Institutionelle Einheiten und Beschäftigte nach Jahr, Kanton, Wirtschaftssektor, Öffentlicher/privater Sektor, Wirtschaftliche Ausrichtung und Beobachtungseinheit](resources/bfs_pxweb_px-x-0602010000_108.md)
+- [Invalide Neurentner/innen in der Schweiz im Dezember nach Beobachtungseinheit, Kanton, Geschlecht, Invaliditätsursache und Jahr](resources/bfs_pxweb_px-x-1305010000_123.md)
+- [Invalide Rentner/innen in der Schweiz im Dezember nach Beobachtungseinheit, Kanton, Geschlecht, Invaliditätsursache und Jahr](resources/bfs_pxweb_px-x-1305010000_113.md)
+- [IV-Renten in der Schweiz und im Ausland im Dezember nach Beobachtungseinheit, Rentenart, Kanton, Geschlecht und Jahr](resources/bfs_pxweb_px-x-1305010000_022.md)
+- [Klientinnen und Klienten der Spitex (Hilfe und Pflege zu Hause), Kanton St.Gallen, seit 2015](resources/ckan_klientinnen-und-klienten-der-spitex-hilfe-und-pflege-zu-hause-kanton-st-gallen-seit-2015_06d12ccd-3a62-4e01-8da3-7ace497683a6.md)
+- [Kommunale Einnahmen - Bereich Kultur, Sport und Freizeit, 2018](resources/ckan_statistik-der-schweizer-staedte-2021_58140042-8d26-41e7-bcd1-dfa258e8e2eb.md)
+- [Konsolidierte Ausgaben nach funktionaler Gliederung Kanton Thurgau (Staatsrechnung)](resources/ckan_konsolidierte-ausgaben-nach-funktionaler-gliederung-kanton-thurgau-staatsrechnung_69da249e-17b1-476e-9206-2c4e0a34c72d.md)
+- [Konto des Sektors der Umweltgüter und -dienstleistungen nach Masseinheit, Umweltbereich, Wirtschaftsbranche und Jahr](resources/bfs_pxweb_px-x-0204000000_111.md)
+- [Landwirtschaftliche Betriebe und Beschäftigte nach Beobachtungseinheit, Kanton, Landwirtschaftliche Produktionszone, Betriebssystem, Betriebsform und Jahr](resources/bfs_pxweb_px-x-0702000000_107.md)
+- [Landwirtschaftliche Betriebe und Landwirtschaftliche Nutzfläche (LN) auf Klassifizierungsebene 3 nach Beobachtungseinheit, Kanton, Landwirtschaftliche Produktionszone, Betriebssystem, Betriebsform und Jahr](resources/bfs_pxweb_px-x-0702000000_106.md)
+- [Landwirtschaftliche Betriebe und Nutztiere auf Klassifizierungsebene 3 nach Kanton nach Beobachtungseinheit, Kanton, Landwirtschaftliche Produktionszone, Betriebssystem, Betriebsform und Jahr](resources/bfs_pxweb_px-x-0702000000_108.md)
+- [Lebensqualität in den Städten und Agglomerationen (Agglo 2012): Einkommen und Arbeit](resources/bfs_pxweb_px-x-2105000000_203.md)
+- [Lebensqualität in den Städten und Agglomerationen (Agglo 2012): Gesundheit](resources/bfs_pxweb_px-x-2105000000_204.md)
+- [Lebensqualität in den Städten und Agglomerationen (Agglo 2012): Persönliche Sicherheit](resources/bfs_pxweb_px-x-2105000000_207.md)
+- [Leistungserbringer für Hilfe und Pflege zu Hause nach Leistungserbringertyp, Kanton, Leistungsangebot, Leistungserbringer und Jahr](resources/bfs_pxweb_px-x-1404040000_101.md)
+- [Medizinisch-technische Infrastruktur, Anzahl Geräte und Untersuchungen in Krankenhäusern nach Infrastruktur, Geräte und Untersuchungen, Grossregion (<<) / Kanton (-) und Jahr](resources/bfs_pxweb_px-x-1404010100_101.md)
+- [murs parafeu](resources/ckan_brandschutzwand_ef25f25b-2d54-4c82-ac46-66440f8a34a6.md)
+- [Nationalratswahlen (Parteistimmen, fiktive Wählende und Parteistärke seit 1971: Schweiz und Kantone)](resources/bfs_pxweb_px-x-1702020000_104.md)
+- [Nationalratswahlen 2023: Kandidierende, erhaltene Stimmen und Status (gewählt/nicht gewählt) (Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-kandidierende-erhaltene-stimmen-und-status-gewahlt-nicht-gewahlt-kanton_1e7b4e51-dfe1-458f-b9ea-791a0a246b0c.md)
+- [Nationalratswahlen 2023: Mandate, gewählte Frauen und Männer, Parteistärke sowie Veränderung zu den letzten Wahlen und stärkste Partei (Schweiz, Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-mandate-gewahlte-frauen-und-manner-parteistarke-sowie-veranderung-zu-de_e8e12e1a-bee0-41b4-9445-561e7a085bc1.md)
+- [Nationalratswahlen 2023: Wahlberechtigte, Wählende, Wahlbeteiligung und Veränderung der Wahlbeteiligung (Schweiz, Kantone, Gemeinden)](resources/ckan_nationalratswahlen-2023-wahlberechtigte-wahlende-wahlbeteiligung-und-veranderung-der-wahlbeteil_fc20e530-3557-41db-8695-8ad8b407fc23.md)
+- [Nationalratswahlen: Zeitreihen zu Listen, Kandidierenden, Parteistärken, Mandaten, gewählten Frauen und Männern, stärkste Partei (Schweiz und Kantone)](resources/ckan_nationalratswahlen-zeitreihen-zu-listen-kandidierenden-parteistarken-mandaten-gewahlten-frauen-_248576ad-1b14-4dba-b6c9-4ae0f934ea13.md)
+- [Nationalratswahlen: Zeitreihen zur Wahlbeteiligung und zum Frauenanteil in % (Schweiz und Kantone)](resources/ckan_nationalratswahlen-zeitreihen-zur-wahlbeteiligung-und-zum-frauenanteil-in-schweiz-und-kantone_87ab0a38-51b4-4f32-9058-e89a089f8f7a.md)
+- [Neu erstellte Gebäude mit Wohnungen nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Gebäudetyp und Jahr](resources/bfs_pxweb_px-x-0904030000_106.md)
+- [Neu erstellte Wohnungen nach Grossregion (<<) / Kanton (-) / Gemeinde (......), Gebäudetyp und Jahr](resources/bfs_pxweb_px-x-0904030000_107.md)
+- [Neue Inverkehrsetzungen von Strassenfahrzeugen nach Gemeinde, Fahrzeuggruppe, Treibstoff und Jahr](resources/bfs_pxweb_px-x-1103020200_121.md)
+- [NR - Zeitreihen (1991-): Parteien (csv)](resources/ckan_eidg-wahlen-2023_89ddc561-9544-4021-8b7d-13271c5f939d.md)
+- [Number of SBB station users](resources/ckan_anzahl-sbb-bahnhofbenutzer_3dcbfcef-6da4-4012-b536-33ce9c821908.md)
+- [Öffentliche Bildungsausgaben der Kantone und ihrer Gemeinden nach Jahr, Kanton, Bildungsstufe und Ausgabenart](resources/bfs_pxweb_px-x-1506010000_106.md)
+- [Periodensterbetafeln 2023 für die Schweiz (1876-2150) nach Jahr, Geschlecht und Alter](resources/bfs_pxweb_px-x-0102020300_102.md)
+- [Personal der Hilfe und Pflege zu Hause nach Leistungserbringertyp, Kanton, Ausbildung/Hauptfunktion, Personal und Jahr](resources/bfs_pxweb_px-x-1404040000_103.md)
+- [Pflegekinder im Kanton Thurgau](resources/ckan_pflegekinder-im-kanton-thurgau1_815bea5e-1e82-42be-9d2e-95d8bdb2a899.md)
+- [Polizeilich registrierte Beschuldigte gemäss Strafgesetzbuch nach Straftat, Kanton, Aufenthaltsgruppe, Geschlecht, Altersklasse und Jahr](resources/bfs_pxweb_px-x-1903020100_102.md)
+- [Polizeilich registrierte Straftaten gemäss Strafgesetzbuch nach Straftat, Kanton, Ausführungsgrad, Aufklärungsgrad und Jahr](resources/bfs_pxweb_px-x-1903020100_101.md)
+- [Polizeilich registrierte Verkehrsunfälle im Kanton Zürich](resources/ckan_polizeilich-registrierte-verkehrsunfalle-im-kanton-zurich-seit-2011_fa0a76c6-2ce2-4407-ae81-0749c9472c30.md)
+- [Schlussbilanz - Aktiven: Direkte / kollektive Anlagen und Aktiven aus Versicherungsverträgen nach Beobachtungseinheit, Verwaltungsform, Art der Risikodeckung, Rechtsform, Registrierung VE und Jahr](resources/bfs_pxweb_px-x-1303030000_121.md)
+- [Schweizerischer Lohnindex: Index und Veränderung auf der Basis 2020 = 100 (NOGA08)](resources/ckan_schweizerischer-lohnindex-index-und-veranderung-auf-der-basis-2020-100-noga08_5c1f111b-1237-4ec0-aa21-88bd3113fb61.md)
+- [Sekundarstufe II: Lernende nach Bildungsstufe und Bildungstyp, Schulkanton, Geschlecht, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1502020000_101.md)
+- [Ständige und nichtständige Wohnbevölkerung nach Jahr, Kanton (-) / Bezirk (>>) / Gemeinde (......), Bevölkerungstyp, Geschlecht, Zivilstand und Altersklasse](resources/bfs_pxweb_px-x-0102010000_103.md)
+- [Steuerbelastung in der Schweiz: Natürliche Personen - Lediger, ein Einkommen, ohne Kinder, 2019](resources/ckan_statistik-der-schweizer-staedte-2021_34e05d50-41e8-4a64-aa46-17208387e1e3.md)
+- [Stipendien: Bezügerinnen und Bezüger nach Jahr, Kanton, Geschlecht und Altersklasse](resources/bfs_pxweb_px-x-1506020000_112.md)
+- [Strassenverkehrsunfälle: beteiligte Objekte nach Objektart (Verkehrsteilnahme), Mutmassliche Verantwortlichkeit des Objekts, Geschlecht Fussgänger/in bzw. Fahrzeuglenker/in, Altersklasse Fussgänger/in bzw. Fahrzeuglenker/in, Jahre seit Erteilung des Führerausweises an Fahrzeuglenker/in, Unfallschwere und Jahr](resources/bfs_pxweb_px-x-1106010100_105.md)
+- [Strassenverkehrsunfälle: verunfallte Personen nach Unfallfolge, Verwendetes Verkehrsmittel, Art der Verkehrsteilnahme, Geschlecht, Altersklasse, Verwendung eines Schutzsystems und Jahr](resources/bfs_pxweb_px-x-1106010100_104.md)
+- [Stromnetznutzung vor Wälzung](resources/ckan_verteilnetzkosten-strom_e3935617-bc78-4dc6-aaad-5e72fe4c2af7.md)
+- [Studierende an den Fachhochschulen und pädagogischen Hochschulen nach Jahr, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1502040400_140.md)
+- [Studierende an den universitären Hochschulen nach Jahr, Wohnkanton vor Studienbeginn und Hochschule](resources/bfs_pxweb_px-x-1502040100_109.md)
+- [Unternehmen und Beschäftigte nach Beobachtungseinheit, Sitzland (Auswahl), Grossregion, Wirtschaftssektor und Jahr](resources/bfs_pxweb_px-x-0606010000_104.md)
+- [WSH: Dossiers der wirtschaftlichen Sozialhilfe nach Kanton, Struktur der Unterstützungseinheit, Geschlecht, Altersklasse, Staatsangehörigkeit (Kategorie) und Jahr](resources/bfs_pxweb_px-x-1304030000_141.md)
+- [WSH: Sozialhilfebeziehende der wirtschaftlichen Sozialhilfe nach Kanton, Geschlecht, Altersklasse, Zivilstand, Staatsangehörigkeit (Kategorie), Absolut / relativ und Jahr](resources/bfs_pxweb_px-x-1304030000_121.md)
+- [WSH: Von der wirtschaftlichen Sozialhilfe unterstützte Haushalte nach Kanton, Haushaltstyp, Absolut / relativ und Jahr](resources/bfs_pxweb_px-x-1304030000_151.md)
+- [Zeitaufwand der Spitex-Organisationen und privaten Spitex-Pflegefachpersonen, Kanton St.Gallen, seit 2015](resources/ckan_zeitaufwand-der-spitex-organisationen-und-privaten-spitex-pflegefachpersonen-kanton-st-gal-2015_8677da45-c533-48c6-be0e-795b60ab40f9.md)
+- [Zerlegung der Wachstumsrate des BIP pro Kopf](resources/ckan_zerlegung-der-wachstumsrate-des-bip-pro-kopf_abccbd05-98e2-4702-813a-5a5b45cefe28.md)
+- [Züge pro Streckenabschnitt](resources/ckan_zuge-pro-streckenabschnitt1_a2bfba14-de85-4fd9-88c4-ded95378fc58.md)

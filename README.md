@@ -6,6 +6,13 @@ LLM API key. The MCP client (Codex or Claude Code) performs reasoning and SQL
 generation; the server only searches profiles, exposes context, materializes
 PXWeb data, validates SQL, executes DuckDB, and formats reproduction details.
 
+## Resource wiki
+
+Browse the 100 included resources by topic in the
+[human-readable resource wiki](docs/wiki/Home.md). Each resource page shows its
+publisher, source links, dimensions, measures, years, join keys, example values,
+and the recommended MCP workflow.
+
 ## Claude Desktop
 
 For Claude Desktop on Windows, download
@@ -158,3 +165,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\build_windows_instal
 
 The build also creates the official Claude Desktop `.mcpb` package and validates
 its manifest with the pinned MCPB CLI.
+
+Rebuild the resource wiki with:
+
+```powershell
+uv run python scripts\build_wiki.py
+```
